@@ -471,7 +471,6 @@ nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store
 *** [[https://nix.dev/anti-patterns/language.html][Nix language — nix.dev documentation]]
 ** [[https://github.com/zimbatm/nix-experiments][zimbatm/nix-experiments]]
 ** parser
-<<<<<<< HEAD
 *** [[https://github.com/orivej/go-nix][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
 :PROPERTIES:
 :ID:       d1d661f8-178c-4bd9-b848-0a2b768066f5
