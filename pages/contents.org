@@ -2,7 +2,7 @@
 #+SETUPFILE: ../hugo.setup
 
 * [[file:../nsm.org][Network monitoring]]
-** * [[file:../awesome-zeek.org][Awesome Zeek]]
+** [[file:../awesome-zeek.org][Awesome Zeek]]
 * [[file:../security.org][Security Project or Idea]]
 * [[file:../programming-languages.org][My learning Programming languages]]
 ** [[file:../my-math.org][My math]]
@@ -11,3 +11,21 @@
 ** [[file:../my-c++.org][My C/C++]]
 ** [[file:../my-python.org][My Python]]
 ** [[file:../my-nix.org][Ny Nix]]
+** [[file:../my-golang.org][My Golang]]
+** [[file:../my-haskell.org][My Haskell]]
+** [[file:../R-lang.org][R lang]]
+* Jupyter
+** [[file:../Jupyter-data-science.org][Jupyter Data Science]]
+** [[file:../jupyter-nix.org][Jupyter-Nix]]
+** [[file:../jupyter-haskell.org][Jupyter Haskell]]
+* [[file:../my-finance.org][My Finance]]
+* [[file:../design-photo.org][Collection of designing list]]
+* [[file:../life-hack.org][life hacker]]
+* GTD
+** [[file:../my-public-gtd.org][My Public GTD list]]
+* Workflow
+** [[file:../git-workflow.org][GuangTao's Git workflow]]
+* Profile
+** [[file:../git.org][Git]]
+* Media
+** [[file:../cartoon.org][Cartoon]]
