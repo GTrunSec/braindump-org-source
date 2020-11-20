@@ -139,9 +139,9 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 :PROPERTIES:
 :id: 33107453-baf3-4e27-871b-833b93f5ad76
 :END:
-:RELATED:
-[2020-11-20 Fri 01:18] -> [[id:d1d661f8-178c-4bd9-b848-0a2b768066f5][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
-:END:
+
+- [2020-11-20 Fri 01:18] -> [[id:d1d661f8-178c-4bd9-b848-0a2b768066f5][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
+
 *** [[https://nixos.org/manual/nixpkgs/stable/#ssec-go-legacy][NixOS - Nixpkgs 20.03 manual]]
 *** Go Nix discussing
 - [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
@@ -471,13 +471,15 @@ nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store
 *** [[https://nix.dev/anti-patterns/language.html][Nix language — nix.dev documentation]]
 ** [[https://github.com/zimbatm/nix-experiments][zimbatm/nix-experiments]]
 ** parser
+<<<<<<< HEAD
 *** [[https://github.com/orivej/go-nix][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
 :PROPERTIES:
 :ID:       d1d661f8-178c-4bd9-b848-0a2b768066f5
 :END:
-:BACKLINKS:
-[2020-11-20 Fri 01:18] <- [[id:33107453-baf3-4e27-871b-833b93f5ad76][Nix Golang]]
-:END:
+
+- [2020-11-20 Fri 01:18] <- [[id:33107453-baf3-4e27-871b-833b93f5ad76][Nix Golang]]
+
+
 *** [[https://github.com/nprindle/nix-parsec][nprindle/nix-parsec]]
 ** ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]
 ** nix-path
@@ -579,4 +581,4 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 * Nix Docker deployment
 ** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
 * Nix GUI
-** [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
+* [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
