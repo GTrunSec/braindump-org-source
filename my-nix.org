@@ -195,7 +195,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
 ** Flakes wiki
-- [ ] [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
+- [X] [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
 - [ ] [wiki] [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
 - [ ] [] ~/.config/nix/nix.conf
   #+begin_src conf :async t :exports both :results output
