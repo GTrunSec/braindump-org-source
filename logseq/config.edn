@@ -1,5 +1,4 @@
-
-  {:journal-basis "daily" 
+{:journal-basis "daily" 
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
@@ -18,7 +17,7 @@
 
  ;; Git settings
  :git-pull-secs 60
- :git-push-secs 10
+ :git-push-secs 1000
  :git-auto-push true
 
  ;; The app will ignore those directories or files.
