@@ -90,10 +90,16 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 :PROPERTIES:
 :ID:       abf91e96-c75b-4313-8ac7-da713ae86a4f
 :END:
-- [[file:my-python.org][Python]]
-*** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
-* Programming languages Environment
 
+
+
+
+
+*** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
+:PROPERTIES:
+:ID:       2154d26e-213b-4ef4-9081-4960f8facb73
+:END:
+* Programming languages Environment
 ** wiki
 - https://nixos.wiki/wiki/Language-specific_package_helpers
 
@@ -129,7 +135,8 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 :PROPERTIES:
 :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
 :END:
-- [[id:abf91e96-c75b-4313-8ac7-da713ae86a4f][Python Overlay]]
+
+[[id:2154d26e-213b-4ef4-9081-4960f8facb73][How to override Python package (Anki)? - Learn - NixOS Discourse]]
 *** [[https://github.com/DavHau/mach-nix][GitHub - DavHau/mach-nix: Tool to create highly reproducible python environments]]
 #+begin_src sh :async t :exports both :results output
 nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
@@ -143,11 +150,11 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-20 Fri 01:18] -> [[id:d1d661f8-178c-4bd9-b848-0a2b768066f5][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
 
 *** [[https://nixos.org/manual/nixpkgs/stable/#ssec-go-legacy][NixOS - Nixpkgs 20.03 manual]]
+
 *** Go Nix discussing
 - [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
   
-** Nix Node
-
+** Nix [[file:node.org][My Node list]]
 *** https://andreas.rammhold.de/posts/ranz2nix/
 
 ** Nix [[file:my-c++.org][My C/C++]]
@@ -164,9 +171,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 :PROPERTIES:
 :ID:       8a9e45f4-fa22-41b9-9862-d653ea91822c
 :END:
-:BACKLINKS:
-[2020-11-09 Mon 15:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-:END:
+- [2020-11-09 Mon 15:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
 ** [[https://github.com/nrdxp/nixflk/][nrdxp/nixflk: highly structured NixOS configuration database]]
 ** [[https://github.com/bqv/nixrc/blob/live/flake.nix][nixrc/flake.nix at live · bqv/nixrc]]
 ** [[https://github.com/abcdw/rde/][abcdw/rde: My reproducible development environment]]
@@ -185,12 +190,10 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 :PROPERTIES:
 :ID:       0fbe152b-bad6-4054-a201-c51ab509ed73
 :END:
-:RELATED:
-[2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
-[2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
-[2020-10-26 Mon 21:40] -> [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
-:END:
-- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
+- [2020-11-20 Fri 02:31] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
+- [2020-11-20 Fri 02:28] <- [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
+- [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
+- [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
 ** Flakes wiki
 - [ ] [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
 - [ ] [wiki] [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
@@ -245,11 +248,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 :PROPERTIES:
 :ID:       09df2341-7aa3-4f56-a823-04b4e591988d
 :END:
-:BACKLINKS:
-[2020-11-06 Fri 19:22] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
-[2020-10-01 Thu 23:35] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
-:END:
-
+- [2020-11-06 Fri 19:22] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
 ** [[https://github.com/numtide/flake-utils][numtide/flake-utils: Pure Nix flake utility functions]]
 
 - [[https://github.com/numtide/flake-utils/blob/master/examples/each-system/flake.nix][flake-utils/flake.nix at master · numtide/flake-utils]]
@@ -428,12 +427,8 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 :PROPERTIES:
 :ID:       0ba37b42-f3e7-453a-b021-3f817b9264e8
 :END:
-:RELATED:
-[2020-11-06 Fri 19:22] -> [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
-:END:
-:BACKLINKS:
-[2020-10-13 Tue 17:45] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-:END:
+- [2020-11-06 Fri 19:22] -> [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
+- [2020-11-20 Fri 02:31] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
 - [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
 
 #+begin_src sh :async t :exports both :results output
@@ -508,9 +503,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 :PROPERTIES:
 :ID:       2e37c4e9-b74d-490c-9b12-fc5aade3de68
 :END:
-:BACKLINKS:
-[2020-10-26 Mon 21:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-:END:
+ - [2020-11-20 Fri 02:28] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
 ** [[https://www.youtube.com/watch?v=apIE_TgNNmo][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 :PROPERTIES:
 :ID:       2cac43cc-1cbd-4092-a275-83856018a0a8
@@ -553,9 +546,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 :PROPERTIES:
 :ID:       fdf6b3e7-b611-449e-889b-bd8398b252e1
 :END:
-:BACKLINKS:
-[2020-11-09 Mon 22:30] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-:END:
+- [2020-11-09 Mon 22:30] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
 *** [[https://github.com/NixOS/nix/issues/3821][Adding package to devShell causes `error: stack overflow (possible infinite recursion)` · Issue #3821 · NixOS/nix]]
 
 #+begin_src nix :async t :exports both :results output

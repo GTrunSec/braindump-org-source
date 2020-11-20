@@ -1,4 +1,4 @@
-#+TITLE: Common platform
+#+TITLE: My Node list
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 20 September 2020
@@ -15,6 +15,3 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-* Build. Deploy. Release
-** [[https://github.com/hashicorp/waypoint][hashicorp/waypoint: A tool to build, deploy, and release any application on any platform.]]
-- [[file:golang.org][Golang]]

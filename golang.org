@@ -19,7 +19,11 @@
 - tags :: [[file:../../../Documents/org-notes/braindump/programming-languages.org][My learning Programming languages]]
 
 * Document
+
 ** For beginning
+:PROPERTIES:
+:ID:       fa315357-219b-44d4-8d34-4f5b1719df3f
+:END:
 *** [[https://github.com/go101/go101][go101/go101: An online book focusing on Go syntax/semantics.]]
 :PROPERTIES:
 :header-args:sh: :dir ~/project/go
@@ -36,6 +40,10 @@ git clone https://github.com/go101/go101.git
 ** Golang HTTP
 *** [[https://github.com/kitabisa/teler][kitabisa/teler: Real-time HTTP Intrusion Detection]]
 ** Go traffic
-* Golang charts
+:PROPERTIES:
+:ID:       c1bd1f3d-5e1f-406a-b4c7-1d042c53cfed
+:END:
+
+* golang charts
 ** [[https://github.com/go-echarts/go-echarts][go-echarts/go-echarts: 🎨 The adorable charts library for Golang]]
 
