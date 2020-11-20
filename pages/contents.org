@@ -1,19 +1,13 @@
 #+TITLE: Contents
-#+AUTHOR: GTrunSec
-#+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 20 September 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
 #+SETUPFILE: ../hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-* [[file:../my-math.org][My math]]
-* [[file:../awesome-zeek.org][Awesome Zeek]]
+
+* [[file:../nsm.org][Network monitoring]]
+** * [[file:../awesome-zeek.org][Awesome Zeek]]
+* [[file:../security.org][Security Project or Idea]]
+* [[file:../programming-languages.org][My learning Programming languages]]
+** [[file:../my-math.org][My math]]
+** [[file:../my-latex.org][My latex]]
+** [[file:../julia.org][My Julia]]
+** [[file:../my-c++.org][My C/C++]]
+** [[file:../my-python.org][My Python]]
+** [[file:../my-nix.org][Ny Nix]]
