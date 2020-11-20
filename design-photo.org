@@ -23,7 +23,7 @@
 :PROPERTIES:
 :ID:       a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54
 :END:
-- [[file:my-design.org::*\[\[https://www.youtube.com/watch?v=HwaWWcYsYyg\]\[他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube\]\]][他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+- [2020-11-20 Fri 15:31] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
   + [[attachment:20200925_225732screenshot.png]]
 
 * 后庭院
@@ -31,5 +31,5 @@
 :PROPERTIES:
 :ID:       59c0b564-7a2c-466e-b759-d6b7b68df8bd
 :END:
- - [[file:my-design.org::*\[\[https://www.youtube.com/watch?v=HwaWWcYsYyg\]\[他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube\]\]][他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+ - [2020-11-20 Fri 15:32] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
    + [[attachment:20200925_230006screenshot.png]]
