@@ -133,13 +133,13 @@ git clone https://github.com/hyper0x/JuliaBasics.git
 
 ** Julia lsp
 #+begin_src julia :async t :exports both :results output
+
 import Pkg; Pkg.add("SymbolServer")
 Pkg.add("LanguageServer")
 Pkg.add("PackageCompiler")
 Pkg.add("SymbolServer")
 Pkg.add("StaticLint")
 #+end_src
-
 ** Julia RCall
 :PROPERTIES:
 :ID:       deb99846-e7fd-49af-b6b3-ae3154277c08
