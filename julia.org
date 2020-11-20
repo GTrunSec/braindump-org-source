@@ -91,8 +91,6 @@ git clone https://github.com/mitmath/18S191
 #+end_src
 
 #+RESULTS:
-
-
 ** [[file:my-finance.org][My Finance]]
 *** [[https://github.com/PaulSoderlind/EmpiricalFinancePhD][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
 :PROPERTIES:

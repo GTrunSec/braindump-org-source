@@ -20,9 +20,7 @@
 :PROPERTIES:
 :ID:       557d4a7e-64c3-4ed5-9901-e39d595ecbc8
 :END:
-:BACKLINKS:
-[2020-09-21 Mon 02:54] <- [[id:103f4c38-5d9f-4826-b524-c77c776f239e][Markdown]]
-:END:
+- [2020-11-20 Fri 03:07] <- [[id:103f4c38-5d9f-4826-b524-c77c776f239e][Markdown]]
 
 * [[https://www.overleaf.com/learn/latex/mathematical_expressions][Mathematical expressions - Overleaf, Online LaTeX Editor]]
 

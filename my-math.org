@@ -30,12 +30,9 @@
 :PROPERTIES:
 :ID:       103f4c38-5d9f-4826-b524-c77c776f239e
 :END:
-:RELATED:
-[2020-09-21 Mon 02:54] -> [[id:557d4a7e-64c3-4ed5-9901-e39d595ecbc8][Writing Mathematic Fomulars in Markdown | csrgxtu]]
-:END:
+ - [2020-11-20 Fri 03:07] -> [[id:557d4a7e-64c3-4ed5-9901-e39d595ecbc8][Writing Mathematic Fomulars in Markdown | csrgxtu]]
 ** emacs
 - [[https://github.com/xahlee/xah-math-input][xahlee/xah-math-input: emacs minor mode for inputting math and unicode chars]]
 
 * math notes
-
 ** [[https://hungpham2511.github.io/rl/math/markov-decision-process/][RL Math: MDP and other algorithms - Hung Pham]]
