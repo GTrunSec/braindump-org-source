@@ -197,6 +197,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 ** Flakes wiki
 - [ ] [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]
 experimental-features = nix-command flakes
+
 olstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
 - [ ] [] ~/.config/nix/nix.conf
   #+begin_src conf :async t :exports both :results output
@@ -392,7 +393,7 @@ Module loading is disabled until the next reboot.  Problems caused by delayed mo
 - [[https://rycee.gitlab.io/home-manager/index.html#_how_do_set_up_a_configuration_for_multiple_users_machines][Home Manager Manual]]
 ** home-manager overlay
 :PROPERTIES:
-:ID:       a7ec1635-5502-4b02-922f-fc4489c4d352
+:id: a7ec1635-5502-4b02-922f-fc4489c4d352
 :END:
 :BACKLINKS:
 [2020-09-30 Wed 20:54] <- [[id:72dd4354-5092-433e-aade-6df04bf6c96d][Nix Overlays]]
