@@ -137,12 +137,11 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 
 ** Nix [[file:../../../Documents/org-notes/braindump/golang.org][Golang]]
 :PROPERTIES:
-:ID:       33107453-baf3-4e27-871b-833b93f5ad76
+:id: 33107453-baf3-4e27-871b-833b93f5ad76
 :END:
 :RELATED:
 [2020-11-20 Fri 01:18] -> [[id:d1d661f8-178c-4bd9-b848-0a2b768066f5][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
 :END:
-
 *** [[https://nixos.org/manual/nixpkgs/stable/#ssec-go-legacy][NixOS - Nixpkgs 20.03 manual]]
 *** Go Nix discussing
 - [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
