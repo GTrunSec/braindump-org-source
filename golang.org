@@ -36,9 +36,6 @@ git clone https://github.com/go101/go101.git
 ** Golang HTTP
 *** [[https://github.com/kitabisa/teler][kitabisa/teler: Real-time HTTP Intrusion Detection]]
 ** Go traffic
-*** 
-** 
-
 * Golang charts
 ** [[https://github.com/go-echarts/go-echarts][go-echarts/go-echarts: 🎨 The adorable charts library for Golang]]
 
