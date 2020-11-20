@@ -21,9 +21,7 @@
 :PROPERTIES:
 :ID:       372518e1-2376-4d07-a38e-c6755acd2c55
 :END:
-:BACKLINKS:
-[2020-10-17 Sat 19:47] <- [[id:4dcb4750-c851-476a-9922-a5a6b51be7a3][Practical_Python_Programming/code at master · fly51fly/Practical_Python_Programming · GitHub]]
-:END:
+- [2020-11-20 Fri 02:57] <- [[id:6d821cd9-6a05-4c95-a4f2-9d561d1eeaf0][Julia Jupyter]]
 
 * Plugin
 ** [[https://github.com/radareorg/cutter-jupyter][radareorg/cutter-jupyter: Jupyter Plugin for Cutter]]

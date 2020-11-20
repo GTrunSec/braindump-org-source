@@ -194,12 +194,10 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-20 Fri 02:28] <- [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
 - [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
-** Flakes wiki
-- [ ] [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]
-experimental-features = nix-command flakes
-
-olstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
-- [ ] [] ~/.config/nix/nix.conf
+** Flakes wiki [0/3]
+- [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
+- [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
+- [conf] ~/.config/nix/nix.conf
   #+begin_src conf :async t :exports both :results output
   experimental-features = nix-command flakes
   #+end_src

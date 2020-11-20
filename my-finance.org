@@ -20,15 +20,10 @@
 :PROPERTIES:
 :ID:       54f94d64-138c-4f43-8dc6-81c01654466f
 :END:
-:RELATED:
-[2020-09-25 Fri 19:14] -> [[file:julia.org::*\[\[https://github.com/PaulSoderlind/EmpiricalFinancePhD\]\[GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)\]\]][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
-[2020-09-25 Fri 19:12] -> [[file:julia.org::*\[\[https://github.com/PaulSoderlind/JuliaTutorial\]\[PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students\]\]][PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students]]
-
-:END:
+- [2020-11-20 Fri 03:03] <- [[id:68964ee9-2d40-46bc-bc6c-dbe4f8c6a120][PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students]]
+- [2020-11-20 Fri 03:02] <- [[id:cb4b3236-09f5-4fa8-8195-e1399a5b101a][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
 * Trading with Python
 :PROPERTIES:
 :ID:       0fe12dd9-88ea-4bc8-9b30-23d74e33c52e
 :END:
-:RELATED:
-[2020-10-13 Tue 22:29] -> [[id:0f77f8f7-df29-459a-b40c-7b3f99eddf04][GitHub - chrisconlan/algorithmic-trading-with-python: Source code for Algorithmic Trading with Python (2020) by Chris Conlan]]
-:END:
+ - [2020-11-20 Fri 03:04] -> [[id:0f77f8f7-df29-459a-b40c-7b3f99eddf04][GitHub - chrisconlan/algorithmic-trading-with-python: Source code for Algorithmic Trading with Python (2020) by Chris Conlan]]

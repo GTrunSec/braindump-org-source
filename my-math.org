@@ -17,15 +17,15 @@
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 - tags :: [[file:my-latex.org][My latex]]
 * course
-** with Julia
+** math course with Julia
 :PROPERTIES:
-:ID:       345e238b-336d-4ed8-8d27-8a9f3168e26b
+:ID:       d5edd4b2-2ad8-43ef-9390-bce5dfd41b7c
 :END:
-:RELATED:
-[2020-09-21 Mon 02:49] -> [[file:julia.org::*\[\[https://github.com/mitmath/18S191\]\[mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:\]\]][mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
-:END:
-
+- [2020-11-20 Fri 03:01] <- [[id:b6dc7a84-c972-4733-9dc1-d1ac105e2fee][mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 * Writing Mathematic
+:PROPERTIES:
+:ID:       77273664-3b64-454a-9681-70469cdfc8ca
+:END:
 ** Markdown
 :PROPERTIES:
 :ID:       103f4c38-5d9f-4826-b524-c77c776f239e
