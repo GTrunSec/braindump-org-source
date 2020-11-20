@@ -203,6 +203,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
   #+end_src
 *** Output scheme
   #+begin_src nix :async t :exports both :results output
+
 { self, ... }@inputs:
 {
   # This will be shown in `nix flake info`
@@ -242,8 +243,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
   # Used by `nix flake init -t <flake>#<attr>`
   templates."<attr>" = { path = "<store-path>"; description = "";
 }
-  #+end_src
-
+#+end_src
 ** [[https://zimbatm.com/NixFlakes/#direnv-integration][Nix Flakes edition | $ zimbatm]]
 :PROPERTIES:
 :ID:       09df2341-7aa3-4f56-a823-04b4e591988d
