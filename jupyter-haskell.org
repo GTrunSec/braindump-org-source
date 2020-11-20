@@ -23,9 +23,7 @@
 :PROPS:
 :ID:       6438c7d9-22f2-4aff-9c68-3ac5f5b7caab
 :END:
-:RELATED:
-[2020-10-29 Thu 18:28] -> [[id:99679afb-8873-409e-9d4b-2b6a6d3b4fc2][Programming in Haskell]]
-:END:
+- [2020-10-29 Thu 18:28] -> [[id:99679afb-8873-409e-9d4b-2b6a6d3b4fc2][Programming in Haskell]]
 ** Chapter 1
 #+begin_src ein :session localhost :exports both
 
@@ -55,8 +53,18 @@ pair
 #+RESULTS: 93b73bda-ab8e-47dd-a31f-3d0c8364b6bf
 : [1,2,3,4]
 ** Chapter 2
-
-
+-- Hanoi
+#+begin_src haskell :session localhost :exports both
+hanoiN :: Integer -> [Peg] -> [Move]
+hanoiN 0 _ = []
+hanoiN 1 (p1 : p2 : rest) = [(p1, p2)]
+hanoiN n (p1 : p2 : p3 : rest) =
+    hanoiN k (p1 : p3 : p2 : rest) ++
+    hanoiN (n - k) (p1 : p2 : rest) ++
+    hanoiN k (p3 : p2 : p1 : rest)
+    where k = if null rest then n - 1 else n `quot` 2
+hanoiN _ _ = error "Invalid configuration"
+#+end_src
 
 
 

@@ -28,9 +28,8 @@
 :PROPERTIES:
 :ID:       d546671e-b5ed-435f-83a5-1aac18e26b52
 :END:
-:BACKLINKS:
-[2020-10-14 Wed 23:50] <- [[id:760d9f5c-7444-45b2-b20c-507239ac09ac][Using zeek-cut with logs]]
-:END:
+- [2020-10-14 Wed 23:50] <- [[id:760d9f5c-7444-45b2-b20c-507239ac09ac][Using zeek-cut with logs]]
+
 *** [[https://indico.cern.ch/event/762505/contributions/3375201/attachments/1830709/2998002/2019-04-cern-zeek-logging.pdf][2019-04-cern-zeek-logging.pdf]]
 * Zeek-cut
 ** Using zeek-cut with logs
@@ -44,6 +43,9 @@
 ** Zeek Script Documents
 *** [[https://corelight.blog/2020/09/21/give-me-my-stats/][Give me my stats!]]
 ** Zeek Script tranning
+:PROPERTIES:
+:ID:       8f5f972d-f5a3-4eb7-988f-6fdb0c217edb
+:END:
 *** [[https://github.com/zeek/zeek-training][zeek/zeek-training: Zeek Training Materials/Products]]
 
 ** ZeeK Script DNS[0/0]
@@ -69,19 +71,13 @@ CLOSED: [2019-08-10 Sat 21:25]
  [SMBv1] https://github.com/klehigh/find_smbv1
 
 ** Zeek Script logging [2/7]
-+ [X] [Vlan tags] https://github.com/corelight/log-add-vlan-everywhere
  [filter] https://github.com/hosom/log-filters
  [json]  https://github.com/J-Gras/add-json
  [] https://github.com/corelight/json-streaming-logs
  [liblognorm] https://github.com/J-Gras/bro-lognorm
  [AF_packet] https://github.com/J-Gras/bro-af_packet-plugin
 
-
-
-
 + [ ] [database
-
-
 #+begin_src sh :tangle yes
 sudo -u postgres psql
 sudo -u postgres createuser <username>
@@ -94,6 +90,9 @@ psql -h localhost -p 5432 -U dbuser -d testdb
 
 
 + [ ] [json-jq] [[https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/][Working with JSON in bash using jq - Cameron Nokes]]
+
+** Zeel Vlan
+*** https://github.com/corelight/log-add-vlan-everywhere
 
 ** Zeek CVE Detection
 *** [[https://github.com/corelight/CVE-2020-16898][GitHub - corelight/CVE-2020-16898: A network detection package for CVE-2020-16898 (Windows TCP/IP Remote Code Execution Vulnerability)]] :windows:
