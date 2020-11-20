@@ -1,0 +1,8 @@
+# -*- mode: gitignore; -*-
+
+## nixos
+result
+
+
+.DS_Store
+notdeftdb

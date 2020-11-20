@@ -1,0 +1,114 @@
+#+TITLE: Awesome Zeek
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+#+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(l)
+- tags :: [[file:nsm.org][Network monitoring]]
+  
+- [[https://app.slack.com/client/TSXGCHZE1/CSZBXF6TH][Slack | general | Zeek | 1 new item]]
+* Zeek installation
+** [[https://www.ericooi.com/zeekurity-zen-part-i-how-to-install-zeek-on-centos-8/#comment-1670][Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com]]
+*** [[https://www.ericooi.com/zeekurity-zen-zeries/][Zeekurity Zen Zeries - ericooi.com]]
+* Zeek Documents
+** Zeek logging
+*** [[https://docs.zeek.org/en/current/examples/logs/][Logging — Zeek User Manual v3.2.2]]
+:PROPERTIES:
+:ID:       d546671e-b5ed-435f-83a5-1aac18e26b52
+:END:
+:BACKLINKS:
+[2020-10-14 Wed 23:50] <- [[id:760d9f5c-7444-45b2-b20c-507239ac09ac][Using zeek-cut with logs]]
+:END:
+*** [[https://indico.cern.ch/event/762505/contributions/3375201/attachments/1830709/2998002/2019-04-cern-zeek-logging.pdf][2019-04-cern-zeek-logging.pdf]]
+* Zeek-cut
+** Using zeek-cut with logs
+:PROPERTIES:
+:ID:       760d9f5c-7444-45b2-b20c-507239ac09ac
+:END:
+- [[id:d546671e-b5ed-435f-83a5-1aac18e26b52][Logging — Zeek User Manual v3.2.2]]
+* Zeek Performance
+** [[https://github.com/mozilla/zept][mozilla/zept: Zeek Extreme Performance Tuning]]
+* Zeek Script
+** Zeek Script Documents
+*** [[https://corelight.blog/2020/09/21/give-me-my-stats/][Give me my stats!]]
+** Zeek Script tranning
+*** [[https://github.com/zeek/zeek-training][zeek/zeek-training: Zeek Training Materials/Products]]
+
+** ZeeK Script DNS[0/0]
+*** DONE [ ] [] https://github.com/hhzzk/dns-tunnels :DNS:
+CLOSED: [2019-08-10 Sat 21:20]
+
+*** DONE [ ][dns axfr query ] https://github.com/srozb/dns_axfr :DNS:
+     CLOSED: [2018-12-03 Mon 15:25]
+**** https://en.wikipedia.org/wiki/DNS_zone_transfer
+**** https://cr.yp.to/djbdns/axfr-notes.html
+*** DONE https://github.com/corelight/top-dns :LEARN:Necessary:
+CLOSED: [2019-08-10 Sat 21:11]
+- State "DONE"     from              [2019-08-10 Sat 21:11]
+
+** Zeek Script Conn[3/3]
+*** DONE [Long Connections] https://github.com/corelight/bro-long-connections :Necessary:
+CLOSED: [2019-08-10 Sat 21:23]
+*** DONE [Connection Burst Identification] https://github.com/corelight/conn-burst :Necessary:
+CLOSED: [2019-08-10 Sat 21:25]
+*** [SMB] https://www.giac.org/paper/gcia/10091/detecting-malicious-smb-activity-bro/140938
+*** ✘ CANCELED [Extended TCP Analysis] https://github.com/jswaro/tcprs
+CLOSED: [2019-08-10 Sat 21:25]
+ [SMBv1] https://github.com/klehigh/find_smbv1
+
+** Zeek Script logging [2/7]
++ [X] [Vlan tags] https://github.com/corelight/log-add-vlan-everywhere
+ [filter] https://github.com/hosom/log-filters
+ [json]  https://github.com/J-Gras/add-json
+ [] https://github.com/corelight/json-streaming-logs
+ [liblognorm] https://github.com/J-Gras/bro-lognorm
+ [AF_packet] https://github.com/J-Gras/bro-af_packet-plugin
+
+
+
+
++ [ ] [database
+
+
+#+begin_src sh :tangle yes
+sudo -u postgres psql
+sudo -u postgres createuser <username>
+ sudo -u postgres createdb <dbname>
+createdb -h localhost -p 5432 -U dbuser testdb
+psql -h localhost -p 5432 -U dbuser -d testdb
+#+end_src
+
+  - [[https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e][Creating user, database and adding access on PostgreSQL]]
+
+
++ [ ] [json-jq] [[https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/][Working with JSON in bash using jq - Cameron Nokes]]
+
+** Zeek CVE Detection
+*** [[https://github.com/corelight/CVE-2020-16898][GitHub - corelight/CVE-2020-16898: A network detection package for CVE-2020-16898 (Windows TCP/IP Remote Code Execution Vulnerability)]] :windows:
+
+*** [[https://github.com/0xxon/cve-2020-0601][GitHub - 0xxon/cve-2020-0601: Zeek package to detect CVE-2020-0601]]
+
+* Zeek Plugin or analyzer
+** DONE [[https://github.com/reservoirlabs/zeek-zip-analyzer][GitHub - reservoirlabs/zeek-zip-analyzer: ZIP analyzer for Zeek]] :analyzer:
+** [[https://github.com/zeek/bro-netmap/blob/master/zkg.meta][bro-netmap/zkg.meta at master · zeek/bro-netmap · GitHub]] :packet:
+
+* Zeek Agent
+** DONE https://github.com/apache/metron-bro-plugin-kafka :agent:
+** DONE [[https://github.com/0xxon/zeek-postgresql/tree/master/scripts][zeek-postgresql/scripts at master · 0xxon/zeek-postgresql]] :agent:
+
+* Zeek Con
+** Virtual ZeekWeek
+*** day3
+- [[https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be][https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be]]

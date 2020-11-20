@@ -1,0 +1,104 @@
+#+TITLE: My Library
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 30 November 2019
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+TAGS: analysis(a) BOOK(b) READ(r) LEARN(l) Documents(d)
+* R
+:PROPERTIES:
+:CATEGORY: R-lang
+:END:
+
+** INPROCESS R for Data Analysis in easy steps           :analysis:BOOK:
+:PROPERTIES:
+:AUTHOR:   Mike McGrath
+:ADDED:    [2019-11-30]
+:AMAZON:   https://www.amazon.com/R-Data-Analysis-easy-steps/dp/9387284220
+:END:
+
+** INPROCESS Beginners Guide for Data Analysis using R Programming [30%] :BOOK:DATA:
+:PROPERTIES:
+:AUTHOR:   Jeeva Jose
+:ADDED:    [2019-11-30]
+:AMAZON:   https://www.amazon.com/Beginners-Guide-Analysis-using-Programming/dp/938617345X
+:CATEGORY: R-lang
+:END:
+
+* Haskell
+ :PROPERTIES:
+:CATEGORY: Haskell
+:END:
+
+- [[https://b-ok.cc/book/4990265/ae1103][Practical Haskell: A Real World Guide to Programming | Alejandro Serrano Mena | download]]
+** INPROCESS Programming in Haskell :BOOK:
+:PROPERTIES:
+:AUTHOR:   Graham Hutton
+:ADDED:    [2020-08-15]
+:AMAZON:   https://www.amazon.com/Programming-Haskell-Graham-Hutton-ebook/dp/B01JGMEA3U
+:ID:       99679afb-8873-409e-9d4b-2b6a6d3b4fc2
+:END:
+:BACKLINKS:
+[2020-10-29 Thu 18:28] <- [[id:6438c7d9-22f2-4aff-9c68-3ac5f5b7caab][Jupter Notebook Programming in Haskell]]
+[2020-09-24 Thu 22:22] <- [[file:my-haskell.org::*Haskell books][Haskell books]]
+:END:
+- [[https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises][Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.]]
+* GO
+:PROPERTIES:
+:CATEGORY: GOLANG
+:END:
+
+* Python
+** Python 3 Object-Oriented Programming - Third Edition
+:PROPERTIES:
+:AUTHOR:   Dusty Phillips
+:ADDED:    [2019-12-02]
+:AMAZON:   https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented/dp/1789615852
+:END:
+
+* Julia
+:PROPERTIES:
+:CATEGORY: Julia
+:END:
+
+* Literature
+** 高草丛生
+- [[https://www.youtube.com/watch?v=JZLmAebe2eo][最新燒腦驚悚片，斯蒂芬.金小說改
+  編！時空錯亂的高草叢中，一旦進去就出不來！走不出去的高草叢，其實就是我們的無法
+  得到救贖的人生。你看懂了嗎？ - YouTube]]
+
+** Handbook of Computer Networks and Cyber Security: Principles and Paradigms
+:PROPERTIES:
+:AUTHOR:   Brij B. Gupta, Gregorio Martinez Perez, Dharma P. Agrawal, Deepak Gupta
+:ADDED:    [2020-01-01]
+:AMAZON:   https://www.amazon.com/Handbook-Computer-Networks-Cyber-Security-dp-3030222764/dp/3030222764/ref=mt_hardcover?_encoding=UTF8&me=&qid=1577927674
+:END:
+* Cyber security
+** Handbook of Computer Networks and Cyber Security: Principles and Paradigms
+:PROPERTIES:
+:AUTHOR:   Brij B. Gupta, Gregorio Martinez Perez, Dharma P. Agrawal, Deepak Gupta
+:ADDED:    [2020-01-01]
+:AMAZON:   https://www.amazon.com/Handbook-Computer-Networks-Cyber-Security-dp-3030222764/dp/3030222764/
+:END:
+
+* Rust
+** [[https://b-ok.cc/book/5236575/3e3e64][The Rust Programming Language | Steve Klabnik, Carol Nichols | download]]
+* [[https://ctext.org/xunzi/da-lve/zhs][荀子 : 大略 - 中国哲学书电子化计划]]
+诸侯召其臣，臣不俟驾，颠倒衣裳而走，礼也。《诗》曰：“颠之倒之，自公召之。”天子召诸侯，诸侯辇舆就马，礼也。《诗》曰：“我出我舆，于彼牧矣。自天子所，谓我来矣。”
+
+- 颠倒衣裳而走，礼也。《诗》曰：“颠之倒之，自公召之
+
+
+大夫服笏
+
+  - 笏 [hù] 古代大臣上朝拿着的手板，用玉、象牙或竹片制成，上面可以记事

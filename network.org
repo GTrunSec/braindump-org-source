@@ -1,0 +1,26 @@
+#+TITLE: Network
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+* Network DNS
+:PROPERTIES:
+:ID:       1218671f-c69e-4e60-b2b9-14a75c48d255
+:END:
+:RELATED:
+[2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
+:END:
+** [[https://github.com/ogham/dog][ogham/dog: Command-line DNS client]]
+** [[https://github.com/pymumu/smartdns][GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。]]

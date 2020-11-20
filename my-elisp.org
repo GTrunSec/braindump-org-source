@@ -1,0 +1,52 @@
+#+TITLE: My Elisp
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 19 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+* Elisp documents
+** [[https://github.com/p3r7/awesome-elisp][GitHub - p3r7/awesome-elisp: A curated list of emacs-lisp development resources]]
+
+* Buffer
+** [[https://emacs-china.org/t/topic/14553/17][如何给指定文件添加模式 - Emacs-general - Emacs China]]
+#+begin_src emacs-lisp :tangle yes
+(add-hook 'org-mode-hook (lambda ()
+  ;;……
+  (cond
+   ;;如果文件最后8个字符是data.org
+     ((equal (substring buffer-file-name -8) "data.org")
+       (progn ;;这是只对data.org文件生效的快捷键
+          (local-set-key (kbd "C") 'next-line)
+       ))
+     (t ;对不是data.org的org文件生效的快捷键
+          (local-set-key (kbd "C") 'hydra-org-mode/body)
+     ))
+))
+#+end_src
+* Command Interpretere
+** [[https://www.masteringemacs.org/article/comint-writing-command-interpreter][Comint: Writing your own Command Interpreter - Mastering Emacs]]
+* org-mode
+** parsing
+*** [[http://ergoemacs.org/emacs/elisp_parse_org_mode.html][Elisp: Parse Org Mode]]
+** search
+*** [[https://github.com/Kungsgeten/ivy-todo][Kungsgeten/ivy-todo: Manage org-mode TODOs with ivy]]
+* learning elisp from users
+** [[https://gitlab.com/ideasman42][ideasman42 · GitLab]]
+* timing
+** [[https://github.com/aspiers/etrace][aspiers/etrace: Emacs Lisp Latency Tracing for the Chromium Catapult Trace Event Format]]
+* parser
+* pcasn pattern
+
+** [[https://emacs-china.org/t/pcase-pattern/15111][pcase 各种 pattern 使用举例 - Emacs-general - Emacs China]]
+

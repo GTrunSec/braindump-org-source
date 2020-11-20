@@ -1,0 +1,88 @@
+#+TITLE: My Haskell
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 19 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+#+TAGS: nix(n) logging(l) owner(o)
+
+- tags :: [[file:programming-languages.org][My learning Programming languages]]
+
+
+* Haskell (programming language)
+:PROPERTIES:
+:paradigm: Purely functional
+:designed-by: Lennart Augustsson, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak, John Hughes, Thomas Johnsson, Mark Jones, Simon Peyton Jones, John Launchbury, Erik Meijer, John Peterson, Alastair Reid, Colin Runciman, Philip Wadler
+:first-appeared: 1990; 30 years ago (1990)
+:stable-release: Haskell 2010, / July 2010; 10 years ago (2010-07)
+:preview-release: Haskell 2020 announced
+:typing-discipline: Inferred, static, strong
+:os:       Cross-platform
+:filename-extensions: .hs, .lhs
+:website:  www.haskell.org
+:wikinfo-id: 27404990
+:URL:      https://en.wikipedia.org?curid=27404990
+:END:
+Haskell is a general-purpose, statically typed, purely functional programming language with type inference and lazy evaluation. Developed to be suitable for teaching, research and industrial application, Haskell has pioneered a number of advanced programming language features such as type classes, which enable type-safe operator overloading. Haskell's main implementation is the Glasgow Haskell Compiler (GHC).
+* Haskell books
+:PROPERTIES:
+:ID:       18a335db-e9c7-4c7c-bd3d-ad39b116abe1
+:END:
+- [[file:my-books.org::*Programming in Haskell][Programming in Haskell]]
+
+* Haskell tutorial
+
+** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
+
+** Haskell video
+
+*** [[https://www.youtube.com/watch?v=Vgu82wiiZ90&list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV][“Haskell for Imperative Programmers #1 - Basics - YouTube”🔊]]
+
+*** [[https://www.youtube.com/c/Tsoding/playlists][Tsoding - YouTube]]
+
+** learning Haskell
+*** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
+*** [[https://github.com/stolyaroleh/learning-haskell/blob/master/cis-194/src/Hw11/SExpr.hs][learning-haskell/SExpr.hs at master · stolyaroleh/learning-haskell]]
+*** [[https://github.com/tonymorris/fp-course][tonymorris/fp-course: Functional Programming Course]]
+*** [[https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises][Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.]]
+* Haskell Repositories
+** [[https://github.com/obsidiansystems/solana-bridges][obsidiansystems/solana-bridges]]
+
+** [[https://github.com/AJChapman/co-log-polysemy-formatting][GitHub - AJChapman/co-log-polysemy-formatting: A Haskell library: A fancy logging effect for Polysemy using the formatting library to format log messages.]] :logging:
+:PROPERTIES:
+:ID:       e727f4c4-b87d-458c-aa87-3ea3b80084bf
+:END:
+:BACKLINKS:
+[2020-10-30 Fri 16:32] <- [[id:c3da54e9-2886-41e6-87b2-d117f2b22c00][logging library]]
+:END:
+
+* Haskell user
+
+** [[https://github.com/idontgetoutmuch?tab=repositories][idontgetoutmuch / Repositories]] :nix:
+* Haskell llvm
+** [[https://lukelau.me/kaleidoscope/][llvm-hs Kaleidoscope Tutorial]]
+* Haskell lib
+** IO lib
+*** [[https://github.com/haskell-Z/z-io][haskell-Z/z-io: IO lib for haskell]]
+* Haskell parser
+** Haskell json
+*** [[https://github.com/ChrisPenner/json-to-haskell][ChrisPenner/json-to-haskell: In goes JSON, out comes a complete Haskell model complete with instances! CLI and web interface available.]]
+*** [[https://github.com/nikita-volkov/jsonifier][nikita-volkov/jsonifier: Fast and simple JSON encoding toolkit]]
+* Haskell implemented
+** [[https://github.com/Gabriel439/simple-twitter][Gabriel439/simple-twitter: A bare-bones Twitter clone implemented in a single file]]
+* Haskell Data
+** [[https://github.com/alasconnect/data-validation][alasconnect/data-validation: A library that simplifies data validation.]]
+* Haskell Web
+** [[https://github.com/alasconnect/haskell-web-app][alasconnect/haskell-web-app: Example of a base Haskell Servant web application]] :nix:
+* Hasktorch
+** [[https://github.com/GTrunSec/hasktorch-jupyter-examples][GTrunSec/hasktorch-jupyter-examples]] :owner:

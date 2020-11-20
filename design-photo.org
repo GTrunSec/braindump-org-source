@@ -1,0 +1,35 @@
+#+TITLE: Collection of designing list
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:my-design.org][My designing brain tranning list]]
+
+* 石雕
+** 小型庭院 :ATTACH:
+:PROPERTIES:
+:ID:       a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54
+:END:
+- [[file:my-design.org::*\[\[https://www.youtube.com/watch?v=HwaWWcYsYyg\]\[他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube\]\]][他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+  + [[attachment:20200925_225732screenshot.png]]
+
+* 后庭院
+** 水台 :ATTACH:
+:PROPERTIES:
+:ID:       59c0b564-7a2c-466e-b759-d6b7b68df8bd
+:END:
+ - [[file:my-design.org::*\[\[https://www.youtube.com/watch?v=HwaWWcYsYyg\]\[他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube\]\]][他花 20 年在西湖邊造庭院，8000 萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+   + [[attachment:20200925_230006screenshot.png]]

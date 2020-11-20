@@ -1,0 +1,44 @@
+#+TITLE: Golang
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:../../../Documents/org-notes/braindump/programming-languages.org][My learning Programming languages]]
+
+* Document
+** For beginning
+*** [[https://github.com/go101/go101][go101/go101: An online book focusing on Go syntax/semantics.]]
+:PROPERTIES:
+:header-args:sh: :dir ~/project/go
+:END:
+#+begin_src sh :async t :exports both :results output
+git clone https://github.com/go101/go101.git
+#+end_src
+
+#+RESULTS:
+*** [[http://xahlee.info/golang/golang_package.html][Golang: Package, Import]]
+* Networking
+** Golang DNS
+*** [[https://github.com/redirect2me/which-dns][redirect2me/which-dns: Detects which DNS server is being used]]
+** Golang HTTP
+*** [[https://github.com/kitabisa/teler][kitabisa/teler: Real-time HTTP Intrusion Detection]]
+** Go traffic
+*** 
+** 
+
+* Golang charts
+** [[https://github.com/go-echarts/go-echarts][go-echarts/go-echarts: 🎨 The adorable charts library for Golang]]
+

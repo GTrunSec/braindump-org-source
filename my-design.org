@@ -1,0 +1,27 @@
+#+TITLE: My designing brain tranning list
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+* 房屋
+** 视频素材
+*** [[https://www.youtube.com/watch?v=HwaWWcYsYyg][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+:PROPERTIES:
+:ID:       9050b828-5b2a-49db-82ed-c913ed18d3b6
+:END:
+:BACKLINKS:
+[2020-09-27 Sun 03:38] <- [[file:design-photo.org::*水台][水台]]
+[2020-09-27 Sun 03:36] <- [[file:design-photo.org::*小型庭院][小型庭院]]
+:END:

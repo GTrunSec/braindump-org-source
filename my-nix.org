@@ -1,0 +1,574 @@
+#+TITLE: Ny Nix
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 19 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+OPTIONS:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t pri:t
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+#+OPTIONS: prop:t p:t
+#+TAGS: lib(l) flakes(f) org(o) doc(d) network(n) modules(m) parser(p) query(q) overlays(O) example(e) nixops(s)
+
+- tags :: [[file:programming-languages.org][My learning Programming languages]]
+  
+* NixOS
+:PROPERTIES:
+:written-in: Nix expression language
+:os-family: Unix-like
+:working-state: In development
+:source-model: Open source
+:initial-release: 2003; 17 years ago (2003)
+:latest-release: 20.03/April 20, 2020; 6 months ago (2020-04-20)
+:repository: github.com/NixOS/nixpkgs
+:marketing-target: General purpose
+:package-manager: Nix
+:platforms: i686, x86-64, ARMv7, AArch64
+:kernel-type: Monolithic (Linux kernel)
+:license:  MIT
+:official-website: nixos.org
+:wikinfo-id: 27125334
+:URL:      https://en.wikipedia.org?curid=27125334
+:END:
+NixOS is a Linux distribution built on top of the Nix package manager. It uses declarative configuration and allows reliable system upgrades. Two main branches are offered: current Stable release and Unstable following latest development.
+* Documents
+** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
+
+* Learn materials
+** [[https://www.youtube.com/watch?v=2mG0zM_wtYs][Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube]]
+** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
+* nixos
+** Doc
+*** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]
+*** [[https://github.com/NixOS/hydra][NixOS/hydra: Hydra, the Nix-based continuous build system]]
+*** [[https://planet.nixos.org/][NixOS Planet]]
+** Users's config
+*** [[https://github.com/leotaku/nixos-config][leotaku/nixos-config: A git repository to store my nix configurations in]]
+*** [[https://github.com/babariviere/dotfiles][babariviere/dotfiles: Personal dotfiles]] :flakes:
+*** [[https://github.com/kmein/niveum/tree/master/modules][niveum/modules at master · kmein/niveum]]
+*** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :nixops:
+** other plantform
+- [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
+
+
+* Long-term learning config :lib:
+** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
+** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
+** [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
+** [[https://github.com/coreyoconnor/nix_configs/tree/master][coreyoconnor/nix_configs: The NixOS configuration for my desktop.]]
+** TODO [#A] [[https://github.com/jlesquembre/dotfiles/tree/master][jlesquembre/dotfiles: My dotfiles]]
+** [[https://github.com/charvp/nixos-config/tree/master/programs][nixos-config/programs at master · charvp/nixos-config]]
+
+** User
+*** [[https://github.com/zimbatm][zimbatm (zimbatm)]]
+* Nix Overlays
+:PROPERTIES:
+:ID:       72dd4354-5092-433e-aade-6df04bf6c96d
+:END:
+- [[id:a7ec1635-5502-4b02-922f-fc4489c4d352][home-manager overlay]]
+** ROS on Nix
+:PROPERTIES:
+:ID:       2e14b38e-081e-4de8-9466-4db3e2e3291a
+:END:
+- [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
+** Haskell Overlay
+:PROPERTIES:
+:ID:       0f7615af-e259-43e3-99b3-e0b69ba1d61b
+:END:
+:RELATED:
+[2020-10-26 Mon 21:56] -> [[id:1247ef62-a9d8-4779-a793-97802be399f4][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
+:END:
+** Python Overlay
+:PROPERTIES:
+:ID:       abf91e96-c75b-4313-8ac7-da713ae86a4f
+:END:
+- [[file:my-python.org][Python]]
+*** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
+* Programming languages Environment
+
+** wiki
+- https://nixos.wiki/wiki/Language-specific_package_helpers
+
+** Nix [[file:my-rust.org][My Rust]]
+*** [[https://github.com/nmattia/naersk][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
+:PROPERTIES:
+:ID:       02aa0111-a92e-41d6-abca-ce4cc6c7a931
+:END:
+:BACKLINKS:
+[2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
+:END:
+
+** Nix [[file:my-haskell.org][My Haskell]]
+:PROPERTIES:
+:ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
+:END:
+- [2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
+*** Haskell Infrastructure for Nixpkgs
+**** [[https://github.com/input-output-hk/haskell.nix][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
+**** [[https://github.com/reflex-frp/reflex-platform][reflex-frp/reflex-platform: A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.]]
+*** Haskell Development -> NixPkgs
+**** [[https://discourse.nixos.org/t/nix-haskell-development-2020/6170][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
+:PROPERTIES:
+:ID:       1247ef62-a9d8-4779-a793-97802be399f4
+:END:
+:BACKLINKS:
+[2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
+:END:
+- [[https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/haskell-modules/configuration-common.nix][nixpkgs/configuration-common.nix at master · NixOS/nixpkgs]]
+*** Nix Haskell Documents for beginning
+**** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
+** Nix [[file:my-python.org][Python]]
+:PROPERTIES:
+:ID:       f08fdb79-58f8-4186-b890-06e1486702e9
+:END:
+- [[id:abf91e96-c75b-4313-8ac7-da713ae86a4f][Python Overlay]]
+*** [[https://github.com/DavHau/mach-nix][GitHub - DavHau/mach-nix: Tool to create highly reproducible python environments]]
+#+begin_src sh :async t :exports both :results output
+nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
+#+end_src
+
+** Nix [[file:../../../Documents/org-notes/braindump/golang.org][Golang]]
+- [[*\[\[https://github.com/orivej/go-nix\]\[orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go\]\]][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
+*** [[https://nixos.org/manual/nixpkgs/stable/#ssec-go-legacy][NixOS - Nixpkgs 20.03 manual]]
+*** Go Nix discussing
+- [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
+  
+** Nix Node
+
+*** https://andreas.rammhold.de/posts/ranz2nix/
+
+** Nix [[file:my-c++.org][My C/C++]]
+
+*** C/C++ Nix infrastructure
+:PROPERTIES:
+:ID:       0680ffeb-a824-4dec-b15d-0e8ec04e97b9
+:END:
+:RELATED:
+[2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
+:END:
+
+* configuration flakes
+:PROPERTIES:
+:ID:       8a9e45f4-fa22-41b9-9862-d653ea91822c
+:END:
+:BACKLINKS:
+[2020-11-09 Mon 15:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+:END:
+** [[https://github.com/nrdxp/nixflk/][nrdxp/nixflk: highly structured NixOS configuration database]]
+** [[https://github.com/bqv/nixrc/blob/live/flake.nix][nixrc/flake.nix at live · bqv/nixrc]]
+** [[https://github.com/abcdw/rde/][abcdw/rde: My reproducible development environment]]
+** [[https://github.com/LEXUGE/nixos][LEXUGE/nixos: A fully automated replicable nixos configuration set]]
+** [[https://github.com/Ninlives/nixos-config][Ninlives/nixos-config: Bunch of Nix expressions for my working environment]]
+** [[https://github.com/berbiche/dotfiles/blob/master/flake.nix][dotfiles/flake.nix at master · berbiche/dotfiles]]
+** [[https://github.com/ImExtends/nixos-conf/blob/master/flake.nix][nixos-conf/flake.nix at master · ImExtends/nixos-conf]]
+** [[https://github.com/l5r/nixcfg/blob/template/flake.nix][nixcfg/flake.nix at template · l5r/nixcfg]]
+** [[https://github.com/cole-h/nixos-config/blob/nixus/flake.nix][nixos-config/flake.nix at nixus · cole-h/nixos-config]]
+** https://github.com/Kloenk/nix/blob/master/flake.nix
+**
+** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
+** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
+
+* flakes
+:PROPERTIES:
+:ID:       0fbe152b-bad6-4054-a201-c51ab509ed73
+:END:
+:RELATED:
+[2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
+[2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
+[2020-10-26 Mon 21:40] -> [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
+:END:
+- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
+** Flakes wiki
+- [ ] [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
+- [ ] [wiki] [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
+- [ ] [] ~/.config/nix/nix.conf
+  #+begin_src conf :async t :exports both :results output
+  experimental-features = nix-command flakes
+  #+end_src
+*** Output scheme
+  #+begin_src nix :async t :exports both :results output
+{ self, ... }@inputs:
+{
+  # This will be shown in `nix flake info`
+  description = "A description what his flake provides";
+  # Executed by `nix flake check`
+  checks."<system>"."<attr>" = derivation;
+  # Executed by `nix build .#<name>`
+  packages."<system>"."<attr>" = derivation;
+  # Executed by `nix build .`
+  defaultPackage."<system>" = derivation;
+  # Executed by `nix run .#<name>`
+  apps."<system>"."<attr>" = {
+    type = "app";
+    program = "<store-path>";
+  };
+  # Executed by `nix run . -- <args?>`
+  defaultApp."<system>" = { type = "app"; program = "..."; };
+
+  # Used for nixpkgs packages, also accessible via `nix build .#<name>`
+  legacyPackages."<system>"."<attr>" = derivation;
+  # Default overlay, for use in dependent flakes
+  overlay = final: prev: { };
+  # Same idea as overlay but a list or attrset of them.
+  overlays = {};
+  # Default module, for use in dependent flakes
+  nixosModule = { config }: { options = {}; config = {}; };
+  # Same idea as nixosModule but a list or attrset of them.
+  nixosModules = {};
+  # Attrset of nixos configurations by hostname.
+  nixosConfigurations."<hostname>" = {};
+  hydraJobs."<attr>"."<system>" = derivation;
+  # Used by `nix flake init -t <flake>`
+  defaultTemplate = {
+    path = "<store-path>";
+    description = "template description goes here?";
+  };
+  # Used by `nix flake init -t <flake>#<attr>`
+  templates."<attr>" = { path = "<store-path>"; description = "";
+}
+  #+end_src
+
+** [[https://zimbatm.com/NixFlakes/#direnv-integration][Nix Flakes edition | $ zimbatm]]
+:PROPERTIES:
+:ID:       09df2341-7aa3-4f56-a823-04b4e591988d
+:END:
+:BACKLINKS:
+[2020-11-06 Fri 19:22] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
+[2020-10-01 Thu 23:35] <- [[id:0ba37b42-f3e7-453a-b021-3f817b9264e8][Pushing Flake inputs to Cachix]]
+:END:
+
+** [[https://github.com/numtide/flake-utils][numtide/flake-utils: Pure Nix flake utility functions]]
+
+- [[https://github.com/numtide/flake-utils/blob/master/examples/each-system/flake.nix][flake-utils/flake.nix at master · numtide/flake-utils]]
+  + eachDefaultSystem
+
+    #+begin_src nix :async t :exports both :results output
+
+  {
+    description = "Flake utils demo";
+
+    inputs.flake-utils.url = "github:numtide/flake-utils";
+
+    outputs = { self, nixpkgs, flake-utils }:
+      flake-utils.lib.eachDefaultSystem (system:
+        let pkgs = nixpkgs.legacyPackages.${system}; in
+        rec {
+          packages = flake-utils.lib.flattenTree {
+            hello = pkgs.hello;
+            gitAndTools = pkgs.gitAndTools;
+          };
+          defaultPackage = packages.hello;
+          apps.hello = flake-utils.lib.mkApp { drv = packages.hello; };
+          defaultApp = apps.hello;
+        }
+      );
+  }
+    #+end_src
+
+  + simple-flake
+    #+begin_src nix :async t :exports both :results output
+
+    #+end_src
+- [[https://github.com/zimbatm/flake-static/tree/0cf37e62aae157409342a85f5f499f216bdcd2fe][zimbatm/flake-static at 0cf37e62aae157409342a85f5f499f216bdcd2fe]]
+  + nixpkgs lib
+
+    #+begin_src sh :async t :exports both :results output
+
+let
+  importJSON = file: builtins.fromJSON (builtins.readFile file);
+  flakeLock = importJSON ./flake.lock;
+  loadInput = { locked, ... }:
+    assert locked.type == "github";
+    builtins.fetchTarball {
+      url = "https://github.com/${locked.owner}/${locked.repo}/archive/${locked.rev}.tar.gz";
+      sha256 = locked.narHash;
+    };
+  nixpkgs = loadInput flakeLock.nodes.nixpkgs;
+in
+import nixpkgs {
+  config = { };
+  overlays = [ ];
+}
+
+    #+end_src
+
+** hydra CI build packages
+- [[https://github.com/edolstra/dhdm/blob/master/flake.nix][dhdm/flake.nix at master · edolstra/dhdm]]
+#+begin_src nix :async t :exports both :results output
+{
+  inputs.nixpkgs.url = "nixpkgs/nixos-20.03";
+
+  outputs = { self, nixpkgs }: {
+
+    defaultPackage.x86_64-linux =
+      with import nixpkgs { system = "x86_64-linux"; };
+      stdenv.mkDerivation {
+        name = "dhdm";
+        buildInputs = [ mesa_glu glew glfw libpng glm fmt nlohmann_json opensubdiv boost ];
+        src = self;
+        preBuild = "cd src";
+        installPhase = "mkdir -p $out/bin; cp dhdm $out/bin/";
+        enableParallelBuilding = true;
+      };
+
+    checks.x86_64-linux.build = self.defaultPackage.x86_64-linux;
+
+  };
+
+}
+#+end_src
+
+** learning flakes
+
+- [[https://discourse.nixos.org/t/good-practice-for-nix-flakes/9706/2][Good practice for Nix Flakes - Learn - NixOS Discourse]]
+
+** flake check
+*** [[https://discourse.nixos.org/t/my-painpoints-with-flakes/9750/5][My painpoints with flakes - NixOS Discourse]]
+
+* Networking
+** [[https://github.com/icebox-nix/netkit.nix][icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS]]
+* Security
+** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]
+** Nix SElinux
+*** Security-Enhanced Linux
+:PROPERTIES:
+:original-authors: NSA and Red Hat
+:developers: Red Hat
+:initial-release: December 22, 2000; 19 years ago (2000-12-22)
+:stable-release: 3.0/4 December 2019; 10 months ago (2019-12-04)
+:repository: github.com/SELinuxProject/selinux
+:written-in: C
+:operating-system: Linux
+:type:     Security, Linux Security Modules (LSM)
+:license:  GNU GPL
+:website:  selinuxproject.org, nsa.gov/What-We-Do/Research/SELinux/
+:wikinfo-id: 55908
+:URL:      https://en.wikipedia.org?curid=55908
+:END:
+Security-Enhanced Linux (SELinux) is a Linux kernel security module that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC). SELinux is a set of kernel modifications and user-space tools that have been added to various Linux distributions. Its architecture strives to separate enforcement of security decisions from the security policy, and streamlines the amount of software involved with security policy enforcement.
+
+- [[https://www.redhat.com/zh/topics/linux/what-is-selinux][SELinux是什么? 开启SELinux - 红帽]]
+  
+*** [[https://nixos.wiki/wiki/Workgroup:SELinux][Workgroup:SELinux - NixOS Wiki]]
+#+begin_src nix :async t :exports both :results output
+ boot.kernelPatches = [ {
+       name = "selinux-config";
+       patch = null;
+       extraConfig =
+               SECURITY_SELINUX y
+               SECURITY_SELINUX_BOOTPARAM n
+               SECURITY_SELINUX_DISABLE n
+               SECURITY_SELINUX_DEVELOP y
+               SECURITY_SELINUX_AVC_STATS y
+               SECURITY_SELINUX_CHECKREQPROT_VALUE 0
+               DEFAULT_SECURITY_SELINUX n
+             ;
+       } ];
+#+end_src
+** Nix vulnerability
+*** [[https://github.com/andir/nix-vulnerability-scanner][andir/nix-vulnerability-scanner]]
+** Nix Security option
+*** [[https://discourse.nixos.org/t/default-security-settings/9755/2][Default security settings - Development / Security - NixOS Discourse]]
+#+begin_src nix :async t :exports both :results output
+security.lockKernelModules = false 
+#+end_src
+
+Disable kernel module loading once the system is fully initialised.
+Module loading is disabled until the next reboot.  Problems caused by delayed module loading can be fixed by adding the module(s) in question to <option>boot.kernelModule
+* home-manager
+- [[https://rycee.gitlab.io/home-manager/index.html#_how_do_set_up_a_configuration_for_multiple_users_machines][Home Manager Manual]]
+** home-manager overlay
+:PROPERTIES:
+:ID:       a7ec1635-5502-4b02-922f-fc4489c4d352
+:END:
+:BACKLINKS:
+[2020-09-30 Wed 20:54] <- [[id:72dd4354-5092-433e-aade-6df04bf6c96d][Nix Overlays]]
+:END:
+
+- [[https://discourse.nixos.org/t/using-an-overlay-in-home-manager/6302][Using an overlay in home-manager - Learn - NixOS Discourse]]
+  #+begin_src nix :async t :exports both :results output
+{ config, pkgs, ... }:
+
+let
+  pkgsUnstable = import <unstable> {};
+in
+
+{
+  nixpkgs.overlays = [
+    (final: previous: {
+      skim = pkgsUnstable.skim;
+    })
+  ];
+
+  programs.home-manager.enable = true;
+  programs.skim.enable = true;
+}
+  #+end_src
+** IsLinux or IsDarwin
+- [[https://github.com/nix-community/home-manager/issues/414][Infinite Recursion With stdenv functions · Issue #414 · nix-community/home-manager · GitHub]]
+* Cachix
+** push binary cache with nix-shell
+#+begin_src sh :async t :exports both :results output
+nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-store --realise | xargs nix-store --query --requisites | cachix push nsm-data-analysis
+#+end_src
+** Pushing Flake inputs to Cachix
+:PROPERTIES:
+:ID:       0ba37b42-f3e7-453a-b021-3f817b9264e8
+:END:
+:RELATED:
+[2020-11-06 Fri 19:22] -> [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
+:END:
+:BACKLINKS:
+[2020-10-13 Tue 17:45] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+:END:
+- [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
+
+#+begin_src sh :async t :exports both :results output
+nix flake archive --json \
+  | jq -r '.path,(.inputs|to_entries[].value.path)' \
+  | cachix push $cache_name
+#+end_src
+
+- nix build -> soultion
+  #+begin_src sh :async t :exports both :results output
+nix path-info --json | jq -r '.[].path' | cachix push $cache_name
+  #+end_src
+
+
+- nix develop
+  #+begin_src sh :async t :exports both :results output
+nix develop --profile dev-profiile && cachix push mycache dev-profile
+
+  #+end_src
+** [[https://discourse.nixos.org/t/how-to-push-the-derivations-from-a-shell-nix-to-cachix/3172][How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse]]
+
+#+begin_src sh :async t :exports both :results output
+nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
+#+end_src
+
+
+* nix expressions
+:PROPERTIES:
+:ID:       0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
+:END:
+:RELATED:
+[2020-11-09 Mon 19:12] -> [[id:3ab69c8f-30f5-4eb6-9d40-8430aaf8203f][GTrunSec/nix-expressions-jupyter-repl-test]]
+:END:
+** Nix language
+*** [[https://nix.dev/anti-patterns/language.html][Nix language — nix.dev documentation]]
+** [[https://github.com/zimbatm/nix-experiments][zimbatm/nix-experiments]]
+** parser
+*** [[https://github.com/orivej/go-nix][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
+:BACKLINKS:
+[2020-10-23 Fri 14:27] <- [[*\[\[file:../../../Documents/org-notes/braindump/golang.org\]\[Golang\]\]][Golang]]
+:END:
+*** [[https://github.com/nprindle/nix-parsec][nprindle/nix-parsec]]
+** ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]
+** nix-path
+*** [[https://stackoverflow.com/questions/43850371/when-does-a-nix-path-type-make-it-into-the-nix-store-and-when-not/43850372#43850372][nixos - When does a nix path type make it into the nix store and when not? - Stack Overflow]]
+* nix-hash
+** [[https://github.com/jwiegley/nix-update-el][jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place]]
+** [[https://github.com/numtide/rnix-hashes][numtide/rnix-hashes: Nix Hash Converter]]
+* nix-env
+** [[https://github.com/target/lorri][target/lorri: Your project's nix-env]]
+* Nix template
+** [[https://github.com/nix-dot-dev/getting-started-nix-template][nix-dot-dev/getting-started-nix-template: Based on nix.dev tutorials, repository template to get you started with Nix.]]
+* Audio
+** [[https://github.com/lopsided98/zeus_audio/blob/master/flake.nix][zeus_audio/flake.nix at master · lopsided98/zeus_audio]]
+* Nix Router
+** https://github.com/GTrunSec/nixwrt
+* service deployment
+** [[https://github.com/svanderburg/disnix][svanderburg/disnix: Disnix: A Nix-based distributed service deployment tool]]
+*** [[https://sandervanderburg.blogspot.com/2020/10/transforming-disnix-models-to-graphs.html][Sander van der Burg's blog: Transforming Disnix models to graphs and visualizing them]]
+** https://github.com/svanderburg/nix-processmgmt
+* enhanced nix configuration
+** [[https://github.com/tweag/nickel][tweag/nickel: Cheap configuration language]] :parser:query:
+
+Nickel is a lightweight configuration language. Its purpose is to automate the generation of static configuration files - think JSON, YAML, XML, or your favorite data representation language - that are then fed to another system. It is designed to have a simple, well-understood core: at its heart, it is JSON with functions. It adds other features on top of it to improve expressivity and modularity, but you can do just fine without using it.
+* Nix Emacs
+** [[https://github.com/vlaci/nix-doom-emacs][vlaci/nix-doom-emacs: doom-emacs packaged for Nix]]
+
+* Nix Friday
+** [[https://www.youtube.com/watch?v=h2I1FHpbaIg][Nix Friday - Flakes! - YouTube]]
+:PROPERTIES:
+:ID:       2e37c4e9-b74d-490c-9b12-fc5aade3de68
+:END:
+:BACKLINKS:
+[2020-10-26 Mon 21:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+:END:
+** [[https://www.youtube.com/watch?v=apIE_TgNNmo][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
+:PROPERTIES:
+:ID:       2cac43cc-1cbd-4092-a275-83856018a0a8
+:END:
+:BACKLINKS:
+[2020-11-07 Sat 22:56] <- [[id:0680ffeb-a824-4dec-b15d-0e8ec04e97b9][C/C++ Nix infrastructure]]
+:END:
+
+* ROS Nix
+:PROPERTIES:
+:ID:       dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4
+:END:
+:RELATED:
+[2020-10-30 Fri 02:59] -> [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
+:END:
+
+* NixOS container
+** [[https://github.com/erikarvstedt/extra-container][erikarvstedt/extra-container: Run declarative NixOS containers without full system rebuilds]]
+
+* Other language implementation Nix
+
+** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]]
+
+[[file:my-haskell.org][My Haskell]]
+
+* NixOps
+** learning NixOps
+*** [[https://christine.website/blog/nixops-services-2020-11-09][Nixops Services on Your Home Network - Christine Dodrill]]
+*** [[https://github.com/input-output-hk/mantis-ops/blob/master/flake.nix][mantis-ops/flake.nix at master · input-output-hk/mantis-ops]]
+** NixOps organization
+*** [[https://github.com/alasconnect][Ampersand / AlasConnect]]
+** [[https://github.com/tweag/terraform-nixos][tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS]]
+
+* Nix cross-compiling
+
+** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
+
+* Nix ISSUE
+** Nix flake issue
+:PROPERTIES:
+:ID:       fdf6b3e7-b611-449e-889b-bd8398b252e1
+:END:
+:BACKLINKS:
+[2020-11-09 Mon 22:30] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+:END:
+*** [[https://github.com/NixOS/nix/issues/3821][Adding package to devShell causes `error: stack overflow (possible infinite recursion)` · Issue #3821 · NixOS/nix]]
+
+#+begin_src nix :async t :exports both :results output
+systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
+#+end_src
+
+* Nix develop -> flake
+
+** [[https://github.com/NixOS/nix/pull/4161/commits/750ce500c221ecd4720a5b02e3f3cbb0bc05ef9d][nix develop: Add --redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix]]
+*** [[https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
+
+* Visual Nix
+
+** [[https://github.com/GTrunSec/grafanix][GTrunSec/grafanix: Visualize your Nix dependencies!]]
+* Nix dependency manager
+** [[https://github.com/obsidiansystems/nix-thunk][obsidiansystems/nix-thunk]]
+* Useful Nix Bin Scripts
+** [[https://github.com/ryantrinkle/nix-build-inplace/blob/master/nix-build-inplace][nix-build-inplace/nix-build-inplace at master · ryantrinkle/nix-build-inplace]]
+** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
+* Nix Docker deployment
+** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
+* Nix GUI
+** [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]

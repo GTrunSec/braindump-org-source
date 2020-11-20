@@ -1,0 +1,91 @@
+#+TITLE: 我的旅行计划
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 22 July 2019
+#+DESCRIPTION: my computer configuration
+#+KEYWORDS: profile
+#+LANGUAGE:  en cn
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+
+* 成都[0/0]
+** 火锅[0/2][0%]
+*** ☞ TODO ☞ TODO 八桌老火锅
+*** ☞ TODO [[http://www.dianping.com/shop/98750918][【三才老火锅】电话,地址,价格,营业时间(图) - 重庆美食 - 大众点评网]]
+* 上海[0/1][0%]
+** ☞ TODO 名厨本帮馆
+* 重庆
+** 陶然居 [[https://www.youtube.com/watch?v=xAC37Q6lWmg][“【大師的菜·椒香鵝什錦】爽口椒香味的鹵味妳愛吃嗎？大師教妳重慶風味鹵汁秘制椒香鵝什錦，壹鍋鹵萬物，鹵啥都好吃！ - YouTube”🔊]] :美食:
+
+* 新疆[0/1][0%]
+** ☞ TODO https://www.youtube.com/watch?v=Um8Ldu2n0jA 老张胡辣牛羊蹄
+* 东北[0/5][0%]
+** ☞ TODO  大连金州 鱼卤面
+** ☞ TODO  寺儿沟 蚬子
+   - https://www.xuehua.us/2018/06/19/%E8%A2%AB%E5%AF%BA%E5%84%BF%E6%B2%9F%E4%BA%BA%E8%97%8F%E4%BA%86%E5%87%A0%E5%8D%81%E5%B9%B4%E7%9A%84%E9%9A%90%E4%B8%96%E7%BE%8E%E9%A3%9F%EF%BC%8C%E4%BB%8A%E5%A4%A9%E6%88%91%E8%A6%81/
+
+
+** ☞ TODO  大连 就汤下面
+** ☞ TODO  金州 刘师傅烩勺面
+** 湖南[0/1][0%]
+*** ☞ TODO 长沙 猪油粉条
+https://www.trulia.com/p/wa/federal-way/33508-38th-ave-s-federal-way-wa-98001--1130836371
+
+龙器
+https://movie.douban.com/subject/26298935/?from=subject-page
+
+* 浙江[0/1]
+** ☞ TODO 莫干山 & 民宿
+*** [[https://www.youtube.com/watch?v=vb1-lHR7kRM][Chinese Boutique B&B 中國最美民宿: Life Outside of the House - YouTube]]
+** [[https://baike.baidu.com/item/%25E5%259C%2586%25E6%2598%258E%25E6%2596%25B0%25E5%259B%25AD/17330161?fromtitle=%25E5%259C%2586%25E6%2598%258E%25E5%259B%25AD&fromid=17247684][圆明新园（浙江横店圆明新园）_百度百科]]
+* 大理[0/1]
+** ☞ TODO 洱海
+*** [[https://www.youtube.com/watch?v=CIZZiV7knVM][民宿｜200 戶人的島上，這家小民宿卻來了 8000 多人 - YouTube]]
+* 山西[0/2]
+** ☞ TODO  [[https://www.youtube.com/watch?v=PiIWla8mXuU][“中國第一國寶，藏在山西深山 - YouTube”🔊]]
+** ☞ TODO 湘峪古城
+
+* 广东[0/2]
+** ☞ TODO  [[https://www.youtube.com/watch?v=nqrdvjJOiXY][二更 | 这一口潮汕打冷太诱人，老板“被迫”24 小时营业！ - YouTube]]
+** ☞ TODO [[http://www.dianping.com/shop/517488][【南乐酒家蠄蚷大王(基立南街老店)】电话,地址,价格,营业时间(图) - 广州美食 - 大众点评网]]
+* 西安[0/2]
+** ☞ TODO [[https://www.youtube.com/watch?v=xqIRhiLwYEs][“型男厨师专攻西安传统黑暗料理，生意火爆食客经常扑空 | 二更 - YouTube”🔊]] [大肠梆梆肉老耿家]
+** ☞ TODO [[https://www.youtube.com/watch?v=_tDbsyl9L0M][“回血美味，扶我起来，我还能吃！ | 二更 - YouTube”🔊]][烤翅]
+* 四川[0/1]
+** 江油
+*** ☞ TODO [[https://www.youtube.com/watch?v=1DXIYrNbrfI][“【四川】三姐妹的“肥腸”早餐店，好吃到讓食客夢裏都要嚼肥腸？Tasty Chitterlings Breakfast Restaurant in :肥肠:美食:
+Sichuan - YouTube”🔊]]
+宋肥肠
+
+* 北京
+** ☞ TODO [[https://www.youtube.com/watch?v=67vEE06mor8][《百年字号》之《鹤寿延年》Beijing's Time Honored Brand He Nian Tang - YouTube]] [鹤年堂]
+* 河南
+** 嵩山少林寺
+*** 稠禅师少林功夫起源
+* 摩梭人-泸沽湖[0/1]
+** ☞ TODO https://www.youtube.com/watch?v=liamEdrP9V8
+* Hotel[0/1]
+** ☞ TODO [[https://www.youtube.com/watch?v=eClDkXzKdGM][This place is the pits: China opens hotel in quarry - YouTube]]
+* 西藏
+** [[https://www.youtube.com/watch?v=l-E95bDiGHg][中国独树一帜的秘境酒店！ - YouTube]]
+
+* Keylandspace[0/1]
+** ☞ TODO [[https://www.youtube.com/watch?v=7SRV3rnULO0][FAST: The World's Largest Telescope | A China Icons Video - YouTube]]
+* 杭州
+** [[https://www.youtube.com/watch?v=lur6sbfZ_qE][Chinese Boutique B&B 中國最美民宿：杭州郊外，5 間房，一對文藝夫妻 - YouTube]]
+* 海南
+** 斋菜煲
+*** [[https://www.youtube.com/watch?v=vQa1SuoGqD8][海南大叔秘制斋菜煲火爆几十年，有人从小吃到大，秘方仅2人知道 | 二更 - YouTube]]
+* 天津
+** [[https://www.youtube.com/watch?v=-RL8rtCXOR4][天津传奇美食大锅煮，一口大锅煮一切，麻辣鲜香吃哭无数食客 | 二更 - YouTube]] [大锅煮]
+* 国外
+** [[https://www.youtube.com/watch?v=sHGHFdCtRWI][“冒险雷探长 第103集 巴米扬大佛秘窟生死探秘——阿富汗 - YouTube”🔊]]
+* 素材
+** [[https://www.youtube.com/watch?v=_OcKQa-Dapw][攝影師塔可花10年尋遍《詩經》裡的中國 Photographer Taca Spends A Decade Searching for the China in the Books of Odes - YouTube]]
+* 古墓文物
+** [[https://www.youtube.com/watch?v=RrmopfbWEnQ][古墓龙带你探寻咸丰的定陵，这种未开放的帝陵你绝对没见过 - YouTube]][2020-05-19 Tue 17:11]
+** [[https://www.youtube.com/watch?v=NY2JP6NQfmU][实拍世界著名佛教寺院 少林寺，近距离观看少林寺最神秘的方丈室 - YouTube]]
+** [[https://www.youtube.com/watch?v=EYN0qXNyFqs][真不愧是朱元璋儿子的陵墓，地宫大的惊人，墓室上方盗洞真精准啊 - YouTube]]
+周定王陵

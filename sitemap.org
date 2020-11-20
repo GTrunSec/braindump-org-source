@@ -1,0 +1,22 @@
+#+TITLE: All pages
+
+- [[file:golang.org][Golang]]
+- [[file:git-workflow.org][GuangTao's Git workflow]]
+- [[file:julia.org][Julia]]
+- [[file:Jupyter-data-science.org][Jupyter-data-science-environment]]
+- [[file:my-public-gtd.org][My Public GTD list]]
+- [[file:my-regular-life.org][My Regular life]]
+- [[file:programming-languages.org][My learning Programming languages]]
+- [[file:nix.org][Nix]]
+- [[file:python.org][Python]]
+- [[file:robot.org][Robot]]
+- [[file:elisp.org][elisp]]
+- [[file:rust.org][rust]]
+- [[file:古玩字画-书籍.org][古玩字画-书籍]]
+- [[file:古玩字画-图鉴.org][古玩字画-图鉴]]
+- [[file:古玩字画-工艺.org][古玩字画-工艺]]
+- [[file:traveling.org][我的旅行计划]]
+- [[file:观看艺术列表.org][我的观看列表]]
+- [[file:电影.org][科幻列表]]
+- [[file:马未都聊国宝.org][马未都聊国宝]]
+* Sitemap README

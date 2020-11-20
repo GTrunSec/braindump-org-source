@@ -1,0 +1,64 @@
+#+TITLE: Jupyter Haskell
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:Jupyter-data-science.org][Jupyter Data Science]], [[file:my-haskell.org][My Haskell]]
+
+
+* Jupter Notebook Programming in Haskell [[file:org-mode.org][org-mode]]
+:PROPS:
+:ID:       6438c7d9-22f2-4aff-9c68-3ac5f5b7caab
+:END:
+:RELATED:
+[2020-10-29 Thu 18:28] -> [[id:99679afb-8873-409e-9d4b-2b6a6d3b4fc2][Programming in Haskell]]
+:END:
+** Chapter 1
+#+begin_src ein :session localhost :exports both
+
+#+end_src
+
+#+NAME: 04a67be7-62e0-4865-a46e-d2fd38743400
+#+begin_src ein-haskell :session localhost :exports both
+let pair = (2, "orange")
+#+end_src
+
+#+RESULTS: 04a67be7-62e0-4865-a46e-d2fd38743400
+
+
+#+NAME: 3945a629-cafb-4b58-be8a-6b07f91aa96d
+#+begin_src ein-haskell :session localhost :exports both
+pair
+#+end_src
+
+#+RESULTS: 3945a629-cafb-4b58-be8a-6b07f91aa96d
+: orange
+
+#+NAME: 93b73bda-ab8e-47dd-a31f-3d0c8364b6bf
+#+begin_src ein-haskell :session localhost :exports both
+1:[2,3,4]
+#+end_src
+
+#+RESULTS: 93b73bda-ab8e-47dd-a31f-3d0c8364b6bf
+: [1,2,3,4]
+** Chapter 2
+
+
+
+
+
+* diagrams-gallery -> [[file:Jupyter-data-science.org][Jupyter Data Science]]
+- [[https://github.com/Yvee1/jupyter/blob/master/Haskell/diagrams-gallery/Gray.ipynb][jupyter/Gray.ipynb at master · Yvee1/jupyter]] -> [[file:my-haskell.org][My Haskell]]

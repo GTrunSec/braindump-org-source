@@ -1,0 +1,37 @@
+#+TITLE: My math
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 18 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+- tags :: [[file:my-latex.org][My latex]]
+* course
+** with Julia
+:PROPERTIES:
+:ID:       345e238b-336d-4ed8-8d27-8a9f3168e26b
+:END:
+:RELATED:
+[2020-09-21 Mon 02:49] -> [[file:julia.org::*\[\[https://github.com/mitmath/18S191\]\[mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:\]\]][mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+:END:
+
+* Writing Mathematic
+** Markdown
+:PROPERTIES:
+:ID:       103f4c38-5d9f-4826-b524-c77c776f239e
+:END:
+:RELATED:
+[2020-09-21 Mon 02:54] -> [[id:557d4a7e-64c3-4ed5-9901-e39d595ecbc8][Writing Mathematic Fomulars in Markdown | csrgxtu]]
+:END:
+** emacs
+- [[https://github.com/xahlee/xah-math-input][xahlee/xah-math-input: emacs minor mode for inputting math and unicode chars]]

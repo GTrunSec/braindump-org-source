@@ -1,0 +1,23 @@
+#+TITLE: Emacs
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+#+TAGS: doom(d) roam(r) org_mode(o)
+* Configuration
+** [[https://github.com/jethrokuan/dots/blob/master/.doom.d/config.el][dots/config.el at master · jethrokuan/dots]] :roam:org_mode:
+* learning Emacs
+** [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][Using Emacs - YouTube]]
+** [[https://www.bilibili.com/video/BV1Pz4y1y7p9?p=1&share_medium=android&share_plat=android&share_source=COPY&share_tag=s_i&timestamp=1604203132&unique_k=3l72PN][Emacs入门教程_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili]]

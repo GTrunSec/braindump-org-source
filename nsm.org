@@ -1,0 +1,32 @@
+#+TITLE: Network monitoring
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :
+* hardware
+** [[https://github.com/AnalogJ/scrutiny][AnalogJ/scrutiny: Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds]]
+* DNS
+** [[https://github.com/StackExchange/dnscontrol][StackExchange/dnscontrol: Synchronize your DNS to multiple providers from a simple DSL]]
+* timeline analysis
+** [[https://github.com/google/timesketch][GitHub - google/timesketch: Collaborative forensic timeline analysis]]
+* NSM project
+** [[https://github.com/DynamiteAI/dynamite-sdk-lite/blob/master/notebooks/getting_started/working_with_events.ipynb][dynamite-sdk-lite/working_with_events.ipynb at master · DynamiteAI/dynamite-sdk-lite]]
+* Network protocol analyzer
+** [[https://www.wireshark.org/][Wireshark · Go Deep.]]
+** [[https://github.com/brimsec/brim][brimsec/brim: Desktop application to efficiently search large packet captures and Zeek logs.]] -> [[file:awesome-zeek.org][Awesome Zeek]]
+* Red Team
+** [[https://github.com/OpenCSPM/opencspm][OpenCSPM/opencspm: Open Cloud Security Posture Management Engine]]
+* time
+** [[https://plaso.readthedocs.io/en/latest/sources/user/Log2Timeline-Perl-%28Legacy%29.html#new-method][Switching from Log2Timeline Perl (Legacy) to Plaso — Plaso (log2timeline) 20201007 documentation]]

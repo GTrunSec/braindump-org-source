@@ -1,0 +1,23 @@
+#+TITLE: Debian Linux
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+* timezone
+** sync time with snapshot
+- [[https://askubuntu.com/questions/1096930/sudo-apt-update-error-release-file-is-not-yet-valid][sudo apt update error: "Release file is not yet valid" - Ask Ubuntu]]
+#+begin_src sh :async t :exports both :results output
+sudo hwclock --hctosys
+#+end_src

@@ -1,0 +1,45 @@
+#+TITLE: My Rust
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 20 September 2020
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+* Environment
+** rust nix
+:PROPERTIES:
+:ID:       a3de31d7-f2be-4939-a19f-0bfd4ddba542
+:END:
+:RELATED:
+[2020-11-11 Wed 16:19] -> [[id:02aa0111-a92e-41d6-abca-ce4cc6c7a931][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
+:END:
+* Rust learning
+** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]
+** [[https://github.com/ctjhoa/rust-learning][ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust]]
+** [[https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
+:BACKLINKS:
+[2020-10-22 Thu 20:23] <- [[*rust embedded][rust embedded]]
+:END:
+** [[https://bfnightly.bracketproductions.com/rustbook/chapter_3.html][Walking A Map - Roguelike Tutorial - In Rust]]
+- [[https://github.com/thebracket/rustrogueliketutorial][thebracket/rustrogueliketutorial: Roguelike Tutorial in Rust - using RLTK]]
+* Rust embedded
+- [[*\[\[https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials\]\[rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust\]\]][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
+* Rust Network
+** Rust DNS
+:PROPERTIES:
+:ID:       84203396-c388-47c9-b284-7c4a974d55ba
+:END:
+:BACKLINKS:
+[2020-11-08 Sun 18:05] <- [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+:END:
+*** [[https://github.com/bluejekyll/trust-dns][bluejekyll/trust-dns: A Rust based DNS client, server, and resolver]]
