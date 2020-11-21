@@ -19,8 +19,26 @@
 :PROPERTIES:
 :ID:       1218671f-c69e-4e60-b2b9-14a75c48d255
 :END:
-:RELATED:
-[2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
-:END:
+- [2020-11-20 Fri 21:15] <- [[id:fd79210b-935f-4ec7-924a-4b25a00c9726][Network Protocol]]
+- [2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
 ** [[https://github.com/ogham/dog][ogham/dog: Command-line DNS client]]
 ** [[https://github.com/pymumu/smartdns][GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。]]
+** Network [[file:security.org][Security Project or Idea]] DNS
+:PROPERTIES:
+:ID:       7eae2ec5-aa6b-48b9-a78e-7231b7d3516f
+:END:
+ - [2020-11-20 Fri 21:22] -> [[id:6b5c4c04-7664-4195-82dd-d333bb63334f][ZeeK Script DNS[0/0]​]]
+***  detecting-dns-tunneling
+:PROPERTIES:
+:ID:       9b5bbd87-bb36-45bd-8e49-ac38c39aa376
+:END:
+- [2020-11-20 Fri 21:31] <- [[id:d233abe0-22a6-4ab4-9bac-8abddfd725ee][hhzzk/dns-tunnels]]
+- [[http://heyoka.sourceforge.net/heyoka-shakacon2009.pdf][Heyoka - DNS Tunneling 2.0]]
+  + [[https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152][Detecting DNS Tunneling]]
+
+
+* Network Protocol
+:PROPERTIES:
+:ID:       fd79210b-935f-4ec7-924a-4b25a00c9726
+:END:
+  + [2020-11-20 Fri 21:15] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]

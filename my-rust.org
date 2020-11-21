@@ -39,7 +39,6 @@
 :PROPERTIES:
 :ID:       84203396-c388-47c9-b284-7c4a974d55ba
 :END:
-:BACKLINKS:
-[2020-11-08 Sun 18:05] <- [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
-:END:
+- [2020-11-08 Sun 18:05] <- [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+
 *** [[https://github.com/bluejekyll/trust-dns][bluejekyll/trust-dns: A Rust based DNS client, server, and resolver]]

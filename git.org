@@ -17,11 +17,12 @@
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 * git CONTRIBUTING
 - [[https://github.com/NixOS/nixpkgs/pull/96037][python38Packages.coloredlogs: disable tests on darwin by tobim · Pull Request #96037 · NixOS/nixpkgs]]
-  #+begin_src sh :async t :exports both :results output
+
+#+begin_src sh :async t :exports both :results output
 git reset HEAD~1                    # move fix-up commits into unstaged
 git add -- pkgs/                    # move changes into staged
 git commit --amend --no-edit        # add changes to previous commit
 git push ... ... --force            # modify current PR branch
+#+end_src
 
-  #+end_src
 * [[https://github.com/newren/git-filter-repo][newren/git-filter-repo: Quickly rewrite git repository history (filter-branch replacement)]]

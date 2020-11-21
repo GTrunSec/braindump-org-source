@@ -23,7 +23,7 @@
 :END:
 - [2020-11-20 Fri 02:57] <- [[id:6d821cd9-6a05-4c95-a4f2-9d561d1eeaf0][Julia Jupyter]]
 
-* Plugin
+* Jupyter Plugin
 ** [[https://github.com/radareorg/cutter-jupyter][radareorg/cutter-jupyter: Jupyter Plugin for Cutter]]
 * [[https://github.com/vaibhavsagar/presentations][vaibhavsagar/presentations: Slides for presentations!]]
 - [[file:my-haskell.org][My Haskell]]

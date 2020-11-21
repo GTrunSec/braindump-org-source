@@ -48,17 +48,25 @@
 :END:
 *** [[https://github.com/zeek/zeek-training][zeek/zeek-training: Zeek Training Materials/Products]]
 
-** ZeeK Script DNS[0/0]
-*** DONE [ ] [] https://github.com/hhzzk/dns-tunnels :DNS:
-CLOSED: [2019-08-10 Sat 21:20]
+** ZeeK Script DNS[3/3]
+:PROPERTIES:
+:ID:       6b5c4c04-7664-4195-82dd-d333bb63334f
+:END:
+- [2020-11-20 Fri 21:22] <- [[id:7eae2ec5-aa6b-48b9-a78e-7231b7d3516f][Network Security Project or Idea DNS]]
 
-*** DONE [ ][dns axfr query ] https://github.com/srozb/dns_axfr :DNS:
+*** DONE [[https://github.com/hhzzk/dns-tunnels][hhzzk/dns-tunnels]] :DNS:
+CLOSED: [2019-08-10 Sat 21:20]
+:PROPERTIES:
+:ID:       d233abe0-22a6-4ab4-9bac-8abddfd725ee
+:END:
+ - [2020-11-20 Fri 21:31] -> [[id:9b5bbd87-bb36-45bd-8e49-ac38c39aa376][detecting-dns-tunneling]]
+
+*** DONE [[https://github.com/srozb/dns_axfr][srozb/dns_axfr: bro dns axfr package]] :DNS:
      CLOSED: [2018-12-03 Mon 15:25]
-**** https://en.wikipedia.org/wiki/DNS_zone_transfer
-**** https://cr.yp.to/djbdns/axfr-notes.html
-*** DONE https://github.com/corelight/top-dns :LEARN:Necessary:
+- [[https://en.wikipedia.org/wiki/DNS_zone_transfer][DNS zone transfer - Wikipedia]]
+- [[https://cr.yp.to/djbdns/axfr-notes.html][https://cr.yp.to/djbdns/axfr-notes.html]]
+*** DONE [[https://github.com/corelight/top-dns][corelight/top-dns: Top DNS Measurement for Bro]]
 CLOSED: [2019-08-10 Sat 21:11]
-- State "DONE"     from              [2019-08-10 Sat 21:11]
 
 ** Zeek Script Conn[3/3]
 *** DONE [Long Connections] https://github.com/corelight/bro-long-connections :Necessary:

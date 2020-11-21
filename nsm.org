@@ -25,7 +25,8 @@
 ** [[https://github.com/DynamiteAI/dynamite-sdk-lite/blob/master/notebooks/getting_started/working_with_events.ipynb][dynamite-sdk-lite/working_with_events.ipynb at master · DynamiteAI/dynamite-sdk-lite]]
 * Network protocol analyzer
 ** [[https://www.wireshark.org/][Wireshark · Go Deep.]]
-** [[https://github.com/brimsec/brim][brimsec/brim: Desktop application to efficiently search large packet captures and Zeek logs.]] -> [[file:awesome-zeek.org][Awesome Zeek]]
+** [[https://github.com/brimsec/brim][brimsec/brim: Desktop application to efficiently search large packet captures and Zeek logs.]]
+- [[file:awesome-zeek.org][Awesome Zeek]]
 * Red Team
 ** [[https://github.com/OpenCSPM/opencspm][OpenCSPM/opencspm: Open Cloud Security Posture Management Engine]]
 * time
