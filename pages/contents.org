@@ -8,7 +8,7 @@
 ** [[file:../my-math.org][My math]]
 ** [[file:../my-latex.org][My latex]]
 ** [[file:../julia.org][My Julia]]
-** [[file:../my-c++.org][My C/C++]]
+** [[file:../my-clang.org][My Clang]]
 ** [[file:../my-python.org][My Python]]
 ** [[file:../my-nix.org][Ny Nix]]
 ** [[file:../my-golang.org][My Golang]]

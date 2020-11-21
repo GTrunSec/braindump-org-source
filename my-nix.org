@@ -142,11 +142,10 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 #+end_src
 
-** Nix [[file:../../../Documents/org-notes/braindump/golang.org][Golang]]
+** Nix [[file:../../../Documents/org-notes/braindump/my-golang.org][My Golang]]
 :PROPERTIES:
 :id: 33107453-baf3-4e27-871b-833b93f5ad76
 :END:
-
 - [2020-11-20 Fri 01:18] -> [[id:d1d661f8-178c-4bd9-b848-0a2b768066f5][orivej/go-nix: Nix language parser and Nix-compatible file hasher in Go]]
 
 *** [[https://nixos.org/manual/nixpkgs/stable/#ssec-go-legacy][NixOS - Nixpkgs 20.03 manual]]
@@ -157,7 +156,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 ** Nix [[file:node.org][My Node list]]
 *** https://andreas.rammhold.de/posts/ranz2nix/
 
-** Nix [[file:my-c++.org][My C/C++]]
+** Nix [[file:my-clang.org][My Clang]]
 
 *** C/C++ Nix infrastructure
 :PROPERTIES:
@@ -384,6 +383,7 @@ Security-Enhanced Linux (SELinux) is a Linux kernel security module that provide
 #+begin_src nix :async t :exports both :results output
 security.lockKernelModules = false 
 #+end_src
+
 
 Disable kernel module loading once the system is fully initialised.
 Module loading is disabled until the next reboot.  Problems caused by delayed module loading can be fixed by adding the module(s) in question to <option>boot.kernelModule

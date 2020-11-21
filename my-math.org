@@ -22,6 +22,7 @@
 :ID:       d5edd4b2-2ad8-43ef-9390-bce5dfd41b7c
 :END:
 - [2020-11-20 Fri 03:01] <- [[id:b6dc7a84-c972-4733-9dc1-d1ac105e2fee][mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+
 * Writing Mathematic
 :PROPERTIES:
 :ID:       77273664-3b64-454a-9681-70469cdfc8ca

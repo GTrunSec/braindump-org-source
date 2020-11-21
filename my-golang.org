@@ -46,4 +46,3 @@ git clone https://github.com/go101/go101.git
 
 * golang charts
 ** [[https://github.com/go-echarts/go-echarts][go-echarts/go-echarts: 🎨 The adorable charts library for Golang]]
-

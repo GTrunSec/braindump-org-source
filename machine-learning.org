@@ -29,5 +29,5 @@ git clone https://github.com/mitmath/18337.git
 #+end_src
 
 #+RESULTS:
-* ML Ops
+* MLOps
 ** [[https://github.com/visenger/awesome-mlops][visenger/awesome-mlops: A curated list of references for MLOps]]
