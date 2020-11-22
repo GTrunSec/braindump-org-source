@@ -19,10 +19,15 @@
 :PROPERTIES:
 :ID:       1218671f-c69e-4e60-b2b9-14a75c48d255
 :END:
+
+- [2020-11-22 Sun 02:56] <- [[id:7b8f6922-3514-4f90-ba7c-0d42aef1463c][Golang DNS]]
 - [2020-11-20 Fri 21:15] <- [[id:fd79210b-935f-4ec7-924a-4b25a00c9726][Network Protocol]]
 - [2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
 ** [[https://github.com/ogham/dog][ogham/dog: Command-line DNS client]]
 ** [[https://github.com/pymumu/smartdns][GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。]]
+** DNS Script
+*** [[https://blog.didierstevens.com/2019/07/03/quickpost-nslookup-types/][Quickpost: nslookup Types | Didier Stevens]]
+
 ** Network [[file:security.org][Security Project or Idea]] DNS
 :PROPERTIES:
 :ID:       7eae2ec5-aa6b-48b9-a78e-7231b7d3516f
@@ -42,3 +47,54 @@
 :ID:       fd79210b-935f-4ec7-924a-4b25a00c9726
 :END:
   + [2020-11-20 Fri 21:15] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+
+* Network SSL
+
+** Network Security SSL
+:PROPERTIES:
+:ID:       d026cd19-18ea-46a5-b2d2-5d8b381ae809
+:END:
+- [2020-11-22 Sun 01:58] <- [[id:03eba66a-6264-474e-8126-b13ff96371f7][Zeek Script SSL]]
+- [[file:security.org][Security Project or Idea]]
+
+:PROPERTIES:
+:ID:       2c444f27-0893-449f-96ea-21f8df6d99e5
+:END:
+*** [[https://www.netsparker.com/blog/web-security/exposing-public-ips-tor-services-through-ssl-certificates/][Exposing the Public IPs of Tor Services | Netsparker]] 
+:PROPERTIES:
+:ID:       ca8d5f78-719e-4ccb-89a6-38a0d3f0ff83
+:END:
+
+*** Deciphering Malware’s use of TLS (without Decryption)
+**** [[https://arxiv.org/pdf/1607.01639.pdf][1607.01639.pdf]]
+* Network Tor
+:PROPERTIES:
+:ID:       4fe1a372-70c8-4261-baa8-a8a232ff80fe
+:END:
+
+- [2020-11-22 Sun 02:04] <- [[id:bd97812f-f10a-4768-a4ed-69b1368288bd][Detecting Tor traffic with Bro network traffic analyzer - Stephen Reese]]
+** Tor research
+*** [[https://github.com/pylls?tab=overview&from=2019-12-01&to=2019-12-31][pylls (pulls)]]
+* Network SMTP
+- [2020-11-22 Sun 02:26] <- [[id:c5aca133-63fe-42d7-953c-68a2c8b22d69][initconf/smtp-url-analysis: Extracting and analyzing URLs from Emails for phishing events]]
+*  Network Security SMTP
+:PROPERTIES:
+:ID:       7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e
+:END:
+- [2020-11-22 Sun 02:21] <- [[id:47829717-5c7d-4bb8-91a7-104c01162357][initconf/phish-analysis: Suite of smtp related policies includes extracting and logging URLs from emails and various smtp anomaly detection heuristics to help flag phishing emails]]
+- [2020-11-22 Sun 02:20] <- [[id:42527e70-7f59-45fd-951e-1a77f432ec4e][Network attack detection]]
+
+* Remote Desktop Services
+:PROPERTIES:
+:other-names: Terminal Services
+:developers: Microsoft
+:operating-system: Microsoft Windows
+:service-name: TermService
+:type:     Remote desktop software
+:website:  docs.microsoft.com/en-us/windows/win32/termserv/terminal-services-portal
+:wikinfo-id: 16575110
+:URL:      https://en.wikipedia.org?curid=16575110
+:ID:       d0599260-ec63-4563-9414-f30c92f64182
+:END:
+- [2020-11-22 Sun 02:37] <- [[id:bf4a3a43-a72e-490a-83cc-732fcb4bd05d][Zeek RDP detection]]
+Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008 and earlier, is one of the components of Microsoft Windows that allow a user to take control of a remote computer or virtual machine over a network connection. RDS is Microsoft's implementation of thin client architecture, where Windows software, and the entire desktop of the computer running RDS, are made accessible to any remote client machine that supports Remote Desktop Protocol (RDP). User interfaces are displayed from the server onto the client system and input from the client system is transmitted to the server - where software execution takes place.

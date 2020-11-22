@@ -19,4 +19,48 @@
 * [[https://github.com/awakesecurity][Awake Security]]
 * windows
 ** [[https://github.com/nsacyber/Windows-Secure-Host-Baseline/blob/master/Windows/Group%20Policy%20Templates/en-US/SecGuide.adml][Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline]]
+* Network attack detection
+:PROPERTIES:
+:ID:       42527e70-7f59-45fd-951e-1a77f432ec4e
+:END:
+ - [2020-11-22 Sun 02:20] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
+   
+** Detecting C2 Activity
+*** [[https://www.sans.org/reading-room/whitepapers/detection/onion-zeek-rita-improving-network-visibility-detecting-c2-activity-38755][Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity]]
+:PROPERTIES:
+:ID:       4713a3e0-ef6d-4017-9e2e-c3f8a3dd328f
+:END:
 
+- [2020-11-22 Sun 02:01] <- [[id:03eba66a-6264-474e-8126-b13ff96371f7][Zeek Script SSL]]
+** Shellshock attack (software bug)
+:PROPERTIES:
+:cve-identifiers: CVE - 2014-6271 (initial), CVE - 2014-6277, CVE - 2014-6278, CVE - 2014-7169, CVE - 2014-7186, CVE - 2014-7187
+:date-discovered: 12 September 2014; 6 years ago (2014-09-12)
+:date-patched: 24 September 2014; 6 years ago (2014-09-24)
+:discoverer: Stéphane Chazelas
+:affected-software: Bash (1.0.3–4.3)
+:wikinfo-id: 43949745
+:URL:      https://en.wikipedia.org?curid=43949745
+:END:
+Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bash shell, the first of which was disclosed on 24 September 2014. Shellshock could enable an attacker to cause Bash to execute arbitrary commands and gain unauthorized access to many Internet-facing services, such as web servers, that use Bash to process requests. On 12 September 2014, Stéphane Chazelas informed Bash's maintainer Chet Ramey of his discovery of the original bug, which he called "Bashdoor".
+*** [[https://github.com/corelight/bro-shellshock][corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.]]
+:PROPERTIES:
+:ID:       90bd1a24-716a-4eb2-a292-0f970f69748c
+:END:
+
+- [2020-11-22 Sun 02:12] <- [[id:5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa][Zeek Script]]
+** Kaspersky Anti-Virus
+:PROPERTIES:
+:developers: Kaspersky Lab
+:initial-release: 1997
+:stable-release: 2020 (20.0.14.1085(e)) (23 October 2019; 12 months ago (2019-10-23))
+:operating-system: Microsoft Windows, macOS, Linux, Android, iOS
+:type:     Antivirus
+:license:  Freemium
+:website:  www.kaspersky.com/kaspersky_anti-virus
+:wikinfo-id: 8591127
+:URL:      https://en.wikipedia.org?curid=8591127
+:ID:       e2aedf4e-5b5d-4de7-baba-438ed79741b6
+:END:
+- [2020-11-22 Sun 02:33] <- [[id:41bcc7f1-246a-4dc1-bec4-f958b2a5b15e][initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network]]
+Kaspersky Anti-Virus (Russian: Антивирус Касперского (Antivirus Kasperskogo); formerly known as AntiViral Toolkit Pro; often referred to as KAV) is a proprietary antivirus program developed by Kaspersky Lab. It is designed to protect users from malware and is primarily designed for computers running Microsoft Windows and macOS, although a version for Linux is available for business consumers.

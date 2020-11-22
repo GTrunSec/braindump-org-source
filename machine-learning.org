@@ -21,9 +21,9 @@
 :ID:       09f95585-c43f-46ac-8b07-e40b5b5ac596
 :header-args:sh: :dir ~/data/
 :END:
-:BACKLINKS:
-[2020-09-26 Sat 20:46] <- [[file:julia.org::*\[\[file:machine-learning.org\]\[Machine Learning\]\]][Machine Learning]]
-:END:
+
+- [2020-09-26 Sat 20:46] <- [[file:julia.org::*\[\[file:machine-learning.org\]\[Machine Learning\]\]][Machine Learning]]
+
 #+begin_src sh :async t :exports both :results output
 git clone https://github.com/mitmath/18337.git
 #+end_src

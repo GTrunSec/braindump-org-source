@@ -42,3 +42,5 @@
 - [2020-11-08 Sun 18:05] <- [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
 
 *** [[https://github.com/bluejekyll/trust-dns][bluejekyll/trust-dns: A Rust based DNS client, server, and resolver]]
+* Rust async
+** [[https://github.com/rust-lang/async-book][rust-lang/async-book: Asynchronous Programming in Rust]]

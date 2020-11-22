@@ -21,3 +21,6 @@
 * learning Emacs
 ** [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][Using Emacs - YouTube]]
 ** [[https://www.bilibili.com/video/BV1Pz4y1y7p9?p=1&share_medium=android&share_plat=android&share_source=COPY&share_tag=s_i&timestamp=1604203132&unique_k=3l72PN][Emacs入门教程_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili]]
+* Emacs Con
+** [[https://github.com/sachac/emacsconf-2020-emacs-news-highlights][sachac/emacsconf-2020-emacs-news-highlights: Emacs News Highlights talk for EmacsConf 2020]]
+

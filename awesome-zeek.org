@@ -1,13 +1,12 @@
 #+TITLE: Awesome Zeek
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 20 September 2020
+#+DATE: <2020-11-22 Sun>
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en cn
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
 #+hugo_auto_set_lastmod: t
 #+HUGO_categories:
 #+HUGO_tags:
@@ -15,7 +14,7 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-#+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(l)
+#+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(L) learn(l)
 - tags :: [[file:nsm.org][Network monitoring]]
   
 - [[https://app.slack.com/client/TSXGCHZE1/CSZBXF6TH][Slack | general | Zeek | 1 new item]]
@@ -24,6 +23,7 @@
 *** [[https://www.ericooi.com/zeekurity-zen-zeries/][Zeekurity Zen Zeries - ericooi.com]]
 * Zeek Documents
 ** Zeek logging
+- [[http://gauss.ececs.uc.edu/Courses/c6055/pdf/bro_log_vars.pdf][Slide 1]]
 *** [[https://docs.zeek.org/en/current/examples/logs/][Logging — Zeek User Manual v3.2.2]]
 :PROPERTIES:
 :ID:       d546671e-b5ed-435f-83a5-1aac18e26b52
@@ -31,6 +31,7 @@
 - [2020-10-14 Wed 23:50] <- [[id:760d9f5c-7444-45b2-b20c-507239ac09ac][Using zeek-cut with logs]]
 
 *** [[https://indico.cern.ch/event/762505/contributions/3375201/attachments/1830709/2998002/2019-04-cern-zeek-logging.pdf][2019-04-cern-zeek-logging.pdf]]
+** [[https://github.com/NSMAssociates/bro-in-90-minutes/blob/master/mini-workshop.md][bro-in-90-minutes/mini-workshop.md at master · NSMAssociates/bro-in-90-minutes]]
 * Zeek-cut
 ** Using zeek-cut with logs
 :PROPERTIES:
@@ -40,6 +41,13 @@
 * Zeek Performance
 ** [[https://github.com/mozilla/zept][mozilla/zept: Zeek Extreme Performance Tuning]]
 * Zeek Script
+:PROPERTIES:
+:ID:       5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa
+:END:
+- [[https://github.com/zeek/packages/blob/master/aggregate.meta][packages/aggregate.meta at master · zeek/packages]]
+
+ - [2020-11-22 Sun 02:12] -> [[id:90bd1a24-716a-4eb2-a292-0f970f69748c][corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.]]
+
 ** Zeek Script Documents
 *** [[https://corelight.blog/2020/09/21/give-me-my-stats/][Give me my stats!]]
 ** Zeek Script tranning
@@ -71,31 +79,52 @@ CLOSED: [2019-08-10 Sat 21:11]
 CLOSED: [2019-08-10 Sat 21:23]
 *** DONE [[https://github.com/corelight/conn-burst][corelight/conn-burst: A Bro package to identify connections that are bursting (lots of data and transferring quickly).]]
 CLOSED: [2019-08-10 Sat 21:25]
-*** [SMB] https://www.giac.org/paper/gcia/10091/detecting-malicious-smb-activity-bro/140938
-*** ✘ CANCELED [Extended TCP Analysis] https://github.com/jswaro/tcprs
-CLOSED: [2019-08-10 Sat 21:25]
- [SMBv1] https://github.com/klehigh/find_smbv1
+** Zeek Script SMB
+*** [[https://www.giac.org/paper/gcia/10091/detecting-malicious-smb-activity-bro/140938][Detecting Malicious SMB Activity Using Bro]]
+** Zeek Script SSL
+:PROPERTIES:
+:ID:       03eba66a-6264-474e-8126-b13ff96371f7
+:END:
+ - [2020-11-22 Sun 01:58] -> [[id:d026cd19-18ea-46a5-b2d2-5d8b381ae809][Network Security SSL]]
+ - [2020-11-22 Sun 02:01] -> [[id:4713a3e0-ef6d-4017-9e2e-c3f8a3dd328f][Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity]]
 
-** Zeek Script logging [2/7]
- [filter] https://github.com/hosom/log-filters
- [json]  https://github.com/J-Gras/add-json
- [] https://github.com/corelight/json-streaming-logs
- [liblognorm] https://github.com/J-Gras/bro-lognorm
- [AF_packet] https://github.com/J-Gras/bro-af_packet-plugin
+*** [[https://github.com/salesforce/ja3][salesforce/ja3: JA3 is a standard for creating SSL client fingerprints in an easy to produce and shareable way.]]
+*** [[https://www.securityartwork.es/2017/02/02/tls-client-fingerprinting-with-bro/][TLS client fingerprinting with Bro - Security Art Work]]
+*** [[https://www.sans.org/reading-room/whitepapers/detection/onion-zeek-rita-improving-network-visibility-detecting-c2-activity-38755][Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity]]
+*** [[https://www.rsreese.com/detecting-tor-traffic-with-bro-network-traffic-analyzer/][Detecting Tor traffic with Bro network traffic analyzer - Stephen Reese]]
+:PROPERTIES:
+:ID:       bd97812f-f10a-4768-a4ed-69b1368288bd
+:END:
+ - [2020-11-22 Sun 02:04] -> [[id:4fe1a372-70c8-4261-baa8-a8a232ff80fe][Network Tor]]
+** Zeek Script logging
+:PROPERTIES:
+:ID:       63ccaebe-f5f7-4582-ab66-e396d7c65a7f
+:END:
+ - [filter] https://github.com/hosom/log-filters
+*** Zeek logs to database
+:PROPERTIES:
+:ID:       0a49951d-6f1c-46cc-a7c4-8b8391430ad6
+:END:
+- [2020-11-22 Sun 02:10] <- [[id:b4051a4c-9fcd-4c08-ae11-c4a2a1b0763a][zeek-postgresql/scripts at master · 0xxon/zeek-postgresql]]
+  + [ ] database
+  + [[https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e][Creating user, database and adding access on PostgreSQL]]
 
-+ [ ] [database
-#+begin_src sh :tangle yes
+    #+begin_src sh :async t :exports both :results output
 sudo -u postgres psql
 sudo -u postgres createuser <username>
- sudo -u postgres createdb <dbname>
+sudo -u postgres createdb <dbname>
 createdb -h localhost -p 5432 -U dbuser testdb
 psql -h localhost -p 5432 -U dbuser -d testdb
-#+end_src
 
-  - [[https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e][Creating user, database and adding access on PostgreSQL]]
+    #+end_src
+*** [[https://github.com/corelight/zeek-community-id][corelight/zeek-community-id: Zeek support for "community ID" flow hashing.]]
 
+** Zeek logs to json
+*** [[https://github.com/J-Gras/add-json/blob/master/scripts/add-json.zeek][add-json/add-json.zeek at master · J-Gras/add-json]]
 
-+ [ ] [json-jq] [[https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/][Working with JSON in bash using jq - Cameron Nokes]]
+-  [[https://cameronnokes.com/blog/working-with-json-in-bash-using-jq/][Working with JSON in bash using jq - Cameron Nokes]]
+
+*** [[https://github.com/corelight/json-streaming-logs][corelight/json-streaming-logs: Bro script package to create JSON formatted logs to stream into data analysis systems.]]
 
 ** Zeel Vlan
 *** https://github.com/corelight/log-add-vlan-everywhere
@@ -105,15 +134,137 @@ psql -h localhost -p 5432 -U dbuser -d testdb
 
 *** [[https://github.com/0xxon/cve-2020-0601][GitHub - 0xxon/cve-2020-0601: Zeek package to detect CVE-2020-0601]]
 
+*** [[https://github.com/0xxon/cve-2020-13777][0xxon/cve-2020-13777: Zeek script to detect servers vulnerable to CVE-2020-13777]]
+
+*** [[https://github.com/0xxon/zeek-plugin-roca][0xxon/zeek-plugin-roca: Bro plugin to check if certificates are affected by CVE-2017-15361]]
+*** [[https://github.com/initconf/CVE-2017-5638_struts][initconf/CVE-2017-5638_struts: detection for Apache Struts recon and compromise]]
+
+** Zeek detect software
+
+*** [[https://github.com/fatemabw/bro-inventory-scripts][fatemabw/bro-inventory-scripts]]
+
+This package contains the scripts that can be used with Bro to detect different software running on clients, specially fingerprinting the clients in your network. By default the AV detection script is not loaded.
+
+** Zeek services detection
+*** [[https://github.com/hosom/odd-services][hosom/odd-services: Detect weird services on a network.]]
+
+** Zeek Scanner
+
+*** [[https://github.com/JonZeolla/scan-sampling][JonZeolla/scan-sampling: Moyified version of scan.bro to add destination IP sampling]]
+
+*** [[https://github.com/ncsa/bro-simple-scan][ncsa/bro-simple-scan]]
+
+*** [[https://github.com/ncsa/bro-is-darknet][ncsa/bro-is-darknet]]
+
+This plugin adds a Site::is_darknet function. This is useful for scripts that track scan attempts or other probes. It can handle purely dark address space as well as honeynet space.
+
+*** [[https://github.com/initconf/scan-NG][initconf/scan-NG: scan-detection policies for bro]]
+
+** Zeek files detection
+*** [[https://github.com/hosom/file-extraction][hosom/file-extraction: Extract files from network traffic with Zeek.]]
+*** [[https://github.com/theflakes/bro-large_uploads][theflakes/bro-large_uploads]]
+*** [[https://github.com/corelight/bro-xor-exe-plugin][corelight/bro-xor-exe-plugin: Bro plugin to detect and decrypt XOR-encrypted EXEs]]
+
+Bro plugin to detect and decrypt XOR-obfuscated Windows EXEs.
+
+** Zeek RDP detection
+:PROPERTIES:
+:ID:       bf4a3a43-a72e-490a-83cc-732fcb4bd05d
+:END:
+ - [2020-11-22 Sun 02:37] -> [[id:d0599260-ec63-4563-9414-f30c92f64182][Remote Desktop Services]]
+*** [[https://github.com/theparanoids/rdfp][theparanoids/rdfp: Remote Desktop Client Fingerprint script for Zeek. Based off of https://github.com/0x4D31/fatt]]
+
+** Zeek misc detection
+*** [[https://github.com/jsiwek/zeek-cryptomining][jsiwek/zeek-cryptomining: Detect cryptocurrency mining traffic with Zeek.]]
+
+This script/package for Zeek can detect Bitcoin, Litecoin, PPCoin, or other cryptocurrency mining traffic that uses getwork, getblocktemplate, or Stratum mining protocols over TCP or HTTP. Note that the module cannot currently detect the Bitcoin P2P protocol, which is different from the mining protocols.
+*** [[https://github.com/fatemabw/bro-inventory-scripts/tree/master/scripts][bro-inventory-scripts/scripts at master · fatemabw/bro-inventory-scripts]]
+
+*** [[https://github.com/initconf/vnc-scanner/tree/master/scripts][vnc-scanner/scripts at master · initconf/vnc-scanner]]
+
+Simple policy to detect VNC (RFB) scanners based on src->dst connection counts
+
+*** [[https://github.com/corelight/bro-drwatson][corelight/bro-drwatson: Dr. Watson catcher script for Bro.]]
+
+Microsoft sends diagnostic information back to themselves through a mechism named Dr. Watson. The initial "StageOne" is unencrypted and sent over HTTP so it's visible to Bro. This script takes the StageOne messages and parses all available information out of them to create a series of logs.
+
+*** [[https://github.com/tatsu-i/rpot/blob/master/bro/bro_config/scripts/misc/Mac-version-detection.bro][rpot/Mac-version-detection.bro at master · tatsu-i/rpot]]
+
+*** TODO [[https://github.com/sheharbano/BotFlex][sheharbano/BotFlex: BotFlex is an open source tool or bot detection and analysis]] :learn:
+
+*** TODO [[https://github.com/empick94/bro_capstone/tree/master/scripts][bro_capstone/scripts at master · empick94/bro_capstone]] :learn:
+
+** Zeek virus detection
+*** [[https://github.com/initconf/detect-kaspersky/][initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network]]
+:PROPERTIES:
+:ID:       41bcc7f1-246a-4dc1-bec4-f958b2a5b15e
+:END:
+ - [2020-11-22 Sun 02:33] -> [[id:e2aedf4e-5b5d-4de7-baba-438ed79741b6][Kaspersky Anti-Virus]]
+
+*** [[https://github.com/dopheide/venom][dopheide/venom]]
+This package attempts to detect scanners searching for the VENOM vulnerability. Cluster communication is fully supported.
+
+*** [[https://github.com/SECURED-FP7/secured-psa-nsm/tree/master/PSA/modules][secured-psa-nsm/PSA/modules at master · SECURED-FP7/secured-psa-nsm]]
+** Zeek SMTP
+*** [[https://github.com/initconf/phish-analysis][initconf/phish-analysis: Suite of smtp related policies includes extracting and logging URLs from emails and various smtp anomaly detection heuristics to help flag phishing emails]]
+:PROPERTIES:
+:ID:       47829717-5c7d-4bb8-91a7-104c01162357
+:END:
+ - [2020-11-22 Sun 02:21] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
+*** [[https://github.com/initconf/smtp-url-analysis][initconf/smtp-url-analysis: Extracting and analyzing URLs from Emails for phishing events]]
+:PROPERTIES:
+:ID:       c5aca133-63fe-42d7-953c-68a2c8b22d69
+:END:
+
+- [2020-11-22 Sun 02:26] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
 * Zeek Plugin or analyzer
+:PROPERTIES:
+:ID:       5f3948fa-c19f-4ec4-8a42-0f2c66acec7e
+:END:
+
+** [[https://github.com/J-Gras/zeek-af_packet-plugin][J-Gras/zeek-af_packet-plugin: Plugin providing native AF_Packet support for Zeek (formerly known as Bro).]]
 ** DONE [[https://github.com/reservoirlabs/zeek-zip-analyzer][GitHub - reservoirlabs/zeek-zip-analyzer: ZIP analyzer for Zeek]] :analyzer:
 ** [[https://github.com/zeek/bro-netmap/blob/master/zkg.meta][bro-netmap/zkg.meta at master · zeek/bro-netmap · GitHub]] :packet:
+** [[https://github.com/J-Gras/bro-lognorm][J-Gras/bro-lognorm: Bro plugin providing liblognorm integration.]]
+** ✘ CANCELED [[https://github.com/jswaro/tcprs][jswaro/tcprs: TCP Retransmission and State Analyzer plugin for the Bro-IDS framework]]
+:LOGBOOK:
+- State "✘ CANCELED" from              [2020-11-22 Sun 01:32]
+:END:
+** [[https://github.com/dopheide-esnet/bro-quic][dopheide-esnet/bro-quic: Analyzer that attempts to identify the QUIC protocol.]]
+* Zeek Threat Intelligence(Intel)
+** [[https://github.com/initconf/blacklist/tree/master/scripts][blacklist/scripts at master · initconf/blacklist]]
+
+manage blacklisted IP address
+** [[https://github.com/kinomakino/Threat-Intelligence-Data][kinomakino/Threat-Intelligence-Data: Snort_rules detection bad actors.]]
+* Zeek Cluster
+** [[https://github.com/J-Gras/add-node-names][J-Gras/add-node-names: Adds cluster node name to logs.]]
+This package adds the _node_name field to Zeek logs to indicate which node generated a log entry. By default the field is only added to the conn.log. For further configuration, the following options are available:
 
 * Zeek Agent
-** DONE https://github.com/apache/metron-bro-plugin-kafka :agent:
+** [#A] [[https://github.com/zeek/zeek-agent][zeek/zeek-agent: An endpoint monitoring agent that provides host activity to Zeek]]
+** [[https://github.com/zeek/bro-netmap][zeek/bro-netmap: Native Netmap Packet IOSource for Bro/Zeek]]
+** DONE [[https://github.com/apache/metron-bro-plugin-kafka][apache/metron-bro-plugin-kafka: Apache Metron]] :agent:
 ** DONE [[https://github.com/0xxon/zeek-postgresql/tree/master/scripts][zeek-postgresql/scripts at master · 0xxon/zeek-postgresql]] :agent:
-
+:PROPERTIES:
+:ID:       b4051a4c-9fcd-4c08-ae11-c4a2a1b0763a
+:END:
+ - [2020-11-22 Sun 02:10] -> [[id:0a49951d-6f1c-46cc-a7c4-8b8391430ad6][Zeek logs to database]]
+** [[https://github.com/ncsa/bro-zeromq-writer][ncsa/bro-zeromq-writer: Bro plugin that provides a ZeroMQ log writer.]]
 * Zeek Con
+:PROPERTIES:
+:ID:       c07a6d15-a487-40c8-b029-a82c6e722473
+:END:
 ** Virtual ZeekWeek
-*** day3
-- [[https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be][https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be]]
+*** [[https://www.youtube.com/watch?v=9ctRt-vfvns&feature=youtu.be][Virtual ZeekWeek 2020: Day 3 - YouTube]]
+* Zeek ThirdParty Support
+** [[https://github.com/joesecurity/Joe-Sandbox-Bro][joesecurity/Joe-Sandbox-Bro: JoeSandbox-Bro is a simple bro script which extracts files from your internet connection and analyzes them automatically on Joe Sandbox]]
+* Zeek troubleshoot
+** [[https://github.com/ncsa/bro-doctor][ncsa/bro-doctor]]
+* Zeek deployment
+** [[https://github.com/ncsa/bro-interface-setup][ncsa/bro-interface-setup]]
+* Zeek Notice or alert
+** [[https://github.com/pgaulon/zeek-notice-slack][pgaulon/zeek-notice-slack: Script extending Zeek Notice framework, adding Slack notifications]]
+* Zeek Lang expression
+** [[https://zeek.org/2019/07/19/zeke-on-zeek-working-with-open-source-zeek-adding-a-key-value-for-loop/][Zeek: Zeke on Zeek: Working With Open-Source Zeek: Adding a Key-value For-Loop]]
+* Zeek to kafka
+** [[https://gist.github.com/nickwallen][nickwallen’s gists]]

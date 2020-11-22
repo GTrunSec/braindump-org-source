@@ -36,7 +36,16 @@ git clone https://github.com/go101/go101.git
 *** [[http://xahlee.info/golang/golang_package.html][Golang: Package, Import]]
 * Networking
 ** Golang DNS
+:PROPERTIES:
+:ID:       7b8f6922-3514-4f90-ba7c-0d42aef1463c
+:END:
+ - [2020-11-22 Sun 02:56] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+   
 *** [[https://github.com/redirect2me/which-dns][redirect2me/which-dns: Detects which DNS server is being used]]
+:PROPERTIES:
+:ID:       d5660c95-b0cc-4587-991d-1248bd7e97d7
+:END:
+*** [[https://github.com/erbbysam/DNSGrep][erbbysam/DNSGrep: Quickly Search Large DNS Datasets]]
 ** Golang HTTP
 *** [[https://github.com/kitabisa/teler][kitabisa/teler: Real-time HTTP Intrusion Detection]]
 ** Go traffic
