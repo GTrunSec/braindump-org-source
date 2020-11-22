@@ -15,15 +15,14 @@
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 * 镶嵌工艺
-** 点翠 :工艺:
+** 点翠工艺
 :PROPERTIES:
 :ID:       153dd8d5-3231-4d10-929a-8e546f2a2e25
 :END:
 
-- [2020-09-12 Sat 15:34] <- [[file:古玩字画-书籍.org::*珠翠光华][珠翠光华]]
-- [2020-09-12 Sat 02:35] <- [[file:马未都聊国宝.org::*\[\[https://www.youtube.com/watch?v=0yaCgJQQnGY\]\[十三陵的定陵，万历孝靖皇后的凤冠 - YouTube\]\]][十三陵的定陵，万历孝靖皇后的凤冠 - YouTube]]
-- [2020-09-12 Sat 02:34] <- [[file:古玩字画-图鉴.org::*万历孝靖皇后的凤冠][万历孝靖皇后的凤冠]]
-
+- [2020-09-12 Sat 15:34] <- [[id:2f099857-bead-44c5-954a-2109b1515979][珠翠光华]]
+- [2020-09-12 Sat 02:35] -> [[id:5b7ea7d7-31e6-4043-8aa0-f3234ae86103][十三陵的定陵，万历孝靖皇后的凤冠 - YouTube]]
+- [2020-09-12 Sat 02:34] -> [[id:fc009b7e-1ffb-4f97-ab4c-d5f6b41549d1][万历孝靖皇后的凤冠]]
 - [[https://baike.baidu.com/item/%E7%82%B9%E7%BF%A0/5933650#:~:text=%E7%82%B9%E7%BF%A0%E5%B7%A5%E8%89%BA%E6%98%AF%E4%B8%80,%E5%8F%AF%E4%BB%A5%E4%BF%9D%E5%AD%98%E5%BE%88%E9%95%BF%E6%97%B6%E9%97%B4%E3%80%82][点翠（金银首饰制作工艺）_百度百科]]
 
 

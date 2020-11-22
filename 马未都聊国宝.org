@@ -1,7 +1,7 @@
 #+TITLE: 马未都聊国宝
-#+AUTHOR: GTrunSec
+#+author: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 12 September 2020
+#+DATE: 12 september 2020
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en cn
@@ -22,10 +22,6 @@
 :ID:       5b7ea7d7-31e6-4043-8aa0-f3234ae86103
 :END:
 
-- [[file:古玩字画-图鉴.org::*万历孝靖皇后的凤冠][万历孝靖皇后的凤冠]]
-
-
-- [[file:古玩字画-书籍.org::*珠翠光华][珠翠光华]]
-
-
-- [[file:古玩字画-工艺.org::*点翠][点翠]]
+- [2020-11-22 Sun 14:34] <- [[id:153dd8d5-3231-4d10-929a-8e546f2a2e25][点翠工艺]]
+- [2020-11-22 Sun 14:33] <- [[id:2f099857-bead-44c5-954a-2109b1515979][珠翠光华]]
+- [2020-11-22 Sun 14:32] <- [[id:fc009b7e-1ffb-4f97-ab4c-d5f6b41549d1][万历孝靖皇后的凤冠]]

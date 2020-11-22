@@ -1,7 +1,7 @@
 #+TITLE: Awesome Zeek
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: <2020-11-22 Sun>
+#+DATE: 2020-11-22 Sun
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en cn
@@ -21,8 +21,7 @@
 * Zeek installation
 ** [[https://www.ericooi.com/zeekurity-zen-part-i-how-to-install-zeek-on-centos-8/#comment-1670][Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com]]
 *** [[https://www.ericooi.com/zeekurity-zen-zeries/][Zeekurity Zen Zeries - ericooi.com]]
-* Zeek Documents
-** Zeek logging
+* zeek documents logging
 - [[http://gauss.ececs.uc.edu/Courses/c6055/pdf/bro_log_vars.pdf][Slide 1]]
 *** [[https://docs.zeek.org/en/current/examples/logs/][Logging — Zeek User Manual v3.2.2]]
 :PROPERTIES:
@@ -56,7 +55,7 @@
 :END:
 *** [[https://github.com/zeek/zeek-training][zeek/zeek-training: Zeek Training Materials/Products]]
 
-** ZeeK Script DNS[3/3]
+** ZeeK script DNS[3/3]
 :PROPERTIES:
 :ID:       6b5c4c04-7664-4195-82dd-d333bb63334f
 :END:
@@ -173,7 +172,11 @@ Bro plugin to detect and decrypt XOR-obfuscated Windows EXEs.
 :END:
  - [2020-11-22 Sun 02:37] -> [[id:d0599260-ec63-4563-9414-f30c92f64182][Remote Desktop Services]]
 *** [[https://github.com/theparanoids/rdfp][theparanoids/rdfp: Remote Desktop Client Fingerprint script for Zeek. Based off of https://github.com/0x4D31/fatt]]
-
+*** [[https://github.com/initconf/RDP-bruteforce][initconf/RDP-bruteforce: RDP bruteforce detection]]
+:PROPERTIES:
+:ID:       9370ddc7-1411-49b6-ba57-6c571ccc0bc1
+:END:
+ - [2020-11-22 Sun 03:50] -> [[id:799d20f2-2470-4908-aba0-37a4cc44b69d][Brute force attacks increase due to more open RDP ports - Malwarebytes Labs | Malwarebytes Labs]]
 ** Zeek misc detection
 *** [[https://github.com/jsiwek/zeek-cryptomining][jsiwek/zeek-cryptomining: Detect cryptocurrency mining traffic with Zeek.]]
 
@@ -193,6 +196,10 @@ Microsoft sends diagnostic information back to themselves through a mechism name
 *** TODO [[https://github.com/sheharbano/BotFlex][sheharbano/BotFlex: BotFlex is an open source tool or bot detection and analysis]] :learn:
 
 *** TODO [[https://github.com/empick94/bro_capstone/tree/master/scripts][bro_capstone/scripts at master · empick94/bro_capstone]] :learn:
+
+** Zeek attack detection
+
+*** [[https://github.com/initconf/sip-attacks][initconf/sip-attacks: zeek Package to detect attacks in SIP protocol]]
 
 ** Zeek virus detection
 *** [[https://github.com/initconf/detect-kaspersky/][initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network]]
