@@ -70,7 +70,8 @@
 :PROPERTIES:
 :ID:       d233abe0-22a6-4ab4-9bac-8abddfd725ee
 :END:
- - [2020-11-20 Fri 21:31] -> [[id:9b5bbd87-bb36-45bd-8e49-ac38c39aa376][detecting-dns-tunneling]]
+- [2020-11-22 Sun 21:19] <- [[id:16aee1fa-fac2-4d96-84df-547a3516acbf][DNS Tunneling]]
+- [2020-11-20 Fri 21:31] -> [[id:9b5bbd87-bb36-45bd-8e49-ac38c39aa376][detecting-dns-tunneling]]
 *** DONE [[https://github.com/srozb/dns_axfr][srozb/dns_axfr: bro dns axfr package]] :DNS:
 CLOSED: [2018-12-03 Mon 15:25]
 - [[https://en.wikipedia.org/wiki/DNS_zone_transfer][DNS zone transfer - Wikipedia]]
@@ -140,7 +141,7 @@ psql -h localhost -p 5432 -U dbuser -d testdb
 
 **** [[https://github.com/0xxon/cve-2020-0601][GitHub - 0xxon/cve-2020-0601: Zeek package to detect CVE-2020-0601]]
 **** [[https://github.com/0xxon/cve-2020-13777][0xxon/cve-2020-13777: Zeek script to detect servers vulnerable to CVE-2020-13777]]
-
+**** [[https://github.com/CriticalPathSecurity/bro-scripts/blob/master/cve-2020-1350.zeek][bro-scripts/cve-2020-1350.zeek at master · CriticalPathSecurity/bro-scripts]]
 *** Zeek CVE 2017
 **** [[https://github.com/0xxon/zeek-plugin-roca][0xxon/zeek-plugin-roca: Bro plugin to check if certificates are affected by CVE-2017-15361]]
 **** [[https://github.com/initconf/CVE-2017-5638_struts][initconf/CVE-2017-5638_struts: detection for Apache Struts recon and compromise]]
@@ -284,7 +285,10 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 ** [[https://github.com/J-Gras/zeek-af_packet-plugin][J-Gras/zeek-af_packet-plugin: Plugin providing native AF_Packet support for Zeek (formerly known as Bro).]]
 
 * Zeek Threat Intelligence(Intel)
+
 - [2020-11-22 Sun 16:13] <- [[id:e5126428-ebf0-432a-928e-9b60fb876f72][Threat Intelligence]]
+** Zeek Intel Script
+*** [[https://github.com/CriticalPathSecurity/zeek-threat-intel-parser][CriticalPathSecurity/zeek-threat-intel-parser: A Python3 utility for parsing input into a Zeek threat intelligence feed.]]
 ** zeek Intel feed
 :PROPERTIES:
 :ID:       71f7d9c3-0769-4f36-88c2-72a2e185a7cc
@@ -323,7 +327,9 @@ This package adds the _node_name field to Zeek logs to indicate which node gener
 *** [[https://github.com/tenzir/events/tree/master/brocon18][events/brocon18 at master · tenzir/events]]
 
 * Zeek 3rdParty Support
-** [[https://github.com/joesecurity/Joe-Sandbox-Bro][joesecurity/Joe-Sandbox-Bro: JoeSandbox-Bro is a simple bro script which extracts files from your internet connection and analyzes them automatically on Joe Sandbox]]
+** Zeek to sandbox
+*** [[https://github.com/joesecurity/Joe-Sandbox-Bro][joesecurity/Joe-Sandbox-Bro: JoeSandbox-Bro is a simple bro script which extracts files from your internet connection and analyzes them automatically on Joe Sandbox]]
+*** [[https://github.com/HASecuritySolutions/zeek_to_cuckoo][HASecuritySolutions/zeek_to_cuckoo: Contains a python script and service file for sending Zeek extracted files to Cuckoo Sandbox]]
 ** [[https://github.com/tenzir/zeek-vast][tenzir/zeek-vast: Enables Zeek to communicate with VAST]]
 ** [[https://github.com/UHH-ISS/honeygrove][UHH-ISS/honeygrove: A multi-purpose, modular medium-interaction honeypot based on Twisted.]]
 :PROPERTIES:
