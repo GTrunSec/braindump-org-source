@@ -20,6 +20,7 @@
 :ID:       1218671f-c69e-4e60-b2b9-14a75c48d255
 :END:
 
+- [2020-11-22 Sun 15:52] <- [[id:712b72b4-4f14-4567-a3f5-0fd1359b8469][m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.]]
 - [2020-11-22 Sun 02:56] <- [[id:7b8f6922-3514-4f90-ba7c-0d42aef1463c][Golang DNS]]
 - [2020-11-20 Fri 21:15] <- [[id:fd79210b-935f-4ec7-924a-4b25a00c9726][Network Protocol]]
 - [2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
@@ -27,6 +28,7 @@
 ** [[https://github.com/pymumu/smartdns][GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。]]
 ** DNS Script
 *** [[https://blog.didierstevens.com/2019/07/03/quickpost-nslookup-types/][Quickpost: nslookup Types | Didier Stevens]]
+*** [[https://www.kitploit.com/2019/03/dns-shell-interactive-shell-over-dns.html][DNS-Shell - An Interactive Shell Over DNS Channel]]
 
 ** Network [[file:security.org][Security Project or Idea]] DNS
 :PROPERTIES:
@@ -104,3 +106,33 @@ Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008
 :ID:       799d20f2-2470-4908-aba0-37a4cc44b69d
 :END:
 - [2020-11-22 Sun 03:50] <- [[id:9370ddc7-1411-49b6-ba57-6c571ccc0bc1][initconf/RDP-bruteforce: RDP bruteforce detection]]
+
+
+
+* Network Pcap
+:PROPERTIES:
+:ID:       d75d5f55-2e6c-486e-aa99-15814731138c
+:END:
+** [[https://github.com/caesar0301/awesome-pcaptools][caesar0301/awesome-pcaptools: A collection of tools developed by other researchers in the Computer Science area to process network traces. All the right reserved for the original authors.]]
+:PROPERTIES:
+:ID:       468a598b-8d31-4cbc-bcf5-4b1e5955ce1b
+:END:
+*** [#A] [[https://github.com/JarryShaw/PyPCAPKit][JarryShaw/PyPCAPKit: Python multi-engine PCAP analysis kit.]]
+*** [[http://mykings.me/2017/08/14/%E4%B8%80%E4%BA%9B%E4%B8%8D%E9%94%99%E7%9A%84PCAP%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/][MyKings]] -> Pcap 分析工具
+
+** Pcap Resources
+:PROPERTIES:
+:ID:       77d0758f-61f9-481a-98bd-c6e504cbc378
+:END:
+- [2020-11-22 Sun 16:43] <- [[id:91e9e2b2-74f0-4571-9b1e-55a80e87ee88][tatsui-geek/malware-traffic-analysis.net: Download pcap files from http://www.malware-traffic-analysis.net/]]
+
+
+*** [[https://www.netresec.com/index.ashx?page=PcapFiles][Public PCAP files for download]]
+:PROPERTIES:
+:ID:       385d779a-d45b-44ed-8029-77f6f218296d
+:END:
+*** [[https://archive.wrccdc.org/pcaps/2018/][W R C C D C Public Archive]]
+* Packet Capture Solution
+** [[https://github.com/google/stenographer][google/stenographer: Stenographer is a packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets. Discussion/announcements at stenographer@googlegroups.com]]
+* Network Scanner
+** [[https://github.com/RustScan/RustScan][RustScan/RustScan: 🤖 The Modern Port Scanner 🤖]]

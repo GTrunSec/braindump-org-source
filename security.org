@@ -15,6 +15,7 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+#+TAGS: DAG(d)
 * Security Documents
 * [[https://github.com/awakesecurity][Awake Security]]
 * windows
@@ -64,3 +65,41 @@ Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bas
 :END:
 - [2020-11-22 Sun 02:33] <- [[id:41bcc7f1-246a-4dc1-bec4-f958b2a5b15e][initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network]]
 Kaspersky Anti-Virus (Russian: Антивирус Касперского (Antivirus Kasperskogo); formerly known as AntiViral Toolkit Pro; often referred to as KAV) is a proprietary antivirus program developed by Kaspersky Lab. It is designed to protect users from malware and is primarily designed for computers running Microsoft Windows and macOS, although a version for Linux is available for business consumers.
+* Digital Forensics tools
+** [[https://github.com/yampelo/beagle][yampelo/beagle: Beagle is an incident response and digital forensics tool which transforms security logs and data into graphs.]] :DAG:
+* Network Security tools
+** [[https://github.com/m57/dnsteal][m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.]]
+:PROPERTIES:
+:ID:       712b72b4-4f14-4567-a3f5-0fd1359b8469
+:END:
+
+ - [2020-11-22 Sun 15:52] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+
+* Malware Analyst
+** [[https://blog.malwaremustdie.org/][Malware Must Die!]]
+** [[https://github.com/mgoffin/malwarecookbook][mgoffin/malwarecookbook: Malware Analyst's Cookbook stuffs]]
+** [[https://github.com/ctxis/CAPE][ctxis/CAPE: Malware Configuration And Payload Extraction]]
+** Malware resources
+*** [[https://github.com/tatsui-geek/malware-traffic-analysis.net][tatsui-geek/malware-traffic-analysis.net: Download pcap files from http://www.malware-traffic-analysis.net/]]
+:PROPERTIES:
+:ID:       91e9e2b2-74f0-4571-9b1e-55a80e87ee88
+:END:
+
+- [2020-11-22 Sun 16:43] -> [[id:77d0758f-61f9-481a-98bd-c6e504cbc378][Pcap Resources]]
+** Malware Application
+*** [[https://github.com/JarryShaw/mad][JarryShaw/mad: Malicious Application Detector ]]
+*** [[https://github.com/Cisco-Talos/clamav-devel/tree/dev/0.104][Cisco-Talos/clamav-devel: ClamAV Development - FAQ is here: https://github.com/Cisco-Talos/clamav-faq]]
+
+* Attchment Analyst
+:PROPERTIES:
+:ID:       15622593-4659-47c0-9044-8e25747d587e
+:END:
+** PDF analyzing
+*** [[https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/analyzing-pdf-malware-part-1/][Analyzing PDF Malware - Part 1 | Trustwave | SpiderLabs | Trustwave]]
+*** [[https://info.phishlabs.com/blog/spear-phishing-campaign-impersonates-vcs-and-pe-firms][New Spear Phishing Campaign Impersonates VCs and PE Firms]]
+*** [[https://blog.didierstevens.com/2010/03/29/escape-from-pdf/][Escape From PDF | Didier Stevens]]
+*** [[https://blog.didierstevens.com/programs/pdf-tools/][PDF Tools | Didier Stevens]]
+* Honeypot
+** [[https://github.com/cowrie/cowrie][cowrie/cowrie: Cowrie SSH/Telnet Honeypot http://cowrie.readthedocs.io]]
+* Yara Rules
+** [[https://github.com/plyara/plyara][plyara/plyara: Parse YARA rules and operate over them more easily.]]

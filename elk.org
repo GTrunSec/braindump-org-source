@@ -15,5 +15,46 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-* Elk security platforms
-** https://github.com/maliceio/malice
+* ELK Security Platforms
+:PROPERTIES:
+:ID:       0577f209-4e48-4f80-bfb8-2c796eca6d4c
+:END:
+- [2020-11-22 Sun 16:35] <- [[id:829514f2-b59f-46a7-adce-4d7eb056d2b7][ELKSecurity/csv.conf at master · anelshaer/ELKSecurity]]
+- [2020-11-22 Sun 16:24] <- [[id:d7e8b1ea-fcb0-447f-a643-178bf6fa82b6][NSM ELK Project]]
+** [[https://github.com/maliceio/malice][maliceio/malice: VirusTotal Wanna Be - Now with 100% more Hipster]]
+:PROPERTIES:
+:ID:       27eda0b9-805e-4ec0-996b-d4745fbb3bd6
+:END:
+** EvtxToElk - 自动化分析 Windows 事件日志的 python 模块: :windows:
+https://dragos.com/blog/20180717EvtxToElk.html
+* ELK Tools
+** [[https://github.com/elasticsearch-dump/elasticsearch-dump][elasticsearch-dump/elasticsearch-dump: Import and export tools for elasticsearch]]
+** [[https://github.com/medcl/elasticsearch-proxy][medcl/elasticsearch-proxy: A lightweight elasticsearch proxy written in golang]]
+
+* ELK Alert
+** [[https://github.com/morningconsult/go-elasticsearch-alerts][fmorningconsult/go-elasticsearch-alerts: Elasticsearch Alerting Daemon]]
+- [[file:../../../Documents/org-notes/braindump/my-golang.org][My Golang]]
+
+
+* ELK GEOIP
+** GEOIP<2018-06-14 Thu>
+** DONE [[https://github.com/elastic/elasticsearch-dsl-py/issues/804]["No handler for type [string] declared on field [test]" after update to ES6 · Issue #804 · elastic/elasticsearch-dsl-py]] :GEOIP:
+
+CLOSED: [2018-06-14 Thu 15:01]
+
+- State "DONE"       from              [2018-06-14 Thu 13:39]
+
+- curl -H "Content-Type: application/json" -XPOST localhost:9200/us-city/city/ -d '{"city": "Anchorage", "state": "AK","location": {"lat": "61.2180556", "lon": "-149.9002778"}}'
+
+
+- https://www.elastic.co/blog/strict-content-type-checking-for-elasticsearch-rest-requests
+
+
+- http://www.elasticsearchtutorial.com/spatial-search-tutorial.html
+
+* ELK conf
+** [[https://github.com/anelshaer/ELKSecurity/blob/master/logstash/conf.d/csv.conf][ELKSecurity/csv.conf at master · anelshaer/ELKSecurity]]
+:PROPERTIES:
+:ID:       829514f2-b59f-46a7-adce-4d7eb056d2b7
+:END:
+ - [2020-11-22 Sun 16:35] -> [[id:0577f209-4e48-4f80-bfb8-2c796eca6d4c][ELK Security Platforms]]
