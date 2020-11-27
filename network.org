@@ -35,7 +35,7 @@
 :ID:       7eae2ec5-aa6b-48b9-a78e-7231b7d3516f
 :END:
  - [2020-11-20 Fri 21:22] -> [[id:6b5c4c04-7664-4195-82dd-d333bb63334f][ZeeK Script DNS[0/0]​]]
-***  detecting-dns-tunneling
+*** detecting-dns-tunneling
 :PROPERTIES:
 :ID:       9b5bbd87-bb36-45bd-8e49-ac38c39aa376
 :END:
@@ -43,6 +43,9 @@
 - [[http://heyoka.sourceforge.net/heyoka-shakacon2009.pdf][Heyoka - DNS Tunneling 2.0]]
   + [[https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152][Detecting DNS Tunneling]]
 
+*** Detection of Malicious and Low Throughput Data Exfiltration Over the DNS Protocol
+- [[https://www.semanticscholar.org/paper/Detection-of-Tunnels-in-PCAP-Data-by-Random-Forests-Buczak-Hanke/5d5d855f4e4331ad9274dc9b600e05867dbbfb32][Detection of Tunnels in PCAP Data by Random Forests | Semantic Scholar]]
+- [[https://arxiv.org/pdf/1709.08395.pdf][1709.08395.pdf]]
 
 * Network Protocol
 :PROPERTIES:

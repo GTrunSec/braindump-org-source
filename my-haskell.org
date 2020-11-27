@@ -86,3 +86,8 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 ** [[https://github.com/alasconnect/haskell-web-app][alasconnect/haskell-web-app: Example of a base Haskell Servant web application]] :nix:
 * Hasktorch
 ** [[https://github.com/GTrunSec/hasktorch-jupyter-examples][GTrunSec/hasktorch-jupyter-examples]] :owner:
+* Haskell Parsing
+:PROPERTIES:
+:ID:       60f2d837-c650-4df6-9152-6f728d3ce185
+:END:
+- [2020-11-24 Tue 14:53] <- [[id:cf9f6fa4-f80d-4896-852d-91c824fc2a86][mstksg/advent-of-code-ocr: Parsing ASCII art word solutions for advent of code]]

@@ -1,4 +1,4 @@
-#+TITLE: My latex
+#+TITLE: Advent of code
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 20 September 2020
@@ -7,7 +7,6 @@
 #+LANGUAGE:  en cn
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
 #+hugo_auto_set_lastmod: t
 #+HUGO_categories:
 #+HUGO_tags:
@@ -15,16 +14,8 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-* math symbol
-** [[https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/][Writing Mathematic Fomulars in Markdown | csrgxtu]]
+* [[https://github.com/mstksg/advent-of-code-ocr][mstksg/advent-of-code-ocr: Parsing ASCII art word solutions for advent of code]]
 :PROPERTIES:
-:ID:       557d4a7e-64c3-4ed5-9901-e39d595ecbc8
+:ID:       cf9f6fa4-f80d-4896-852d-91c824fc2a86
 :END:
-- [2020-11-20 Fri 03:07] <- [[id:103f4c38-5d9f-4826-b524-c77c776f239e][Markdown]]
-
-* [[https://www.overleaf.com/learn/latex/mathematical_expressions][Mathematical expressions - Overleaf, Online LaTeX Editor]]
-
-
-\[ x^n + y^n = z^n\]
-
-♓ \[x^n π]
+ - [2020-11-24 Tue 14:53] -> [[id:60f2d837-c650-4df6-9152-6f728d3ce185][Haskell Parsing]]

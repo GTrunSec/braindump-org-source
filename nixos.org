@@ -1,4 +1,4 @@
-#+TITLE: My latex
+#+TITLE: NixOS
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 20 September 2020
@@ -15,16 +15,7 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-* math symbol
-** [[https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/][Writing Mathematic Fomulars in Markdown | csrgxtu]]
-:PROPERTIES:
-:ID:       557d4a7e-64c3-4ed5-9901-e39d595ecbc8
-:END:
-- [2020-11-20 Fri 03:07] <- [[id:103f4c38-5d9f-4826-b524-c77c776f239e][Markdown]]
-
-* [[https://www.overleaf.com/learn/latex/mathematical_expressions][Mathematical expressions - Overleaf, Online LaTeX Editor]]
-
-
-\[ x^n + y^n = z^n\]
-
-♓ \[x^n π]
+* NixOS desktop
+** XDG
+*** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]
+* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Options]]

@@ -538,9 +538,8 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 ** [[https://github.com/tweag/terraform-nixos][tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS]]
 
 * Nix cross-compiling
-
 ** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
-
+** [[https://github.com/Mic92/nix-ld][Mic92/nix-ld: Run unpatched dynamic binaries on NixOS]]
 * Nix ISSUE
 ** Nix flake issue
 :PROPERTIES:
@@ -570,3 +569,10 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 ** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
 * Nix GUI
 * [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
+* Nix Project
+** [[https://github.com/tweag/jupyterWith][tweag/jupyterWith: declarative and reproducible Jupyter environments - powered by Nix]]
+:PROPERTIES:
+:ID:       d2d3ecc6-4e75-483f-88b3-7a5d3bfbbd81
+:END:
+- [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
+- [[file:Jupyter-data-science.org][Jupyter Data Science]]
