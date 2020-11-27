@@ -14,6 +14,11 @@
 ** [[file:../my-golang.org][My Golang]]
 ** [[file:../my-haskell.org][My Haskell]]
 ** [[file:../R-lang.org][R lang]]
+** [[file:../my-rust.org][My Rust]]
+* MIT math
+** [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+** [[file:../mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
+* [[file:../machine-learning.org][Machine Learning]]
 * Jupyter
 ** [[file:../Jupyter-data-science.org][Jupyter Data Science]]
 ** [[file:../jupyter-nix.org][Jupyter-Nix]]
