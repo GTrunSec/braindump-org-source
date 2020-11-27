@@ -16,7 +16,7 @@
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 * Machine Learning with Julia
-** [[https://github.com/mitmath/18337][mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning]]
+** [[file:mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
 :PROPERTIES:
 :ID:       09f95585-c43f-46ac-8b07-e40b5b5ac596
 :header-args:sh: :dir ~/data/

@@ -50,7 +50,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 * Julia tutorial or courses
 
 ** [[file:my-math.org][My math]] Julia math
-*** [[file:mitmath-18S191.org][MITmath 18S191]]
+*** [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 :PROPERTIES:
 :header-args:sh: :dir ~/data/Jupyter-data-science-environment
 :ID:       b6dc7a84-c972-4733-9dc1-d1ac105e2fee
@@ -68,9 +68,8 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 :PROPERTIES:
 :ID:       06e237f2-f098-4908-ad35-1d78a7e17a4d
 :END:
-:RELATED:
-[2020-09-26 Sat 20:46] -> [[id:09f95585-c43f-46ac-8b07-e40b5b5ac596][mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning]]
-:END:
+- [2020-09-26 Sat 20:46] -> [[id:09f95585-c43f-46ac-8b07-e40b5b5ac596][mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning]]
+
 ** JuliaTutorial
 *** [[https://github.com/hyper0x/JuliaBasics/tree/master/book][JuliaBasics/book at master · hyper0x/JuliaBasics]]
 :PROPERTIES:
