@@ -15,6 +15,9 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:my-profile.org][My Profile]]
+
 * git CONTRIBUTING
 - [[https://github.com/NixOS/nixpkgs/pull/96037][python38Packages.coloredlogs: disable tests on darwin by tobim · Pull Request #96037 · NixOS/nixpkgs]]
 

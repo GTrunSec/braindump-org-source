@@ -19,7 +19,7 @@
 - tags :: [[file:Jupyter-data-science.org][Jupyter Data Science]], [[file:my-haskell.org][My Haskell]]
 
 
-* Jupter Notebook Programming in Haskell [[file:org-mode.org][org-mode]]
+* Jupter Notebook Programming in Haskel
 :PROPS:
 :ID:       6438c7d9-22f2-4aff-9c68-3ac5f5b7caab
 :END:

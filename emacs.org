@@ -15,13 +15,21 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
-#+TAGS: doom(d) roam(r) org_mode(o)
+#+TAGS: doom(d) roam(r) org_mode(o) literate(l)
+
+  - tags :: [[file:org-mode.org][Org mode]], [[file:my-profile.org][My Profile]], [[file:my-elisp.org][My Elisp]]
 * Configuration
 ** [[https://github.com/jethrokuan/dots/blob/master/.doom.d/config.el][dots/config.el at master · jethrokuan/dots]] :roam:org_mode:
 ** [[https://github.com/zaeph/.emacs.d][zaeph/.emacs.d: Personal configuration for Emacs & Custom modules]] :org_mode:
+** [[https://github.com/legoscia/dotemacs/blob/master/dotemacs.org][dotemacs/dotemacs.org at master · legoscia/dotemacs]] :literate:
+
+
 * learning Emacs
 ** [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][Using Emacs - YouTube]]
 ** [[https://www.bilibili.com/video/BV1Pz4y1y7p9?p=1&share_medium=android&share_plat=android&share_source=COPY&share_tag=s_i&timestamp=1604203132&unique_k=3l72PN][Emacs入门教程_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili]]
 * Emacs Con
 ** [[https://github.com/sachac/emacsconf-2020-emacs-news-highlights][sachac/emacsconf-2020-emacs-news-highlights: Emacs News Highlights talk for EmacsConf 2020]]
 * [[https://github.com/akirakyle/emacs-webkit][akirakyle/emacs-webkit: An Emacs Dynamic Module for WebKit, aka a fully fledged browser inside emacs]]
+* Packages
+** Enhance
+*** [[https://github.com/raxod502/selectrum][raxod502/selectrum: 🔔 Better solution for incremental narrowing in Emacs.]]

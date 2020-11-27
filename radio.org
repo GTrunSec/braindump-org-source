@@ -1,4 +1,4 @@
-#+TITLE: radio collections
+#+TITLE: Radio
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 20 September 2020
@@ -17,3 +17,13 @@
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 
 * [[https://www.youtube.com/watch?v=1RipwqJG50c][Radio Hacking: Cars, Hardware, and more! - Samy Kamkar - AppSec California 2016 - YouTube]]
+
+* GPS
+** [[http://www.cnblogs.com/k1two2/p/5164172.html][HackRF 实现 GPS 欺骗教程 - K1two2 - 博客园]] :BLOG:
+** [anti gps] http://www.zndxzk.com.cn/down/2013/08_zkb/22-p3240-93164.pdf :BLOG:READ:
+
+* sound analysis
+
+** [[https://github.com/calebmadrigal/FourierTalkOSCON][calebmadrigal/FourierTalkOSCON: Presentation Materials for my "Sound Analysis with the Fourier Transform and Python" OSCON Talk.]]
+
+- [[file:Jupyter-data-science.org][Jupyter Data Science]]

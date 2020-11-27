@@ -15,5 +15,8 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:programming-languages.org][My learning Programming languages]]
+
 * string containroos a substring in Bash
 ** [[https://stackoverflow.com/questions/229551/how-to-check-if-a-string-contains-a-substring-in-bash][How to check if a string contains a substring in Bash - Stack Overflow]]

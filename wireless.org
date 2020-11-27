@@ -1,7 +1,7 @@
-#+TITLE: GuangTao's Git workflow
+#+TITLE: Wireless
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 18 September 2020
+#+DATE: 20 September 2020
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en cn
@@ -16,6 +16,8 @@
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 
-- tags :: [[file:git.org][Git]]
-* ISSUE
-** ⚔ INPROCESS [[https://github.com/kaushalmodi/ox-hugo/issues/395][org-id parse error filename · Issue #395 · kaushalmodi/ox-hugo]] <2020-09-18 Fri>
+- tags :: [[file:radio.org][Radio]]
+
+* [[https://github.com/WiPi-Hunter][WiPi-Hunter]]
+* Wireless Researcher
+** [[https://github.com/calebmadrigal][calebmadrigal (Caleb Madrigal)]]

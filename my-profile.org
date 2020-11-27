@@ -16,6 +16,7 @@
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 #+TAGS: roam(r)
+
 * Editor
 ** [[https://www.swrite.cn/][SWrite v0.3.9 : 链接创造新世界]] :roam:
 * file-manager

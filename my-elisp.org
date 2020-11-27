@@ -15,6 +15,9 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
+
 * Elisp documents
 ** [[https://github.com/p3r7/awesome-elisp][GitHub - p3r7/awesome-elisp: A curated list of emacs-lisp development resources]]
 

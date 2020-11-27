@@ -1,7 +1,7 @@
-#+TITLE: GuangTao's Git workflow
+#+TITLE: RTL SDR
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 18 September 2020
+#+DATE: 20 September 2020
 #+DESCRIPTION:
 #+KEYWORDS:
 #+LANGUAGE:  en cn
@@ -16,6 +16,11 @@
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 
-- tags :: [[file:git.org][Git]]
-* ISSUE
-** ⚔ INPROCESS [[https://github.com/kaushalmodi/ox-hugo/issues/395][org-id parse error filename · Issue #395 · kaushalmodi/ox-hugo]] <2020-09-18 Fri>
+- tags :: [[file:radio.org][Radio]], [[file:wireless.org][Wireless]]
+
+* [[https://www.rtl-sdr.com/][https://www.rtl-sdr.com]]
+
+
+
+* Buy Store
+** [[https://www.wallofsheep.com/][Wall of Sheep]]

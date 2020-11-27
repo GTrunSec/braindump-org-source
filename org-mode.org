@@ -1,4 +1,4 @@
-#+TITLE: org-mode
+#+TITLE: Org mode
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 20 September 2020
@@ -15,6 +15,10 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:emacs.org][Emacs]], [[file:my-profile.org][My Profile]]
+
+
 * org mode parser
 ** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
 [[file:my-rust.org][My rust]]
@@ -24,3 +28,7 @@
 ** [[https://github.com/alphapapa/org-now][alphapapa/org-now: Conveniently show current Org tasks in a sidebar window]]
 * Org mode Linker
 ** [[https://github.com/landakram/org-z][landakram/org-z: Lightweight, Org-mode flavored zettelkasten links.]]
+* Modeline
+** [[https://github.com/unhammer/org-upcoming-modeline][unhammer/org-upcoming-modeline: put upcoming org event in modeline]]
+* org-mode HTML theme
+** [[https://gongzhitaao.org/orgcss/org.css][https://gongzhitaao.org/orgcss/org.css]]
