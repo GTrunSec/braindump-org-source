@@ -33,3 +33,6 @@
 * Packages
 ** Enhance
 *** [[https://github.com/raxod502/selectrum][raxod502/selectrum: 🔔 Better solution for incremental narrowing in Emacs.]]
+* Emacs Config Framework
+** [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker]]
+** [[https://github.com/daviderestivo/galactic-emacs][daviderestivo/galactic-emacs: A Emacs distribution coming from the space ...]]

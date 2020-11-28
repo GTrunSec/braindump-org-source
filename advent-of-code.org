@@ -14,8 +14,14 @@
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
+- tags :: [[file:my-haskell.org][My Haskell]]
+
 * [[https://github.com/mstksg/advent-of-code-ocr][mstksg/advent-of-code-ocr: Parsing ASCII art word solutions for advent of code]]
 :PROPERTIES:
 :ID:       cf9f6fa4-f80d-4896-852d-91c824fc2a86
 :END:
  - [2020-11-24 Tue 14:53] -> [[id:60f2d837-c650-4df6-9152-6f728d3ce185][Haskell Parsing]]
+* [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
+
+- [[file:my-haskell.org][My Haskell]]

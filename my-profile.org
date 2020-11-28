@@ -25,6 +25,7 @@
 ** https://github.com/cloudreve/Cloudreve
 * Photo manager
 ** [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]]
+- [[https://docs.photoprism.org/user-guide/library/import-vs-index/][Introduction - PhotoPrism]]
 * Markdown
 ** [[https://github.com/codimd/server][codimd/server: CodiMD - Realtime collaborative markdown notes on all platforms.]]
 *
@@ -36,3 +37,9 @@
 ** [[https://github.com/hasura/graphql-engine][hasura/graphql-engine: Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.]]
 * Feed Reader
 ** [[https://github.com/miniflux/v2][miniflux/v2: Minimalist and opinionated feed reader]]
+* Bookmark manage
+** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
+* GunagTao's NixOS services Index
+** [[http://10.220.170.112:2344/photos][PhotoPrism: Browse Your Life]]
+** [[http://10.220.170.112/apps/files/][Files - Nextcloud]]
+** [[http://10.220.170.112:9000/unread][Unread (73) - Miniflux]]
