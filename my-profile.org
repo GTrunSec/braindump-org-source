@@ -39,7 +39,12 @@
 ** [[https://github.com/miniflux/v2][miniflux/v2: Minimalist and opinionated feed reader]]
 * Bookmark manage
 ** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
+* Block
+** [[https://github.com/AdguardTeam/AdGuardHome][AdguardTeam/AdGuardHome: Network-wide ads & trackers blocking DNS server]]
+*** [[https://github.com/ammnt/AmmoniteFilter][ammnt/AmmoniteFilter: The extended and optimized family filter for AdGuard Home]]
+
 * GunagTao's NixOS services Index
 ** [[http://10.220.170.112:2344/photos][PhotoPrism: Browse Your Life]]
 ** [[http://10.220.170.112/apps/files/][Files - Nextcloud]]
 ** [[http://10.220.170.112:9000/unread][Unread (73) - Miniflux]]
+** [[http://10.220.170.112:9002/#][AdGuard Home]]

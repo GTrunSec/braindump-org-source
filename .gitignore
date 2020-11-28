@@ -1,5 +1,5 @@
 # -*- mode: gitignore; -*-
-
+*.org.organice-bak
 ## nixos
 result
 
