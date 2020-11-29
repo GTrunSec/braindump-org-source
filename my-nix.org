@@ -416,25 +416,31 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 :END:
 - [2020-11-06 Fri 19:22] -> [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
 - [2020-11-20 Fri 02:31] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+
+
 - [[id:09df2341-7aa3-4f56-a823-04b4e591988d][Nix Flakes edition | $ zimbatm]]
 
-#+begin_src sh :async t :exports both :results output
-nix flake archive --json \
-  | jq -r '.path,(.inputs|to_entries[].value.path)' \
-  | cachix push $cache_name
-#+end_src
+  #+begin_src sh :async t :exports both :results output
+  nix flake archive --json \
+      | jq -r '.path,(.inputs|to_entries[].value.path)' \
+      | cachix push $cache_name
+  #+end_src
 
 - nix build -> soultion
+
   #+begin_src sh :async t :exports both :results output
-nix path-info --json | jq -r '.[].path' | cachix push $cache_name
+  nix path-info --json | jq -r '.[].path' | cachix push $cache_name
   #+end_src
 
 
 - nix develop
-  #+begin_src sh :async t :exports both :results output
-nix develop --profile dev-profiile && cachix push mycache dev-profile
 
+  #+begin_src sh :async t :exports both :results output
+  nix develop --profile dev-profiile && cachix push mycache dev-profile
   #+end_src
+
+
+
 ** [[https://discourse.nixos.org/t/how-to-push-the-derivations-from-a-shell-nix-to-cachix/3172][How to push the derivations from a shell.nix to cachix? - Learn - NixOS Discourse]]
 
 #+begin_src sh :async t :exports both :results output
@@ -488,18 +494,15 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 * Nix Friday
 ** [[https://www.youtube.com/watch?v=h2I1FHpbaIg][Nix Friday - Flakes! - YouTube]]
 
-#+begin_src md :async t :exports both :results output
 [:div.videoWrapper.mb-4
 [:iframe
 {:allowFullScreen "allowfullscreen"
 :allow
 "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 :frameBorder "0"
-:src "https://www.youtube.com/watch?v=h2I1FHpbaIg"
+:src "https://www.youtube.com/embed/h2I1FHpbaIg"
 :height "367"
 :width "653"}]]
-#+end_src
-
 
 
 :PROPERTIES:
@@ -511,17 +514,15 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 :ID:       2cac43cc-1cbd-4092-a275-83856018a0a8
 :END:
 
-#+begin_src md :async t :exports both :results output
 [:div.videoWrapper.mb-4
 [:iframe
 {:allowFullScreen "allowfullscreen"
 :allow
 "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 :frameBorder "0"
-:src "https://www.youtube.com/watch?v=apIE_TgNNmo"
+:src "https://www.youtube.com/embed/apIE_TgNNmo"
 :height "367"
 :width "653"}]]
-#+end_src
 
 
 - [2020-11-07 Sat 22:56] <- [[id:0680ffeb-a824-4dec-b15d-0e8ec04e97b9][C/C++ Nix infrastructure]]
