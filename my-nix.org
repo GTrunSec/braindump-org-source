@@ -150,9 +150,8 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 :PROPERTIES:
 :ID:       0680ffeb-a824-4dec-b15d-0e8ec04e97b9
 :END:
-:RELATED:
-[2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
-:END:
+
+- [2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 
 * configuration flakes
 :PROPERTIES:
@@ -488,6 +487,21 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 
 * Nix Friday
 ** [[https://www.youtube.com/watch?v=h2I1FHpbaIg][Nix Friday - Flakes! - YouTube]]
+
+#+begin_src md :async t :exports both :results output
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/watch?v=h2I1FHpbaIg"
+:height "367"
+:width "653"}]]
+#+end_src
+
+
+
 :PROPERTIES:
 :ID:       2e37c4e9-b74d-490c-9b12-fc5aade3de68
 :END:
@@ -496,9 +510,22 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 :PROPERTIES:
 :ID:       2cac43cc-1cbd-4092-a275-83856018a0a8
 :END:
-:BACKLINKS:
-[2020-11-07 Sat 22:56] <- [[id:0680ffeb-a824-4dec-b15d-0e8ec04e97b9][C/C++ Nix infrastructure]]
-:END:
+
+#+begin_src md :async t :exports both :results output
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/watch?v=apIE_TgNNmo"
+:height "367"
+:width "653"}]]
+#+end_src
+
+
+- [2020-11-07 Sat 22:56] <- [[id:0680ffeb-a824-4dec-b15d-0e8ec04e97b9][C/C++ Nix infrastructure]]
+
 
 * ROS Nix
 :PROPERTIES:
