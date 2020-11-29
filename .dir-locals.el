@@ -1,5 +1,5 @@
 ((org-mode .  ((eval . (setq-local org-attach-id-dir  "./.attach"))
                (eval . (setq-local org-roam-directory (expand-file-name "./")))
-               (eval . (org-hugo-auto-export-mode))
+               ;;(eval . (org-hugo-auto-export-mode))
                (eval . (setq-local org-roam-db-location "~/.emacs.d/.local/cache/org-roam-braindump.db"))
                )))

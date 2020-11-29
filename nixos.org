@@ -13,3 +13,15 @@
 ** XDG
 *** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]
 * [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Options]]
+
+* NixOS Documents
+** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]
+** [[https://github.com/NixOS/hydra][NixOS/hydra: Hydra, the Nix-based continuous build system]]
+** [[https://planet.nixos.org/][NixOS Planet]]
+* Users's config
+** [[https://github.com/leotaku/nixos-config][leotaku/nixos-config: A git repository to store my nix configurations in]]
+** [[https://github.com/babariviere/dotfiles][babariviere/dotfiles: Personal dotfiles]] :flakes:
+** [[https://github.com/kmein/niveum/tree/master/modules][niveum/modules at master · kmein/niveum]]
+** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :nixops:
+* NixOS to other plantform
+- [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
