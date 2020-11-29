@@ -1,19 +1,9 @@
 #+TITLE: Cartoon
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 20 September 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
+#+DATE: 2020-11-28 Sat
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 * Looney Tunes or Bugs Bunny
 ** [[https://www.youtube.com/watch?v=bNEydq6EoRs][“Looney Tunes | Was That Bugs Bunny? | Classic Cartoon Compilation | WB Kids - YouTube”🔊]]

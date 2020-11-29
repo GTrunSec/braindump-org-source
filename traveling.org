@@ -1,14 +1,12 @@
 #+TITLE: 我的旅行计划
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 22 July 2019
-#+DESCRIPTION: my computer configuration
-#+KEYWORDS: profile
-#+LANGUAGE:  en cn
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
+#+DATE: 2019-07-22 Mon
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:life.org][GuangTao's Life]], [[file:my-regular-life.org][My Regular life]]
 
 * 成都[0/0]
 ** 火锅[0/2][0%]

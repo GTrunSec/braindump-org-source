@@ -2,19 +2,10 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 19 September 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
+#+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
 
 - tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
 
@@ -48,8 +39,9 @@
 ** [[https://gitlab.com/ideasman42][ideasman42 · GitLab]]
 * timing
 ** [[https://github.com/aspiers/etrace][aspiers/etrace: Emacs Lisp Latency Tracing for the Chromium Catapult Trace Event Format]]
+** time Format
+*** [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Time-Parsing.html][https://www.gnu.org/software/emacs/manual/html_node/elisp/Time-Parsing.html]]
 * parser
 * pcasn pattern
 
 ** [[https://emacs-china.org/t/pcase-pattern/15111][pcase 各种 pattern 使用举例 - Emacs-general - Emacs China]]
-

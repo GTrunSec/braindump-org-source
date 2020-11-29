@@ -2,18 +2,11 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 23 July 2019
-#+DESCRIPTION: Collect somethings which are needed in my life
-#+KEYWORDS: life
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+LANGUAGE:  en cn
-#+hugo_publishdate: `org-time-stamp-rounding-minutes`
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories: GTD
-#+HUGO_tags: life
-#+OPTIONS:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
 使用[[https://github.com/gildas-lormeau/SingleFile][gildas-lormeau/SingleFile: Web Extension for Firefox/Chrome/Edge and CLI
 tool to save a faithful copy of a complete web page as a single HTML file]] 存储离
 线的订单页面方便日后查找。

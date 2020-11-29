@@ -1,25 +1,16 @@
 #+TITLE: My Profile
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 20 September 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
+#+DATE: 2020-11-28 Sat
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
+#+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
 #+TAGS: roam(r)
 
 * Editor
 ** [[https://www.swrite.cn/][SWrite v0.3.9 : 链接创造新世界]] :roam:
-* file-manager
+* File manager
 
 ** [[https://github.com/mickael-kerjean/filestash][mickael-kerjean/filestash: 🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...]]
 ** https://github.com/cloudreve/Cloudreve
@@ -42,9 +33,13 @@
 * Block
 ** [[https://github.com/AdguardTeam/AdGuardHome][AdguardTeam/AdGuardHome: Network-wide ads & trackers blocking DNS server]]
 *** [[https://github.com/ammnt/AmmoniteFilter][ammnt/AmmoniteFilter: The extended and optimized family filter for AdGuard Home]]
+*** [[https://github.com/hl2guide/Filterlist-for-AdGuard][hl2guide/Filterlist-for-AdGuard: An aggressive filter-list that consolidates over 110 lists for use in AdGuard Home.]]
+*** [[https://github.com/FutaGuard/Public-DNS#dot--doh-%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F][FutaGuard/Public-DNS]]
 
 * GunagTao's NixOS services Index
 ** [[http://10.220.170.112:2344/photos][PhotoPrism: Browse Your Life]]
 ** [[http://10.220.170.112/apps/files/][Files - Nextcloud]]
 ** [[http://10.220.170.112:9000/unread][Unread (73) - Miniflux]]
 ** [[http://10.220.170.112:9002/#][AdGuard Home]]
+** [[http://10.220.170.112:8888/lab?][JupyterLab]]
+** [[http://10.220.170.112:8334/login][Filestash]]

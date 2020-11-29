@@ -1,21 +1,12 @@
 #+TITLE: Advent of code
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 20 September 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
+#+DATE: 2020-11-28 Sat
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
+#+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 
-- tags :: [[file:my-haskell.org][My Haskell]]
+- tags :: [[file:my-haskell.org][Haskell (programming language)]]
 
 * [[https://github.com/mstksg/advent-of-code-ocr][mstksg/advent-of-code-ocr: Parsing ASCII art word solutions for advent of code]]
 :PROPERTIES:
@@ -24,4 +15,4 @@
  - [2020-11-24 Tue 14:53] -> [[id:60f2d837-c650-4df6-9152-6f728d3ce185][Haskell Parsing]]
 * [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
 
-- [[file:my-haskell.org][My Haskell]]
+- [[file:my-haskell.org][Haskell (programming language)]]

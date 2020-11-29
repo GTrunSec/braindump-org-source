@@ -1,20 +1,11 @@
 #+TITLE: 马未都聊国宝
 #+author: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 12 september 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
+#+DATE: 2020-11-28 Sat
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
+#+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+
 * [[https://www.youtube.com/watch?v=Mk3Q8dGbSqU][“皇后之玺，汉唐两代，仅此一方 - YouTube”🔊]][2020-09-12 Sat]
 
 * [[https://www.youtube.com/watch?v=0yaCgJQQnGY][十三陵的定陵，万历孝靖皇后的凤冠 - YouTube]]

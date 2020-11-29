@@ -2,19 +2,9 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 19 September 2020
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
 #+SETUPFILE: ./hugo.setup
-#+OPTIONS:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t pri:t
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
 #+TAGS: lib(l) flakes(f) org(o) doc(d) network(n) modules(m) parser(p) query(q) overlays(O) example(e) nixops(s)
 
@@ -91,9 +81,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 :ID:       abf91e96-c75b-4313-8ac7-da713ae86a4f
 :END:
 
-
-
-
+-/.config/nixpkgs/nixos/channel/nixpkgs/pkgs/servers/syncserver/
 
 *** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
 :PROPERTIES:
@@ -112,7 +100,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
 :END:
 
-** Nix [[file:my-haskell.org][My Haskell]]
+** Nix [[file:my-haskell.org][Haskell (programming language)]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
@@ -527,7 +515,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 
 ** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]]
 
-[[file:my-haskell.org][My Haskell]]
+[[file:my-haskell.org][Haskell (programming language)]]
 
 * NixOps
 ** learning NixOps

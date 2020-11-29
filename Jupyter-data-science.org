@@ -1,17 +1,10 @@
 #+TITLE: Jupyter Data Science
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
+#+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+PROPERTY: header-args:sh :prologue "exec 2>&1" :epilogue ":"
 #+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(l)
 
 - tags :: [[file:data-science.org][Data science]], [[file:data-science.org][Data science]]
@@ -26,4 +19,4 @@
 * Jupyter Plugin
 ** [[https://github.com/radareorg/cutter-jupyter][radareorg/cutter-jupyter: Jupyter Plugin for Cutter]]
 * [[https://github.com/vaibhavsagar/presentations][vaibhavsagar/presentations: Slides for presentations!]]
-- [[file:my-haskell.org][My Haskell]]
+- [[file:my-haskell.org][Haskell (programming language)]]

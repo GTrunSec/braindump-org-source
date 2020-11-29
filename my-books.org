@@ -2,18 +2,9 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 30 November 2019
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
 #+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: analysis(a) BOOK(b) READ(r) LEARN(l) Documents(d)
 * R
 :PROPERTIES:
@@ -49,7 +40,7 @@
 :ID:       99679afb-8873-409e-9d4b-2b6a6d3b4fc2
 :END:
 - [2020-10-29 Thu 18:28] <- [[id:6438c7d9-22f2-4aff-9c68-3ac5f5b7caab][Jupter Notebook Programming in Haskell]]
-- [2020-09-24 Thu 22:22] <- [[file:my-haskell.org::*Haskell books][Haskell books]]
+- [2020-09-24 Thu 22:22] <- [[file:my-haskell.org][Haskell books]]
 - [[https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises][Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.]]
 * GO
 :PROPERTIES:
