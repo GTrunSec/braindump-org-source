@@ -10,7 +10,7 @@
 - tags :: [[file:古墓文物.org][古墓文物]]
 
 
-* 游山玩水->浙江 [0/2]
+* 游山玩水->浙江
 ** TODO [[https://www.youtube.com/watch?v=vb1-lHR7kRM][Chinese Boutique B&B 中國最美民宿: Life Outside of the House - YouTube]] :民宿:
 :PROPERTIES:
 :ID:       029912d8-e57d-4b81-a667-c7d9e726d8b0
@@ -31,16 +31,25 @@
 :PROPERTIES:
 :ID:       2b1a9b8b-ca59-4ca5-8adb-8ab6d342930d
 :END:
- - [2020-11-30 Mon 15:18] -> [[id:f851dc8f-e8be-4be9-9619-bced66bba2c1][横店镇]]
+- [2020-11-30 Mon 17:01] <- [[id:f851dc8f-e8be-4be9-9619-bced66bba2c1][横店镇]]
+- [2020-11-30 Mon 15:18] -> [[id:f851dc8f-e8be-4be9-9619-bced66bba2c1][横店镇]]
 
 
 
-* 游山玩水->云南[0/3]
+
+
+* 游山玩水->云南
+:PROPERTIES:
+:ID:       f6eefa2a-f971-488e-a04d-6144c6ab06a3
+:END:
+- [2020-11-30 Mon 17:02] <- [[id:1ecc35c9-e3cf-49f8-8c1a-4975bd1632bb][云南]]
+
 ** TODO [[https://www.youtube.com/watch?v=CIZZiV7knVM][民宿｜200 戶人的島上，這家小民宿卻來了 8000 多人 - YouTube]] :民宿:
 :PROPERTIES:
 :ID:       daa0ca48-73b5-490e-b139-2b9ce8d8969f
 :END:
-- [2020-11-30 Mon 15:32] <- [[id:2fa03fb1-e5de-4068-8719-9fa46bb84ad1][洱海]]
+
+ - [2020-11-30 Mon 16:59] <- [[id:2fa03fb1-e5de-4068-8719-9fa46bb84ad1][洱海]]
 
   [:div.videoWrapper.mb-4
   [:iframe
@@ -66,9 +75,9 @@
 :PROPERTIES:
 :ID:       03bae2bb-3c7c-48df-bf4b-b7990dc7b19f
 :END:
+ - [2020-11-30 Mon 16:58] -> [[id:aa63df48-04d9-4525-8aed-6ee11a89a983][香格里拉市]]
 
-- [2020-11-30 Mon 15:52] <- [[id:ddd61f95-8ac2-4ba0-bc62-182761583e82][香格里拉市]]
-* 游山玩水->山西[0/2]
+* 游山玩水->山西
 :PROPERTIES:
 :ID:       089589f4-c772-42ac-be81-a7fcd581c7e3
 :END:
@@ -78,7 +87,7 @@
 :ID:       300cf94c-05fe-4c37-a1ab-279a58dce131
 :END:
 
-- [2020-11-30 Mon 15:37] <- [[id:d72fd310-ede1-49b9-942e-42a9010394ea][佛光寺 (五台)]]
+- [2020-11-30 Mon 17:03] -> [[id:d72fd310-ede1-49b9-942e-42a9010394ea][佛光寺 (五台)]]
 
 
 [:div.videoWrapper.mb-4
@@ -97,7 +106,7 @@
 :END:
 - [2020-11-30 Mon 15:38] <- [[id:ebaaf433-da10-40c0-a85b-7a28667d01ee][湘峪村]]
 
-* 游山玩水->西藏[0/0]
+* 游山玩水->西藏
 :PROPERTIES:
 :ID:       ca4d0f62-84f5-4d83-b7f5-189b8fbb225a
 :END:
@@ -105,7 +114,7 @@
 - [2020-11-30 Mon 15:50] -> [[id:3e5e0204-f4d4-4a38-8b59-81443cf63d7f][西藏自治区]]
 
 
-* 游山玩水->杭州[0/0]
+* 游山玩水->杭州
 :PROPERTIES:
 :ID:       6b2a660d-169a-452d-ab31-5c7985ee45e0
 :END:
