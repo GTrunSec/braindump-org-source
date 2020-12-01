@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:julia.org][My Juli]], [[file:Jupyter-data-science.org][Jupyter Data Science]], [[file:my-math.org][My math]], [[file:mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
+- tags :: [[file:julia.org][My Julia]], [[file:Jupyter-data-science.org][Jupyter Data Science]], [[file:my-math.org][My math]], [[file:mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
 
 
 * [[https://github.com/mitmath/18S191][mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]

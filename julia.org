@@ -29,7 +29,7 @@
 :END:
 Julia is a high-level, high-performance, dynamic programming language. While it is a general purpose language and can be used to write any application, many of its features are well-suited for numerical analysis and computational science.Distinctive aspects of Julia's design include a type system with parametric polymorphism in a dynamic programming language; with multiple dispatch as its core programming paradigm. Julia supports concurrent, (composable) parallel and distributed computing (with or without using MPI and/or the built-in corresponding to "OpenMP-style"threads), and direct calling of C and Fortran libraries without glue code.
 * Environment
-**  Julia Jupyter
+** Julia Jupyter
 :PROPERTIES:
 :ID:       6d821cd9-6a05-4c95-a4f2-9d561d1eeaf0
 :END:
@@ -58,7 +58,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 :PROPERTIES:
 :ID:       06e237f2-f098-4908-ad35-1d78a7e17a4d
 :END:
-- [2020-09-26 Sat 20:46] -> [[id:09f95585-c43f-46ac-8b07-e40b5b5ac596][mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning]]
+- [2020-11-30 Mon 22:41] <- [[id:09f95585-c43f-46ac-8b07-e40b5b5ac596][18.337 - Parallel Computing and Scientific Machine Learning]]
 
 ** JuliaTutorial
 *** [[https://github.com/hyper0x/JuliaBasics/tree/master/book][JuliaBasics/book at master · hyper0x/JuliaBasics]]

@@ -50,7 +50,7 @@
 :END:
 *** [[https://github.com/zeek/zeek-training][zeek/zeek-training: Zeek Training Materials/Products]]
 
-** ZeeK script DNS[3/4]
+** ZeeK script DNS
 :PROPERTIES:
 :ID:       6b5c4c04-7664-4195-82dd-d333bb63334f
 :END:
@@ -70,7 +70,7 @@ CLOSED: [2018-12-03 Mon 15:25]
 *** DONE [[https://github.com/corelight/top-dns][corelight/top-dns: Top DNS Measurement for Bro]]
 CLOSED: [2019-08-10 Sat 21:11]
 
-** Zeek Script Conn[3/3]
+** Zeek Script Conn
 *** DONE [[https://github.com/corelight/bro-long-connections][corelight/bro-long-connections: Zeek package for tracking long connections to report them before they have completed.]]
 CLOSED: [2019-08-10 Sat 21:23]
 *** DONE [[https://github.com/corelight/conn-burst][corelight/conn-burst: A Bro package to identify connections that are bursting (lots of data and transferring quickly).]]

@@ -25,7 +25,7 @@
 :PROPERTIES:
 :ID:       7eae2ec5-aa6b-48b9-a78e-7231b7d3516f
 :END:
- - [2020-11-20 Fri 21:22] -> [[id:6b5c4c04-7664-4195-82dd-d333bb63334f][ZeeK Script DNS[0/0]​]]
+ - [2020-11-20 Fri 21:22] -> [[id:6b5c4c04-7664-4195-82dd-d333bb63334f][ZeeK Script DNS]]
 *** detecting-dns-tunneling
 :PROPERTIES:
 :ID:       9b5bbd87-bb36-45bd-8e49-ac38c39aa376

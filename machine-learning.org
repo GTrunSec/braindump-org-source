@@ -12,7 +12,7 @@
 :header-args:sh: :dir ~/data/
 :END:
 
-- [2020-09-26 Sat 20:46] <- [[file:julia.org::*\[\[file:machine-learning.org\]\[Machine Learning\]\]][Machine Learning]]
+- [2020-11-30 Mon 22:41] -> [[id:06e237f2-f098-4908-ad35-1d78a7e17a4d][Machine Learning]]
 
 #+begin_src sh :async t :exports both :results output
 git clone https://github.com/mitmath/18337.git
