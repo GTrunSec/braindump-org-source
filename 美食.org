@@ -11,7 +11,7 @@
 
 - tags :: [[file:traveling.org][我的旅行计划]]
 
-* 广州美食[0/3]
+* 广州美食
 :PROPERTIES:
 :ID:       69d0cb2a-b8a6-4a7a-ab95-a970b493b8e0
 :END:
@@ -141,7 +141,7 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :height "367"
 :width "653"}]]
 
-* 新疆美食[0/1]
+* 新疆美食
 
 ** TODO [[https://www.youtube.com/watch?v=Um8Ldu2n0jA][(1) 二更 | 什么是新疆吃货标配 - YouTube]]  老张胡辣牛羊蹄
 :PROPERTIES:
@@ -172,7 +172,7 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :END:
 - [2020-11-30 Mon 16:07] <- [[id:48c6e5fe-9ba0-4ced-8ded-43ceedc9bf2f][重庆市]]
 
-* 上海美食[0/1]
+* 上海美食
 :PROPERTIES:
 :ID:       29173ffa-6e8c-4a6e-8439-ed49ee6d0c89
 :END:
@@ -183,13 +183,13 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :END:
 - [2020-11-30 Mon 16:08] <- [[id:1f3ca649-a368-4648-9489-e35be17ac40b][上海市]]
 
-* 成都美食[0/1]
+* 成都美食
 :PROPERTIES:
 :ID:       a0fed91f-c251-43e4-b7ba-1fdfc9d1c6af
 :END:
 - [2020-11-30 Mon 16:12] <- [[id:c4332e16-f0b7-49cd-bee2-247477070586][成都市]]
 - [2020-11-30 Mon 16:12] <- [[id:c4332e16-f0b7-49cd-bee2-247477070586][成都市]]
-** TODO 成都火锅[0/2][0%]
+** TODO 成都火锅
 :PROPERTIES:
 :ID:       87434787-c485-4c60-a00e-e3de50f070c9
 :END:
@@ -221,7 +221,7 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :height "367"
 :width "653"}]]
 
-* 海南美食[0/0]
+* 海南美食
 :PROPERTIES:
 :ID:       cbf6ab83-516f-4011-9b20-3ad7ec9a4d88
 :END:
