@@ -22,7 +22,7 @@
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
- :hidden [ "/*.org.organice-bak" ]
+ :hidden []
 
  ;; When creating the new journal page, the app will use your template content here.
  ;; Example for Markdown users: "## [[Work]]\n###\n## [[Family]]\n###\n
