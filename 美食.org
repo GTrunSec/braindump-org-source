@@ -126,11 +126,18 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :ID:       a7fbaa36-a2bc-433c-824b-573a5ce00991
 :END:
 - [2020-11-30 Mon 15:59] -> [[id:8fec79b7-ddb3-406a-ae1c-3825217ebed1][天津市]]
-** [[https://www.youtube.com/watch?v=-RL8rtCXOR4][天津传奇美食大锅煮，一口大锅煮一切，麻辣鲜香吃哭无数食客 | 二更 - YouTube]] [大锅煮]
+
+
+** 河北区美食
+:PROPERTIES:
+:ID:       3f675284-1c66-4fab-8a01-319724a9848a
+:END:
+ - [2020-11-30 Mon 22:48] -> [[id:c02df4f4-f99b-4df5-a5d6-cc7f06c0c746][河北区]]
+*** [[https://www.youtube.com/watch?v=-RL8rtCXOR4][天津传奇美食大锅煮，一口大锅煮一切，麻辣鲜香吃哭无数食客 | 二更 - YouTube]] [大锅煮]
 :PROPERTIES:
 :ID:       c3fc0de0-6f42-4cab-810a-3de270c97968
 :END:
- - [2020-11-30 Mon 16:00] -> [[id:c02df4f4-f99b-4df5-a5d6-cc7f06c0c746][河北区]]
+
 [:div.videoWrapper.mb-4
 [:iframe
 {:allowFullScreen "allowfullscreen"
@@ -188,8 +195,7 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :ID:       a0fed91f-c251-43e4-b7ba-1fdfc9d1c6af
 :END:
 - [2020-11-30 Mon 16:12] <- [[id:c4332e16-f0b7-49cd-bee2-247477070586][成都市]]
-- [2020-11-30 Mon 16:12] <- [[id:c4332e16-f0b7-49cd-bee2-247477070586][成都市]]
-** TODO 成都火锅
+** 成都火锅
 :PROPERTIES:
 :ID:       87434787-c485-4c60-a00e-e3de50f070c9
 :END:
@@ -228,11 +234,6 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 - [2020-11-30 Mon 16:25] <- [[id:087c83d0-48d6-4334-b5c3-2f0586b080df][海南岛]]
 
 ** 斋菜煲
-:PROPERTIES:
-:ID:       baad8a69-7d85-4bb6-920c-ceaa02276e0b
-:END:
- - [2020-11-30 Mon 16:26] -> [[id:087c83d0-48d6-4334-b5c3-2f0586b080df][海南岛]]
-
 *** [[https://www.youtube.com/watch?v=vQa1SuoGqD8][海南大叔秘制斋菜煲火爆几十年，有人从小吃到大，秘方仅2人知道 | 二更 - YouTube]]
 :PROPERTIES:
 :ID:       dc542f4e-3e5a-4813-9d95-866deb42430f
