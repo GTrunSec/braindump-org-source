@@ -24,7 +24,12 @@
 ** [[file:../jupyter-nix.org][Jupyter-Nix]]
 ** [[file:../jupyter-haskell.org][Jupyter Haskell]]
 * [[file:../my-finance.org][My Finance]]
-* [[file:../design-photo.org][Collection of designing list]]
+* [[file:../建筑艺术素材.org][建筑艺术素材]]
+* [[file:../建筑素材分类.org][建筑素材分类]]
+* [[file:../游山玩水.org][游山玩水]]
+* [[file:../traveling.org][我的旅行计划]]
+* [[file:../美食.org][美食]]
+* [[file:../古墓文物.org][古墓文物]]
 * [[file:../life-hack.org][life hacker]]
 * GTD
 ** [[file:../my-public-gtd.org][My Public GTD list]]

@@ -1,4 +1,4 @@
-#+TITLE: Collection of designing list
+#+TITLE: 建筑素材分类
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:my-design.org][My designing brain tranning list]]
+- tags :: [[file:建筑艺术素材.org][建筑艺术素材]]
 
 * 石雕
 ** 小型庭院 :ATTACH:

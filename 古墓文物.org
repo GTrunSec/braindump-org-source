@@ -1,0 +1,13 @@
+#+TITLE: 古墓文物
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-30 Mon 15:57
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* 大龙 [0/0]
+** [[https://www.youtube.com/watch?v=RrmopfbWEnQ][古墓龙带你探寻咸丰的定陵，这种未开放的帝陵你绝对没见过 - YouTube]][2020-05-19 Tue 17:11]
+** [[https://www.youtube.com/watch?v=NY2JP6NQfmU][实拍世界著名佛教寺院 少林寺，近距离观看少林寺最神秘的方丈室 - YouTube]]
+** [[https://www.youtube.com/watch?v=EYN0qXNyFqs][真不愧是朱元璋儿子的陵墓，地宫大的惊人，墓室上方盗洞真精准啊 - YouTube]]
+周定王陵

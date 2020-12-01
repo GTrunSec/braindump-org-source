@@ -1,10 +1,12 @@
-#+TITLE: My designing brain tranning list
+#+TITLE: 建筑艺术素材
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
 * 房屋
 ** 视频素材
 *** [[https://www.youtube.com/watch?v=HwaWWcYsYyg][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]

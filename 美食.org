@@ -1,0 +1,249 @@
+#+TITLE: 美食
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-30 Mon 14:14
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./tags/travel-tags.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+- tags :: [[file:traveling.org][我的旅行计划]]
+
+* 广州美食[0/3]
+:PROPERTIES:
+:ID:       69d0cb2a-b8a6-4a7a-ab95-a970b493b8e0
+:END:
+ - [2020-11-30 Mon 14:24] -> [[id:b7cf31a0-b04d-4443-ae07-e4151e444d47][广东]]
+** TODO [[https://www.youtube.com/watch?v=70hAqcPHZgo][“(1) 广东顺德火焰醉鹅，整瓶红米白酒炖鹅，阿星吃铁锅鹅汤煮面Cantonese Flaming Drunken Goose in Shunde - YouTube”🔊]]
+:PROPERTIES:
+:ID:       b5080d19-ac3b-49aa-a6e9-ee580b0caa39
+:END:
+ - [2020-11-30 Mon 14:15] -> [[id:751b7088-78d5-49fb-8a37-f43e676fda50][顺德]]
+
+   [:div.videoWrapper.mb-4
+   [:iframe
+   {:allowFullScreen "allowfullscreen"
+   :allow
+   "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+   :frameBorder "0"
+   :src "https://www.youtube.com/embed/70hAqcPHZgo"
+   :height "367"
+   :width "653"}]]
+
+** TODO [[https://www.youtube.com/watch?v=nqrdvjJOiXY][二更 | 这一口潮汕打冷太诱人，老板“被迫”24 小时营业！ - YouTube]]
+:PROPERTIES:
+:ID:       f32081a9-23bc-4cd2-9016-d86d2204066b
+:END:
+ - [2020-11-30 Mon 14:18] -> [[id:4dbc7891-27b4-4a32-ba58-c99bd79c1337][潮汕]]
+
+   [:div.videoWrapper.mb-4
+   [:iframe
+   {:allowFullScreen "allowfullscreen"
+   :allow
+   "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+   :frameBorder "0"
+   :src "https://www.youtube.com/embed/nqrdvjJOiXY"
+   :height "367"
+   :width "653"}]]
+
+** TODO [[http://www.dianping.com/shop/517488][【南乐酒家蠄蚷大王(基立南街老店)】电话,地址,价格,营业时间(图) - 广州美食 - 大众点评网]]
+:PROPERTIES:
+:ID:       552da805-e8a0-4b52-916f-9b9069d50093
+:END:
+- [2020-11-30 Mon 14:21] <- [[id:dcb73085-c8e3-469f-8e1f-513d4ed03f3b][珠海]]
+
+* 西安美食
+:PROPERTIES:
+:ID:       6d5ea18f-0c70-4f98-b305-682b76c69fb0
+:END:
+ - [2020-11-30 Mon 14:32] -> [[id:2347c23c-8ea9-43b7-a6b8-4f92c6006155][西安]]
+** TODO [[https://www.youtube.com/watch?v=xqIRhiLwYEs][“型男厨师专攻西安传统黑暗料理，生意火爆食客经常扑空 | 二更 - YouTube”🔊]] [大肠梆梆肉老耿家]
+:PROPERTIES:
+:ID:       469f1124-f50d-46f4-b8bd-c0ef2b5710d4
+:END:
+
+- [2020-11-30 Mon 14:36] <- [[id:6019c06b-f733-4c50-96c2-97c148ef4077][新城区]]
+- [[https://www.dianping.com/shop/2123119][【老耿家梆梆肉】电话,地址,价格,营业时间(图) - 西安美食 - 大众点评网]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/xqIRhiLwYEs"
+:height "367"
+:width "653"}]]
+
+
+
+
+* 东北美食
+:PROPERTIES:
+:ID:       c1d5a9b6-7344-4317-bdfd-cc4183cc6929
+:END:
+- [2020-11-30 Mon 14:40] <- [[id:f22579bb-d6c0-468c-a3ee-9fa89142f638][东北]]
+** TODO [[https://www.youtube.com/watch?v=_tDbsyl9L0M][“回血美味，扶我起来，我还能吃！ | 二更 - YouTube”🔊]][烤翅]
+:PROPERTIES:
+:ID:       ac01edcf-8670-4f3b-97dc-0ee90a7b7b4a
+:END:
+** TODO 大连金州 鱼卤面
+:PROPERTIES:
+:ID:       0207be74-56cc-4170-a809-3cfa325fda44
+:END:
+- [2020-11-30 Mon 14:43] <- [[id:118a9dd5-7981-4fe8-837b-6c21c840ff30][大连]]
+** TODO 寺儿沟 蚬子
+:PROPERTIES:
+:ID:       6f928e44-419c-4ff5-a922-7fd6f998a0be
+:END:
+- [2020-11-30 Mon 14:44] <- [[id:118a9dd5-7981-4fe8-837b-6c21c840ff30][大连]]
+- [[https://www.xuehua.us/a/5eb5152786ec4d5c78979e10][被寺儿沟人藏了几十年的“隐世”美食，今天我要全部曝光！ - 雪花新闻]]
+** TODO 大连 就汤下面
+- [2020-11-30 Mon 14:51] <- [[id:118a9dd5-7981-4fe8-837b-6c21c840ff30][大连]]
+** TODO 金州 刘师傅烩勺面
+:PROPERTIES:
+:ID:       efe6f8bf-8c45-4e1e-ad88-d07a3813ccb6
+:END:
+- [2020-11-30 Mon 14:55] <- [[id:118a9dd5-7981-4fe8-837b-6c21c840ff30][大连]]
+
+* 湖南美食
+:PROPERTIES:
+:ID:       fdab6e64-5dd2-40c3-a91c-612a8e80f179
+:END:
+- [2020-11-30 Mon 14:56] <- [[id:a9a1166f-bf91-4709-91fb-766f3193c67b][湖南]]
+** 长沙 猪油粉条
+https://www.trulia.com/p/wa/federal-way/33508-38th-ave-s-federal-way-wa-98001--1130836371
+
+龙器
+https://movie.douban.com/subject/26298935/?from=subject-page
+
+* 浙江美食
+
+* 天津美食
+:PROPERTIES:
+:ID:       a7fbaa36-a2bc-433c-824b-573a5ce00991
+:END:
+- [2020-11-30 Mon 15:59] -> [[id:8fec79b7-ddb3-406a-ae1c-3825217ebed1][天津市]]
+** [[https://www.youtube.com/watch?v=-RL8rtCXOR4][天津传奇美食大锅煮，一口大锅煮一切，麻辣鲜香吃哭无数食客 | 二更 - YouTube]] [大锅煮]
+:PROPERTIES:
+:ID:       c3fc0de0-6f42-4cab-810a-3de270c97968
+:END:
+ - [2020-11-30 Mon 16:00] -> [[id:c02df4f4-f99b-4df5-a5d6-cc7f06c0c746][河北区]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/-fRL8rtCXOR4"
+:height "367"
+:width "653"}]]
+
+* 新疆美食[0/1]
+
+** TODO [[https://www.youtube.com/watch?v=Um8Ldu2n0jA][(1) 二更 | 什么是新疆吃货标配 - YouTube]]  老张胡辣牛羊蹄
+:PROPERTIES:
+:ID:       7e4c5cd0-9de3-458c-8963-ddd6c0c2d897
+:END:
+ - [2020-11-30 Mon 16:04] -> [[id:eecfcebb-c338-41b9-9b6c-3b6ff433acb4][乌鲁木齐市]]
+ - [[https://www.dianping.com/shop/22684644][【老张胡辣牛羊蹄】电话,地址,价格,营业时间(图) - 乌鲁木齐美食 - 大众点评网]]
+
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/Um8Ldu2n0jA"
+:height "367"
+:width "653"}]]
+
+* 重庆美食
+:PROPERTIES:
+:ID:       a5322272-b047-41a4-b3b4-18bc9548e9d1
+:END:
+- [2020-11-30 Mon 16:06] -> [[id:48c6e5fe-9ba0-4ced-8ded-43ceedc9bf2f][重庆市]]
+** 陶然居 [[https://www.youtube.com/watch?v=xAC37Q6lWmg][“【大師的菜·椒香鵝什錦】爽口椒香味的鹵味妳愛吃嗎？大師教妳重慶風味鹵汁秘制椒香鵝什錦，壹鍋鹵萬物，鹵啥都好吃！ - YouTube”🔊]] :美食:
+:PROPERTIES:
+:ID:       16a37168-d7f4-4e28-ad79-a2fc78267d9a
+:END:
+- [2020-11-30 Mon 16:07] <- [[id:48c6e5fe-9ba0-4ced-8ded-43ceedc9bf2f][重庆市]]
+
+* 上海美食[0/1]
+:PROPERTIES:
+:ID:       29173ffa-6e8c-4a6e-8439-ed49ee6d0c89
+:END:
+- [2020-11-30 Mon 16:09] -> [[id:1f3ca649-a368-4648-9489-e35be17ac40b][上海市]]
+** TODO 名厨本帮馆 :美食:
+:PROPERTIES:
+:ID:       2154395e-4c3b-4b96-be49-ed63283c30e4
+:END:
+- [2020-11-30 Mon 16:08] <- [[id:1f3ca649-a368-4648-9489-e35be17ac40b][上海市]]
+
+* 成都美食[0/1]
+:PROPERTIES:
+:ID:       a0fed91f-c251-43e4-b7ba-1fdfc9d1c6af
+:END:
+- [2020-11-30 Mon 16:12] <- [[id:c4332e16-f0b7-49cd-bee2-247477070586][成都市]]
+- [2020-11-30 Mon 16:12] <- [[id:c4332e16-f0b7-49cd-bee2-247477070586][成都市]]
+** TODO 成都火锅[0/2][0%]
+:PROPERTIES:
+:ID:       87434787-c485-4c60-a00e-e3de50f070c9
+:END:
+*** TODO 八桌老火锅
+*** TODO [[http://www.dianping.com/shop/98750918][【三才老火锅】电话,地址,价格,营业时间(图) - 重庆美食 - 大众点评网]]
+
+* 四川美食
+:PROPERTIES:
+:ID:       c04186d6-260b-4006-9970-b1b7376864e4
+:END:
+- [2020-11-30 Mon 16:15] <- [[id:dea950ae-e40f-45c0-bebd-3054a291643c][四川]]
+
+** TODO [[https://www.youtube.com/watch?v=1DXIYrNbrfI][【四川】三姐妹的“肥腸”早餐店，好吃到讓食客夢裏都要嚼肥腸？Tasty Chitterlings Breakfast Restaurant in Szechuan - YouTube]] :美食:
+:PROPERTIES:
+:ID:       25cc2d37-fd97-4fd2-8ae3-f1b8fc5dc9a2
+:END:
+
+- [2020-11-30 Mon 16:15] <- [[id:a55e36ee-8828-4d92-9aeb-f334546d73f4][江油]]
+
+宋肥肠
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/1DXIYrNbrfI"
+:height "367"
+:width "653"}]]
+
+* 海南美食[0/0]
+:PROPERTIES:
+:ID:       cbf6ab83-516f-4011-9b20-3ad7ec9a4d88
+:END:
+- [2020-11-30 Mon 16:25] <- [[id:087c83d0-48d6-4334-b5c3-2f0586b080df][海南岛]]
+
+** 斋菜煲
+:PROPERTIES:
+:ID:       baad8a69-7d85-4bb6-920c-ceaa02276e0b
+:END:
+ - [2020-11-30 Mon 16:26] -> [[id:087c83d0-48d6-4334-b5c3-2f0586b080df][海南岛]]
+
+*** [[https://www.youtube.com/watch?v=vQa1SuoGqD8][海南大叔秘制斋菜煲火爆几十年，有人从小吃到大，秘方仅2人知道 | 二更 - YouTube]]
+:PROPERTIES:
+:ID:       dc542f4e-3e5a-4813-9d95-866deb42430f
+:END:
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/vQa1SuoGqD8"
+:height "367"
+:width "653"}]]
