@@ -51,9 +51,9 @@
 :PROPERTIES:
 :ID:       daa0ca48-73b5-490e-b139-2b9ce8d8969f
 :END:
+ - [2020-11-30 Mon 22:24] -> [[id:2fa03fb1-e5de-4068-8719-9fa46bb84ad1][洱海]]
 
- - [2020-11-30 Mon 16:59] <- [[id:2fa03fb1-e5de-4068-8719-9fa46bb84ad1][洱海]]
-
+   
   [:div.videoWrapper.mb-4
   [:iframe
   {:allowFullScreen "allowfullscreen"
@@ -78,7 +78,7 @@
 :PROPERTIES:
 :ID:       03bae2bb-3c7c-48df-bf4b-b7990dc7b19f
 :END:
- - [2020-11-30 Mon 16:58] -> [[id:aa63df48-04d9-4525-8aed-6ee11a89a983][香格里拉市]]
+ - [2020-11-30 Mon 22:16] -> [[id:aa63df48-04d9-4525-8aed-6ee11a89a983][香格里拉市]]
 
 * 游山玩水->山西
 :PROPERTIES:
@@ -90,8 +90,9 @@
 :ID:       300cf94c-05fe-4c37-a1ab-279a58dce131
 :END:
 
-- [2020-11-30 Mon 17:03] -> [[id:d72fd310-ede1-49b9-942e-42a9010394ea][佛光寺 (五台)]]
 
+ - [2020-11-30 Mon 22:18] -> [[id:d72fd310-ede1-49b9-942e-42a9010394ea][佛光寺 (五台)]]
+  
 
 [:div.videoWrapper.mb-4
   [:iframe
@@ -162,11 +163,11 @@
 :PROPERTIES:
 :ID:       66ecbfa4-3d1f-4d61-ba21-39c3489e1c90
 :END:
-- [2020-11-30 Mon 16:23] <- [[id:699789e3-99f6-48ca-8ead-2627462af658][少林寺]]
+ - [2020-11-30 Mon 22:19] -> [[id:699789e3-99f6-48ca-8ead-2627462af658][少林寺]]
 
 * 游山玩水->海南岛
 :PROPERTIES:
 :ID:       091af540-7e52-42b1-b321-cf14b0f56bfc
 :END:
 
-- [2020-11-30 Mon 16:24] <- [[id:087c83d0-48d6-4334-b5c3-2f0586b080df][海南岛]]
+- [2020-11-30 Mon 22:20] <- [[id:087c83d0-48d6-4334-b5c3-2f0586b080df][海南岛]]
