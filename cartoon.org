@@ -7,3 +7,9 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 * Looney Tunes or Bugs Bunny
 ** [[https://www.youtube.com/watch?v=bNEydq6EoRs][“Looney Tunes | Was That Bugs Bunny? | Classic Cartoon Compilation | WB Kids - YouTube”🔊]]
+
+* 天外有天 :水墨:
+CLOSED: [2019-07-19 Fri 16:53]
+- State "DONE"     from              [2019-07-19 Fri 16:53]
+- http://t.cn/ES7CTLl?m=4365780395741091&u=2180551362
+有点[[https://baike.baidu.com/item/%E4%B8%87%E6%B0%8F%E5%85%84%E5%BC%9F][万氏兄弟_百度百科]] 水墨画风格的影子

@@ -419,7 +419,16 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
 #+end_src
 
+* Nix Shell
+** [[https://discourse.nixos.org/t/packaging-a-shell-script-that-has-completions/10290][Packaging a shell script that has completions - Learn - NixOS Discourse]]
 
+#+begin_src nix :async t :exports both :results output
+nativeBuildInputs = [ installShellFiles ];
+
+postInstall = ''
+  installShellCompletion xsos-bash-completion.bash
+'';
+#+end_src
 * nix expressions
 :PROPERTIES:
 :ID:       0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
@@ -443,7 +452,7 @@ nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store
 * nix-hash
 ** [[https://github.com/jwiegley/nix-update-el][jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place]]
 ** [[https://github.com/numtide/rnix-hashes][numtide/rnix-hashes: Nix Hash Converter]]
-* nix-env
+* Nix Env
 ** [[https://github.com/target/lorri][target/lorri: Your project's nix-env]]
 * Nix template
 ** [[https://github.com/nix-dot-dev/getting-started-nix-template][nix-dot-dev/getting-started-nix-template: Based on nix.dev tutorials, repository template to get you started with Nix.]]
@@ -564,3 +573,8 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 :END:
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
 - [[file:Jupyter-data-science.org][Jupyter Data Science]]
+* Advent of Code with Nix
+:PROPERTIES:
+:ID:       7726d48c-5ff3-45e0-9ba9-53bc9af2f186
+:END:
+- [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]

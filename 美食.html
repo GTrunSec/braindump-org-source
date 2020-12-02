@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en cn" xml:lang="en cn">
+<head>
+<!-- 2020-11-30 Mon 23:52 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>美食</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://www.gtrun.org/theme/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">美食</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgd501be0">1. 广州美食</a>
+<ul>
+<li><a href="#orgfb2244e">1.1. <span class="todo TODO">TODO</span> “(1) 广东顺德火焰醉鹅，整瓶红米白酒炖鹅，阿星吃铁锅鹅汤煮面Cantonese Flaming Drunken Goose in Shunde - YouTube”🔊</a></li>
+<li><a href="#org6ba0514">1.2. <span class="todo TODO">TODO</span> 二更 | 这一口潮汕打冷太诱人，老板“被迫”24 小时营业！ - YouTube</a></li>
+<li><a href="#orgb0d6023">1.3. <span class="todo TODO">TODO</span> 【南乐酒家蠄蚷大王(基立南街老店)】电话,地址,价格,营业时间(图) - 广州美食 - 大众点评网</a></li>
+</ul>
+</li>
+<li><a href="#org48303f7">2. 西安美食</a>
+<ul>
+<li><a href="#orgfc505bb">2.1. <span class="todo TODO">TODO</span> “型男厨师专攻西安传统黑暗料理，生意火爆食客经常扑空 | 二更 - YouTube”🔊 [大肠梆梆肉老耿家]</a></li>
+</ul>
+</li>
+<li><a href="#org0c3ca9c">3. 东北美食</a>
+<ul>
+<li><a href="#orgde4c299">3.1. <span class="todo TODO">TODO</span> “回血美味，扶我起来，我还能吃！ | 二更 - YouTube”🔊[烤翅]</a></li>
+<li><a href="#orgfd033e6">3.2. <span class="todo TODO">TODO</span> 大连金州 鱼卤面</a></li>
+<li><a href="#orge8a0267">3.3. <span class="todo TODO">TODO</span> 寺儿沟 蚬子</a></li>
+<li><a href="#orgc7d670c">3.4. <span class="todo TODO">TODO</span> 大连 就汤下面</a></li>
+<li><a href="#org9d42d70">3.5. <span class="todo TODO">TODO</span> 金州 刘师傅烩勺面</a></li>
+</ul>
+</li>
+<li><a href="#orgc94bf7e">4. 湖南美食</a>
+<ul>
+<li><a href="#org5c2e5a4">4.1. 长沙 猪油粉条</a></li>
+</ul>
+</li>
+<li><a href="#org0793711">5. 浙江美食</a></li>
+<li><a href="#orgf8b6db8">6. 天津美食</a>
+<ul>
+<li><a href="#orgc390352">6.1. 河北区美食</a>
+<ul>
+<li><a href="#orgbb43aa4">6.1.1. 天津传奇美食大锅煮，一口大锅煮一切，麻辣鲜香吃哭无数食客 | 二更 - YouTube [大锅煮]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgcc924ae">7. 新疆美食</a>
+<ul>
+<li><a href="#org7fbde78">7.1. <span class="todo TODO">TODO</span> (1) 二更 | 什么是新疆吃货标配 - YouTube  老张胡辣牛羊蹄</a></li>
+</ul>
+</li>
+<li><a href="#org9ba951f">8. 重庆美食</a>
+<ul>
+<li><a href="#org46c1baf">8.1. 陶然居 “【大師的菜·椒香鵝什錦】爽口椒香味的鹵味妳愛吃嗎？大師教妳重慶風味鹵汁秘制椒香鵝什錦，壹鍋鹵萬物，鹵啥都好吃！ - YouTube”🔊&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">美食</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org55e203d">9. 上海美食</a>
+<ul>
+<li><a href="#org52bb432">9.1. <span class="todo TODO">TODO</span> 名厨本帮馆&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">美食</span></span></a></li>
+</ul>
+</li>
+<li><a href="#orgd568e94">10. 成都美食</a>
+<ul>
+<li><a href="#org439a5f7">10.1. 成都火锅</a>
+<ul>
+<li><a href="#org3cec05e">10.1.1. <span class="todo TODO">TODO</span> 八桌老火锅</a></li>
+<li><a href="#org3e9672b">10.1.2. <span class="todo TODO">TODO</span> 【三才老火锅】电话,地址,价格,营业时间(图) - 重庆美食 - 大众点评网</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf1b1bb8">11. 四川美食</a>
+<ul>
+<li><a href="#org88aac69">11.1. <span class="todo TODO">TODO</span> 【四川】三姐妹的“肥腸”早餐店，好吃到讓食客夢裏都要嚼肥腸？Tasty Chitterlings Breakfast Restaurant in Szechuan - YouTube&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">美食</span></span></a></li>
+</ul>
+</li>
+<li><a href="#org0090747">12. 海南美食</a>
+<ul>
+<li><a href="#org3869ec8">12.1. 斋菜煲</a>
+<ul>
+<li><a href="#orgfb8634e">12.1.1. 海南大叔秘制斋菜煲火爆几十年，有人从小吃到大，秘方仅2人知道 | 二更 - YouTube</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<dl class="org-dl">
+<dt>tags</dt><dd><a href=traveling.html>我的旅行计划</a></dd>
+</dl>
+
+<div id="outline-container-orgd501be0" class="outline-2">
+<h2 id="orgd501be0"><span class="section-number-2">1</span> 广州美食</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:24] </span></span> -&gt; <a href="traveling.html#ID-b7cf31a0-b04d-4443-ae07-e4151e444d47">广东</a></li>
+</ul>
+</div>
+<div id="outline-container-orgfb2244e" class="outline-3">
+<h3 id="orgfb2244e"><span class="section-number-3">1.1</span> <span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=70hAqcPHZgo">“(1) 广东顺德火焰醉鹅，整瓶红米白酒炖鹅，阿星吃铁锅鹅汤煮面Cantonese Flaming Drunken Goose in Shunde - YouTube”🔊</a></h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li><p>
+<span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:15] </span></span> -&gt; <a href="traveling.html#ID-751b7088-78d5-49fb-8a37-f43e676fda50">顺德</a>
+</p>
+
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/70hAqcPHZgo">https://www.youtube.com/embed/70hAqcPHZgo</a>"
+:height "367"
+:width "653"}]]
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6ba0514" class="outline-3">
+<h3 id="org6ba0514"><span class="section-number-3">1.2</span> <span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=nqrdvjJOiXY">二更 | 这一口潮汕打冷太诱人，老板“被迫”24 小时营业！ - YouTube</a></h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li><p>
+<span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:18] </span></span> -&gt; <a href="traveling.html#ID-4dbc7891-27b4-4a32-ba58-c99bd79c1337">潮汕</a>
+</p>
+
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/nqrdvjJOiXY">https://www.youtube.com/embed/nqrdvjJOiXY</a>"
+:height "367"
+:width "653"}]]
+</p></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb0d6023" class="outline-3">
+<h3 id="orgb0d6023"><span class="section-number-3">1.3</span> <span class="todo TODO">TODO</span> <a href="http://www.dianping.com/shop/517488">【南乐酒家蠄蚷大王(基立南街老店)】电话,地址,价格,营业时间(图) - 广州美食 - 大众点评网</a></h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:21] </span></span> &lt;- <a href="traveling.html#ID-dcb73085-c8e3-469f-8e1f-513d4ed03f3b">珠海</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org48303f7" class="outline-2">
+<h2 id="org48303f7"><span class="section-number-2">2</span> 西安美食</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:32] </span></span> -&gt; <a href="traveling.html#ID-2347c23c-8ea9-43b7-a6b8-4f92c6006155">西安</a></li>
+</ul>
+</div>
+<div id="outline-container-orgfc505bb" class="outline-3">
+<h3 id="orgfc505bb"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=xqIRhiLwYEs">“型男厨师专攻西安传统黑暗料理，生意火爆食客经常扑空 | 二更 - YouTube”🔊</a> [大肠梆梆肉老耿家]</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:36] </span></span> &lt;- <a href="traveling.html#ID-6019c06b-f733-4c50-96c2-97c148ef4077">新城区</a></li>
+<li><a href="https://www.dianping.com/shop/2123119">【老耿家梆梆肉】电话,地址,价格,营业时间(图) - 西安美食 - 大众点评网</a></li>
+</ul>
+
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/xqIRhiLwYEs">https://www.youtube.com/embed/xqIRhiLwYEs</a>"
+:height "367"
+:width "653"}]]
+</p>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-org0c3ca9c" class="outline-2">
+<h2 id="org0c3ca9c"><span class="section-number-2">3</span> 东北美食</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:40] </span></span> &lt;- <a href="traveling.html#ID-f22579bb-d6c0-468c-a3ee-9fa89142f638">东北</a></li>
+</ul>
+</div>
+<div id="outline-container-orgde4c299" class="outline-3">
+<h3 id="orgde4c299"><span class="section-number-3">3.1</span> <span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=_tDbsyl9L0M">“回血美味，扶我起来，我还能吃！ | 二更 - YouTube”🔊</a>[烤翅]</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+</div>
+<div id="outline-container-orgfd033e6" class="outline-3">
+<h3 id="orgfd033e6"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> 大连金州 鱼卤面</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:43] </span></span> &lt;- <a href="traveling.html#ID-118a9dd5-7981-4fe8-837b-6c21c840ff30">大连</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge8a0267" class="outline-3">
+<h3 id="orge8a0267"><span class="section-number-3">3.3</span> <span class="todo TODO">TODO</span> 寺儿沟 蚬子</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:44] </span></span> &lt;- <a href="traveling.html#ID-118a9dd5-7981-4fe8-837b-6c21c840ff30">大连</a></li>
+<li><a href="https://www.xuehua.us/a/5eb5152786ec4d5c78979e10">被寺儿沟人藏了几十年的“隐世”美食，今天我要全部曝光！ - 雪花新闻</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc7d670c" class="outline-3">
+<h3 id="orgc7d670c"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> 大连 就汤下面</h3>
+<div class="outline-text-3" id="text-3-4">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:51] </span></span> &lt;- <a href="traveling.html#ID-118a9dd5-7981-4fe8-837b-6c21c840ff30">大连</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9d42d70" class="outline-3">
+<h3 id="org9d42d70"><span class="section-number-3">3.5</span> <span class="todo TODO">TODO</span> 金州 刘师傅烩勺面</h3>
+<div class="outline-text-3" id="text-3-5">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:55] </span></span> &lt;- <a href="traveling.html#ID-118a9dd5-7981-4fe8-837b-6c21c840ff30">大连</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc94bf7e" class="outline-2">
+<h2 id="orgc94bf7e"><span class="section-number-2">4</span> 湖南美食</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 14:56] </span></span> &lt;- <a href="traveling.html#ID-a9a1166f-bf91-4709-91fb-766f3193c67b">湖南</a></li>
+</ul>
+</div>
+<div id="outline-container-org5c2e5a4" class="outline-3">
+<h3 id="org5c2e5a4"><span class="section-number-3">4.1</span> 长沙 猪油粉条</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+<a href="https://www.trulia.com/p/wa/federal-way/33508-38th-ave-s-federal-way-wa-98001--1130836371">https://www.trulia.com/p/wa/federal-way/33508-38th-ave-s-federal-way-wa-98001--1130836371</a>
+</p>
+
+<p>
+龙器
+<a href="https://movie.douban.com/subject/26298935/?from=subject-page">https://movie.douban.com/subject/26298935/?from=subject-page</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0793711" class="outline-2">
+<h2 id="org0793711"><span class="section-number-2">5</span> 浙江美食</h2>
+</div>
+
+<div id="outline-container-orgf8b6db8" class="outline-2">
+<h2 id="orgf8b6db8"><span class="section-number-2">6</span> 天津美食</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 15:59] </span></span> -&gt; <a href="traveling.html#ID-8fec79b7-ddb3-406a-ae1c-3825217ebed1">天津市</a></li>
+</ul>
+</div>
+
+
+<div id="outline-container-orgc390352" class="outline-3">
+<h3 id="orgc390352"><span class="section-number-3">6.1</span> 河北区美食</h3>
+<div class="outline-text-3" id="text-6-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 22:48] </span></span> -&gt; <a href="traveling.html#ID-c02df4f4-f99b-4df5-a5d6-cc7f06c0c746">河北区</a></li>
+</ul>
+</div>
+<div id="outline-container-orgbb43aa4" class="outline-4">
+<h4 id="orgbb43aa4"><span class="section-number-4">6.1.1</span> <a href="https://www.youtube.com/watch?v=-RL8rtCXOR4">天津传奇美食大锅煮，一口大锅煮一切，麻辣鲜香吃哭无数食客 | 二更 - YouTube</a> [大锅煮]</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/-fRL8rtCXOR4">https://www.youtube.com/embed/-fRL8rtCXOR4</a>"
+:height "367"
+:width "653"}]]
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcc924ae" class="outline-2">
+<h2 id="orgcc924ae"><span class="section-number-2">7</span> 新疆美食</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-org7fbde78" class="outline-3">
+<h3 id="org7fbde78"><span class="section-number-3">7.1</span> <span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=Um8Ldu2n0jA">(1) 二更 | 什么是新疆吃货标配 - YouTube</a>  老张胡辣牛羊蹄</h3>
+<div class="outline-text-3" id="text-7-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:04] </span></span> -&gt; <a href="traveling.html#ID-eecfcebb-c338-41b9-9b6c-3b6ff433acb4">乌鲁木齐市</a></li>
+<li><a href="https://www.dianping.com/shop/22684644">【老张胡辣牛羊蹄】电话,地址,价格,营业时间(图) - 乌鲁木齐美食 - 大众点评网</a></li>
+</ul>
+
+
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/Um8Ldu2n0jA">https://www.youtube.com/embed/Um8Ldu2n0jA</a>"
+:height "367"
+:width "653"}]]
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9ba951f" class="outline-2">
+<h2 id="org9ba951f"><span class="section-number-2">8</span> 重庆美食</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:06] </span></span> -&gt; <a href="traveling.html#ID-48c6e5fe-9ba0-4ced-8ded-43ceedc9bf2f">重庆市</a></li>
+</ul>
+</div>
+<div id="outline-container-org46c1baf" class="outline-3">
+<h3 id="org46c1baf"><span class="section-number-3">8.1</span> 陶然居 <a href="https://www.youtube.com/watch?v=xAC37Q6lWmg">“【大師的菜·椒香鵝什錦】爽口椒香味的鹵味妳愛吃嗎？大師教妳重慶風味鹵汁秘制椒香鵝什錦，壹鍋鹵萬物，鹵啥都好吃！ - YouTube”🔊</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">美食</span></span></h3>
+<div class="outline-text-3" id="text-8-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:07] </span></span> &lt;- <a href="traveling.html#ID-48c6e5fe-9ba0-4ced-8ded-43ceedc9bf2f">重庆市</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org55e203d" class="outline-2">
+<h2 id="org55e203d"><span class="section-number-2">9</span> 上海美食</h2>
+<div class="outline-text-2" id="text-9">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:09] </span></span> -&gt; <a href="traveling.html#ID-1f3ca649-a368-4648-9489-e35be17ac40b">上海市</a></li>
+</ul>
+</div>
+<div id="outline-container-org52bb432" class="outline-3">
+<h3 id="org52bb432"><span class="section-number-3">9.1</span> <span class="todo TODO">TODO</span> 名厨本帮馆&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">美食</span></span></h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:08] </span></span> &lt;- <a href="traveling.html#ID-1f3ca649-a368-4648-9489-e35be17ac40b">上海市</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd568e94" class="outline-2">
+<h2 id="orgd568e94"><span class="section-number-2">10</span> 成都美食</h2>
+<div class="outline-text-2" id="text-10">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:12] </span></span> &lt;- <a href="traveling.html#ID-c4332e16-f0b7-49cd-bee2-247477070586">成都市</a></li>
+</ul>
+</div>
+<div id="outline-container-org439a5f7" class="outline-3">
+<h3 id="org439a5f7"><span class="section-number-3">10.1</span> 成都火锅</h3>
+<div class="outline-text-3" id="text-10-1">
+</div>
+<div id="outline-container-org3cec05e" class="outline-4">
+<h4 id="org3cec05e"><span class="section-number-4">10.1.1</span> <span class="todo TODO">TODO</span> 八桌老火锅</h4>
+</div>
+<div id="outline-container-org3e9672b" class="outline-4">
+<h4 id="org3e9672b"><span class="section-number-4">10.1.2</span> <span class="todo TODO">TODO</span> <a href="http://www.dianping.com/shop/98750918">【三才老火锅】电话,地址,价格,营业时间(图) - 重庆美食 - 大众点评网</a></h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf1b1bb8" class="outline-2">
+<h2 id="orgf1b1bb8"><span class="section-number-2">11</span> 四川美食</h2>
+<div class="outline-text-2" id="text-11">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:15] </span></span> &lt;- <a href="traveling.html#ID-dea950ae-e40f-45c0-bebd-3054a291643c">四川</a></li>
+</ul>
+</div>
+
+<div id="outline-container-org88aac69" class="outline-3">
+<h3 id="org88aac69"><span class="section-number-3">11.1</span> <span class="todo TODO">TODO</span> <a href="https://www.youtube.com/watch?v=1DXIYrNbrfI">【四川】三姐妹的“肥腸”早餐店，好吃到讓食客夢裏都要嚼肥腸？Tasty Chitterlings Breakfast Restaurant in Szechuan - YouTube</a>&#xa0;&#xa0;&#xa0;<span class="tag"><span class="__">美食</span></span></h3>
+<div class="outline-text-3" id="text-11-1">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:15] </span></span> &lt;- <a href="traveling.html#ID-a55e36ee-8828-4d92-9aeb-f334546d73f4">江油</a></li>
+</ul>
+
+<p>
+宋肥肠
+</p>
+
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/1DXIYrNbrfI">https://www.youtube.com/embed/1DXIYrNbrfI</a>"
+:height "367"
+:width "653"}]]
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0090747" class="outline-2">
+<h2 id="org0090747"><span class="section-number-2">12</span> 海南美食</h2>
+<div class="outline-text-2" id="text-12">
+<ul class="org-ul">
+<li><span class="timestamp-wrapper"><span class="timestamp">[2020-11-30 Mon 16:25] </span></span> &lt;- <a href="traveling.html#ID-087c83d0-48d6-4334-b5c3-2f0586b080df">海南岛</a></li>
+</ul>
+</div>
+
+<div id="outline-container-org3869ec8" class="outline-3">
+<h3 id="org3869ec8"><span class="section-number-3">12.1</span> 斋菜煲</h3>
+<div class="outline-text-3" id="text-12-1">
+</div>
+<div id="outline-container-orgfb8634e" class="outline-4">
+<h4 id="orgfb8634e"><span class="section-number-4">12.1.1</span> <a href="https://www.youtube.com/watch?v=vQa1SuoGqD8">海南大叔秘制斋菜煲火爆几十年，有人从小吃到大，秘方仅2人知道 | 二更 - YouTube</a></h4>
+<div class="outline-text-4" id="text-12-1-1">
+<p>
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "<a href="https://www.youtube.com/embed/vQa1SuoGqD8">https://www.youtube.com/embed/vQa1SuoGqD8</a>"
+:height "367"
+:width "653"}]]
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2020-11-30 Mon 14:14</p>
+<p class="date">Created: 2020-11-30 Mon 23:52</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.0.50 (<a href="https://orgmode.org">Org</a> mode 9.5)</p>
+</div>
+</body>
+</html>

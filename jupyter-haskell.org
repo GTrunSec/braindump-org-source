@@ -10,7 +10,7 @@
 
 
 * Jupter Notebook Programming in Haskel
-:PROPS:
+:PROPERTIES:
 :ID:       6438c7d9-22f2-4aff-9c68-3ac5f5b7caab
 :END:
 - [2020-10-29 Thu 18:28] -> [[id:99679afb-8873-409e-9d4b-2b6a6d3b4fc2][Programming in Haskell]]
@@ -42,6 +42,10 @@ pair
 
 #+RESULTS: 93b73bda-ab8e-47dd-a31f-3d0c8364b6bf
 : [1,2,3,4]
+
+
+
+
 ** Chapter 2
 -- Hanoi
 #+begin_src haskell :session localhost :exports both
@@ -58,5 +62,17 @@ hanoiN _ _ = error "Invalid configuration"
 
 
 
+
+* Org-mode Haskell
+
+** Main print
+#+begin_src haskell :async t :exports both :results output
+main = System.Environment.getArgs >>= print
+  :main abc xyz
+#+end_src
+
+#+RESULTS:
+:
+: ["abc","xyz"]
 * diagrams-gallery -> [[file:Jupyter-data-science.org][Jupyter Data Science]]
 - [[https://github.com/Yvee1/jupyter/blob/master/Haskell/diagrams-gallery/Gray.ipynb][jupyter/Gray.ipynb at master · Yvee1/jupyter]] -> [[file:my-haskell.org][Haskell (programming language)]]

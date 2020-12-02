@@ -39,7 +39,6 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 *** [[https://www.youtube.com/watch?v=Vgu82wiiZ90&list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV][“Haskell for Imperative Programmers #1 - Basics - YouTube”🔊]]
 
 *** [[https://www.youtube.com/c/Tsoding/playlists][Tsoding - YouTube]]
-
 ** learning Haskell
 *** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
 *** [[https://github.com/stolyaroleh/learning-haskell/blob/master/cis-194/src/Hw11/SExpr.hs][learning-haskell/SExpr.hs at master · stolyaroleh/learning-haskell]]
@@ -81,3 +80,8 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 :ID:       60f2d837-c650-4df6-9152-6f728d3ce185
 :END:
 - [2020-11-24 Tue 14:53] <- [[id:cf9f6fa4-f80d-4896-852d-91c824fc2a86][mstksg/advent-of-code-ocr: Parsing ASCII art word solutions for advent of code]]
+* Haskell Advent of Code 2020
+:PROPERTIES:
+:ID:       e2ce35f7-3201-416a-badd-f214a0283cf8
+:END:
+- [2020-12-01 Tue 14:54] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]

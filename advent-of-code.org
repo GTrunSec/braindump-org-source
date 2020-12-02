@@ -8,11 +8,29 @@
 
 - tags :: [[file:my-haskell.org][Haskell (programming language)]]
 
+
+
+* [[https://adventofcode.com/][Advent of Code 2020]]
+:PROPERTIES:
+:ID:       40cfb238-83d9-4697-a3ab-20c22e392ad4
+:END:
+
+
+- [2020-12-01 Tue 14:54] -> [[id:e2ce35f7-3201-416a-badd-f214a0283cf8][Haskell Advent of Code 2020]]
+   - [[https://github.com/Ptival/advent-of-code][Ptival/advent-of-code]]
+   - [[https://github.com/argent0/adventOfCode2020][argent0/adventOfCode2020: 2020's edition]]
+   - [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
+
+* Advent of Code 2019
+:PROPERTIES:
+:ID:       879e7b4a-dbd1-41c1-a2ec-f826d438379b
+:END:
+ - [2020-12-01 Tue 14:57] -> [[id:7726d48c-5ff3-45e0-9ba9-53bc9af2f186][Advent of Code with Nix]]
+   + [[https://github.com/Qu4tro/advent_of_code][Qu4tro/advent_of_code: Advent of Code in Nix]]
+
+
 * [[https://github.com/mstksg/advent-of-code-ocr][mstksg/advent-of-code-ocr: Parsing ASCII art word solutions for advent of code]]
 :PROPERTIES:
 :ID:       cf9f6fa4-f80d-4896-852d-91c824fc2a86
 :END:
  - [2020-11-24 Tue 14:53] -> [[id:60f2d837-c650-4df6-9152-6f728d3ce185][Haskell Parsing]]
-* [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
-
-- [[file:my-haskell.org][Haskell (programming language)]]
