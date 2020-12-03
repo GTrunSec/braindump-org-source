@@ -107,5 +107,6 @@ julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"
 *** [[https://github.com/JuliaPy/PyCall.jl][GitHub - JuliaPy/PyCall.jl: Package to call Python functions from the Julia language]]
 *** [[https://github.com/JuliaPy/pyjulia][GitHub - JuliaPy/pyjulia: python interface to julia]]
 * Julia math
+** [[https://github.com/JuliaMath/Roots.jl][JuliaMath/Roots.jl: Root finding functions for Julia]]
 * GeoStats
 ** [[https://github.com/JuliaEarth/GeoStats.jl][JuliaEarth/GeoStats.jl: An extensible framework for high-performance geostatistics in Julia]]

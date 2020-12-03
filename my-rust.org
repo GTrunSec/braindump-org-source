@@ -36,3 +36,4 @@
 *** [[https://github.com/bluejekyll/trust-dns][bluejekyll/trust-dns: A Rust based DNS client, server, and resolver]]
 * Rust async
 ** [[https://github.com/rust-lang/async-book][rust-lang/async-book: Asynchronous Programming in Rust]]
+* [[https://github.com/gavadinov/Learn-Rust-by-Building-Real-Applications][gavadinov/Learn-Rust-by-Building-Real-Applications]]
