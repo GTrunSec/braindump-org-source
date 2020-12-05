@@ -55,7 +55,7 @@ void sumOfNodes(struct Node* head, int* sum)
     sumOfNodes(head->next, sum);
 
     // accumulate sum
-    *sum = *sum + head->data;
+    ,*sum = *sum + head->data;
 }
 
 // utility function to find the sum of  nodes
@@ -91,6 +91,3 @@ int main()
 
 #+RESULTS:
 : Sum of nodes = 26
-
-
-

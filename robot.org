@@ -22,3 +22,11 @@
 ** [[https://github.com/skiffos/skiffos][skiffos/SkiffOS: SkiffOS: lightweight & robust GNU/Linux/Buildroot distribution optimized for containers. Builds a nearly identical environment across underlying compute platforms.]]
 * NVIDIA Jetson
 ** [[https://www.youtube.com/watch?v=j6W98gAZW_U][$59 NVIDIA Jetson Nano 2GB - YouTube]]
+
+
+
+* ROS analysis
+** [[http://www.bnosac.be/index.php/blog/21-using-r-in-robotics-applications-with-ros][bnosac :: open analytical helpers - Using R in Robotics applications with ROS]]
+
+* Users
+** [[https://github.com/Makeblock-official?tab=repositories][Makeblock-official (Makeblock) / Repositories]]

@@ -23,5 +23,5 @@
 ** [[https://github.com/babariviere/dotfiles][babariviere/dotfiles: Personal dotfiles]] :flakes:
 ** [[https://github.com/kmein/niveum/tree/master/modules][niveum/modules at master · kmein/niveum]]
 ** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :nixops:
-* NixOS to other plantform
+* NixOS configsto other plantform
 - [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]

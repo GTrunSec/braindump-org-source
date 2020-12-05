@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
-#+TAGS: lib(l) flakes(f) org(o) doc(d) network(n) modules(m) parser(p) query(q) overlays(O) example(e) nixops(s)
+#+TAGS: lib(l) flakes(f) org(o) doc(d) network(n) modules(m) parser(p) query(q) overlays(O) example(e) nixops(s) storage(S)
 
 - tags :: [[file:programming-languages.org][My learning Programming languages]]
   
@@ -84,6 +84,7 @@
 [2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
 :END:
 - [[https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/haskell-modules/configuration-common.nix][nixpkgs/configuration-common.nix at master · NixOS/nixpkgs]]
+**** [[https://www.youtube.com/watch?v=a22y82ROKyA][Peter Simons: Inside of the Nixpkgs Haskell Infrastructure (NixCon 2015) - YouTube]]
 *** Nix Haskell Documents for beginning
 **** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
 ** Nix [[file:my-python.org][Python]]
@@ -449,11 +450,12 @@ postInstall = ''
 ** ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]
 ** nix-path
 *** [[https://stackoverflow.com/questions/43850371/when-does-a-nix-path-type-make-it-into-the-nix-store-and-when-not/43850372#43850372][nixos - When does a nix path type make it into the nix store and when not? - Stack Overflow]]
-* nix-hash
+* Nix Hash
 ** [[https://github.com/jwiegley/nix-update-el][jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place]]
 ** [[https://github.com/numtide/rnix-hashes][numtide/rnix-hashes: Nix Hash Converter]]
 * Nix Env
 ** [[https://github.com/target/lorri][target/lorri: Your project's nix-env]]
+**
 * Nix template
 ** [[https://github.com/nix-dot-dev/getting-started-nix-template][nix-dot-dev/getting-started-nix-template: Based on nix.dev tutorials, repository template to get you started with Nix.]]
 * Audio
@@ -573,8 +575,15 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 :END:
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
 - [[file:Jupyter-data-science.org][Jupyter Data Science]]
+
+* Nix Option
+** Nix binary substitutions
+*** [[https://github.com/tweag/trustix][tweag/trustix]]
+
 * Advent of Code with Nix
 :PROPERTIES:
 :ID:       7726d48c-5ff3-45e0-9ba9-53bc9af2f186
 :END:
 - [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
+* Nix Modules
+** [[https://github.com/nix-community/impermanence][nix-community/impermanence: Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]​]] :storage:

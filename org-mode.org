@@ -29,3 +29,5 @@
 #+begin_example
 #+LATEX: \newpage
 #+end_example
+* Org-mode Deveployment
+** [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]

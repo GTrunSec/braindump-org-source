@@ -91,3 +91,5 @@
 大夫服笏
 
   - 笏 [hù] 古代大臣上朝拿着的手板，用玉、象牙或竹片制成，上面可以记事
+* ROS
+** [[https://www.amazon.com/ROS-Robotics-Projects-interact-Operating-ebook/dp/B01MTJWNKI/ref=pd_sim_351_1?_encoding=UTF8&pd_rd_i=B01MTJWNKI&pd_rd_r=ddaf3dce-0f20-11e9-b0e5-b7a8889fd845&pd_rd_w=R8Yge&pd_rd_wg=9tEDC&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=C0ZKGVA1S5NEKJGM7A3T&psc=1&refRID=C0ZKGVA1S5NEKJGM7A3T][Amazon.com: ROS Robotics Projects: Make your robots see, sense, and interact with cool and engaging projects with Robotic Operating System eBook: Lentin Joseph: Kindle Store]]
