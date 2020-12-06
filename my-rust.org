@@ -37,3 +37,5 @@
 * Rust async
 ** [[https://github.com/rust-lang/async-book][rust-lang/async-book: Asynchronous Programming in Rust]]
 * [[https://github.com/gavadinov/Learn-Rust-by-Building-Real-Applications][gavadinov/Learn-Rust-by-Building-Real-Applications]]
+* CSV to Rust
+** [[https://github.com/BurntSushi/xsv][BurntSushi/xsv: A fast CSV command line toolkit written in Rust.]]

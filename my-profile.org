@@ -43,3 +43,15 @@
 ** [[http://10.220.170.112:9002/#][AdGuard Home]]
 ** [[http://10.220.170.112:8888/lab?][JupyterLab]]
 ** [[http://10.220.170.112:8334/login][Filestash]]
+
+* [[https://direnv.net/][direnv – unclutter your .profile | direnv]]
+:PROPERTIES:
+:ID:       c740666b-d8ac-442b-b7f3-e00f0a68af08
+:END:
+- [2020-12-05 Sat 19:04] <- [[id:c9d9d8a7-2e24-411e-9dea-091e5d7249f1][purcell/envrc: Emacs support for direnv which operates buffer-locally]]
+
+* Terminal
+:PROPERTIES:
+:ID:       ad8a3bdf-d408-42ac-89af-2994c632752b
+:END:
+- [2020-12-05 Sat 19:07] <- [[id:a223bc68-1e14-402c-a962-acf5b623fade][cprussin/fzf-pass: Wayland client for pass using fzf as the user interface]]

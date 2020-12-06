@@ -1,0 +1,47 @@
+#+TITLE: Julia lang Packages list
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-05 Sat 19:07
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:julia.org][My Julia]]
+
+* [[https://github.com/Jutho/LinearMaps.jl][Jutho/LinearMaps.jl: A Julia package for defining and working with linear maps, also known as linear transformations or linear operators acting on vectors. The only requirement for a LinearMap is that it can act on a vector (by multiplication) efficiently.]]
+
+* GeoStats
+
+** [[https://github.com/JuliaEarth/GeoStats.jl][JuliaEarth/GeoStats.jl: An extensible framework for high-performance geostatistics in Julia]]
+
+* Julia Users
+
+** [[https://github.com/Jutho][Jutho (Jutho)]]
+
+* Julia Machine Learning
+
+** [[https://github.com/Jutho/TensorOperations.jl][Jutho/TensorOperations.jl: Julia package for tensor contractions and related operations]]
+
+* Julia lsp
+
+#+begin_src julia :async t :exports both :results output
+
+import Pkg; Pkg.add("SymbolServer")
+Pkg.add("LanguageServer")
+Pkg.add("PackageCompiler")
+Pkg.add("SymbolServer")
+Pkg.add("StaticLint")
+#+end_src
+
+* Julia RCall
+
+- [[file:R-lang.org][R lang]]
+
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'using Pkg; Pkg.rm("RCall"); Pkg.add("RCall"); Pkg.build("RCall"); using RCall'
+#+end_src
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"))'
+#+end_src
+
+* [[https://github.com/JuliaCN/LeetCode.jl/tree/master/src][LeetCode.jl/src at master · JuliaCN/LeetCode.jl]]

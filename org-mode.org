@@ -31,3 +31,5 @@
 #+end_example
 * Org-mode Deveployment
 ** [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
+* Org mode Config
+** ✰ IMPORTANT [[https://github.com/alphapapa/unpackaged.el#ensure-blank-lines-between-headings-and-before-contents][alphapapa/unpackaged.el: A collection of useful Emacs Lisp code that isn't substantial enough to be packaged]]

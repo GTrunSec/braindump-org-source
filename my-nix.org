@@ -11,11 +11,23 @@
 - tags :: [[file:programming-languages.org][My learning Programming languages]]
   
 * Documents
+
 ** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
 
-* Learn materials
+
+
+* Nix Learn materials
+:PROPERTIES:
+:ID:       f125fef0-d7b8-4145-ba15-5a4b3e92abaa
+:END:
+- [2020-12-05 Sat 14:19] <- [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
 ** [[https://www.youtube.com/watch?v=2mG0zM_wtYs][Everything You Always Wanted To Know About Nix (But Were Afraid To Ask) - YouTube]]
+:PROPERTIES:
+:ID:       69d4adbf-d5cb-4cbb-90ea-5ea3f1bd5999
+:END:
 ** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
+
+
 * Long-term learning config :lib:
 ** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
 ** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
@@ -26,6 +38,8 @@
 
 ** User
 *** [[https://github.com/zimbatm][zimbatm (zimbatm)]]
+
+
 * Nix Overlays
 :PROPERTIES:
 :ID:       72dd4354-5092-433e-aade-6df04bf6c96d
@@ -54,6 +68,8 @@
 :PROPERTIES:
 :ID:       2154d26e-213b-4ef4-9081-4960f8facb73
 :END:
+
+
 * Programming languages Environment
 ** wiki
 - https://nixos.wiki/wiki/Language-specific_package_helpers
@@ -140,6 +156,8 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 ** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
 ** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
 
+
+
 * flakes
 :PROPERTIES:
 :ID:       0fbe152b-bad6-4054-a201-c51ab509ed73
@@ -148,14 +166,18 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-20 Fri 02:28] <- [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
 - [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
+
 ** Flakes wiki [0/3]
+
 - [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
 - [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
 - [conf] ~/.config/nix/nix.conf
   #+begin_src conf :async t :exports both :results output
   experimental-features = nix-command flakes
   #+end_src
+
 *** Output scheme
+
   #+begin_src nix :async t :exports both :results output
 
 { self, ... }@inputs:
@@ -286,12 +308,16 @@ import nixpkgs {
 ** learning flakes
 
 - [[https://discourse.nixos.org/t/good-practice-for-nix-flakes/9706/2][Good practice for Nix Flakes - Learn - NixOS Discourse]]
-
 ** flake check
+
 *** [[https://discourse.nixos.org/t/my-painpoints-with-flakes/9750/5][My painpoints with flakes - NixOS Discourse]]
+
+
 
 * Networking
 ** [[https://github.com/icebox-nix/netkit.nix][icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS]]
+
+
 * Security
 ** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]
 ** Nix SElinux
@@ -341,6 +367,8 @@ security.lockKernelModules = false
 
 Disable kernel module loading once the system is fully initialised.
 Module loading is disabled until the next reboot.  Problems caused by delayed module loading can be fixed by adding the module(s) in question to <option>boot.kernelModule
+
+
 * home-manager
 - [[https://rycee.gitlab.io/home-manager/index.html#_how_do_set_up_a_configuration_for_multiple_users_machines][Home Manager Manual]]
 ** home-manager overlay
@@ -376,8 +404,12 @@ in
 }
 
 #+end_src
+
 ** IsLinux or IsDarwin
+
 - [[https://github.com/nix-community/home-manager/issues/414][Infinite Recursion With stdenv functions · Issue #414 · nix-community/home-manager · GitHub]]
+
+
 * Cachix
 ** push binary cache with nix-shell
 #+begin_src sh :async t :exports both :results output
@@ -430,6 +462,8 @@ postInstall = ''
   installShellCompletion xsos-bash-completion.bash
 '';
 #+end_src
+
+
 * nix expressions
 :PROPERTIES:
 :ID:       0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
@@ -450,22 +484,35 @@ postInstall = ''
 ** ✰ IMPORTANT [[https://nixos.wiki/wiki/Nix_Expression_Language][Nix Expression Language - NixOS Wiki]]
 ** nix-path
 *** [[https://stackoverflow.com/questions/43850371/when-does-a-nix-path-type-make-it-into-the-nix-store-and-when-not/43850372#43850372][nixos - When does a nix path type make it into the nix store and when not? - Stack Overflow]]
+
+
 * Nix Hash
 ** [[https://github.com/jwiegley/nix-update-el][jwiegley/nix-update-el: An Emacs command for updating fetch declarations in place]]
 ** [[https://github.com/numtide/rnix-hashes][numtide/rnix-hashes: Nix Hash Converter]]
+
+
 * Nix Env
 ** [[https://github.com/target/lorri][target/lorri: Your project's nix-env]]
 **
+
+
 * Nix template
 ** [[https://github.com/nix-dot-dev/getting-started-nix-template][nix-dot-dev/getting-started-nix-template: Based on nix.dev tutorials, repository template to get you started with Nix.]]
+
+
 * Audio
+
 ** [[https://github.com/lopsided98/zeus_audio/blob/master/flake.nix][zeus_audio/flake.nix at master · lopsided98/zeus_audio]]
+
 * Nix Router
+
 ** https://github.com/GTrunSec/nixwrt
 * service deployment
 ** [[https://github.com/svanderburg/disnix][svanderburg/disnix: Disnix: A Nix-based distributed service deployment tool]]
 *** [[https://sandervanderburg.blogspot.com/2020/10/transforming-disnix-models-to-graphs.html][Sander van der Burg's blog: Transforming Disnix models to graphs and visualizing them]]
+
 ** https://github.com/svanderburg/nix-processmgmt
+
 * enhanced nix configuration
 ** [[https://github.com/tweag/nickel][tweag/nickel: Cheap configuration language]] :parser:query:
 
@@ -475,6 +522,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 ** [[https://github.com/nix-community/emacs-overlay][nix-community/emacs-overlay: Bleeding edge emacs overlay [maintainer=@adisbladis]​]]
 
 * Nix Friday
+
 ** [[https://www.youtube.com/watch?v=h2I1FHpbaIg][Nix Friday - Flakes! - YouTube]]
 
 [:div.videoWrapper.mb-4
@@ -491,6 +539,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 :PROPERTIES:
 :ID:       2e37c4e9-b74d-490c-9b12-fc5aade3de68
 :END:
+
  - [2020-11-20 Fri 02:28] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
 ** [[https://www.youtube.com/watch?v=apIE_TgNNmo][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 :PROPERTIES:
@@ -568,22 +617,48 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 ** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
 * Nix GUI
 * [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
+
 * Nix Project
+
 ** [[https://github.com/tweag/jupyterWith][tweag/jupyterWith: declarative and reproducible Jupyter environments - powered by Nix]]
 :PROPERTIES:
 :ID:       d2d3ecc6-4e75-483f-88b3-7a5d3bfbbd81
 :END:
+
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
+
 - [[file:Jupyter-data-science.org][Jupyter Data Science]]
 
 * Nix Option
+
 ** Nix binary substitutions
+
 *** [[https://github.com/tweag/trustix][tweag/trustix]]
 
 * Advent of Code with Nix
 :PROPERTIES:
 :ID:       7726d48c-5ff3-45e0-9ba9-53bc9af2f186
 :END:
+
 - [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
+
 * Nix Modules
+
 ** [[https://github.com/nix-community/impermanence][nix-community/impermanence: Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]​]] :storage:
+
+* Nix Darwin
+:PROPERTIES:
+:ID:       5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
+:END:
+
+ - [2020-12-05 Sat 14:21] -> [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
+
+* Nix Vedio
+
+** [[https://www.youtube.com/channel/UCSW5DqTyfOI9sUvnFoCjBlQ/videos][Burke Libbey - YouTube]]
+:PROPERTIES:
+:ID:       a02049b7-89fa-41d0-99f0-b171957245a8
+:END:
+
+- [2020-12-05 Sat 14:21] <- [[id:5c5f33c3-c217-4693-b5f6-e5fdf0c744a9][Nix Darwin]]
+- [2020-12-05 Sat 14:20] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Nix Learn materials]]

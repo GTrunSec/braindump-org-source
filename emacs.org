@@ -24,6 +24,14 @@
 * Packages
 ** Enhance
 *** [[https://github.com/raxod502/selectrum][raxod502/selectrum: 🔔 Better solution for incremental narrowing in Emacs.]]
+** [[https://github.com/purcell/envrc][purcell/envrc: Emacs support for direnv which operates buffer-locally]]
+:PROPERTIES:
+:ID:       c9d9d8a7-2e24-411e-9dea-091e5d7249f1
+:END:
+ - [2020-12-05 Sat 19:04] -> [[id:c740666b-d8ac-442b-b7f3-e00f0a68af08][direnv – unclutter your .profile | direnv]]
 * Emacs Config Framework
+:PROPERTIES:
+:ID:       6a415810-4886-40ae-a438-5830073c12c7
+:END:
 ** [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker]]
 ** [[https://github.com/daviderestivo/galactic-emacs][daviderestivo/galactic-emacs: A Emacs distribution coming from the space ...]]
