@@ -13,9 +13,8 @@
 :PROPERTIES:
 :ID:       a3de31d7-f2be-4939-a19f-0bfd4ddba542
 :END:
-:RELATED:
-[2020-11-11 Wed 16:19] -> [[id:02aa0111-a92e-41d6-abca-ce4cc6c7a931][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
-:END:
+- [2020-11-11 Wed 16:19] -> [[id:02aa0111-a92e-41d6-abca-ce4cc6c7a931][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
+
 * Rust learning
 ** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]
 ** [[https://github.com/ctjhoa/rust-learning][ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust]]
@@ -39,4 +38,12 @@
 ** [[https://github.com/rust-lang/async-book][rust-lang/async-book: Asynchronous Programming in Rust]]
 * [[https://github.com/gavadinov/Learn-Rust-by-Building-Real-Applications][gavadinov/Learn-Rust-by-Building-Real-Applications]]
 * CSV to Rust
+
 ** [[https://github.com/BurntSushi/xsv][BurntSushi/xsv: A fast CSV command line toolkit written in Rust.]]
+* [[https://github.com/redox-os][Redox OS]]
+
+** [[https://github.com/nix-community/redoxpkgs][nix-community/redoxpkgs: Cross-compile to Redox using Nix [maintainer=@aaronjanse]​]]
+:PROPERTIES:
+:ID:       36aa9c9d-bf10-40f0-9463-b5169ffa1f2a
+:END:
+- [2020-12-07 Mon 21:01] <- [[id:8eba3b48-150b-4ca6-a794-79f341d860aa][Nix My Rust]]

@@ -12,7 +12,7 @@
 ** [[file:../my-python.org][My Python]]
 ** [[file:../my-nix.org][Ny Nix]]
 ** [[file:../my-golang.org][My Golang]]
-** [[file:../my-haskell.org][Haskell (programming language)]]
+** [[file:../my-haskell.org][My Haskell]]
 ** [[file:../R-lang.org][R lang]]
 ** [[file:../my-rust.org][My Rust]]
 * MIT math

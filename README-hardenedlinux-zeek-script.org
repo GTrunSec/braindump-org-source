@@ -5,6 +5,9 @@
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:awesome-zeek.org][Awesome Zeek]], [[file:security.org][Security Projects or Ideas]]
+
 * Clone Repo
 :PROPERTIES:
 :header-args:sh: :dir ~/project
@@ -448,6 +451,8 @@ event Conn::log_conn(rec: Conn::Info)
 - [[https://www.alexa.com/topsites][Alexa - Top sites]]
 - Alexa Top Sites
   + redef Alexa::ignore_dns { "WORKGROUP", "DOMEX"};
+
+
 #+begin_src zeek :exports both :tangle "~/project/hardenedlinux-zeek-script/scripts/protocols/dns/alexa/alexa_validation.zeek"
 @load base/protocols/dns
 @load base/frameworks/notice
@@ -578,8 +583,10 @@ event DNS::log_dns(rec: DNS::Info)
   #+end_src
 
 * attachment analysis zip
+
 ** Log Ouput
-  #+begin_src conf :exports both :tangle "~/project/zeek-logs-pcap-dataset/zip/zip.log"
+
+#+begin_src conf :exports both :tangle "~/project/zeek-logs-pcap-dataset/zip/zip.log"
 #separator \x09
 #set_separator	,
 #empty_field	(empty)
@@ -591,4 +598,6 @@ event DNS::log_dns(rec: DNS::Info)
 1478375945.091326	F1VklK3evXm01AvZd	,Fl5Hxx.war,META-INF/application.xml	220	6519	6519	1606112243	0	0	0	102447920
 1478375945.091326	F1VklK3evXm01AvZd	,WEB-INF/,WEB-INF/web.xml,WEB-INF/classes/,WEB-INF/classes/metasploit/,WEB-INF/classes/metasploit/Payload.class,WEB-INF/classes/metasploit/PayloadServlet.class,WEB-INF/classes/metasploit.dat	220	6054	6054	1606112243	0	0	0	262380576
 #close	2020-11-22-22-17-23
-  #+end_src
+#+end_src
+
+* Sync Braindump to hardenedlinux-zeek-scripts

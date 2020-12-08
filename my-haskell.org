@@ -1,10 +1,11 @@
+#+TITLE: My Haskell
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 19 September 2020
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-#+TAGS: nix(n) logging(l) owner(o)
+#+TAGS: nix(n) logging(l) owner(o) database(d)
 
 - tags :: [[file:programming-languages.org][My learning Programming languages]]
 
@@ -58,11 +59,19 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 * Haskell user
 
 ** [[https://github.com/idontgetoutmuch?tab=repositories][idontgetoutmuch / Repositories]] :nix:
+
+** [[https://github.com/parsonsmatt][parsonsmatt (Matt Parsons)]]
+
+*** [[https://github.com/parsonsmatt/persistent-typed-db][parsonsmatt/persistent-typed-db: A type and helpers for typesafe SQL access in the presence of many databases.]] :database:
+
+
+
 * Haskell llvm
 ** [[https://lukelau.me/kaleidoscope/][llvm-hs Kaleidoscope Tutorial]]
 * Haskell lib
 ** IO lib
 *** [[https://github.com/haskell-Z/z-io][haskell-Z/z-io: IO lib for haskell]]
+
 * Haskell parser
 ** Haskell json
 *** [[https://github.com/ChrisPenner/json-to-haskell][ChrisPenner/json-to-haskell: In goes JSON, out comes a complete Haskell model complete with instances! CLI and web interface available.]]
@@ -90,6 +99,8 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 * Haskell to Nix
 
 - [2020-12-06 Sun 14:47] <- [[id:fdd307fb-61eb-4b95-a622-2738c75c4d46][Nix Haskell (programming language)]]
+
+
 ** [[https://github.com/MatrixAI/Haskell-Demo][MatrixAI/Haskell-Demo: Haskell Demo Project using Nix]]
 :PROPERTIES:
 :ID:       b73b472f-cc81-4bf9-b4ee-7fc2b967b86e
@@ -103,3 +114,4 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 nix-env -iA cachix -f https://cachix.org/api/v1/install
 cachix use ghcide-nix
 #+end_src
+
