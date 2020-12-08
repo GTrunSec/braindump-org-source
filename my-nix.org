@@ -672,14 +672,13 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 
 * Nix Darwin
 :PROPERTIES:
-:ID:       5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
+:id: 5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
 :END:
  - [[file:nix-macos.org][Nix on MacOS]]
 
  -
 
  - [2020-12-05 Sat 14:21] -> [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
-
 * Nix Vedio
 
 ** [[https://www.youtube.com/channel/UCSW5DqTyfOI9sUvnFoCjBlQ/videos][Burke Libbey - YouTube]]
