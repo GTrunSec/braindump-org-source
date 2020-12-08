@@ -68,7 +68,8 @@
 :PROPERTIES:
 :ID:       2154d26e-213b-4ef4-9081-4960f8facb73
 :END:
-
+** Overlay in mkShell
+*** [[https://discourse.nixos.org/t/how-to-override-stdenv-for-all-packages-in-mkshell/10368][How to override stdenv for all packages in mkShell - Learn - NixOS Discourse]]
 
 * Programming languages Environment
 ** wiki
@@ -170,13 +171,15 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
 
-** Flakes wiki [0/0]
+** Flakes wiki
 - [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
 - [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
-- [conf] ~/.config/nix/nix.conf
+- option ~/.config/nix/nix.conf
+
   #+begin_src conf :async t :exports both :results output
   experimental-features = nix-command flakes
   #+end_src
+
 
 *** Flake Output scheme
 
@@ -325,13 +328,15 @@ nix develop \
 ** flake check
 
 *** [[https://discourse.nixos.org/t/my-painpoints-with-flakes/9750/5][My painpoints with flakes - NixOS Discourse]]
+** using git submodules with flake ?
+*** FIXME [[https://discourse.nixos.org/t/is-it-possible-to-use-git-submodules-with-flakes/10257][Is it possible to use git submodules with flakes? - Learn - NixOS Discourse]]
 
-
-
-* Networking
-** [[https://github.com/icebox-nix/netkit.nix][icebox-nix/netkit.nix: Verstile tools for advanced networking scenarios in NixOS]]
-
-
+- impure mode
+#+begin_src nix :async t :exports both :results output
+imports = [
+# some stuff
+] ++ (if builtins.pathExists (builtins.getEnv "PWD" + "/secrets/at_home.nix") then [ (builtins.getEnv "PWD" + "/secrets/at_home.nix") ] else [ ]);
+#+end_src
 * Security
 ** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]
 ** Nix SElinux
