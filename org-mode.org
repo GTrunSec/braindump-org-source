@@ -12,9 +12,14 @@
 
 * org mode parser
 ** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
-[[file:my-rust.org][My rust]]
+[[file:my-rust.org][
+My rust]]
+
+
 ** [[https://github.com/ixmatus/orgmode-parse][ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!]]
 [[file:my-haskell.org][Haskell (programming language)]]
+
+
 * org mode viewer
 ** [[https://github.com/alphapapa/org-now][alphapapa/org-now: Conveniently show current Org tasks in a sidebar window]]
 * Org mode Linker
@@ -30,6 +35,8 @@
 #+LATEX: \newpage
 #+end_example
 * Org-mode Deveployment
-** [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
+
+** ❤ LOVE [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
+
 * Org mode Config
 ** ✰ IMPORTANT [[https://github.com/alphapapa/unpackaged.el#ensure-blank-lines-between-headings-and-before-contents][alphapapa/unpackaged.el: A collection of useful Emacs Lisp code that isn't substantial enough to be packaged]]

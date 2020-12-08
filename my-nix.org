@@ -87,7 +87,8 @@
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
-- [2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
+ - [2020-12-06 Sun 14:47] -> [[id:b73b472f-cc81-4bf9-b4ee-7fc2b967b86e][MatrixAI/Haskell-Demo: Haskell Demo Project using Nix]]
+ - [2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
 *** Haskell Infrastructure for Nixpkgs
 **** [[https://github.com/input-output-hk/haskell.nix][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
 **** [[https://github.com/reflex-frp/reflex-platform][reflex-frp/reflex-platform: A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.]]
@@ -650,6 +651,9 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 :PROPERTIES:
 :ID:       5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
 :END:
+ - [[file:nix-macos.org][Nix on MacOS]]
+
+ -
 
  - [2020-12-05 Sat 14:21] -> [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
 

@@ -85,3 +85,21 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 :ID:       e2ce35f7-3201-416a-badd-f214a0283cf8
 :END:
 - [2020-12-01 Tue 14:54] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
+
+
+* Haskell to Nix
+
+- [2020-12-06 Sun 14:47] <- [[id:fdd307fb-61eb-4b95-a622-2738c75c4d46][Nix Haskell (programming language)]]
+** [[https://github.com/MatrixAI/Haskell-Demo][MatrixAI/Haskell-Demo: Haskell Demo Project using Nix]]
+:PROPERTIES:
+:ID:       b73b472f-cc81-4bf9-b4ee-7fc2b967b86e
+:END:
+
+* Ghcide
+
+** [[https://github.com/cachix/ghcide-nix][cachix/ghcide-nix: Nix installation for ghcide]]
+
+#+begin_src sh :async t :exports both :results output
+nix-env -iA cachix -f https://cachix.org/api/v1/install
+cachix use ghcide-nix
+#+end_src

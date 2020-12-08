@@ -1,0 +1,36 @@
+#+TITLE: Nix on MacOS
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-07 Mon 15:49
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:my-nix.org][Ny Nix]]
+
+* [[https://hardselius.github.io/2020/nix-please/][Nix Please! | MartinHardselius]]
+
+- Big Sur [2020-12-07 Mon 15:54]
+#+begin_src sh :async t :exports both :results output
+sh <(curl https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
+#+end_src
+
+
+* Nix Home-manager
+
+#+begin_src sh :async t :exports both :results output
+nix-shell -p 'home-manager'
+#+end_src
+
+* Install Basic brew Packages
+
+#+begin_src sh :async t :exports both :results output
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#+end_src
+
+
+- emacs Dep
+
+#+begin_src sh :async t :exports both :results output
+brew install coreutils
+#+end_src

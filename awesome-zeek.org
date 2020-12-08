@@ -267,6 +267,9 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 ** [[https://github.com/dopheide-esnet/bro-quic][dopheide-esnet/bro-quic: Analyzer that attempts to identify the QUIC protocol.]]
 ** [[https://github.com/irtimmer/bro-xdp_packet-plugin][irtimmer/bro-xdp_packet-plugin: Plugin providing AF_XDP support for Bro.]]
 ** [[https://github.com/J-Gras/bro-fuzzy-hashing][J-Gras/bro-fuzzy-hashing: Bro plugin providing fuzzy hashing integration.]]
+
+
+
 ** [[https://github.com/endace/bro-dag][endace/bro-dag: Bro plugin providing native Endace DAG packet capture support]]
 ** [[https://github.com/esnet/zeek_perfsonar_owamp][esnet/zeek_perfsonar_owamp: OWAMP protocol analyzer plugin for Bro/Zeek]]
 *** [[https://github.com/perfsonar/owamp][perfsonar/owamp: A tool for performing one-way active measurements]]

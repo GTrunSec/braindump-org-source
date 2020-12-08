@@ -32,9 +32,14 @@
 ** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
 * Block
 ** [[https://github.com/AdguardTeam/AdGuardHome][AdguardTeam/AdGuardHome: Network-wide ads & trackers blocking DNS server]]
+
 *** [[https://github.com/ammnt/AmmoniteFilter][ammnt/AmmoniteFilter: The extended and optimized family filter for AdGuard Home]]
+
+*** [[https://github.com/mcintosh109/Pi-Hole_my_blocklist][mcintosh109/Pi-Hole_my_blocklist: This is my Pi-Hole Personal blocklist]]
+
 *** [[https://github.com/hl2guide/Filterlist-for-AdGuard][hl2guide/Filterlist-for-AdGuard: An aggressive filter-list that consolidates over 110 lists for use in AdGuard Home.]]
-*** [[https://github.com/FutaGuard/Public-DNS#dot--doh-%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F][FutaGuard/Public-DNS]]
+
+
 
 * GunagTao's NixOS services Index
 ** [[http://10.220.170.112:2344/photos][PhotoPrism: Browse Your Life]]

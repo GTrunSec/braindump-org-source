@@ -5,5 +5,13 @@
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:my-public-gtd.org][My Public GTD list]]
+
 * 视频剧
 ** [[https://www.youtube.com/watch?v=CvWLpbvJHRc][“一口气看完《迷失LOST》第二季：独家解析烧脑神剧，荒岛求生经典鼻祖（合集版）|抓马·美剧 - YouTube”🔊]]
+** [[https://v.qq.com/x/search/?q=%E5%A4%A7%E7%A7%A6%E8%B5%8B&stag=101][大秦赋-腾讯视频]] [2020-12-07 Mon 16:38]
+:PROPERTIES:
+:ID:       dcfdf95c-0de1-4c26-8b07-d6828fe9b739
+:END:
+- [2020-12-07 Mon 16:39] <- [[id:f4e87c62-476a-4a75-896a-8194e63dc9d6][Media]]
