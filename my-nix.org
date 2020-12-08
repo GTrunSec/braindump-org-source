@@ -4,17 +4,15 @@
 #+DATE: 2020-11-29 Sun
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ./theme-readtheorg.setup
+#+SETUPFILE: ./tags/nix-tags.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
-#+TAGS: lib(l) flakes(f) org(o) doc(d) network(n) modules(m) parser(p) query(q) overlays(O) example(e) nixops(s) storage(S)
 
 - tags :: [[file:programming-languages.org][My learning Programming languages]]
   
 * Documents
 
 ** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
-
-
 
 * Nix Learn materials
 :PROPERTIES:
@@ -666,11 +664,10 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 
 * Advent of Code with Nix
 :PROPERTIES:
-:ID:       7726d48c-5ff3-45e0-9ba9-53bc9af2f186
+:id: 7726d48c-5ff3-45e0-9ba9-53bc9af2f186
 :END:
 
 - [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
-
 * Nix Modules
 
 ** [[https://github.com/nix-community/impermanence][nix-community/impermanence: Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]​]] :storage:
@@ -680,8 +677,6 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 :id: 5c5f33c3-c217-4693-b5f6-e5fdf0c744a9
 :END:
  - [[file:nix-macos.org][Nix on MacOS]]
-
- -
 
  - [2020-12-05 Sat 14:21] -> [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
 * Nix Vedio

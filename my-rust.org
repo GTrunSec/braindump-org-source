@@ -19,13 +19,19 @@
 ** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]
 ** [[https://github.com/ctjhoa/rust-learning][ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust]]
 ** [[https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
-:BACKLINKS:
-[2020-10-22 Thu 20:23] <- [[*rust embedded][rust embedded]]
+:PROPERTIES:
+:ID:       207c92d4-3a20-4798-9324-e798bec9e260
 :END:
+- [2020-12-08 Tue 15:06] <- [[id:1f7b01a1-1a38-404a-859a-5667b466272d][Rust embedded]]
+
 ** [[https://bfnightly.bracketproductions.com/rustbook/chapter_3.html][Walking A Map - Roguelike Tutorial - In Rust]]
 - [[https://github.com/thebracket/rustrogueliketutorial][thebracket/rustrogueliketutorial: Roguelike Tutorial in Rust - using RLTK]]
 * Rust embedded
-- [[*\[\[https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials\]\[rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust\]\]][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
+:PROPERTIES:
+:ID:       1f7b01a1-1a38-404a-859a-5667b466272d
+:END:
+ - [2020-12-08 Tue 15:06] -> [[id:207c92d4-3a20-4798-9324-e798bec9e260][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
+
 * Rust Network
 ** Rust DNS
 :PROPERTIES:

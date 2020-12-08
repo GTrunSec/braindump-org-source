@@ -1,0 +1,7 @@
+# -*- mode: org; -*-
+#+TAGS: network(n) modules(m) overlays(O) example(e) nixops(s) storage(S)
+#+TAGS: [ flake : NixOS package example ]
+#+TAGS: [ NixOS : config wiki module ]
+#+TAGS: [ Nix : lib wiki parser query ]
+#+TAGS: [ overlay : package ]
+#+TAGS: [ nixops : deploy module ]

@@ -15,3 +15,9 @@
 
 * Buy Store
 ** [[https://www.wallofsheep.com/][Wall of Sheep]]
+
+* SDR to Nix
+
+** [[https://github.com/lopsided98/nix-sdr][lopsided98/nix-sdr: Common software defined radio (SDR) related packages for Nix]]
+
+- [[file:my-nix.org][Ny Nix]]

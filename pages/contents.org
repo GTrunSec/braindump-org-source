@@ -3,39 +3,76 @@
 
 * [[file:../nsm.org][Network monitoring]]
 ** [[file:../awesome-zeek.org][Awesome Zeek]]
+*** [[file:../README-hardenedlinux-zeek-script.org][README hardenedlinux-zeek-script]]
 * [[file:../security.org][Security Project or Idea]]
+* [[file:../network.org][Network]]
+** [[file:../nsm.org][Network monitoring]]
+
 * [[file:../programming-languages.org][My learning Programming languages]]
 ** [[file:../my-math.org][My math]]
+*** [[file:../my-latex.org][My latex]]
 ** [[file:../my-latex.org][My latex]]
 ** [[file:../julia.org][My Julia]]
 ** [[file:../my-clang.org][My Clang]]
 ** [[file:../my-python.org][My Python]]
 ** [[file:../my-nix.org][Ny Nix]]
+*** [[file:../nix-macos.org][Nix on MacOS]]
+*** [[file:../nixos.org][NixOS]]
+*** [[file:../jupyter-nix.org][Jupyter Nix]]
 ** [[file:../my-golang.org][My Golang]]
 ** [[file:../my-haskell.org][My Haskell]]
+*** [[file:../jupyter-haskell.org][Jupyter Haskell]]
 ** [[file:../R-lang.org][R lang]]
 ** [[file:../my-rust.org][My Rust]]
-* MIT math
+* Mathmatic
 ** [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 ** [[file:../mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
 * [[file:../machine-learning.org][Machine Learning]]
+** [[file:../mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
+
+* Julia
+
+** [[file:../julia.org][My Julia]]
+
+** [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+
+* [[file:../linux.org][Linux]]
+
+** [[file:../debian.org][Debian Linux]]
+
+** [[file:../linux-commands.org][Linux Commands]]
+
+* [[file:../emacs.org][Emacs]]
+** [[file:../org-mode.org][Org mode]]
 * Jupyter
 ** [[file:../Jupyter-data-science.org][Jupyter Data Science]]
-** [[file:../jupyter-nix.org][Jupyter-Nix]]
+** [[file:../jupyter-nix.org][Jupyter Nix]]
 ** [[file:../jupyter-haskell.org][Jupyter Haskell]]
 * [[file:../my-finance.org][My Finance]]
-* [[file:../建筑艺术素材.org][建筑艺术素材]]
-* [[file:../建筑素材分类.org][建筑素材分类]]
-* [[file:../游山玩水.org][游山玩水]]
-* [[file:../traveling.org][我的旅行计划]]
-* [[file:../美食.org][美食]]
-* [[file:../古墓文物.org][古墓文物]]
-* [[file:../life-hack.org][life hacker]]
-* GTD
+
+* [[file:../GuangTao-art.org][GuangTao's Art]]
+
+** [[file:../建筑艺术素材.org][建筑艺术素材]]
+** [[file:../建筑素材分类.org][建筑素材分类]]
+** [[file:../古墓文物.org][古墓文物]]
+** [[file:../learn-music.org][learning music agenda]]
+
+* [[file:../life.org][GuangTao's Life]]
+
+** [[file:../游山玩水.org][游山玩水]]
+** [[file:../traveling.org][我的旅行计划]]
+** [[file:../美食.org][美食]]
+** [[file:../life-hack.org][life hacker]]
+** GTD
 ** [[file:../my-public-gtd.org][My Public GTD list]]
 * Workflow
 ** [[file:../git-workflow.org][GuangTao's Git workflow]]
-* Profile
+* [[file:../my-profile.org][My Profile]]
 ** [[file:../git.org][Git]]
+** [[file:../my-nix.org][Ny Nix]]
 * Media
 ** [[file:../cartoon.org][Cartoon]]
+* Misc
+** [[file:../logseq.org][Logseq]]
+* [[file:../logs.org][Logs]]
+** [[file:../logging_parser.org][logging parser]]
