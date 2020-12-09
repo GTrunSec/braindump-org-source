@@ -541,52 +541,6 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 * Nix Emacs
 ** [[https://github.com/vlaci/nix-doom-emacs][vlaci/nix-doom-emacs: doom-emacs packaged for Nix]]
 ** [[https://github.com/nix-community/emacs-overlay][nix-community/emacs-overlay: Bleeding edge emacs overlay [maintainer=@adisbladis]​]]
-
-* Nix Friday
-
-** [[https://www.youtube.com/watch?v=h2I1FHpbaIg][Nix Friday - Flakes! - YouTube]]
-:PROPERTIES:
-:ID:       2e37c4e9-b74d-490c-9b12-fc5aade3de68
-:END:
- - [2020-11-20 Fri 02:28] -> [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-
-
-[:div.videoWrapper.mb-4
-[:iframe
-{:allowFullScreen "allowfullscreen"
-:allow
-"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-:frameBorder "0"
-:src "https://www.youtube.com/embed/h2I1FHpbaIg"
-:height "367"
-:width "653"}]]
-
-
-
-
-
-
-
-
-** [[https://www.youtube.com/watch?v=apIE_TgNNmo][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
-:PROPERTIES:
-:ID:       2cac43cc-1cbd-4092-a275-83856018a0a8
-:END:
-
-[:div.videoWrapper.mb-4
-[:iframe
-{:allowFullScreen "allowfullscreen"
-:allow
-"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-:frameBorder "0"
-:src "https://www.youtube.com/embed/apIE_TgNNmo"
-:height "367"
-:width "653"}]]
-
-
-- [2020-11-07 Sat 22:56] <- [[id:0680ffeb-a824-4dec-b15d-0e8ec04e97b9][C/C++ Nix infrastructure]]
-
-
 * ROS Nix
 :PROPERTIES:
 :ID:       dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4

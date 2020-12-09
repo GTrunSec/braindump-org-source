@@ -18,6 +18,8 @@
 ** [[file:../my-nix.org][Ny Nix]]
 *** [[file:../nix-macos.org][Nix on MacOS]]
 *** [[file:../nixos.org][NixOS]]
+*** [[file:../nix-friday.org][Nix Friday]]
+*** [[file:../nix-hydra.org][NixOS hydra Channel]]
 *** [[file:../jupyter-nix.org][Jupyter Nix]]
 ** [[file:../my-golang.org][My Golang]]
 ** [[file:../my-haskell.org][My Haskell]]
