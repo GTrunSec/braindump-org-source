@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: analysis(a) BOOK(b) READ(r) LEARN(l) Documents(d)
-* R
+* Rlang Books
 :PROPERTIES:
 :CATEGORY: R-lang
 :END:
@@ -26,7 +26,7 @@
 :CATEGORY: R-lang
 :END:
 
-* Haskell
+* Haskell Books
  :PROPERTIES:
 :CATEGORY: Haskell
 :END:
@@ -42,12 +42,12 @@
 - [2020-10-29 Thu 18:28] <- [[id:6438c7d9-22f2-4aff-9c68-3ac5f5b7caab][Jupter Notebook Programming in Haskell]]
 - [2020-09-24 Thu 22:22] <- [[file:my-haskell.org][Haskell books]]
 - [[https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises][Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.]]
-* GO
+* GO Books
 :PROPERTIES:
 :CATEGORY: GOLANG
 :END:
 
-* Python
+* Python Books
 ** Python 3 Object-Oriented Programming - Third Edition
 :PROPERTIES:
 :AUTHOR:   Dusty Phillips
@@ -55,12 +55,18 @@
 :AMAZON:   https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented/dp/1789615852
 :END:
 
-* Julia
+* Julia Books
 :PROPERTIES:
 :CATEGORY: Julia
+:ID:       306c7b79-8a54-4e5b-8678-444eab1327fd
 :END:
 
+
+ - [2020-12-09 Wed 12:27] <- [[id:a2d3b106-35bb-42c7-af55-b5d2e3589ba0][h-Klok/StatsWithJuliaBook]]
 * Literature
+:PROPERTIES:
+:ID:       57443f09-a987-421c-9695-9c8c7a353f36
+:END:
 ** 高草丛生
 - [[https://www.youtube.com/watch?v=JZLmAebe2eo][最新燒腦驚悚片，斯蒂芬.金小說改
   編！時空錯亂的高草叢中，一旦進去就出不來！走不出去的高草叢，其實就是我們的無法
@@ -80,7 +86,7 @@
 :AMAZON:   https://www.amazon.com/Handbook-Computer-Networks-Cyber-Security-dp-3030222764/dp/3030222764/
 :END:
 
-* Rust
+* Rust Books
 ** [[https://b-ok.cc/book/5236575/3e3e64][The Rust Programming Language | Steve Klabnik, Carol Nichols | download]]
 * [[https://ctext.org/xunzi/da-lve/zhs][荀子 : 大略 - 中国哲学书电子化计划]]
 诸侯召其臣，臣不俟驾，颠倒衣裳而走，礼也。《诗》曰：“颠之倒之，自公召之。”天子召诸侯，诸侯辇舆就马，礼也。《诗》曰：“我出我舆，于彼牧矣。自天子所，谓我来矣。”
@@ -91,5 +97,5 @@
 大夫服笏
 
   - 笏 [hù] 古代大臣上朝拿着的手板，用玉、象牙或竹片制成，上面可以记事
-* ROS
+* ROS Books
 ** [[https://www.amazon.com/ROS-Robotics-Projects-interact-Operating-ebook/dp/B01MTJWNKI/ref=pd_sim_351_1?_encoding=UTF8&pd_rd_i=B01MTJWNKI&pd_rd_r=ddaf3dce-0f20-11e9-b0e5-b7a8889fd845&pd_rd_w=R8Yge&pd_rd_wg=9tEDC&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=C0ZKGVA1S5NEKJGM7A3T&psc=1&refRID=C0ZKGVA1S5NEKJGM7A3T][Amazon.com: ROS Robotics Projects: Make your robots see, sense, and interact with cool and engaging projects with Robotic Operating System eBook: Lentin Joseph: Kindle Store]]

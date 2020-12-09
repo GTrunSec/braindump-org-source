@@ -1,0 +1,60 @@
+#+TITLE: StatsWithJuliaBook
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-09 Wed 12:25
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:julia.org][My Julia]]
+
+* [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
+:PROPERTIES:
+:ID:       a2d3b106-35bb-42c7-af55-b5d2e3589ba0
+:END:
+ - [2020-12-09 Wed 12:27] -> [[id:306c7b79-8a54-4e5b-8678-444eab1327fd][Julia Books]]
+
+
+
+
+1. [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/bubbleSort.jl][StatsWithJuliaBook/bubbleSort.jl at master · h-Klok/StatsWithJuliaBook]]
+
+#+begin_src julia :async t :exports both :results output
+function bubbleSort!(a)
+    n = length(a)
+    for i in 1:n-1
+        for j in 1:n-i
+            if a[j] > a[j+1]
+                a[j], a[j+1] = a[j+1], a[j]
+            end
+        end
+    end
+    return a
+end
+
+data = [65, 51, 32, 12, 23, 84, 68, 1]
+bubbleSort!(data)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+bubbleSort! (generic function with 1 method)
+8-element Array{Int64,1}:
+ 65
+ 51
+ 32
+ 12
+ 23
+ 84
+ 68
+  1
+8-element Array{Int64,1}:
+  1
+ 12
+ 23
+ 32
+ 51
+ 65
+ 68
+ 84
+#+end_example

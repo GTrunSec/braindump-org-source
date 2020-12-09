@@ -9,7 +9,7 @@
 - tags :: [[file:my-nix.org][Ny Nix]], [[file:nixos.org][NixOS]]
 
 
-* [[https://github.com/nix-community/hydra-check][nix-community/hydra-check: check hydra for the build status of a package [maintainer=@makefu]​]]
+* [[https://github.com/nix-community/hydra-check][nix-community/hydra-check: check hydra for the build status of a package maintainer=@makefu]]
 
 * [[https://status.nixos.org/][NixOS Infra Status]]
 

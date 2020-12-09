@@ -12,3 +12,9 @@
 *** https://jdbc.postgresql.org/download.html
 ** Doc & book
 *** [[https://github.com/kylelobo/The-Documentation-Compendium][kylelobo/The-Documentation-Compendium: 📢 Various README templates & tips on writing high-quality documentation that people want to read.]]
+
+* PostgreSQL
+
+** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
+
+- [[file:my-haskell.org][My Haskell]]

@@ -21,3 +21,4 @@ git clone https://github.com/mitmath/18337.git
 #+RESULTS:
 * MLOps
 ** [[https://github.com/visenger/awesome-mlops][visenger/awesome-mlops: A curated list of references for MLOps]]
+* [[https://github.com/masa-su/pixyz][masa-su/pixyz: A library for developing deep generative models in a more concise, intuitive and extendable way]]

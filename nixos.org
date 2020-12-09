@@ -12,7 +12,7 @@
 * NixOS desktop
 ** XDG
 *** [[https://discourse.nixos.org/t/how-to-set-the-xdg-mime-default/3560/3][How to set the `xdg-mime` default? - Learn - NixOS Discourse]]
-* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Options]]
+* [[https://search.nixos.org/options?channel=20.09&show=environment.etc.%3Cname%3E.group&from=0&size=30&sort=relevance&query=etc][NixOS Search - Optios]]
 
 * NixOS Documents
 ** [[https://nixos.wiki/wiki/Module][Module - NixOS Wiki]]

@@ -13,7 +13,6 @@
 
 * Nix Friday 2020
 ** Nix Friday [2020-10-30 Fri]
-
 *** [[https://www.youtube.com/watch?v=apIE_TgNNmo][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 :PROPERTIES:
 :ID:       2cac43cc-1cbd-4092-a275-83856018a0a8

@@ -26,7 +26,7 @@
 ** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
 
 
-* Long-term learning config :lib:
+* Long-term learning config
 ** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
 ** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
 ** [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
@@ -491,6 +491,7 @@ postInstall = ''
 *** [[https://www.youtube.com/watch?v=X2GJv0vrLo0][Nix Expression Language in under 5 Minutes - YouTube]]
 
 - [[https://gist.github.com/jD91mZM2/ccc42f1068780a52ed20c212120ebdac][presentation.org]]
+*** [[https://www.youtube.com/watch?v=m4sv2M9jRLg][“Nix Fundamentals - YouTube”🔊]] :nix:expression:
 
 *** [[https://nix.dev/anti-patterns/language.html][Nix language — nix.dev documentation]]
 ** [[https://github.com/zimbatm/nix-experiments][zimbatm/nix-experiments]]
@@ -514,7 +515,6 @@ postInstall = ''
 
 * Nix Env
 ** [[https://github.com/target/lorri][target/lorri: Your project's nix-env]]
-**
 
 
 * Nix template

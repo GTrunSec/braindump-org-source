@@ -60,3 +60,9 @@
 :ID:       ad8a3bdf-d408-42ac-89af-2994c632752b
 :END:
 - [2020-12-05 Sat 19:07] <- [[id:a223bc68-1e14-402c-a962-acf5b623fade][cprussin/fzf-pass: Wayland client for pass using fzf as the user interface]]
+
+* Diagrams
+
+** [[https://plantuml.com/zh/emacs][Integration with Emacs]]
+
+- [[file:emacs.org][Emacs]]
