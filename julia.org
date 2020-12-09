@@ -44,8 +44,14 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 ** [[https://discourse.julialang.org/t/improving-the-code-speed-by-employing-parallelism-for-asynchronous-task/47041][Improving the code speed by employing parallelism for asynchronous task - Usage / Performance - JuliaLang]]
 
 * Julia tutorial or courses
-
+:PROPERTIES:
+:ID:       0c1d1c3c-5182-4db8-b2dc-4c93c81f4243
+:END:
+- [2020-12-09 Wed 12:48] -> [[id:a2d3b106-35bb-42c7-af55-b5d2e3589ba0][h-Klok/StatsWithJuliaBook]]
 ** [[file:my-math.org][My math]] Julia math
+:PROPERTIES:
+:ID:       cfcd1d5d-eb3d-4001-8163-7c1809aea184
+:END:
 
 *** [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 :PROPERTIES:
@@ -92,29 +98,6 @@ git clone https://github.com/hyper0x/JuliaBasics.git
 
  - [2020-11-20 Fri 03:03] -> [[id:54f94d64-138c-4f43-8dc6-81c01654466f][financial course with Julia]]
 
-* Julia Packages
-
-** Julia lsp
-#+begin_src julia :async t :exports both :results output
-
-import Pkg; Pkg.add("SymbolServer")
-Pkg.add("LanguageServer")
-Pkg.add("PackageCompiler")
-Pkg.add("SymbolServer")
-Pkg.add("StaticLint")
-#+end_src
-** Julia RCall
-:PROPERTIES:
-:ID:       deb99846-e7fd-49af-b6b3-ae3154277c08
-:END:
-#+begin_src sh :async t :exports both :results output
-julia_wrapped -e 'using Pkg; Pkg.rm("RCall"); Pkg.add("RCall"); Pkg.build("RCall"); using RCall'
-#+end_src
-#+begin_src sh :async t :exports both :results output
-julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"))'
-#+end_src
-
-
 * Python Support
 
 ** [[https://github.com/JuliaPy][JuliaPy · GitHub]]
@@ -126,3 +109,5 @@ julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"
 * Julia math
 
 ** [[https://github.com/JuliaMath/Roots.jl][JuliaMath/Roots.jl: Root finding functions for Julia]]
+
+* [[https://julialang.org/downloads/][Download Julia]]

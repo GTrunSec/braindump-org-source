@@ -6,20 +6,18 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:julia.org][My Julia]]
+- tags :: [[file:julia.org][My Julia]],[[file:my-books.org][My Library]]
 
-* [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
+* INPROCESS [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
 :PROPERTIES:
 :ID:       a2d3b106-35bb-42c7-af55-b5d2e3589ba0
 :END:
- - [2020-12-09 Wed 12:27] -> [[id:306c7b79-8a54-4e5b-8678-444eab1327fd][Julia Books]]
-
-
-
+- [2020-12-09 Wed 12:48] <- [[id:0c1d1c3c-5182-4db8-b2dc-4c93c81f4243][Julia tutorial or courses]]
+- [2020-12-09 Wed 12:27] -> [[id:306c7b79-8a54-4e5b-8678-444eab1327fd][Julia Books]]
 
 1. [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/bubbleSort.jl][StatsWithJuliaBook/bubbleSort.jl at master · h-Klok/StatsWithJuliaBook]]
 
-#+begin_src julia :async t :exports both :results output
+#+begin_src julia :exports both :results output
 function bubbleSort!(a)
     n = length(a)
     for i in 1:n-1
