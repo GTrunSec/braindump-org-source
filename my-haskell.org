@@ -106,7 +106,17 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 :ID:       b73b472f-cc81-4bf9-b4ee-7fc2b967b86e
 :END:
 
+* Haskell Infrastructure
+
+** ✰ IMPORTANT [[https://github.com/input-output-hk/haskell.nix][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
+:PROPERTIES:
+:ID:       f2731e82-6522-4694-9fb0-2caeebf6028f
+:END:
+- [2020-12-09 Wed 20:08] -> [[id:fdd307fb-61eb-4b95-a622-2738c75c4d46][Nix My Haskell]]
 * Ghcide
+:PROPERTIES:
+:ID:       29d504b7-baa0-47b1-8980-25368baf7414
+:END:
 
 ** [[https://github.com/cachix/ghcide-nix][cachix/ghcide-nix: Nix installation for ghcide]]
 

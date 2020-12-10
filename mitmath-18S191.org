@@ -21,10 +21,10 @@
 
 
 - run wrapped Julia on Jupyter-data-science
-   #+begin_src sh :async t :exports both :results output
-   nix-shell my-default.nix --option sandbox false
-   #+end_src
 
+#+begin_src sh :async t :exports both :results output
+nix-shell my-default.nix --option sandbox false
+#+end_src
 
 - Install Pluto
 
@@ -39,9 +39,11 @@ julia_wrapped -e 'using Pluto; Pluto.run()'
 
 - open with specific ip and port
 
-  #+begin_src sh :async t :exports both :results output
-julia_wrapped -e 'using Pluto; Pluto.run("10.220.170.112", 8889)'
-  #+end_src
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'using Pluto; Pluto.run(host="10.220.170.112", port=8889)'
+#+end_src
+
+
 
 * Run hw0
 :PROPERTIES:

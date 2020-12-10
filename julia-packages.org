@@ -44,4 +44,47 @@ julia_wrapped -e 'using Pkg; Pkg.rm("RCall"); Pkg.add("RCall"); Pkg.build("RCall
 julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"))'
 #+end_src
 
+* JUlia pycall
+
+** [[https://github.com/JuliaPy/PyCall.jl][JuliaPy/PyCall.jl: Package to call Python functions from the Julia language]]
+
+
+#+begin_src sh :async t :exports both :results output
+Pkg.add("PyPlot")
+#+end_src
+
+#+begin_src sh :async t :exports both :results output
+import Pkg; Pkg.add("PyPlot");using PyPlot;
+#+end_src
+
+
+#+begin_src sh :async t :exports both :results output
+using Pkg;using PyCall;
+#+end_src
+
+
+#+begin_src sh :async t :exports both :results output
+using Pkg; Pkg.add("PyCall");Pkg.build("PyCall");
+#+end_src
+
+
+#+begin_src sh :async t :exports both :results output
+ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/python3.8:/nix/store/sazxkf8kika32qrr8ziwyavf3awqx5sl-python3.8-matplotlib-3.3.1/lib/python3.8/site-packages/"
+"/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/python3.8:/nix/store/sazxkf8kika32qrr8ziwyavf3awqx5sl-python3.8-matplotlib-3.3.1/lib/python3.8/site-packages/"
+#+end_src
+
+
 * [[https://github.com/JuliaCN/LeetCode.jl/tree/master/src][LeetCode.jl/src at master · JuliaCN/LeetCode.jl]]
+
+* JuliaData
+
+** [[https://github.com/JuliaData/DataFrames.jl][JuliaData/DataFrames.jl: In-memory tabular data in Julia]]
+*** [[https://github.com/bkamins/Julia-DataFrames-Tutorial][bkamins/Julia-DataFrames-Tutorial: A tutorial on Julia DataFrames package]]
+:PROPERTIES:
+:ID:       5e3a1b24-a5ad-40c1-bd36-009b885c5d5f
+:END:
+- [2020-12-09 Wed 23:18] <- [[id:0c1d1c3c-5182-4db8-b2dc-4c93c81f4243][Julia tutorial or courses]]
+
+* [[https://github.com/JuliaImages][JuliaImages]]
+
+** [[https://github.com/JuliaImages/Images.jl][JuliaImages/Images.jl: An image library for Julia]]

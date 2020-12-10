@@ -358,3 +358,7 @@ IVRE (Instrument de veille sur les réseaux extérieurs) or DRUNK (Dynamic Recon
 
 * Zeek Research
 ** [[https://github.com/lbnl-cybersecurity/dtkm-sparcs][lbnl-cybersecurity/dtkm-sparcs]]
+
+* Zeek Event
+
+** [[https://www.sans.org/webcasts/tech-tuesday-workshop-advanced-zeek-brim-zeek-agent-spicy-zeek-packages-117550?msc=blog-tech-tuesday][Tech Tuesday Workshop: Advanced Zeek Brim, Zeek agent, Spicy, and new Zeek packages - SANS Institute]]

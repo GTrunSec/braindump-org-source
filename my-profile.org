@@ -66,3 +66,9 @@
 ** [[https://plantuml.com/zh/emacs][Integration with Emacs]]
 
 - [[file:emacs.org][Emacs]]
+
+* Misc tools
+
+** Disk
+
+*** [[https://github.com/muesli/duf][muesli/duf: Disk Usage/Free Utility - a better 'df' alternative]]

@@ -48,6 +48,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 :ID:       0c1d1c3c-5182-4db8-b2dc-4c93c81f4243
 :END:
 - [2020-12-09 Wed 12:48] -> [[id:a2d3b106-35bb-42c7-af55-b5d2e3589ba0][h-Klok/StatsWithJuliaBook]]
+- [2020-12-09 Wed 23:18] -> [[id:5e3a1b24-a5ad-40c1-bd36-009b885c5d5f][bkamins/Julia-DataFrames-Tutorial: A tutorial on Julia DataFrames package]]
 ** [[file:my-math.org][My math]] Julia math
 :PROPERTIES:
 :ID:       cfcd1d5d-eb3d-4001-8163-7c1809aea184

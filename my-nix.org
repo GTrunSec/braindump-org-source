@@ -52,9 +52,9 @@
 :PROPERTIES:
 :ID:       0f7615af-e259-43e3-99b3-e0b69ba1d61b
 :END:
-:RELATED:
-[2020-10-26 Mon 21:56] -> [[id:1247ef62-a9d8-4779-a793-97802be399f4][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
-:END:
+
+- [2020-10-26 Mon 21:56] -> [[id:1247ef62-a9d8-4779-a793-97802be399f4][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
+
 ** Python Overlay
 :PROPERTIES:
 :ID:       abf91e96-c75b-4313-8ac7-da713ae86a4f
@@ -83,13 +83,15 @@
 :ID:       02aa0111-a92e-41d6-abca-ce4cc6c7a931
 :END:
 - [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
+*** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
 
 ** Nix [[file:my-haskell.org][My Haskell]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
- - [2020-12-06 Sun 14:47] -> [[id:b73b472f-cc81-4bf9-b4ee-7fc2b967b86e][MatrixAI/Haskell-Demo: Haskell Demo Project using Nix]]
- - [2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
+- [2020-12-09 Wed 20:08] <- [[id:f2731e82-6522-4694-9fb0-2caeebf6028f][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
+- [2020-12-06 Sun 14:47] -> [[id:b73b472f-cc81-4bf9-b4ee-7fc2b967b86e][MatrixAI/Haskell-Demo: Haskell Demo Project using Nix]]
+- [2020-10-26 Mon 21:56] <- [[id:0f7615af-e259-43e3-99b3-e0b69ba1d61b][Haskell Overlay]]
 *** Haskell Infrastructure for Nixpkgs
 **** [[https://github.com/input-output-hk/haskell.nix][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
 **** [[https://github.com/reflex-frp/reflex-platform][reflex-frp/reflex-platform: A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.]]
