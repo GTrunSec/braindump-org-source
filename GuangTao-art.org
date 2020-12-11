@@ -7,3 +7,11 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:建筑素材分类.org][建筑素材分类]], [[file:建筑艺术素材.org][建筑艺术素材]], [[file:learn-music.org][learning music agenda]]
+* 建筑学
+** 布景设施
+:PROPERTIES:
+:ID:       ad00c0a0-717f-4939-8205-89d0c8d0178c
+:END:
+
+ - [2020-12-11 Fri 01:17] -> [[id:59c0b564-7a2c-466e-b759-d6b7b68df8bd][水台]]
+
