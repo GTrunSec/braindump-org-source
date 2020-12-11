@@ -29,7 +29,7 @@
 * Mathmatic
 ** [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 ** [[file:../mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
-* [[file:../machine-learning.org][Machine Learning]]
+* [[file:../machine-learning.org][[[roam:Machine Learning]​] Learning]]
 ** [[file:../mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
 
 * Julia

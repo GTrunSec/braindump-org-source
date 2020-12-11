@@ -47,6 +47,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 :PROPERTIES:
 :ID:       0c1d1c3c-5182-4db8-b2dc-4c93c81f4243
 :END:
+- [2020-12-10 Thu 01:29] <- [[id:ed9aaa03-b3de-4487-a770-100ee1411e61][Unicode Input · The Julia Language]]
 - [2020-12-09 Wed 12:48] -> [[id:a2d3b106-35bb-42c7-af55-b5d2e3589ba0][h-Klok/StatsWithJuliaBook]]
 - [2020-12-09 Wed 23:18] -> [[id:5e3a1b24-a5ad-40c1-bd36-009b885c5d5f][bkamins/Julia-DataFrames-Tutorial: A tutorial on Julia DataFrames package]]
 ** [[file:my-math.org][My math]] Julia math
@@ -62,6 +63,8 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:01] -> [[id:d5edd4b2-2ad8-43ef-9390-bce5dfd41b7c][math course with Julia]]
 
+
+
 ** [[file:my-finance.org][My Finance]]
 
 *** [[https://github.com/PaulSoderlind/EmpiricalFinancePhD][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
@@ -71,7 +74,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:02] -> [[id:54f94d64-138c-4f43-8dc6-81c01654466f][financial course with Julia]]
 
-** [[file:machine-learning.org][Machine Learning]]
+** [[file:machine-learning.org][[[roam:Machine Learning]​] Learning]]
 :PROPERTIES:
 :ID:       06e237f2-f098-4908-ad35-1d78a7e17a4d
 :END:

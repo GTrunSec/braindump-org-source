@@ -559,15 +559,6 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 ** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]]
 
 [[file:my-haskell.org][My Haskell]]
-
-* NixOps
-** learning NixOps
-*** [[https://christine.website/blog/nixops-services-2020-11-09][Nixops Services on Your Home Network - Christine Dodrill]]
-*** [[https://github.com/input-output-hk/mantis-ops/blob/master/flake.nix][mantis-ops/flake.nix at master · input-output-hk/mantis-ops]]
-** NixOps organization
-*** [[https://github.com/alasconnect][Ampersand / AlasConnect]]
-** [[https://github.com/tweag/terraform-nixos][tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS]]
-
 * Nix cross-compiling
 ** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
 ** [[https://github.com/Mic92/nix-ld][Mic92/nix-ld: Run unpatched dynamic binaries on NixOS]]
@@ -644,3 +635,5 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 
 - [2020-12-05 Sat 14:21] <- [[id:5c5f33c3-c217-4693-b5f6-e5fdf0c744a9][Nix Darwin]]
 - [2020-12-05 Sat 14:20] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Nix Learn materials]]
+* Nix to Npm
+** [[https://github.com/serokell/nix-npm-buildpackage][serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]

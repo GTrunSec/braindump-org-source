@@ -9,5 +9,14 @@
 * 大龙 [0/0]
 ** [[https://www.youtube.com/watch?v=RrmopfbWEnQ][古墓龙带你探寻咸丰的定陵，这种未开放的帝陵你绝对没见过 - YouTube]][2020-05-19 Tue 17:11]
 ** [[https://www.youtube.com/watch?v=NY2JP6NQfmU][实拍世界著名佛教寺院 少林寺，近距离观看少林寺最神秘的方丈室 - YouTube]]
+:PROPERTIES:
+:ID:       5b762e77-4305-4b49-b496-13c9cd394175
+:END:
+ - [2020-12-10 Thu 01:35] -> [[id:f5680ef0-c9ec-42fe-a9c5-b3c5f2ce0d1a][游山玩水->河南]]
+
 ** [[https://www.youtube.com/watch?v=EYN0qXNyFqs][真不愧是朱元璋儿子的陵墓，地宫大的惊人，墓室上方盗洞真精准啊 - YouTube]]
-周定王陵
+:PROPERTIES:
+:ID:       81aa75f5-5b39-4b7f-a9e7-f949c23d13b0
+:END:
+
+- [2020-12-11 Fri 00:22] <- [[id:2c442b30-fb8e-499a-8593-c0cf1a7e685a][游山玩水->南京]]

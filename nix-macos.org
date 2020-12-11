@@ -34,3 +34,11 @@ nix-shell -p 'home-manager'
 #+begin_src sh :async t :exports both :results output
 brew install coreutils
 #+end_src
+
+
+- font
+
+#+begin_src sh :async t :exports both :results output
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+#+end_src
