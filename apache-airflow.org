@@ -1,0 +1,14 @@
+#+TITLE: Apache-Airflow
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-11 Fri 00:50
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://github.com/GTrunSec/apache-airflow-nix][GTrunSec/apache-airflow-nix]]
+
+* Airflow tutorial
+
+** [[https://www.youtube.com/watch?v=wAyu5BN3VpY&feature=emb_rel_pause][Airflow tutorial 6: Build a data pipeline using Google Bigquery - YouTube]]
