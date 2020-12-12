@@ -63,8 +63,6 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:01] -> [[id:d5edd4b2-2ad8-43ef-9390-bce5dfd41b7c][math course with Julia]]
 
-
-
 ** [[file:my-finance.org][My Finance]]
 
 *** [[https://github.com/PaulSoderlind/EmpiricalFinancePhD][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]

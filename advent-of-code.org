@@ -14,13 +14,12 @@
 :PROPERTIES:
 :ID:       40cfb238-83d9-4697-a3ab-20c22e392ad4
 :END:
-
-
 - [2020-12-01 Tue 14:54] -> [[id:e2ce35f7-3201-416a-badd-f214a0283cf8][Haskell Advent of Code 2020]]
-   - [[https://github.com/Ptival/advent-of-code][Ptival/advent-of-code]]
-   - [[https://github.com/argent0/adventOfCode2020][argent0/adventOfCode2020: 2020's edition]]
-   - [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
-
+  - [[https://github.com/Ptival/advent-of-code][Ptival/advent-of-code]]
+  - [[https://github.com/argent0/adventOfCode2020][argent0/adventOfCode2020: 2020's edition]]
+  - [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
+- [2020-12-11 Fri 21:29] -> [[id:7726d48c-5ff3-45e0-9ba9-53bc9af2f186][Advent of Code with Nix]]
+  - [[https://github.com/crazazy/aoc2020][crazazy/aoc2020: Advent of Code done in the nix language]]
 * Advent of Code 2019
 :PROPERTIES:
 :ID:       879e7b4a-dbd1-41c1-a2ec-f826d438379b

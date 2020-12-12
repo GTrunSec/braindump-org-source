@@ -11,6 +11,8 @@
   - tags :: [[file:org-mode.org][Org mode]], [[file:my-profile.org][My Profile]], [[file:my-elisp.org][My Elisp]]
 * Configuration
 ** [[https://github.com/jethrokuan/dots/blob/master/.doom.d/config.el][dots/config.el at master · jethrokuan/dots]] :roam:org_mode:
+** [[https://github.com/redguardtoo/emacs.d][redguardtoo/emacs.d: Fast and robust Emacs setup.]]
+*** [[https://zhuanlan.zhihu.com/c_1116711987706478592][如何提高编程速度 - 知乎]]
 ** [[https://github.com/zaeph/.emacs.d][zaeph/.emacs.d: Personal configuration for Emacs & Custom modules]] :org_mode:
 ** [[https://github.com/legoscia/dotemacs/blob/master/dotemacs.org][dotemacs/dotemacs.org at master · legoscia/dotemacs]] :literate:
 
