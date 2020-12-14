@@ -15,6 +15,20 @@
 
 * PostgreSQL
 
+** Psql Commands
+
+#+begin_src sh :async t :exports both :results output
+sudo -u postgres psql postgres
+#+end_src
+
 ** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
 
 - [[file:my-haskell.org][My Haskell]]
+
+* Nextcloud
+
+** repair install with new datadir
+
+#+begin_src sh :async t :exports both :results output
+nextcloud-occ install --data-dir /DATABASE-4TB/nextcloud/data
+#+end_src

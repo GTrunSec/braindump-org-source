@@ -53,3 +53,4 @@
 :ID:       36aa9c9d-bf10-40f0-9463-b5169ffa1f2a
 :END:
 - [2020-12-07 Mon 21:01] <- [[id:8eba3b48-150b-4ca6-a794-79f341d860aa][Nix My Rust]]
+* Rust advent Of Code 2020

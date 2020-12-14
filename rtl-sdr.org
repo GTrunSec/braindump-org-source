@@ -21,3 +21,7 @@
 ** [[https://github.com/lopsided98/nix-sdr][lopsided98/nix-sdr: Common software defined radio (SDR) related packages for Nix]]
 
 - [[file:my-nix.org][Ny Nix]]
+
+* SDR tools
+
+** [[https://github.com/easyw/RF-tools-KiCAD][easyw/RF-tools-KiCAD: KiCAD RF tools: footprints wizard and round tracks, mask expander, via fencing]]

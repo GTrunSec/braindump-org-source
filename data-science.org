@@ -17,6 +17,7 @@
 [2020-10-30 Fri 15:05] -> [[id:c00f9570-a0a9-4ecb-bac5-06fa2a7d75e3][“Introduction to Dash Plotly - Data Visualization in Python - YouTube”🔊]]
 :END:
 
+* [[https://github.com/nteract/nteract][nteract/nteract: 📘 The interactive computing suite for you! ✨]]
 * Video Resources
 
 ** [[https://www.youtube.com/watch?v=hSPmj7mK6ng][“Introduction to Dash Plotly - Data Visualization in Python - YouTube”🔊]]
@@ -30,3 +31,4 @@
 * GEOIP
 
 ** [[https://github.com/Hackl0us/GeoIP2-CN][Hackl0us/GeoIP2-CN: 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段]]
+

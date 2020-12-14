@@ -95,6 +95,7 @@
 *** Haskell Infrastructure for Nixpkgs
 **** [[https://github.com/input-output-hk/haskell.nix][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
 **** [[https://github.com/reflex-frp/reflex-platform][reflex-frp/reflex-platform: A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.]]
+
 *** Haskell Development -> NixPkgs
 **** [[https://discourse.nixos.org/t/nix-haskell-development-2020/6170][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
 :PROPERTIES:
@@ -107,6 +108,7 @@
 **** [[https://www.youtube.com/watch?v=a22y82ROKyA][Peter Simons: Inside of the Nixpkgs Haskell Infrastructure (NixCon 2015) - YouTube]]
 *** Nix Haskell Documents for beginning
 **** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
+**** [[https://github.com/Gabriel439/haskell-nix][Gabriel439/haskell-nix: Nix and Haskell in production]]
 ** Nix [[file:my-python.org][Python]]
 :PROPERTIES:
 :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
@@ -338,6 +340,8 @@ imports = [
 # some stuff
 ] ++ (if builtins.pathExists (builtins.getEnv "PWD" + "/secrets/at_home.nix") then [ (builtins.getEnv "PWD" + "/secrets/at_home.nix") ] else [ ]);
 #+end_src
+** flake devShell
+*** [[https://github.com/pauldub/nix-dev-shells/blob/master/flake.nix][nix-dev-shells/flake.nix at master · pauldub/nix-dev-shells]]
 * Security
 ** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]
 ** Nix SElinux

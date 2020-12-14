@@ -10,6 +10,7 @@
 
 * Kubernete to nixos
 ** [[https://github.com/DBCDK/kubernixos][DBCDK/kubernixos: Simple kubernetes manifest reconciler configured by NixOS modules]]
+** [[https://github.com/pauldub/convox-nix][pauldub/convox-nix: A convox inspired kubernetes resource builder using nix]]
 * learning NixOps
 ** [[https://christine.website/blog/nixops-services-2020-11-09][Nixops Services on Your Home Network - Christine Dodrill]]
 ** [[https://github.com/input-output-hk/mantis-ops/blob/master/flake.nix][mantis-ops/flake.nix at master · input-output-hk/mantis-ops]]
