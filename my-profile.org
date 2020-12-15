@@ -61,7 +61,14 @@
 :END:
 - [2020-12-05 Sat 19:07] <- [[id:a223bc68-1e14-402c-a962-acf5b623fade][cprussin/fzf-pass: Wayland client for pass using fzf as the user interface]]
 ** Shell
+:PROPERTIES:
+:ID:       b5c87647-5046-4b93-b91e-10bbb73498c7
+:END:
+ - [2020-12-14 Mon 13:07] -> [[id:65ad5d5a-25e5-424f-a873-8dc61722c961][tmux]]
 *** [[https://starship.rs/][Starship: Cross-Shell Prompt]]
+*** Tmux
+
+
 * Diagrams
 
 ** [[https://plantuml.com/zh/emacs][Integration with Emacs]]
@@ -79,3 +86,7 @@
 ** screen
 
 *** [[https://github.com/wulkano/Kap][wulkano/Kap: An open-source screen recorder built with web technology]] :macos:
+
+* Dictionaries
+
+** [[https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=36097&extra=page%3D1][⚜ 打造完美《牛津高阶双解 第四版》(2019.11.11更新) - MDict 词库资源区 - MDict Dictionaries - 掌上百科 - PDAWIKI - Powered by Discuz!]]

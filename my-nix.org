@@ -587,6 +587,8 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 * Visual Nix
 
 ** [[https://github.com/GTrunSec/grafanix][GTrunSec/grafanix: Visualize your Nix dependencies!]]
+
+** [[https://github.com/symphorien/nix-du][symphorien/nix-du: Visualise which gc-roots to delete to free some space in your nix store]]
 * Nix dependency manager
 ** [[https://github.com/obsidiansystems/nix-thunk][obsidiansystems/nix-thunk]]
 * Useful Nix Bin Scripts
@@ -643,3 +645,4 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 - [2020-12-05 Sat 14:20] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Nix Learn materials]]
 * Nix to Npm
 ** [[https://github.com/serokell/nix-npm-buildpackage][serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]
+

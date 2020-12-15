@@ -100,6 +100,13 @@ git clone https://github.com/hyper0x/JuliaBasics.git
 
  - [2020-11-20 Fri 03:03] -> [[id:54f94d64-138c-4f43-8dc6-81c01654466f][financial course with Julia]]
 
+*** [[https://github.com/hyper0x/JuliaBasics][hyper0x/JuliaBasics: The open source version of book `Julia Programming Basics`]] :chinese:
+
+#+begin_src sh :async t :exports both :results output
+git clone https://github.com/hyper0x/JuliaBasics.git
+#+end_src
+
+
 * Python Support
 
 ** [[https://github.com/JuliaPy][JuliaPy · GitHub]]

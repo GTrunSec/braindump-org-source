@@ -1,0 +1,11 @@
+#+TITLE: Data Visualization
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-14 Mon 12:48
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tag :: [[file:data-science.org][Data science]]
+
+* [[https://github.com/finos/perspective][finos/perspective: Streaming pivot visualization via WebAssembly]]

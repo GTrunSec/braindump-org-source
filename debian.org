@@ -15,3 +15,7 @@
 #+begin_src sh :async t :exports both :results output
 sudo hwclock --hctosys
 #+end_src
+
+* Debian Misc Tools
+
+** [[https://github.com/linuxdabbler/debian-install-scripts][linuxdabbler/debian-install-scripts: scripts to run after installing debian]]

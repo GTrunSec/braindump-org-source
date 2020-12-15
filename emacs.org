@@ -33,6 +33,8 @@
  - [2020-12-05 Sat 19:04] -> [[id:c740666b-d8ac-442b-b7f3-e00f0a68af08][direnv – unclutter your .profile | direnv]]
 ** Misc
 *** [[https://github.com/rndusr/subed][rndusr/subed: Subtitle editor for Emacs]]
+** async
+*** [[https://github.com/oantolin/async-completing-read][oantolin/async-completing-read: An async-capable completing read function]]
 * Emacs Config Framework
 :PROPERTIES:
 :ID:       6a415810-4886-40ae-a438-5830073c12c7

@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(l)
 
-- tags :: [[file:data-science.org][Data science]], [[file:data-science.org][Data science]]
+- tags :: [[file:data-science.org][Data science]]
 
 
 - [[https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330][Jupyter Notebook Shortcuts. What is Jupyter Notebook? | by Ventsislav Yordanov | Towards Data Science]]
@@ -36,3 +36,9 @@
         :src "https://www.youtube.com/embed/Vw-x7yTTO0s"
         :height "367"
         :width "653"}]]
+
+* [[file:my-finance.org][My Finance]]
+
+** Jupyter Notebook Example
+
+*** [[https://github.com/peterdsharpe/StockMarketAnalysis][peterdsharpe/StockMarketAnalysis: Futility can be fun sometimes]]

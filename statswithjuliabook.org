@@ -21,7 +21,7 @@
 
 ./notebook/StatsWithJuliaBook/1_chapter/
 
-- bubbleSort.jl
+*** DONE bubbleSort.jl
 
 #+begin_src julia :exports both :results output
 function bubbleSort!(a)
@@ -106,3 +106,10 @@ end
 : 98% of the means lie in the estimated range: (0.4698606931732886, 0.5300374817804305)
 :   1.004519 seconds (1.74 M allocations: 3.936 GiB, 5.54% gc time)
 
+*** imageProcessing
+
+* Dependence packages
+
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'import Pkg; Pkg.add("LaTeXStrings");Pkg.add("Measures")'
+#+end_src
