@@ -113,3 +113,7 @@ end
 #+begin_src sh :async t :exports both :results output
 julia_wrapped -e 'import Pkg; Pkg.add("LaTeXStrings");Pkg.add("Measures")'
 #+end_src
+
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'import Pkg; Pkg.add("HTTP");Pkg.add("JSON")'
+#+end_src

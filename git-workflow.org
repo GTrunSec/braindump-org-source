@@ -9,3 +9,5 @@
 - tags :: [[file:git.org][Git]]
 * ISSUE
 ** ⚔ INPROCESS [[https://github.com/kaushalmodi/ox-hugo/issues/395][org-id parse error filename · Issue #395 · kaushalmodi/ox-hugo]] <2020-09-18 Fri>
+* Git secrets
+** [[https://github.com/sobolevn/git-secret/issues/101][Suggest comparison to git-crypt · Issue #101 · sobolevn/git-secret]]

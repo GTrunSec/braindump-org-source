@@ -159,7 +159,6 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 ** [[https://github.com/l5r/nixcfg/blob/template/flake.nix][nixcfg/flake.nix at template · l5r/nixcfg]]
 ** [[https://github.com/cole-h/nixos-config/blob/nixus/flake.nix][nixos-config/flake.nix at nixus · cole-h/nixos-config]]
 ** https://github.com/Kloenk/nix/blob/master/flake.nix
-**
 ** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
 ** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
 
@@ -535,20 +534,20 @@ postInstall = ''
 * Nix Router
 
 ** https://github.com/GTrunSec/nixwrt
-* service deployment
+* Service deployment
 ** [[https://github.com/svanderburg/disnix][svanderburg/disnix: Disnix: A Nix-based distributed service deployment tool]]
 *** [[https://sandervanderburg.blogspot.com/2020/10/transforming-disnix-models-to-graphs.html][Sander van der Burg's blog: Transforming Disnix models to graphs and visualizing them]]
 
 ** https://github.com/svanderburg/nix-processmgmt
 
-* enhanced nix configuration
+* Enhanced nix configuration
 ** [[https://github.com/tweag/nickel][tweag/nickel: Cheap configuration language]] :parser:query:
 
 Nickel is a lightweight configuration language. Its purpose is to automate the generation of static configuration files - think JSON, YAML, XML, or your favorite data representation language - that are then fed to another system. It is designed to have a simple, well-understood core: at its heart, it is JSON with functions. It adds other features on top of it to improve expressivity and modularity, but you can do just fine without using it.
 * Nix Emacs
 ** [[https://github.com/vlaci/nix-doom-emacs][vlaci/nix-doom-emacs: doom-emacs packaged for Nix]]
 ** [[https://github.com/nix-community/emacs-overlay][nix-community/emacs-overlay: Bleeding edge emacs overlay [maintainer=@adisbladis]​]]
-* ROS Nix
+* ROS to Nix
 :PROPERTIES:
 :ID:       dc7cc7f9-fb80-46d1-89c7-cb7def5ba1f4
 :END:
@@ -597,7 +596,7 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 * Nix Docker deployment
 ** [[https://github.com/barrucadu/nixfiles/blob/master/hosts/dreamlands/configuration.nix][nixfiles/configuration.nix at master · barrucadu/nixfiles]]
 * Nix GUI
-* [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
+** [[https://github.com/pmiddend/nixos-manager][pmiddend/nixos-manager: Manage your NixOS packages and configuration via a simple, intuitive UI]]
 
 * Nix Project
 
@@ -645,4 +644,6 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 - [2020-12-05 Sat 14:20] <- [[id:f125fef0-d7b8-4145-ba15-5a4b3e92abaa][Nix Learn materials]]
 * Nix to Npm
 ** [[https://github.com/serokell/nix-npm-buildpackage][serokell/nix-npm-buildpackage: Build nix packages that use npm/yarn]]
-
+* Nix secrets
+** [[https://github.com/lopsided98/nixos-secrets][lopsided98/nixos-secrets: A tool for managing secrets within NixOS]]
+** [[https://github.com/Mic92/sops-nix][Mic92/sops-nix: Atomic secret provisioning for NixOS based on sops]]

@@ -1,0 +1,12 @@
+#+TITLE: Algorithm
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-15 Tue 17:37
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* Introduction to Algorithms
+
+** [[https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Falgorithms.html][网易公开课]] :chinese:
