@@ -16,8 +16,8 @@
   --green: #50fa7b;
   --purple: #bd93f9;
   --purple-hover: #bf93f988;
-  --cyan: #8be9fd;
-  --cyan-hover: #8be9fd88;
+  --blue: cadetblue;
+  --blue-hover: cadetblue;
   --pink: #ff79c6;
   --pink-hover: #ff79c688;
 
@@ -123,12 +123,12 @@ mark {
 }
 
 .external-link {
-  color: var(--cyan);
+  color: var(--blue);
   text-decoration: none;
 }
 
 .external-link:hover {
-  color: var(--cyan-hover);
+  color: var(--blue-hover);
 }
 
 /*
@@ -231,7 +231,7 @@ mark {
   color: var(--green);
 }
 .cm-s-default span.cm-property {
-  color: var(--cyan);
+  color: var(--blue);
 }
 .cm-s-default span.cm-builtin {
   color: var(--green);

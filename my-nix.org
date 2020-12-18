@@ -50,11 +50,10 @@
 - [[id:f97dc1ae-97a8-44ca-8f94-1212d8905c12][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
 ** Haskell Overlay
 :PROPERTIES:
-:ID:       0f7615af-e259-43e3-99b3-e0b69ba1d61b
+:id: 0f7615af-e259-43e3-99b3-e0b69ba1d61b
 :END:
 
 - [2020-10-26 Mon 21:56] -> [[id:1247ef62-a9d8-4779-a793-97802be399f4][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
-
 ** Python Overlay
 :PROPERTIES:
 :ID:       abf91e96-c75b-4313-8ac7-da713ae86a4f
