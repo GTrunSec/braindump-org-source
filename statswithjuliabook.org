@@ -10,7 +10,7 @@
 
 * INPROCESS [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
 :PROPERTIES:
-:ID:       a2d3b106-35bb-42c7-af55-b5d2e3589ba0
+:ID:       279c8e67-ae86-44d5-b899-aac5cf7885fc
 :END:
 - [2020-12-09 Wed 12:48] <- [[id:0c1d1c3c-5182-4db8-b2dc-4c93c81f4243][Julia tutorial or courses]]
 - [2020-12-09 Wed 12:27] -> [[id:306c7b79-8a54-4e5b-8678-444eab1327fd][Julia Books]]
@@ -109,11 +109,11 @@ end
 *** imageProcessing
 
 * Dependence packages
-
+** Chapter 1
 #+begin_src sh :async t :exports both :results output
 julia_wrapped -e 'import Pkg; Pkg.add("LaTeXStrings");Pkg.add("Measures")'
 #+end_src
 
 #+begin_src sh :async t :exports both :results output
-julia_wrapped -e 'import Pkg; Pkg.add("HTTP");Pkg.add("JSON")'
+julia_wrapped -e 'import Pkg; Pkg.add("HTTP");Pkg.add("JSON");Pkg.add("SpecialFunctions");Pkg.add("StatsBase")'
 #+end_src

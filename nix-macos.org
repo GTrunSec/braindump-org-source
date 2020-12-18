@@ -15,6 +15,11 @@
 sh <(curl https://nixos.org/nix/install) --darwin-use-unencrypted-nix-store-volume
 #+end_src
 
+#+begin_src sh :async t :exports both :results output
+xcode-select --install
+sudo xcode-select --reset
+#+end_src
+
 
 * Nix Home-manager
 

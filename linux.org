@@ -50,3 +50,7 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 * Linux Dotfiles
 ** [[https://github.com/LionessAlana/dotfiles][LionessAlana/dotfiles: A collection of my linux dotfiles]]
 ** [[https://github.com/masasam/dotfiles][masasam/dotfiles: My dotfiles based on Makefile]] :emacs:
+
+* Linux patches
+
+** [[https://github.com/clearlinux-pkgs/linux][clearlinux-pkgs/linux]]

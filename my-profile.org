@@ -87,6 +87,10 @@
 
 *** [[https://github.com/wulkano/Kap][wulkano/Kap: An open-source screen recorder built with web technology]] :macos:
 
+** desktop bar
+
+*** [[https://github.com/taffybar/taffybar][taffybar/taffybar: A gtk based status bar for tiling window managers such as XMonad]]
+
 * Dictionaries
 
 ** [[https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=36097&extra=page%3D1][⚜ 打造完美《牛津高阶双解 第四版》(2019.11.11更新) - MDict 词库资源区 - MDict Dictionaries - 掌上百科 - PDAWIKI - Powered by Discuz!]]

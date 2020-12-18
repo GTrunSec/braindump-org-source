@@ -17,3 +17,5 @@
 ** [[https://github.com/calebmadrigal/FourierTalkOSCON][calebmadrigal/FourierTalkOSCON: Presentation Materials for my "Sound Analysis with the Fourier Transform and Python" OSCON Talk.]]
 
 - [[file:Jupyter-data-science.org][Jupyter Data Science]]
+
+* [[https://arxiv.org/abs/2012.06884][[2012.06884] AIR-FI: Generating Covert Wi-Fi Signals from Air-Gapped Computers]]
