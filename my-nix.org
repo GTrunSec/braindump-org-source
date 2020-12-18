@@ -489,10 +489,9 @@ postInstall = ''
 
 * nix expressions
 :PROPERTIES:
-:ID:       0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
+:id: 0dcb0b08-5d66-4cf9-8b14-fafaccb739b0
 :END:
 - [2020-11-09 Mon 19:12] ->   [[id:3ab69c8f-30f5-4eb6-9d40-8430aaf8203f][GTrunSec/nix-expressions-jupyter-repl-test]]
-
 ** Nix language
 *** [[https://www.youtube.com/watch?v=X2GJv0vrLo0][Nix Expression Language in under 5 Minutes - YouTube]]
 

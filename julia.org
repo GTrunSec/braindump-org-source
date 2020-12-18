@@ -44,15 +44,11 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
 * Julia tutorial or courses
 :PROPERTIES:
-:ID:       0c1d1c3c-5182-4db8-b2dc-4c93c81f4243
+:id: 0c1d1c3c-5182-4db8-b2dc-4c93c81f4243
 :END:
+- [2020-12-17 Thu 23:20] <- [[id:5366e5e7-8663-4dc7-b676-7b97f5257381][h-Klok/StatsWithJuliaBook]]
 - [2020-12-10 Thu 01:29] <- [[id:ed9aaa03-b3de-4487-a770-100ee1411e61][Unicode Input · The Julia Language]]
-- [2020-12-09 Wed 12:48] -> [[id:279c8e67-ae86-44d5-b899-aac5cf7885fc][h-Klok/StatsWithJuliaBook]]
 - [2020-12-09 Wed 23:18] -> [[id:5e3a1b24-a5ad-40c1-bd36-009b885c5d5f][bkamins/Julia-DataFrames-Tutorial: A tutorial on Julia DataFrames package]]
-** [[file:my-math.org][My math]] Julia math
-:PROPERTIES:
-:ID:       cfcd1d5d-eb3d-4001-8163-7c1809aea184
-:END:
 
 *** [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 :PROPERTIES:
@@ -71,7 +67,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:02] -> [[id:54f94d64-138c-4f43-8dc6-81c01654466f][financial course with Julia]]
 
-** [[file:machine-learning.org][[[roam:Machine Learning]​] Learning]]
+** [[file:machine-learning.org][Machine Learning]]
 :PROPERTIES:
 :ID:       06e237f2-f098-4908-ad35-1d78a7e17a4d
 :END:

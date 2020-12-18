@@ -10,13 +10,13 @@
 
 * INPROCESS [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
 :PROPERTIES:
-:ID:       279c8e67-ae86-44d5-b899-aac5cf7885fc
+:id: 5366e5e7-8663-4dc7-b676-7b97f5257381
 :END:
-- [2020-12-09 Wed 12:48] <- [[id:0c1d1c3c-5182-4db8-b2dc-4c93c81f4243][Julia tutorial or courses]]
+- [2020-12-17 Thu 23:20] -> [[id:0c1d1c3c-5182-4db8-b2dc-4c93c81f4243][Julia tutorial or courses]]
+
 - [2020-12-09 Wed 12:27] -> [[id:306c7b79-8a54-4e5b-8678-444eab1327fd][Julia Books]]
 
-1. [[https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl][StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl: Pluto notebooks accompanying the book Statistics With Julia (https://statisticswithjulia.org).]]
-
+- [[https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl][StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl: Pluto notebooks accompanying the book Statistics With Julia (https://statisticswithjulia.org).]]
 ** [[https://github.com/h-Klok/StatsWithJuliaBook/tree/master/1_chapter][StatsWithJuliaBook/1_chapter at master · h-Klok/StatsWithJuliaBook]]
 
 ./notebook/StatsWithJuliaBook/1_chapter/

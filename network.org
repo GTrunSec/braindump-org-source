@@ -8,7 +8,7 @@
 
 * Network DNS
 :PROPERTIES:
-:ID:       1218671f-c69e-4e60-b2b9-14a75c48d255
+:id: 1218671f-c69e-4e60-b2b9-14a75c48d255
 :END:
 
 - [2020-11-22 Sun 15:52] <- [[id:712b72b4-4f14-4567-a3f5-0fd1359b8469][m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.]]
