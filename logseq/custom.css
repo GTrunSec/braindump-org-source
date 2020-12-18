@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 :root {
-  --background: #282a36;
+  --background: #262626;
   --light-background: #343746;
   --lighter-background: #424450;
   --dark-background: #21222c;
@@ -16,7 +16,7 @@
   --green: #50fa7b;
   --purple: #bd93f9;
   --purple-hover: #bf93f988;
-  --cyan: #8be9fd;
+  --cyan: forestgreen;
   --cyan-hover: #8be9fd88;
   --pink: #ff79c6;
   --pink-hover: #ff79c688;
@@ -142,7 +142,6 @@ mark {
     Adapted for logseq
 
 */
-
 .CodeMirror {
   font-family: "FiraCode Nerd Font", "Fire Code", monospace;
   line-height: 1.2;
@@ -253,3 +252,4 @@ mark {
 #right-sidebar pre.CodeMirror-line {
   background: transparent;
 }
+

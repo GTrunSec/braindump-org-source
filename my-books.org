@@ -60,9 +60,7 @@
 :CATEGORY: Julia
 :ID:       306c7b79-8a54-4e5b-8678-444eab1327fd
 :END:
-
-
- - [2020-12-09 Wed 12:27] <- [[id:279c8e67-ae86-44d5-b899-aac5cf7885fc][h-Klok/StatsWithJuliaBook]]
+ - [2020-12-09 Wed 12:27] <- [[id:5366e5e7-8663-4dc7-b676-7b97f5257381][h-Klok/StatsWithJuliaBook]]
 * Literature
 :PROPERTIES:
 :ID:       57443f09-a987-421c-9695-9c8c7a353f36
