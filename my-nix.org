@@ -10,8 +10,11 @@
 
 - tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:nixos.org][NixOS]],[[file:nixops.org][NixOps]]
   
-* Documents
-
+* Nix Documents
+:PROPERTIES:
+:ID:       b3517c38-80fc-490f-b0e9-7fef04fd854f
+:END:
+ - [2020-12-19 Sat 14:35] -> [[id:0196e56d-f4d4-451d-8848-3f37119e7856][Flakes wiki]]
 ** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
 
 * Nix Learn materials
@@ -163,7 +166,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 
 
 
-* flakes
+* Nix flakes
 :PROPERTIES:
 :ID:       0fbe152b-bad6-4054-a201-c51ab509ed73
 :END:
@@ -173,15 +176,17 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
 
 ** Flakes wiki
-- [wiki] [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
+:PROPERTIES:
+:ID:       0196e56d-f4d4-451d-8848-3f37119e7856
+:END:
+- [2020-12-19 Sat 14:35] <- [[id:b3517c38-80fc-490f-b0e9-7fef04fd854f][Nix Documents]]
+*** [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]
 - [[https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7][nix-flakes.md]]
 - option ~/.config/nix/nix.conf
 
   #+begin_src conf :async t :exports both :results output
   experimental-features = nix-command flakes
   #+end_src
-
-
 *** Flake Output scheme
 
   #+begin_src nix :async t :exports both :results output
@@ -226,7 +231,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
   templates."<attr>" = { path = "<store-path>"; description = "";
 }
 #+end_src
-** [[https://zimbatm.com/NixFlakes/#direnv-integration][Nix Flakes edition | $ zimbatm]]
+*** [[https://zimbatm.com/NixFlakes/#direnv-integration][Nix Flakes edition | $ zimbatm]]
 :PROPERTIES:
 :ID:       09df2341-7aa3-4f56-a823-04b4e591988d
 :END:
@@ -312,7 +317,7 @@ import nixpkgs {
 }
 #+end_src
 
-- [[https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
+** [[https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
 
 #+begin_src nix :async t :exports both :results output
 nix develop \
@@ -339,8 +344,14 @@ imports = [
 ] ++ (if builtins.pathExists (builtins.getEnv "PWD" + "/secrets/at_home.nix") then [ (builtins.getEnv "PWD" + "/secrets/at_home.nix") ] else [ ]);
 #+end_src
 ** flake devShell
+:PROPERTIES:
+:ID:       d664a2a5-461f-4aa7-8bd3-ed6e8934ce7a
+:END:
+
+- [2020-12-19 Sat 13:43] <- [[id:6e001e4d-4564-40ac-bba4-ffb93f8aba23][nix develop: Add --redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix]]
+
 *** [[https://github.com/pauldub/nix-dev-shells/blob/master/flake.nix][nix-dev-shells/flake.nix at master · pauldub/nix-dev-shells]]
-* Security
+* Nix Security
 ** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]
 ** Nix SElinux
 *** Security-Enhanced Linux
@@ -576,10 +587,24 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 #+end_src
 
-* Nix develop -> flake
+* Nix develop
+** Nix Develop 3rdparty
+
+*** [[https://github.com/maralorn/nix-output-monitor][maralorn/nix-output-monitor: Pipe your nix-build output through the nix-output-monitor a.k.a nom to get additional information while building.]]
+
+** [[https://discourse.nixos.org/t/tweag-nix-dev-update-5/10560][Tweag + Nix Dev Update #5 - Development - NixOS Discourse]]
 
 ** [[https://github.com/NixOS/nix/pull/4161/commits/750ce500c221ecd4720a5b02e3f3cbb0bc05ef9d][nix develop: Add --redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix]]
+:PROPERTIES:
+:ID:       6e001e4d-4564-40ac-bba4-ffb93f8aba23
+:END:
+- [2020-12-19 Sat 13:43] -> [[id:d664a2a5-461f-4aa7-8bd3-ed6e8934ce7a][flake devShell]]
+
+
 *** [[https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
+:PROPERTIES:
+:ID:       ff924256-2d59-47ec-9b6f-a67263b5534d
+:END:
 
 * Visual Nix
 
@@ -645,3 +670,5 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 * Nix secrets
 ** [[https://github.com/lopsided98/nixos-secrets][lopsided98/nixos-secrets: A tool for managing secrets within NixOS]]
 ** [[https://github.com/Mic92/sops-nix][Mic92/sops-nix: Atomic secret provisioning for NixOS based on sops]]
+** [[https://github.com/ryantm/agenix][ryantm/agenix: age-encrypted secrets for NixOS]]
+** [[https://github.com/tweag/trustix][tweag/trustix]]

@@ -14,7 +14,7 @@
  ;; This can overwrite your global preference so that
  ;; maybe your personal preferred format is Org but you'd
  ;; need to use Markdown for some projects.
- ;; :preferred-format ""
+:preferred-format "Org"
 
  ;; Git settings
  :git-pull-secs 60

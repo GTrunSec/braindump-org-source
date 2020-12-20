@@ -42,7 +42,7 @@
 
 
 * GunagTao's NixOS services Index
-** [[http://10.220.170.112:2344/photos][PhotoPrism: Browse Your Life]]
+** [[http://10.220.170.112:2344/photos][PhotoPri入sm: Browse Your Life]]
 ** [[http://10.220.170.112/apps/files/][Files - Nextcloud]]
 ** [[http://10.220.170.112:9000/unread][Unread (73) - Miniflux]]
 ** [[http://10.220.170.112:9002/#][AdGuard Home]]
