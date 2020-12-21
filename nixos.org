@@ -25,3 +25,5 @@
 ** [[https://github.com/Xe/nixos-configs][Xe/nixos-configs: My NixOS configs]] :nixops:
 * NixOS config to other plantform
 ** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
+* NixOS Flakes
+** [[https://nrdxp.dev/nixos/2020/12/19/NixOS-Flakes-and-KISS.html][NixOS, Flakes and KISS | nrdxp]]

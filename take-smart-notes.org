@@ -1,0 +1,13 @@
+#+TITLE: How to Take Smart Notes
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-20 Sun 15:33
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Org Content and outline
+** [[https://sachachua.com/blog/tag/outline/][outline –]] sachachua
+*** [[https://sachachua.com/blog/2015/02/help-readers-discover-posts-organizing-content-reverse-outline/][Help your readers discover more posts by organizing your content with a reverse outline –]]

@@ -646,6 +646,10 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 - [2020-12-11 Fri 21:29] <- [[id:40cfb238-83d9-4697-a3ab-20c22e392ad4][Advent of Code 2020]]
 - [2020-12-01 Tue 14:57] <- [[id:879e7b4a-dbd1-41c1-a2ec-f826d438379b][Advent of Code 2019]]
 * Nix Modules
+:PROPERTIES:
+:ID:       a931ebeb-015b-49fd-875b-682986cef960
+:END:
+- [2020-12-20 Sun 19:59] <- [[id:8ce6b2f8-5342-4d49-8518-5ffb551d1ec5][obsidiansystems/obelisk-systemd: Turn your obelisk app into a systemd service]]
 
 ** [[https://github.com/nix-community/impermanence][nix-community/impermanence: Modules to help you handle persistent state on systems with ephemeral root storage [maintainer=@talyz]​]] :storage:
 

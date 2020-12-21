@@ -82,7 +82,18 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 ** [[https://github.com/alasconnect/data-validation][alasconnect/data-validation: A library that simplifies data validation.]]
 * Haskell Web
 ** [[https://github.com/alasconnect/haskell-web-app][alasconnect/haskell-web-app: Example of a base Haskell Servant web application]] :nix:
+** [[https://github.com/obsidiansystems/obelisk][obsidiansystems/obelisk: Functional reactive web and mobile applications, with batteries included.]]
+*** [[https://github.com/obsidiansystems/obelisk-systemd][obsidiansystems/obelisk-systemd: Turn your obelisk app into a systemd service]]
+:PROPERTIES:
+:ID:       8ce6b2f8-5342-4d49-8518-5ffb551d1ec5
+:END:
+
+ - [2020-12-20 Sun 19:59] -> [[id:a931ebeb-015b-49fd-875b-682986cef960][Nix Modules]]
+
 * Hasktorch
+:PROPERTIES:
+:ID:       e465a5ae-21f4-41b3-8dc7-6f271f8cfbe7
+:END:
 ** [[https://github.com/GTrunSec/hasktorch-jupyter-examples][GTrunSec/hasktorch-jupyter-examples]] :owner:
 * Haskell Parsing
 :PROPERTIES:
