@@ -88,3 +88,7 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * [[https://github.com/JuliaImages][JuliaImages]]
 
 ** [[https://github.com/JuliaImages/Images.jl][JuliaImages/Images.jl: An image library for Julia]]
+
+* Julia ecosystem
+
+** [[https://github.com/Circuitscape/Circuitscape.jl][Circuitscape/Circuitscape.jl: Algorithms from circuit theory to predict connectivity in heterogeneous landscapes]]

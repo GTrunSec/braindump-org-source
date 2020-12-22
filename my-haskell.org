@@ -135,4 +135,5 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 nix-env -iA cachix -f https://cachix.org/api/v1/install
 cachix use ghcide-nix
 #+end_src
-
+* Awesome haskell
+** [[https://github.com/graninas/software-design-in-haskell][graninas/software-design-in-haskell: Software Design in Haskell. A structured set of materials. How to build real-world applications in Haskell.]]

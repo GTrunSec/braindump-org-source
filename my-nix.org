@@ -660,7 +660,7 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
  - [[file:nix-macos.org][Nix on MacOS]]
 
  - [2020-12-05 Sat 14:21] -> [[id:a02049b7-89fa-41d0-99f0-b171957245a8][Burke Libbey - YouTube]]
-* Nix Vedio
+* Nix Video
 
 ** [[https://www.youtube.com/channel/UCSW5DqTyfOI9sUvnFoCjBlQ/videos][Burke Libbey - YouTube]]
 :PROPERTIES:

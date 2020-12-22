@@ -46,4 +46,8 @@ brew install coreutils
 #+begin_src sh :async t :exports both :results output
 brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
+brew install --install font-fantasque-sans-mono
 #+end_src
+
+
+- tmux

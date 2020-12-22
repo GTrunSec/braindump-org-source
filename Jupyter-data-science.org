@@ -42,3 +42,5 @@
 ** Jupyter Notebook Example
 
 *** [[https://github.com/peterdsharpe/StockMarketAnalysis][peterdsharpe/StockMarketAnalysis: Futility can be fun sometimes]]
+
+* [[https://github.com/GTrunSec/homework_fall2020][GTrunSec/homework_fall2020: Assignments for Berkeley CS 285: Deep Reinforcement Learning (Fall 2020)]]

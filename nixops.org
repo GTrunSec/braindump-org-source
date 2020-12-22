@@ -17,3 +17,4 @@
 * NixOps organization
 ** [[https://github.com/alasconnect][Ampersand / AlasConnect]]
 * [[https://github.com/tweag/terraform-nixos][tweag/terraform-nixos: A set of Terraform modules that are designed to deploy NixOS]]
+* [[https://github.com/serokell/deploy-rs/][serokell/deploy-rs: A simple multi-profile Nix-flake deploy tool.]]
