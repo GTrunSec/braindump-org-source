@@ -115,14 +115,13 @@
 :PROPERTIES:
 :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
 :END:
-
 [[id:2154d26e-213b-4ef4-9081-4960f8facb73][How to override Python package (Anki)? - Learn - NixOS Discourse]]
 *** [[https://github.com/DavHau/mach-nix][GitHub - DavHau/mach-nix: Tool to create highly reproducible python environments]]
 #+begin_src sh :async t :exports both :results output
 nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 #+end_src
 
-** Nix [[file:../../../Documents/org-notes/braindump/my-golang.org][My Golang]]
+** Nix [[file:GuangTao-golang.org][GuangTao's Golang]]
 :PROPERTIES:
 :id: 33107453-baf3-4e27-871b-833b93f5ad76
 :END:

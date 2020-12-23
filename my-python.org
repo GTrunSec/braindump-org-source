@@ -1,4 +1,4 @@
-#+TITLE: My Python
+#+TITLE: GuangTao's Python
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
