@@ -1,0 +1,25 @@
+#+TITLE: Coding
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-21 Mon 23:53
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:programming-languages.org][My learning Programming languages]]
+
+
+* programming challenges
+
+** [[file:advent-of-code.org][Advent of code]]
+
+** [[https://www.hackerrank.com/][HackerRank]]
+
+** [[https://leetcode.com/][LeetCode - The World's Leading Online Programming Learning Platform]]
+
+** [[https://www.topcoder.com/community/practice][Topcoder]]
+
+** [[https://github.com/rstudio/rstudio-global-2021-program][rstudio/rstudio-global-2021-program]]
+
+- [[file:R-lang.org][R lang]]

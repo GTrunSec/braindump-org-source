@@ -7,7 +7,6 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:awesome-zeek.org][Awesome Zeek]], [[file:security.org][Security Projects or Ideas]]
-
 * Clone Repo
 :PROPERTIES:
 :header-args:sh: :dir ~/project

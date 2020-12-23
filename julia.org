@@ -114,3 +114,7 @@ git clone https://github.com/hyper0x/JuliaBasics.git
 ** [[https://github.com/JuliaMath/Roots.jl][JuliaMath/Roots.jl: Root finding functions for Julia]]
 
 * [[https://julialang.org/downloads/][Download Julia]]
+
+* Julia discourse
+
+** [[https://discourse.juliacn.com/t/topic/4806][Circuitscape，国家公园，自然保护 - 社区 - Julia中文社区]]

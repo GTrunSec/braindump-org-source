@@ -46,3 +46,10 @@ My rust]]
 
 
 - [[https://emacs-china.org/t/org-roam-org-mode/14266][如何在 Org-roam 或者 Org-mode 下实现嵌套标签？ - Org-mode - Emacs China]]
+
+
+
+* Org mode Agenda
+** [[http://doc.norang.ca/org-mode.html#GettingOrgModeWithGit][Org Mode - Organize Your Life In Plain Text!]] bh config
+** https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html <2018-06-07 Thu> :EMACS:
+** https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html <2018-06-07 Thu> :EMACS:

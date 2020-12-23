@@ -12,7 +12,7 @@
 - https://logseq.com/
 
 * Issue
-** INPROCESS [[https://github.com/logseq/logseq/issues/791][双向链接对于一个带有URL的标题会失效 · Issue #791 · logseq/logseq]]
+** DONE [[https://github.com/logseq/logseq/issues/791][双向链接对于一个带有URL的标题会失效 · Issue #791 · logseq/logseq]]
 
 * logseq theme
 

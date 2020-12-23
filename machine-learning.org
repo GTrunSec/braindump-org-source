@@ -22,3 +22,4 @@ git clone https://github.com/mitmath/18337.git
 * MLOps
 ** [[https://github.com/visenger/awesome-mlops][visenger/awesome-mlops: A curated list of references for MLOps]]
 * [[https://github.com/masa-su/pixyz][masa-su/pixyz: A library for developing deep generative models in a more concise, intuitive and extendable way]]
+* [[https://github.com/nsoojin/coursera-ml-py][nsoojin/coursera-ml-py: Python programming assignments for Machine Learning by Prof. Andrew Ng in Coursera]]

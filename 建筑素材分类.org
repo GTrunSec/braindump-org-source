@@ -8,8 +8,8 @@
 
 - tags :: [[file:建筑艺术素材.org][建筑艺术素材]]
 
-* 石雕
-** 小型庭院 :ATTACH:
+ 石雕
+* 小型庭院 :ATTACH:
 :PROPERTIES:
 :ID:       a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54
 :END:
@@ -23,3 +23,55 @@
 :END:
  - [2020-11-20 Fri 15:32] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
    + [[attachment:20200925_230006screenshot.png]]
+* [[https://www.youtube.com/watch?v=NBRE1_Acn5U][中國建築師 2 小時就能建成一棟房子！不可思議！ - YouTube]]
+
+* [[https://www.youtube.com/watch?v=zHYpNMwnBzo][重慶單身小哥的300㎡婚房 Chongqing Single Man’s 300 ㎡ Sweet Home - YouTube]]
+* 模型
+** [[https://www.pinterest.com/pin/617485798885413770/][Pinterest]]
+* 桥
+* 走廊
+
+* 花园
+1
+
+* 池塘
+1
+
+* 穹顶
+** https://www.youtube.com/watch?v=1AP5iyuASmU
+* 收纳
+* 抱厦
+** 唐破风
+- [[https://new.qq.com/omn/20180121/20180121A01NCX.html][日本是不是“大唐电冰箱”？且看 《妖猫传》里的“唐破风”-腾讯网]]
+
+
+** https://www.youtube.com/watch?v=7BB3YYy8RVw
+* 砌墙
+** https://www.youtube.com/watch?v=L-GxPD2Keb0
+* 灯
+** https://www.pinterest.com/pin/524739794061108229/ [floor lamp]
+* 素材
+https://www.youtube.com/watch?v=_MtlQnvF0LY
+https://www.youtube.com/watch?v=qu0oVn44kOM
+https://www.youtube.com/watch?v=tJNKRh_zY1s
+
+https://www.youtube.com/watch?v=SSn_f2lDMFY
+https://www.youtube.com/watch?v=PVoqAH0iPLg
+https://www.youtube.com/watch?v=oRFiv1tpWfs
+
+https://www.youtube.com/watch?v=MhDHKUDJzfg
+
+* 家具
+** https://www.youtube.com/watch?v=SRGdPvAlxq4
+** 罗汉家具 [[https://www.youtube.com/watch?v=sEc7DAN5GdI][漆器家具的浪漫 The Romance of Lacquerware - YouTube]] :黄花梨:
+* 窗设计
+** https://www.youtube.com/watch?v=SRGdPvAlxq4                                 :古风:
+** https://www.youtube.com/watch?v=FdXVxj82YUM
+* 储藏的设计
+https://www.youtube.com/watch?v=RkfC03qljdk
+
+* [[https://github.com/space10-community/the-growroom][space10-community/the-growroom]] :life:interesting:
+
+   +
+   +
+   +

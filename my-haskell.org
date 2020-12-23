@@ -40,6 +40,8 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 *** [[https://www.youtube.com/watch?v=Vgu82wiiZ90&list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV][“Haskell for Imperative Programmers #1 - Basics - YouTube”🔊]]
 
 *** [[https://www.youtube.com/c/Tsoding/playlists][Tsoding - YouTube]]
+
+**** [[https://www.youtube.com/watch?v=h_D4P-KRNKs][HackerRank in Haskell -- HaskellRank #01 - YouTube]]
 ** learning Haskell
 *** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
 *** [[https://github.com/stolyaroleh/learning-haskell/blob/master/cis-194/src/Hw11/SExpr.hs][learning-haskell/SExpr.hs at master · stolyaroleh/learning-haskell]]

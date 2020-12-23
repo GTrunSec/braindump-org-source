@@ -1,0 +1,34 @@
+#+TITLE: PlanetCoaster
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE:  5 December 2019
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en cn
+#+SETUPFILE: ~/Documents/org-notes/setup/darkcss.local
+#+hugo_publishdate: (0 5)
+#+hugo_auto_set_lastmod: t
+#+HUGO_categories:
+#+HUGO_tags:
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+TAGS: 造景(z) 书籍(B) 文章(a)
+
+* 圣诞节
+- [[https://www.youtube.com/watch?v=dDcY2AV9TFc][“Magic in the Stars Fireworks - Planet Coaster Disney Fireworks Mashup -
+  YouTube”🔊]]
+- [[https://www.youtube.com/watch?v=X98xf6oNgUc&feature=youtu.be][Christmas Fireworks Spectacular - Joy To The Park - YouTube]] 
+** 图片 Image
+*** [[https://imgur.com/gallery/KoHZE3t][A winter wonderland created in the game Planet Coaster. - Album on Imgur]]
+
+* 喷泉
+* 庭院
+* 路面
+* 季节
+* 主题
+** [[https://www.reddit.com/r/PlanetCoaster/comments/e69m4z/middle_earth_wip_added_bag_end_more_like_bag/][Middle Earth WIP- added Bag end (more like bag entrance) to the hobbiton inspired entry area of the park. Also added a party tree and fireworks. : PlanetCoaster]] :魔戒:
+* 房子
+* 灯
+** 房子布景灯
+- [[https://www.youtube.com/watch?v=tvYPkechSQ4&feature=youtu.be][Planet Coaster - Wizards in Winter (TSO) Light Show - YouTube]]

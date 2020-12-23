@@ -24,6 +24,11 @@ git clone https://github.com/go101/go101.git
 
 #+RESULTS:
 *** [[http://xahlee.info/golang/golang_package.html][Golang: Package, Import]]
+
+** Go Books
+*** [[https://github.com/chai2010/advanced-go-programming-book][chai2010/advanced-go-programming-book: 《 Go 语言高级编程》开源图书，涵盖 CGO、Go 汇编语言、RPC 实现、Protobuf 插件实现、Web 框架实现、分布式系统等高阶主题]]
+
+
 * Networking
 ** Golang DNS
 :PROPERTIES:
@@ -45,3 +50,8 @@ git clone https://github.com/go101/go101.git
 
 * golang charts
 ** [[https://github.com/go-echarts/go-echarts][go-echarts/go-echarts: 🎨 The adorable charts library for Golang]]
+
+* Go Porjects
+
+*** [[https://github.com/lestrrat-go][lestrrat-go]]
+*** [[https://github.com/mgechev/revive][mgechev/revive: 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint.]]

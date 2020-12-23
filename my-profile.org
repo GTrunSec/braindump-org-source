@@ -30,6 +30,8 @@
 ** [[https://github.com/miniflux/v2][miniflux/v2: Minimalist and opinionated feed reader]]
 * Bookmark manage
 ** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
+* Book manager or Library
+** [[https://getpolarized.io/docs/key-bindings-for-common-polar-operations.html][Documentation | Documentation]]
 * Block
 ** [[https://github.com/AdguardTeam/AdGuardHome][AdguardTeam/AdGuardHome: Network-wide ads & trackers blocking DNS server]]
 

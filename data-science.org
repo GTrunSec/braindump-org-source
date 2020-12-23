@@ -32,3 +32,6 @@
 
 ** [[https://github.com/Hackl0us/GeoIP2-CN][Hackl0us/GeoIP2-CN: 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段]]
 
+* Security Data Analysise
+
+** [[https://github.com/sooshie/Security-Data-Analysis][sooshie/Security-Data-Analysis: A series of labs that will help users apply various data science techniques to security related data.]]

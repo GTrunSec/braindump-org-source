@@ -2,7 +2,7 @@
 *.org.organice-bak
 ## nixos
 result
-
+private-org/*
 
 .DS_Store
 notdeftdb

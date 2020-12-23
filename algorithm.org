@@ -10,3 +10,11 @@
 * Introduction to Algorithms
 
 ** [[https://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Falgorithms.html][网易公开课]] :chinese:
+
+* Algorithms platforms
+** writeup
+- [[https://algorithm.yuanbin.me/zh-hans/index.html#%E5%A6%82%E4%BD%95%E7%BB%83%E4%B9%A0%E7%AE%97%E6%B3%95][Preface · Data Structure and Algorithm notes]]
+
+- [[http://www.acmerblog.com/leetcode-solutions-6422.html][LeetCode-分类题解 acm 之]]
+
+- [[https://www.byvoid.com/zhs/blog/hungary][匈牙利算法 - BYVoid]]

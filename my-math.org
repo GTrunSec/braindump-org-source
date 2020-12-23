@@ -32,3 +32,7 @@
 
 * math notes
 ** [[https://hungpham2511.github.io/rl/math/markov-decision-process/][RL Math: MDP and other algorithms - Hung Pham]]
+
+* MATH Video
+
+** [[https://www.teachoo.com/subjects/cbse-maths/class-6/][NCERT Solutions for Class 6 Maths - With Videos - Teachoo]]

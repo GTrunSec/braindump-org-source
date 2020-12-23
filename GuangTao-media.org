@@ -1,4 +1,4 @@
-#+TITLE:  My Media
+#+TITLE:  GuangTao's Media
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
@@ -15,3 +15,7 @@
 :ID:       dcfdf95c-0de1-4c26-8b07-d6828fe9b739
 :END:
 - [2020-12-07 Mon 16:39] <- [[id:f4e87c62-476a-4a75-896a-8194e63dc9d6][Media]]
+
+* 游戏视频
+
+** [[https://www.youtube.com/watch?v=_1UojedNsHQ][“【達奇】那個從地獄捅到天堂的男人 《DOOM 永恒》的故事 - YouTube”🔊]]
