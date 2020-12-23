@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:emacs.org][Emacs]], [[file:my-profile.org][My Profile]]
+- tags :: [[file:emacs.org][Emacs]], [[file:GuangTao-profile.org][GuangTao's Profile]]
 
 
 * org mode parser

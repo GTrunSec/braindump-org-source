@@ -111,7 +111,7 @@
 *** Nix Haskell Documents for beginning
 **** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
 **** [[https://github.com/Gabriel439/haskell-nix][Gabriel439/haskell-nix: Nix and Haskell in production]]
-** Nix [[file:my-python.org][Python]]
+** Nix [[file:GuangTao-python.org][Python]]
 :PROPERTIES:
 :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
 :END:

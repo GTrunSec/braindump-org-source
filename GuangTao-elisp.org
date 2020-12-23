@@ -1,4 +1,4 @@
-#+TITLE: My Elisp
+#+TITLE: GuangTao's Elisp
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 19 September 2020

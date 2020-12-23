@@ -15,7 +15,7 @@
 ** [[file:../julia.org][My Julia]]
 *** [[file:../statswithjuliabook.org][StatsWithJuliaBook]]
 ** [[file:../my-clang.org][My Clang]]
-** [[file:../my-python.org][GuangTao's Python]]
+** [[file:../GuangTao-python.org][GuangTao's Python]]
 ** [[file:../my-nix.org][Ny Nix]]
 *** [[file:../nix-macos.org][Nix on MacOS]]
 *** [[file:../nixos.org][NixOS]]
@@ -72,7 +72,7 @@
 ** [[file:../my-public-gtd.org][My Public GTD list]]
 * Workflow
 ** [[file:../git-workflow.org][GuangTao's Git workflow]]
-* [[file:../my-profile.org][My Profile]]
+* [[file:../GuangTao-profile.org][GuangTao's Profile]]
 ** [[file:../git.org][Git]]
 ** [[file:../my-nix.org][Ny Nix]]
 * Media

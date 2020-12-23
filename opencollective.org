@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:my-profile.org][My Profile]]
+- tags :: [[file:GuangTao-profile.org][GuangTao's Profile]]
 
 * [[https://opencollective.com/logseq/contribute/][Contribute to Logseq - Open Collective]] $15
 SCHEDULED: <2020-12-11 Fri>

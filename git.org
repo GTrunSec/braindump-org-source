@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:my-profile.org][My Profile]]
+- tags :: [[file:GuangTao-profile.org][GuangTao's Profile]]
 
 * git CONTRIBUTING
 - [[https://github.com/NixOS/nixpkgs/pull/96037][python38Packages.coloredlogs: disable tests on darwin by tobim · Pull Request #96037 · NixOS/nixpkgs]]

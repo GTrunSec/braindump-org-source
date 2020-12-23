@@ -6,6 +6,6 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:my-profile.org][My Profile]]
+- tags :: [[file:GuangTao-profile.org][GuangTao's Profile]]
 
 * Idea out of the box
