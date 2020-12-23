@@ -35,7 +35,7 @@ Pkg.add("StaticLint")
 
 * Julia RCall
 
-- [[file:R-lang.org][R lang]]
+- [[file:GuangTao-R.org][GuangTao's R]]
 
 #+begin_src sh :async t :exports both :results output
 julia_wrapped -e 'using Pkg; Pkg.rm("RCall"); Pkg.add("RCall"); Pkg.build("RCall"); using RCall'
@@ -92,3 +92,7 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * Julia ecosystem
 
 ** [[https://github.com/Circuitscape/Circuitscape.jl][Circuitscape/Circuitscape.jl: Algorithms from circuit theory to predict connectivity in heterogeneous landscapes]]
+
+* Julia Parallel
+
+** [[https://github.com/omlins/ParallelStencil.jl][omlins/ParallelStencil.jl: Package for writing high-level code for parallel high-performance stencil computations that can be deployed on both GPUs and CPUs]]

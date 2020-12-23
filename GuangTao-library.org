@@ -8,7 +8,7 @@
 #+TAGS: analysis(a) BOOK(b) READ(r) LEARN(l) Documents(d)
 * Rlang Books
 :PROPERTIES:
-:CATEGORY: R-lang
+:CATEGORY: GuangTao-R
 :END:
 
 ** INPROCESS R for Data Analysis in easy steps           :analysis:BOOK:
@@ -23,7 +23,7 @@
 :AUTHOR:   Jeeva Jose
 :ADDED:    [2019-11-30]
 :AMAZON:   https://www.amazon.com/Beginners-Guide-Analysis-using-Programming/dp/938617345X
-:CATEGORY: R-lang
+:CATEGORY: GuangTao-R
 :END:
 
 * Haskell Books

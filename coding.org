@@ -27,4 +27,4 @@
 
 ** [[https://github.com/rstudio/rstudio-global-2021-program][rstudio/rstudio-global-2021-program]]
 
-- [[file:R-lang.org][R lang]]
+- [[file:GuangTao-R.org][GuangTao's R]]

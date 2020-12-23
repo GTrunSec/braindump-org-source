@@ -25,7 +25,7 @@
 ** [[file:../GuangTao-golang.org][GuangTao's Golang]]
 ** [[file:../GuangTao-haskell.org][GuangTao's Haskell]]
 *** [[file:../jupyter-haskell.org][Jupyter Haskell]]
-** [[file:../R-lang.org][R lang]]
+** [[file:../GuangTao-R.org][GuangTao's R]]
 ** [[file:../my-rust.org][My Rust]]
 
 * [[file:../GuangTao-library.org][GuangTao's Library]]

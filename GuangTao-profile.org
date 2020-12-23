@@ -96,3 +96,9 @@
 * Dictionaries
 
 ** [[https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=36097&extra=page%3D1][⚜ 打造完美《牛津高阶双解 第四版》(2019.11.11更新) - MDict 词库资源区 - MDict Dictionaries - 掌上百科 - PDAWIKI - Powered by Discuz!]]
+
+* keyboard manager
+
+** [[https://github.com/david-janssen/kmonad][david-janssen/kmonad: An advanced keyboard manager]]
+
+- [[file:haskell-packages.org][Haskell Packages]]
