@@ -1,34 +1,77 @@
 #+TITLE: PlanetCoaster
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE:  5 December 2019
-#+DESCRIPTION:
-#+KEYWORDS:
-#+LANGUAGE:  en cn
-#+SETUPFILE: ~/Documents/org-notes/setup/darkcss.local
-#+hugo_publishdate: (0 5)
-#+hugo_auto_set_lastmod: t
-#+HUGO_categories:
-#+HUGO_tags:
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
-#+SELECT_TAGS: export
-#+EXCLUDE_TAGS: noexport
-#+TAGS: 造景(z) 书籍(B) 文章(a)
+#+DATE: 2020-12-06 Sun 14:52
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./tags/planetcosater-tags.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:GuangTao-game.org][GuangTao's Gaming]], [[file:建筑艺术素材.org][建筑艺术素材]]
+
 
 * 圣诞节
-- [[https://www.youtube.com/watch?v=dDcY2AV9TFc][“Magic in the Stars Fireworks - Planet Coaster Disney Fireworks Mashup -
-  YouTube”🔊]]
-- [[https://www.youtube.com/watch?v=X98xf6oNgUc&feature=youtu.be][Christmas Fireworks Spectacular - Joy To The Park - YouTube]] 
+** [[https://www.youtube.com/watch?v=dDcY2AV9TFc][“Magicin the Stars Fireworks - Planet Coaster Disney Fireworks Mashup -  YouTube”🔊]]
+
+ [:div.videoWrapper.mb-4
+ [:iframe
+ {:allowFullScreen "allowfullscreen"
+ :allow
+ "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+ :frameBorder "0"
+ :src "https://www.youtube.com/embed/dDcY2AV9TFc"
+ :height "367"
+ :width "653"}]]
+
+
+** [[https://www.youtube.com/watch?v=X98xf6oNgUc&feature=youtu.be][Christmas Fireworks Spectacular - Joy To The Park - YouTube]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/X98xf6oNgUc"
+:height "367"
+:width "653"}]]
+
+
 ** 图片 Image
-*** [[https://imgur.com/gallery/KoHZE3t][A winter wonderland created in the game Planet Coaster. - Album on Imgur]]
+*** [[https://imgur.com/gallery/KoHZE3t][A winter wonderland created in the game Planet Coaster. - Album on Imgur]] :ATTACH:
+:PROPERTIES:
+:ID:       6e31a231-c142-43e5-8a74-6bb111ffb419
+:END:
+
+
+
+[[attachment:_20201222_1855188NVO3FR.jpg]]
 
 * 喷泉
 * 庭院
 * 路面
 * 季节
 * 主题
-** [[https://www.reddit.com/r/PlanetCoaster/comments/e69m4z/middle_earth_wip_added_bag_end_more_like_bag/][Middle Earth WIP- added Bag end (more like bag entrance) to the hobbiton inspired entry area of the park. Also added a party tree and fireworks. : PlanetCoaster]] :魔戒:
+** [[https://www.reddit.com/r/PlanetCoaster/comments/e69m4z/middle_earth_wip_added_bag_end_more_like_bag/][Middle Earth WIP- added Bag end (more like bag entrance) to the hobbiton inspired entry area of the park. Also added a party tree and fireworks. : PlanetCoaster]] :魔戒:ATTACH:
+:PROPERTIES:
+:ID:       cbf28e7d-668d-40f5-bd52-769bc94b70a0
+:END:
+
+
+[[attachment:_20201222_19021762mm4efcwp241.jpg]]
+
+
 * 房子
 * 灯
 ** 房子布景灯
-- [[https://www.youtube.com/watch?v=tvYPkechSQ4&feature=youtu.be][Planet Coaster - Wizards in Winter (TSO) Light Show - YouTube]]
+*** [[https://www.youtube.com/watch?v=tvYPkechSQ4&feature=youtu.be][Planet Coaster - Wizards in Winter (TSO) Light Show - YouTube]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/tvYPkechSQ4"
+:height "367"
+:width "653"}]]

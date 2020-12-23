@@ -6,6 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+- tags :: [[file:PlanetCoaster.org][PlanetCoaster]]
 
 * 房屋
 ** 视频素材
