@@ -29,9 +29,12 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 :PROPERTIES:
 :ID:       18a335db-e9c7-4c7c-bd3d-ad39b116abe1
 :END:
-- [[file:my-books.org::*Programming in Haskell][Programming in Haskell]]
 
+- [2020-12-23 Wed 14:58] -> [[id:adc5c85f-a852-4d35-b37e-f213cc5ce190][Haskell Books]]
 * Haskell tutorial
+:PROPERTIES:
+:ID:       dcdadad0-cd8b-4204-9437-501e34942ba5
+:END:
 
 ** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
 
