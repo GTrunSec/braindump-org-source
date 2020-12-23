@@ -10,3 +10,5 @@
 
 * [[https://github.com/ziishaned/learn-regex][ziishaned/learn-regex: Learn regex the easy way]]
 - [[https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md#233--%E5%8F%B7][learn-regex/README-cn.md at master · ziishaned/learn-regex]]
+
+* [[https://github.com/feuerbach/regex-applicative][feuerbach/regex-applicative: Regex-based parsing with applicative interface]]

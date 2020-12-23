@@ -23,7 +23,7 @@ sudo -u postgres psql postgres
 
 ** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
 
-- [[file:my-haskell.org][My Haskell]]
+- [[file:my-haskell.org][GuangTao's Haskell]]
 
 * Nextcloud
 

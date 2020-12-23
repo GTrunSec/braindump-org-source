@@ -9,14 +9,19 @@
 
 - tags :: [[file:programming-languages.org][My learning Programming languages]]
 
-
 * programming challenges
 
 ** [[file:advent-of-code.org][Advent of code]]
 
 ** [[https://www.hackerrank.com/][HackerRank]]
 
+*** [[https://github.com/marinskiy/HackerrankPractice][marinskiy/HackerrankPractice: 170+ solutions to Hackerrank.com practice problems using Python 3, С++ and Oracle SQL]]
+
+*** [[file:GuangTao-haskell.org][GuangTao's Haskell]] HackerRank soutlions
 ** [[https://leetcode.com/][LeetCode - The World's Leading Online Programming Learning Platform]]
+:PROPERTIES:
+:ID:       1efb98e4-5e29-4636-a110-db9458f20d8c
+:END:
 
 ** [[https://www.topcoder.com/community/practice][Topcoder]]
 

@@ -17,7 +17,7 @@ My rust]]
 
 
 ** [[https://github.com/ixmatus/orgmode-parse][ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!]]
-[[file:my-haskell.org][My Haskell]]
+[[file:my-haskell.org][GuangTao's Haskell]]
 
 
 * org mode viewer

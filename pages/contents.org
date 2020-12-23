@@ -23,7 +23,7 @@
 *** [[file:../nix-hydra.org][NixOS hydra Channel]]
 *** [[file:../jupyter-nix.org][Jupyter Nix]]
 ** [[file:../my-golang.org][My Golang]]
-** [[file:../my-haskell.org][My Haskell]]
+** [[file:../my-haskell.org][GuangTao's Haskell]]
 *** [[file:../jupyter-haskell.org][Jupyter Haskell]]
 ** [[file:../R-lang.org][R lang]]
 ** [[file:../my-rust.org][My Rust]]

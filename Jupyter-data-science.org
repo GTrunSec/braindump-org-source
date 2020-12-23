@@ -22,7 +22,7 @@
 ** [[https://github.com/radareorg/cutter-jupyter][radareorg/cutter-jupyter: Jupyter Plugin for Cutter]]
 ** DONE [[https://github.com/mwouts/jupytext][https://github.com/mwouts/jupytext]]
 * [[https://github.com/vaibhavsagar/presentations][vaibhavsagar/presentations: Slides for presentations!]]
-- [[file:my-haskell.org][My Haskell]]
+- [[file:my-haskell.org][GuangTao's Haskell]]
 
 
 

@@ -40,8 +40,7 @@
 :ID:       99679afb-8873-409e-9d4b-2b6a6d3b4fc2
 :END:
 - [2020-10-29 Thu 18:28] <- [[id:6438c7d9-22f2-4aff-9c68-3ac5f5b7caab][Jupter Notebook Programming in Haskell]]
-- [2020-09-24 Thu 22:22] <- [[file:my-haskell.org][Haskell books]]
-- [[https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises][Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.]]
+- [2020-09-24 Thu 22:22] <- [[file:GuangTao-haskell.org][Haskell books]]
 * GO Books
 :PROPERTIES:
 :CATEGORY: GOLANG
