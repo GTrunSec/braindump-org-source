@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:Jupyter-data-science.org][Jupyter Data Science]], [[file:my-haskell.org][GuangTao's Haskell]]
+- tags :: [[file:Jupyter-data-science.org][Jupyter Data Science]], [[file:GuangTao-haskell.org][GuangTao's Haskell]]
 
 
 * Jupter Notebook Programming in Haskel
@@ -77,4 +77,4 @@ main = System.Environment.getArgs >>= print
 
 * diagrams-gallery -> [[file:Jupyter-data-science.org][Jupyter Data Science]]
 
-- [[https://github.com/Yvee1/jupyter/blob/master/Haskell/diagrams-gallery/Gray.ipynb][jupyter/Gray.ipynb at master · Yvee1/jupyter]] -> [[file:my-haskell.org][GuangTao's Haskell]]
+- [[https://github.com/Yvee1/jupyter/blob/master/Haskell/diagrams-gallery/Gray.ipynb][jupyter/Gray.ipynb at master · Yvee1/jupyter]] -> [[file:GuangTao-haskell.org][GuangTao's Haskell]]

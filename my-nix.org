@@ -87,7 +87,7 @@
 - [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
 *** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
 
-** Nix [[file:my-haskell.org][GuangTao's Haskell]]
+** Nix [[file:GuangTao-haskell.org][GuangTao's Haskell]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
@@ -571,7 +571,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 
 ** [[https://github.com/haskell-nix/hnix][haskell-nix/hnix: A Haskell re-implementation of the Nix expression language]]
 
-- [[file:my-haskell.org][GuangTao's Haskell]]
+- [[file:GuangTao-haskell.org][GuangTao's Haskell]]
 * Nix cross-compiling
 ** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
 ** [[https://github.com/Mic92/nix-ld][Mic92/nix-ld: Run unpatched dynamic binaries on NixOS]]
