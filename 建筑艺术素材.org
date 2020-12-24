@@ -11,7 +11,7 @@
 
 - tags :: [[file:PlanetCoaster.org][PlanetCoaster]]
 
-* 房屋
+* 房屋设计
 ** 视频素材
 
 *** 一条 Yit 建筑房屋
@@ -112,6 +112,17 @@
 "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 :frameBorder "0"
 :src "https://www.youtube.com/embed/MhDHKUDJzfg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=SRGdPvAlxq4][“老祖宗太厲害了！這樣的房子最養人 - YouTube”🔊]]
+- [[file:家具.org][家具]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/SRGdPvAlxq4"
 :height "367"
 :width "653"}]]
 
