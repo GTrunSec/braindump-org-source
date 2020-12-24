@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:julia.org][My Julia]],[[file:GuangTao-library.org][GuangTao's Library]]
+- tags :: [[file:GuangTao-julia.org][GuangTao's Julia]],[[file:GuangTao-library.org][GuangTao's Library]]
 
 * INPROCESS [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
 :PROPERTIES:

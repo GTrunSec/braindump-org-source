@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:julia.org][My Julia]]
+- tags :: [[file:GuangTao-julia.org][GuangTao's Julia]]
 
 * [[https://github.com/Jutho/LinearMaps.jl][Jutho/LinearMaps.jl: A Julia package for defining and working with linear maps, also known as linear transformations or linear operators acting on vectors. The only requirement for a LinearMap is that it can act on a vector (by multiplication) efficiently.]]
 

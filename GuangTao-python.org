@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:my-finance.org][My Finance]]
+- tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:GuangTao-finance.org][GuangTao's Finance]]
 * Python list
 * Python Algorithmic
 ** [[https://github.com/chrisconlan/algorithmic-trading-with-python][GitHub - chrisconlan/algorithmic-trading-with-python: Source code for Algorithmic Trading with Python (2020) by Chris Conlan]]
@@ -25,7 +25,7 @@
 * Conda Environment
 ** [[https://github.com/tweag/jupyterWith/pull/135][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
 :PROPERTIES:
-:id: 5bad5a83-d6ab-44bd-a40d-ddcefb4928f5
+:I: 5bad5a83-d6ab-44bd-a40d-ddcefb4928f5
 :END:
  - [2020-11-23 Mon 20:02] -> [[id:d2d3ecc6-4e75-483f-88b3-7a5d3bfbbd81][tweag/jupyterWith: declarative and reproducible Jupyter environments - powered by Nix]]
 * Python Security

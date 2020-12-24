@@ -32,7 +32,7 @@
 :PROPERTIES:
 :ID:       99cc889f-d9f1-42a4-ac3b-a55fab9e931b
 :END:
-
+- [2020-12-23 Wed 22:11] <- [[id:8a6037c8-4366-43d4-b5fe-40f9d31868b1][Code42Cate/30-Days-of-Code: My solutions to the 30 Days of Code Hackerrank challenge in Haskell and Rust!]]
 - [2020-12-23 Wed 02:23] <- [[id:cad0defd-0bab-43ae-81ed-82115147f37b][haskell practice for beginning]]
 **** [[https://github.com/LudvikGalois/30daysofcodingANU][LudvikGalois/30daysofcodingANU: 30 days of coding problems]]
 
@@ -41,6 +41,12 @@
 **** [[https://github.com/geekskick/30DoC][geekskick/30DoC: Rust 30 Days of Code]]
 
 **** [[https://github.com/kiskoza/30days-of-rust][kiskoza/30days-of-rust]]
+
+**** [[https://github.com/Code42Cate/30-Days-of-Code][Code42Cate/30-Days-of-Code: My solutions to the 30 Days of Code Hackerrank challenge in Haskell and Rust!]]
+:PROPERTIES:
+:ID:       8a6037c8-4366-43d4-b5fe-40f9d31868b1
+:END:
+ - [2020-12-23 Wed 22:11] -> [[id:99cc889f-d9f1-42a4-ac3b-a55fab9e931b][GuangTao's Haskell HackerRank 30 days of code]]
 
 ** [[https://leetcode.com/][LeetCode - The World's Leading Online Programming Learning Platform]]
 :PROPERTIES:

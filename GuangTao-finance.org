@@ -1,4 +1,4 @@
-#+TITLE: My Finance
+#+TITLE: GuangTao's Finance
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat

@@ -1,4 +1,4 @@
-#+TITLE: My Julia
+#+TITLE: GuangTao's Julia
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 18 September 2020
@@ -58,7 +58,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:01] -> [[id:d5edd4b2-2ad8-43ef-9390-bce5dfd41b7c][math course with Julia]]
 
-** [[file:my-finance.org][My Finance]]
+** [[file:GuangTao-finance.org][GuangTao's Finance]]
 
 *** [[https://github.com/PaulSoderlind/EmpiricalFinancePhD][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
 :PROPERTIES:

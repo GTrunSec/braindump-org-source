@@ -1,0 +1,13 @@
+#+TITLE: i3 window manager
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-23 Wed 23:03
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:GuangTao-profile.org][GuangTao's Profile]]
+
+
+* i3 scratchpad
+** [[https://blog.lilydjwg.me/2020/12/6/i3-scratchpad.215610.html][i3 的 scratchpad 处理逻辑 - 依云's Blog]]

@@ -6,6 +6,6 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:julia.org][My Julia]], [[file:machine-learning.org][[[roam:Machine Learning]​] Learning]], [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]], [[file:GuangTao-math.org][GuangTao's math]]
+- tags :: [[file:GuangTao-julia.org][GuangTao's Julia]], [[file:machine-learning.org][[[roam:Machine Learning]​] Learning]], [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]], [[file:GuangTao-math.org][GuangTao's math]]
 
 * [[https://github.com/mitmath/18337][mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning]]

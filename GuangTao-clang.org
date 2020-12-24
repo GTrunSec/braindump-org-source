@@ -1,4 +1,4 @@
-#+TITLE: My Clang
+#+TITLE: GuangTao's Clang
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat

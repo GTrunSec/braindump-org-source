@@ -1,4 +1,4 @@
-#+TITLE: My Public GTD list
+#+TITLE: GuangTao's Public GTD list
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 19 September 2020

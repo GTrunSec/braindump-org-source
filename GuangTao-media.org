@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:my-public-gtd.org][My Public GTD list]]
+- tags :: [[file:GuangTao-public-gtd.org][GuangTao's Public GTD list]]
 
 * 视频剧
 ** [[https://www.youtube.com/watch?v=CvWLpbvJHRc][“一口气看完《迷失LOST》第二季：独家解析烧脑神剧，荒岛求生经典鼻祖（合集版）|抓马·美剧 - YouTube”🔊]]

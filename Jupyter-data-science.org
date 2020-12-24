@@ -37,7 +37,7 @@
         :height "367"
         :width "653"}]]
 
-* [[file:my-finance.org][My Finance]]
+* [[file:GuangTao-finance.org][GuangTao's Finance]]
 
 ** Jupyter Notebook Example
 
