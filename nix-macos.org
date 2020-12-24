@@ -6,7 +6,7 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:my-nix.org][Ny Nix]]
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
 * [[https://hardselius.github.io/2020/nix-please/][Nix Please! | MartinHardselius]]
 

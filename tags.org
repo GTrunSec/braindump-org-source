@@ -9,7 +9,7 @@
 - tags ::[[file:GuangTao-workflow.org][GuangTao's Workflow]]
 
 * Org Mode braindump tags
-** [[file:my-nix.org][Ny Nix]]
+** [[file:GuangTao-nix.org][GuangTao's Nix]]
 #+begin_src plantuml :file ./tags/my-nix-tags.png
 @startuml
 title My nix

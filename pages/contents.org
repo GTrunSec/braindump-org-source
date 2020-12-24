@@ -9,14 +9,14 @@
 ** [[file:../nsm.org][Network monitoring]]
 
 * [[file:../programming-languages.org][My learning Programming languages]]
-** [[file:../my-math.org][My math]]
+** [[file:../GuangTao-math.org][GuangTao's math]]
 *** [[file:../my-latex.org][My latex]]
 ** [[file:../my-latex.org][My latex]]
 ** [[file:../julia.org][My Julia]]
 *** [[file:../statswithjuliabook.org][StatsWithJuliaBook]]
 ** [[file:../my-clang.org][My Clang]]
 ** [[file:../GuangTao-python.org][GuangTao's Python]]
-** [[file:../my-nix.org][Ny Nix]]
+** [[file:../GuangTao-nix.org][GuangTao's Nix]]
 *** [[file:../nix-macos.org][Nix on MacOS]]
 *** [[file:../nixos.org][NixOS]]
 *** [[file:../nix-friday.org][Nix Friday]]
@@ -74,7 +74,7 @@
 ** [[file:../git-workflow.org][GuangTao's Git workflow]]
 * [[file:../GuangTao-profile.org][GuangTao's Profile]]
 ** [[file:../git.org][Git]]
-** [[file:../my-nix.org][Ny Nix]]
+** [[file:../GuangTao-nix.org][GuangTao's Nix]]
 * Media
 ** [[file:../cartoon.org][Cartoon]]
 * Misc

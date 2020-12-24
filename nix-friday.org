@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:my-nix.org][Ny Nix]]
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
 * [[https://discourse.nixos.org/t/nix-friday-streaming-about-nix-every-friday/4655/98][Nix Friday - streaming about Nix every Friday - Events - NixOS Discourse]]
 
