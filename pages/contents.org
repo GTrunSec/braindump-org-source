@@ -26,7 +26,7 @@
 ** [[file:../GuangTao-haskell.org][GuangTao's Haskell]]
 *** [[file:../jupyter-haskell.org][Jupyter Haskell]]
 ** [[file:../GuangTao-R.org][GuangTao's R]]
-** [[file:../my-rust.org][My Rust]]
+** [[file:../GuangTao-rust.org][GuangTao's Rust]]
 
 * [[file:../GuangTao-library.org][GuangTao's Library]]
 * Mathmatic

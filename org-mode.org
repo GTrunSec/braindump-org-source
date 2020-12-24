@@ -12,7 +12,7 @@
 
 * org mode parser
 ** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
-[[file:my-rust.org][
+[[file:GuangTao-rust.org][
 My rust]]
 
 

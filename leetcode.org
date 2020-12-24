@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:my-rust.org][My Rust]]
+- tags :: [[file:GuangTao-rust.org][GuangTao's Rust]]
 
 * leetcode Rust
 ** [[https://github.com/iosmanthus/leetcode-rust][iosmanthus/leetcode-rust: 震惊, 这个傻瓜用Rust刷Leetcode]]

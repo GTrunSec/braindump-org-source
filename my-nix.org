@@ -75,7 +75,7 @@
 ** wiki
 - https://nixos.wiki/wiki/Language-specific_package_helpers
 
-** Nix [[file:my-rust.org][My Rust]]
+** Nix [[file:GuangTao-rust.org][GuangTao's Rust]]
 :PROPERTIES:
 :id: 8eba3b48-150b-4ca6-a794-79f341d860aa
 :END:

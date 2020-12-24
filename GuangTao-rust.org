@@ -1,4 +1,4 @@
-#+TITLE: My Rust
+#+TITLE: GuangTao's Rust
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
@@ -14,6 +14,10 @@
 :ID:       a3de31d7-f2be-4939-a19f-0bfd4ddba542
 :END:
 - [2020-11-11 Wed 16:19] -> [[id:02aa0111-a92e-41d6-abca-ce4cc6c7a931][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
+
+*** [[https://nixos.wiki/wiki/Rust][Rust - NixOS Wiki]]
+
+
 
 * Rust learning
 ** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]
