@@ -102,3 +102,7 @@
 ** [[https://github.com/david-janssen/kmonad][david-janssen/kmonad: An advanced keyboard manager]]
 
 - [[file:haskell-packages.org][Haskell Packages]]
+
+* Ebook reader application
+ - [[https://github.com/reHackable/awesome-reMarkable][reHackable/awesome-reMarkable: A curated list of projects related to the reMarkable tablet]]
+** [[https://github.com/koreader/koreader][koreader/koreader: An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices]]
