@@ -1,0 +1,37 @@
+#+TITLE: Data science
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Awesome resource
+- [[https://github.com/xiaodaigh/awesome-eda][xiaodaigh/awesome-eda: Awesome Exploratory Data Analysis (EDA)]]
+
+* Dash Plotly
+:PROPERTIES:
+:ID:       11408c48-f19b-432a-84e9-6b3b4cec2914
+:END:
+:RELATED:
+[2020-10-30 Fri 15:05] -> [[id:c00f9570-a0a9-4ecb-bac5-06fa2a7d75e3][“Introduction to Dash Plotly - Data Visualization in Python - YouTube”🔊]]
+:END:
+
+* [[https://github.com/nteract/nteract][nteract/nteract: 📘 The interactive computing suite for you! ✨]]
+* Video Resources
+
+** [[https://www.youtube.com/watch?v=hSPmj7mK6ng][“Introduction to Dash Plotly - Data Visualization in Python - YouTube”🔊]]
+:PROPERTIES:
+:ID:       c00f9570-a0a9-4ecb-bac5-06fa2a7d75e3
+:END:
+:BACKLINKS:
+[2020-10-30 Fri 15:05] <- [[id:11408c48-f19b-432a-84e9-6b3b4cec2914][Dash Plotly]]
+:END:
+
+* GEOIP
+
+** [[https://github.com/Hackl0us/GeoIP2-CN][Hackl0us/GeoIP2-CN: 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段]]
+
+* Security Data Analysise
+
+** [[https://github.com/sooshie/Security-Data-Analysis][sooshie/Security-Data-Analysis: A series of labs that will help users apply various data science techniques to security related data.]]

@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
-#+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ./theme-readtheorg.setup
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:GuangTao-julia.org][GuangTao's Julia]], [[file:machine-learning.org][[[roam:Machine Learning]​] Learning]], [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]], [[file:GuangTao-math.org][GuangTao's math]]

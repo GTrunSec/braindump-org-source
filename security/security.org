@@ -1,0 +1,101 @@
+#+TITLE: Security Projects or Ideas
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+TAGS: DAG(d)
+
+* Security Documents
+* [[https://github.com/awakesecurity][Awake Security]]
+* windows
+** [[https://github.com/nsacyber/Windows-Secure-Host-Baseline/blob/master/Windows/Group%20Policy%20Templates/en-US/SecGuide.adml][Windows-Secure-Host-Baseline/SecGuide.adml at master · nsacyber/Windows-Secure-Host-Baseline]]
+* Network attack detection
+:PROPERTIES:
+:ID:       42527e70-7f59-45fd-951e-1a77f432ec4e
+:END:
+ - [2020-11-22 Sun 02:20] -> [[id:7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e][Network Security SMTP]]
+   
+** Detecting C2 Activity
+*** [[https://www.sans.org/reading-room/whitepapers/detection/onion-zeek-rita-improving-network-visibility-detecting-c2-activity-38755][Onion-Zeek-RITA: Improving Network Visibility and Detecting C2 Activity]]
+:PROPERTIES:
+:ID:       4713a3e0-ef6d-4017-9e2e-c3f8a3dd328f
+:END:
+
+- [2020-11-22 Sun 02:01] <- [[id:03eba66a-6264-474e-8126-b13ff96371f7][Zeek Script SSL]]
+** Shellshock attack (software bug)
+:PROPERTIES:
+:cve-identifiers: CVE - 2014-6271 (initial), CVE - 2014-6277, CVE - 2014-6278, CVE - 2014-7169, CVE - 2014-7186, CVE - 2014-7187
+:date-discovered: 12 September 2014; 6 years ago (2014-09-12)
+:date-patched: 24 September 2014; 6 years ago (2014-09-24)
+:discoverer: Stéphane Chazelas
+:affected-software: Bash (1.0.3–4.3)
+:wikinfo-id: 43949745
+:URL:      https://en.wikipedia.org?curid=43949745
+:END:
+Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bash shell, the first of which was disclosed on 24 September 2014. Shellshock could enable an attacker to cause Bash to execute arbitrary commands and gain unauthorized access to many Internet-facing services, such as web servers, that use Bash to process requests. On 12 September 2014, Stéphane Chazelas informed Bash's maintainer Chet Ramey of his discovery of the original bug, which he called "Bashdoor".
+*** [[https://github.com/corelight/bro-shellshock][corelight/bro-shellshock: ShellShock attack and exploit detector for Bro.]]
+:PROPERTIES:
+:ID:       90bd1a24-716a-4eb2-a292-0f970f69748c
+:END:
+
+- [2020-11-22 Sun 02:12] <- [[id:5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa][Zeek Script]]
+** Kaspersky Anti-Virus
+:PROPERTIES:
+:developers: Kaspersky Lab
+:initial-release: 1997
+:stable-release: 2020 (20.0.14.1085(e)) (23 October 2019; 12 months ago (2019-10-23))
+:operating-system: Microsoft Windows, macOS, Linux, Android, iOS
+:type:     Antivirus
+:license:  Freemium
+:website:  www.kaspersky.com/kaspersky_anti-virus
+:wikinfo-id: 8591127
+:URL:      https://en.wikipedia.org?curid=8591127
+:ID:       e2aedf4e-5b5d-4de7-baba-438ed79741b6
+:END:
+- [2020-11-22 Sun 02:33] <- [[id:41bcc7f1-246a-4dc1-bec4-f958b2a5b15e][initconf/detect-kaspersky: Bro package to detect kaspersky anti-virus in your network]]
+Kaspersky Anti-Virus (Russian: Антивирус Касперского (Antivirus Kasperskogo); formerly known as AntiViral Toolkit Pro; often referred to as KAV) is a proprietary antivirus program developed by Kaspersky Lab. It is designed to protect users from malware and is primarily designed for computers running Microsoft Windows and macOS, although a version for Linux is available for business consumers.
+* Digital Forensics tools
+** [[https://github.com/yampelo/beagle][yampelo/beagle: Beagle is an incident response and digital forensics tool which transforms security logs and data into graphs.]] :DAG:
+* Network Security tools
+** [[https://github.com/m57/dnsteal][m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.]]
+:PROPERTIES:
+:ID:       712b72b4-4f14-4567-a3f5-0fd1359b8469
+:END:
+
+ - [2020-11-22 Sun 15:52] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+
+* Malware Analyst
+** [[https://blog.malwaremustdie.org/][Malware Must Die!]]
+** [[https://github.com/mgoffin/malwarecookbook][mgoffin/malwarecookbook: Malware Analyst's Cookbook stuffs]]
+** [[https://github.com/ctxis/CAPE][ctxis/CAPE: Malware Configuration And Payload Extraction]]
+** Malware resources
+*** [[https://github.com/tatsui-geek/malware-traffic-analysis.net][tatsui-geek/malware-traffic-analysis.net: Download pcap files from http://www.malware-traffic-analysis.net/]]
+:PROPERTIES:
+:ID:       91e9e2b2-74f0-4571-9b1e-55a80e87ee88
+:END:
+
+- [2020-11-22 Sun 16:43] -> [[id:77d0758f-61f9-481a-98bd-c6e504cbc378][Pcap Resources]]
+** Malware Application
+*** [[https://github.com/JarryShaw/mad][JarryShaw/mad: Malicious Application Detector ]]
+*** [[https://github.com/Cisco-Talos/clamav-devel/tree/dev/0.104][Cisco-Talos/clamav-devel: ClamAV Development - FAQ is here: https://github.com/Cisco-Talos/clamav-faq]]
+
+* Attchment Analyst
+:PROPERTIES:
+:ID:       15622593-4659-47c0-9044-8e25747d587e
+:END:
+** PDF analyzing
+*** [[https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/analyzing-pdf-malware-part-1/][Analyzing PDF Malware - Part 1 | Trustwave | SpiderLabs | Trustwave]]
+*** [[https://info.phishlabs.com/blog/spear-phishing-campaign-impersonates-vcs-and-pe-firms][New Spear Phishing Campaign Impersonates VCs and PE Firms]]
+*** [[https://blog.didierstevens.com/2010/03/29/escape-from-pdf/][Escape From PDF | Didier Stevens]]
+*** [[https://blog.didierstevens.com/programs/pdf-tools/][PDF Tools | Didier Stevens]]
+* Honeypot
+** [[https://github.com/cowrie/cowrie][cowrie/cowrie: Cowrie SSH/Telnet Honeypot http://cowrie.readthedocs.io]]
+* Yara Rules
+** [[https://github.com/plyara/plyara][plyara/plyara: Parse YARA rules and operate over them more easily.]]
+* CyberSecurity Media
+** [[https://medium.com/topic/cybersecurity][Cybersecurity News and Articles — Medium]]
+* Awesome Security Resources
+** [[https://github.com/Hack-with-Github/Awesome-Hacking][Hack-with-Github/Awesome-Hacking: A collection of various awesome lists for hackers, pentesters and security researchers]]
+* [[https://www.usenix.org/][USENIX | The Advanced Computing Systems Association]]

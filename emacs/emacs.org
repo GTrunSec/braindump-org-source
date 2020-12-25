@@ -1,0 +1,44 @@
+#+TITLE: Emacs
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+#+TAGS: doom(d) roam(r) org_mode(o) literate(l)
+
+  - tags :: [[file:org-mode.org][Org mode]], [[file:GuangTao-profile.org][GuangTao's Profile]], [[file:GuangTao-elisp.org][GuangTao's Elisp]]
+* Configuration
+** [[https://github.com/jethrokuan/dots/blob/master/.doom.d/config.el][dots/config.el at master · jethrokuan/dots]] :roam:org_mode:
+** [[https://github.com/redguardtoo/emacs.d][redguardtoo/emacs.d: Fast and robust Emacs setup.]]
+*** [[https://zhuanlan.zhihu.com/c_1116711987706478592][如何提高编程速度 - 知乎]]
+** [[https://github.com/zaeph/.emacs.d][zaeph/.emacs.d: Personal configuration for Emacs & Custom modules]] :org_mode:
+** [[https://github.com/legoscia/dotemacs/blob/master/dotemacs.org][dotemacs/dotemacs.org at master · legoscia/dotemacs]] :literate:
+
+
+* learning Emacs
+** [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][Using Emacs - YouTube]]
+** [[https://www.bilibili.com/video/BV1Pz4y1y7p9?p=1&share_medium=android&share_plat=android&share_source=COPY&share_tag=s_i&timestamp=1604203132&unique_k=3l72PN][Emacs入门教程_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili]]
+** [[https://github.com/bzg/emacs-training][bzg/emacs-training: Emacs training]]
+* Emacs Con
+** [[https://github.com/sachac/emacsconf-2020-emacs-news-highlights][sachac/emacsconf-2020-emacs-news-highlights: Emacs News Highlights talk for EmacsConf 2020]]
+* [[https://github.com/akirakyle/emacs-webkit][akirakyle/emacs-webkit: An Emacs Dynamic Module for WebKit, aka a fully fledged browser inside emacs]]
+* Packages
+** Enhance
+*** [[https://github.com/raxod502/selectrum][raxod502/selectrum: 🔔 Better solution for incremental narrowing in Emacs.]]
+** [[https://github.com/purcell/envrc][purcell/envrc: Emacs support for direnv which operates buffer-locally]]
+:PROPERTIES:
+:ID:       c9d9d8a7-2e24-411e-9dea-091e5d7249f1
+:END:
+ - [2020-12-05 Sat 19:04] -> [[id:c740666b-d8ac-442b-b7f3-e00f0a68af08][direnv – unclutter your .profile | direnv]]
+** Misc
+*** [[https://github.com/rndusr/subed][rndusr/subed: Subtitle editor for Emacs]]
+** async
+*** [[https://github.com/oantolin/async-completing-read][oantolin/async-completing-read: An async-capable completing read function]]
+* Emacs Config Framework
+:PROPERTIES:
+:ID:       6a415810-4886-40ae-a438-5830073c12c7
+:END:
+** [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker]]
+** [[https://github.com/daviderestivo/galactic-emacs][daviderestivo/galactic-emacs: A Emacs distribution coming from the space ...]]

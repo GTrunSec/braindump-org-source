@@ -1,0 +1,52 @@
+#+TITLE: learning music agenda
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2019-11-09 Sun 14:52
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+
+- [[https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/audio][nixpkgs/pkgs/applications/audio at master · NixOS/nixpkgs]]
+  
+* music edu
+** [[https://github.com/sugarlabs/musicblocks][sugarlabs/musicblocks: Music Blocks -- A musical microworld]]
+
+* 目的[0/5]
++ [-] [] 实现 nextcloud 云或 owncloud 建立无损音乐库
+  + [X] [] 搭建 nextcloud 或 Owncloud 以及安装 music App
+  + [ ] [] 给 nextcloud music app 添加分析和国内音乐源
++ [ ] [] 高解析的 DSD 配合树莓派
++ [ ] [] 用 nixos 实现以及维护音乐相关的工作，软件以及服务等
++ [ ] [] 学习了解相关的音乐软件配合吉他钢琴，解析分析音乐
++ [ ] [] 学习测试 synthesizer 等软件
+
+
+
+* Music hardware
+** High parsing DSD
+
+- [[https://www.google.com/search?ei=ZcDHXeXOF7Gc_QbhkLS4BA&q=respberry+pi+DSD&oq=respberry+pi+DSD&gs_l=psy-ab.3..0i13l4j0i22i30l6.1983.6957..7792...2.4..0.242.2140.0j16j1......0....1..gws-wiz.....6..0i71j0i362i308i154i357j0i67j0j0i131j0i10j0i22i10i30.LcoJ1pELQbs&ved=0ahUKEwilley7k9_lAhUxTt8KHWEIDUcQ4dUDCAs&uact=5][respberry pi DSD - Google Search]]
+
+
+
+*** [market] []https://volumio.org/direct-dsd-support-volumio-dsd512/
+- [[https://soundcheck-audio.blogspot.com/2018/01/raspberry-pi-audio-engine-part-6-dsd.html][soundcheck's - audio@vise: RaspBerry PI - The Audio Engine - Part 6 - DSD]]
+* Music software
+** [[https://x42-plugins.com/x42/x42-avldrums][x42 AVL Drumkits]]                                                     :Music:
+** zam-plugin
+** x42-plugin
+complex and academic
+** Mopidy
+Ri hacking music server
+** [[http://www.axoloti.com/][Axoloti]]
+** [[http://waon.sourceforge.net/][WaoN - a wave-to-notes transcriber]]
+** WhitePaper                                                        :Music:CD:
+** vcvrack                                                  :Music:synthesizer:
+** [#A] SooperLooper                                                    :Music:
+** ✰ Important Music parse
+
+*** med-moudle
+- [[http://hackage.haskell.org/package/med-module][med-module: Parse song module files from Amiga MED and OctaMED]]
+*** under123
+* Music player
+** vimpc

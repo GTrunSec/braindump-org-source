@@ -1,0 +1,134 @@
+#+TITLE: Network
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Network DNS
+:PROPERTIES:
+:id: 1218671f-c69e-4e60-b2b9-14a75c48d255
+:END:
+
+- [2020-11-22 Sun 15:52] <- [[id:712b72b4-4f14-4567-a3f5-0fd1359b8469][m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.]]
+- [2020-11-22 Sun 02:56] <- [[id:7b8f6922-3514-4f90-ba7c-0d42aef1463c][Golang DNS]]
+- [2020-11-20 Fri 21:15] <- [[id:fd79210b-935f-4ec7-924a-4b25a00c9726][Network Protocol]]
+- [2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
+** [[https://github.com/ogham/dog][ogham/dog: Command-line DNS client]]
+** [[https://github.com/pymumu/smartdns][GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience， 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验。]]
+** DNS Script
+*** [[https://blog.didierstevens.com/2019/07/03/quickpost-nslookup-types/][Quickpost: nslookup Types | Didier Stevens]]
+*** [[https://www.kitploit.com/2019/03/dns-shell-interactive-shell-over-dns.html][DNS-Shell - An Interactive Shell Over DNS Channel]]
+
+** Network [[file:security.org][Security Project or Idea]] DNS
+:PROPERTIES:
+:ID:       7eae2ec5-aa6b-48b9-a78e-7231b7d3516f
+:END:
+ - [2020-11-20 Fri 21:22] -> [[id:6b5c4c04-7664-4195-82dd-d333bb63334f][ZeeK Script DNS]]
+*** detecting-dns-tunneling
+:PROPERTIES:
+:ID:       9b5bbd87-bb36-45bd-8e49-ac38c39aa376
+:END:
+- [2020-11-20 Fri 21:31] <- [[id:d233abe0-22a6-4ab4-9bac-8abddfd725ee][hhzzk/dns-tunnels]]
+- [[http://heyoka.sourceforge.net/heyoka-shakacon2009.pdf][Heyoka - DNS Tunneling 2.0]]
+  + [[https://www.sans.org/reading-room/whitepapers/dns/detecting-dns-tunneling-34152][Detecting DNS Tunneling]]
+
+*** Detection of Malicious and Low Throughput Data Exfiltration Over the DNS Protocol
+- [[https://www.semanticscholar.org/paper/Detection-of-Tunnels-in-PCAP-Data-by-Random-Forests-Buczak-Hanke/5d5d855f4e4331ad9274dc9b600e05867dbbfb32][Detection of Tunnels in PCAP Data by Random Forests | Semantic Scholar]]
+- [[https://arxiv.org/pdf/1709.08395.pdf][1709.08395.pdf]]
+
+* Network Protocol
+:PROPERTIES:
+:ID:       fd79210b-935f-4ec7-924a-4b25a00c9726
+:END:
+  + [2020-11-20 Fri 21:15] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+
+* Network SSL
+
+** Network Security SSL
+:PROPERTIES:
+:ID:       d026cd19-18ea-46a5-b2d2-5d8b381ae809
+:END:
+- [2020-11-22 Sun 01:58] <- [[id:03eba66a-6264-474e-8126-b13ff96371f7][Zeek Script SSL]]
+- [[file:security.org][Security Project or Idea]]
+
+:PROPERTIES:
+:ID:       2c444f27-0893-449f-96ea-21f8df6d99e5
+:END:
+*** [[https://www.netsparker.com/blog/web-security/exposing-public-ips-tor-services-through-ssl-certificates/][Exposing the Public IPs of Tor Services | Netsparker]] 
+:PROPERTIES:
+:ID:       ca8d5f78-719e-4ccb-89a6-38a0d3f0ff83
+:END:
+
+*** Deciphering Malware’s use of TLS (without Decryption)
+**** [[https://arxiv.org/pdf/1607.01639.pdf][1607.01639.pdf]]
+* Network Tor
+:PROPERTIES:
+:ID:       4fe1a372-70c8-4261-baa8-a8a232ff80fe
+:END:
+
+- [2020-11-22 Sun 02:04] <- [[id:bd97812f-f10a-4768-a4ed-69b1368288bd][Detecting Tor traffic with Bro network traffic analyzer - Stephen Reese]]
+** Tor research
+*** [[https://github.com/pylls?tab=overview&from=2019-12-01&to=2019-12-31][pylls (pulls)]]
+* Network SMTP
+- [2020-11-22 Sun 02:26] <- [[id:c5aca133-63fe-42d7-953c-68a2c8b22d69][initconf/smtp-url-analysis: Extracting and analyzing URLs from Emails for phishing events]]
+*  Network Security SMTP
+:PROPERTIES:
+:ID:       7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e
+:END:
+- [2020-11-22 Sun 02:21] <- [[id:47829717-5c7d-4bb8-91a7-104c01162357][initconf/phish-analysis: Suite of smtp related policies includes extracting and logging URLs from emails and various smtp anomaly detection heuristics to help flag phishing emails]]
+- [2020-11-22 Sun 02:20] <- [[id:42527e70-7f59-45fd-951e-1a77f432ec4e][Network attack detection]]
+
+* Remote Desktop Services
+:PROPERTIES:
+:other-names: Terminal Services
+:developers: Microsoft
+:operating-system: Microsoft Windows
+:service-name: TermService
+:type:     Remote desktop software
+:website:  docs.microsoft.com/en-us/windows/win32/termserv/terminal-services-portal
+:wikinfo-id: 16575110
+:URL:      https://en.wikipedia.org?curid=16575110
+:ID:       d0599260-ec63-4563-9414-f30c92f64182
+:END:
+- [2020-11-22 Sun 02:37] <- [[id:bf4a3a43-a72e-490a-83cc-732fcb4bd05d][Zeek RDP detection]]
+Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008 and earlier, is one of the components of Microsoft Windows that allow a user to take control of a remote computer or virtual machine over a network connection. RDS is Microsoft's implementation of thin client architecture, where Windows software, and the entire desktop of the computer running RDS, are made accessible to any remote client machine that supports Remote Desktop Protocol (RDP). User interfaces are displayed from the server onto the client system and input from the client system is transmitted to the server - where software execution takes place.
+ 
+** [[https://blog.malwarebytes.com/exploits-and-vulnerabilities/2020/10/brute-force-attacks-increasing/][Brute force attacks increase due to more open RDP ports - Malwarebytes Labs | Malwarebytes Labs]]
+:PROPERTIES:
+:ID:       799d20f2-2470-4908-aba0-37a4cc44b69d
+:END:
+- [2020-11-22 Sun 03:50] <- [[id:9370ddc7-1411-49b6-ba57-6c571ccc0bc1][initconf/RDP-bruteforce: RDP bruteforce detection]]
+
+
+
+* Network Pcap
+:PROPERTIES:
+:ID:       d75d5f55-2e6c-486e-aa99-15814731138c
+:END:
+** [[https://github.com/caesar0301/awesome-pcaptools][caesar0301/awesome-pcaptools: A collection of tools developed by other researchers in the Computer Science area to process network traces. All the right reserved for the original authors.]]
+:PROPERTIES:
+:ID:       468a598b-8d31-4cbc-bcf5-4b1e5955ce1b
+:END:
+*** [#A] [[https://github.com/JarryShaw/PyPCAPKit][JarryShaw/PyPCAPKit: Python multi-engine PCAP analysis kit.]]
+*** [[http://mykings.me/2017/08/14/%E4%B8%80%E4%BA%9B%E4%B8%8D%E9%94%99%E7%9A%84PCAP%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/][MyKings]] -> Pcap 分析工具
+
+** Pcap Resources
+:PROPERTIES:
+:ID:       77d0758f-61f9-481a-98bd-c6e504cbc378
+:END:
+- [2020-11-22 Sun 16:43] <- [[id:91e9e2b2-74f0-4571-9b1e-55a80e87ee88][tatsui-geek/malware-traffic-analysis.net: Download pcap files from http://www.malware-traffic-analysis.net/]]
+
+
+*** [[https://www.netresec.com/index.ashx?page=PcapFiles][Public PCAP files for download]]
+:PROPERTIES:
+:ID:       385d779a-d45b-44ed-8029-77f6f218296d
+:END:
+*** [[https://archive.wrccdc.org/pcaps/2018/][W R C C D C Public Archive]]
+* Packet Capture Solution
+** [[https://github.com/google/stenographer][google/stenographer: Stenographer is a packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets. Discussion/announcements at stenographer@googlegroups.com]]
+* Network Scanner
+** [[https://github.com/RustScan/RustScan][RustScan/RustScan: 🤖 The Modern Port Scanner 🤖]]
+* Network Deployment
+** [[https://github.com/opstrace/opstrace][opstrace/opstrace: Secure observability, deployed in your own network.]]

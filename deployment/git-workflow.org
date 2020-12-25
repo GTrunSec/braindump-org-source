@@ -1,0 +1,13 @@
+#+TITLE: GuangTao's Git workflow
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 18 September 2020
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:git.org][Git]]
+* ISSUE
+** ⚔ INPROCESS [[https://github.com/kaushalmodi/ox-hugo/issues/395][org-id parse error filename · Issue #395 · kaushalmodi/ox-hugo]] <2020-09-18 Fri>
+* Git secrets
+** [[https://github.com/sobolevn/git-secret/issues/101][Suggest comparison to git-crypt · Issue #101 · sobolevn/git-secret]]

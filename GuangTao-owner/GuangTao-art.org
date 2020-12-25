@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-06 Sun 14:52
-#+SETUPFILE: ./hugo.setup
-#+SETUPFILE: ./theme-readtheorg.setup
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:建筑素材分类.org][建筑素材分类]], [[file:建筑艺术素材.org][建筑艺术素材]], [[file:learn-music.org][learning music agenda]], [[file:PlanetCoaster.org][PlanetCoaster]]

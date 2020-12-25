@@ -1,0 +1,14 @@
+#+TITLE: leetcode
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:GuangTao-rust.org][GuangTao's Rust]]
+
+* leetcode Rust
+** [[https://github.com/iosmanthus/leetcode-rust][iosmanthus/leetcode-rust: 震惊, 这个傻瓜用Rust刷Leetcode]]
+** [[https://github.com/Aloxaf/LeetCode-Rust][Aloxaf/LeetCode-Rust: 听说刷题建 repo 是立 flag 一般的行为?]]

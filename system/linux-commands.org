@@ -1,0 +1,13 @@
+#+TITLE: Linux Commands
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat 21:51
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+- tags :: [[file:linux.org][Linux]]
+
+* [[https://superuser.com/questions/112078/delete-matching-files-in-all-subdirectories][linux - Delete matching files in all subdirectories - Super User]]

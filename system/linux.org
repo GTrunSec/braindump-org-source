@@ -1,0 +1,56 @@
+#+TITLE: Linux
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat 21:51
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Linux
+:PROPERTIES:
+:developer: Community Linus Torvalds
+:written-in: C, Assembly language
+:os-family: Unix-like
+:working-state: Current
+:source-model: Open source
+:initial-release: September 17, 1991; 29 years ago (1991-09-17)
+:marketing-target: Cloud computing, embedded devices, mainframe computers, mobile devices, personal computers, servers, supercomputers
+:available-in: Multilingual
+:platforms: Alpha, ARC, ARM, C6x, AMD64, H8/300, Hexagon, Itanium, m68k, Microblaze, MIPS, NDS32, Nios II, OpenRISC, PA-RISC, PowerPC, RISC-V, s390, SuperH, SPARC, Unicore32, x86, XBurst, Xtensa
+:kernel-type: Monolithic
+:userland: GNU
+:default-user-interface: Unix shell
+:license:  GPLv2 and others (the name "Linux"is a trademark)
+:official-website: www.linuxfoundation.org
+:wikinfo-id: 6097297
+:URL:      https://en.wikipedia.org?curid=6097297
+:END:
+Linux ((listen) LEEN-uuks or LIN-uuks) is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution. Distributions include the Linux kernel and supporting system software and libraries, many of which are provided by the GNU Project.
+
+* NixOS
+:PROPERTIES:
+:written-in: Nix expression language
+:os-family: Unix-like
+:working-state: In development
+:source-model: Open source
+:initial-release: 2003; 17 years ago (2003)
+:latest-release: 20.09/October 27, 2020; 33 days ago (2020-10-27)
+:repository: github.com/NixOS/nixpkgs
+:marketing-target: General purpose
+:package-manager: Nix
+:platforms: i686, x86-64, ARMv7, AArch64
+:kernel-type: Monolithic (Linux kernel)
+:license:  MIT
+:official-website: nixos.org
+:wikinfo-id: 27125334
+:URL:      https://en.wikipedia.org?curid=27125334
+:END:
+NixOS is a Linux distribution built on top of the Nix package manager. It uses declarative configuration and allows reliable system upgrades. Two main branches are offered: current Stable release and Unstable following latest development.
+
+* Linux Dotfiles
+** [[https://github.com/LionessAlana/dotfiles][LionessAlana/dotfiles: A collection of my linux dotfiles]]
+** [[https://github.com/masasam/dotfiles][masasam/dotfiles: My dotfiles based on Makefile]] :emacs:
+
+* Linux patches
+
+** [[https://github.com/clearlinux-pkgs/linux][clearlinux-pkgs/linux]]

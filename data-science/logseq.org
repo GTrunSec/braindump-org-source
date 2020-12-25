@@ -1,0 +1,19 @@
+#+TITLE: Logseq
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-08 Tue 15:07
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:org-mode.org][Org mode]]
+
+- https://logseq.com/
+
+* Issue
+** DONE [[https://github.com/logseq/logseq/issues/791][双向链接对于一个带有URL的标题会失效 · Issue #791 · logseq/logseq]]
+
+* logseq theme
+
+** [[https://github.com/SlyBouhafs/logseq-dracula][SlyBouhafs/logseq-dracula: 🧛🏻‍♂️ Dark theme for Logseq!]]

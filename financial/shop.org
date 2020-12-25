@@ -1,0 +1,8 @@
+#+TITLE: Shop Store
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+* [[https://github.com/0x90n/InfoSec-Black-Friday][0x90n/InfoSec-Black-Friday: All the deals for InfoSec related software/tools this Black Friday]]

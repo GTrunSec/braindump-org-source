@@ -1,0 +1,108 @@
+#+TITLE: GuangTao's Profile
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+#+TAGS: roam(r)
+
+* Editor
+** [[https://www.swrite.cn/][SWrite v0.3.9 : 链接创造新世界]] :roam:
+* File manager
+
+** [[https://github.com/mickael-kerjean/filestash][mickael-kerjean/filestash: 🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...]]
+** https://github.com/cloudreve/Cloudreve
+* Photo manager
+** [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]]
+- [[https://docs.photoprism.org/user-guide/library/import-vs-index/][Introduction - PhotoPrism]]
+* Markdown
+** [[https://github.com/codimd/server][codimd/server: CodiMD - Realtime collaborative markdown notes on all platforms.]]
+*
+* Music Streaming
+** [[https://github.com/nukeop/nuclear][nukeop/nuclear: Streaming music player that finds free music for you]]
+*** [[https://github.com/nukeop/nuclear][GTrunSec/nuclear-music-flake: NuclearStreaming music player to Nix]]
+** [[https://github.com/sentriz/gonic][sentriz/gonic: music streaming server / subsonic server API implementation]]
+* Database
+** [[https://github.com/hasura/graphql-engine][hasura/graphql-engine: Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.]]
+* Feed Reader
+** [[https://github.com/miniflux/v2][miniflux/v2: Minimalist and opinionated feed reader]]
+* Bookmark manage
+** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
+* Book manager or Library
+** [[https://getpolarized.io/docs/key-bindings-for-common-polar-operations.html][Documentation | Documentation]]
+* Block
+** [[https://github.com/AdguardTeam/AdGuardHome][AdguardTeam/AdGuardHome: Network-wide ads & trackers blocking DNS server]]
+
+*** [[https://github.com/ammnt/AmmoniteFilter][ammnt/AmmoniteFilter: The extended and optimized family filter for AdGuard Home]]
+
+*** [[https://github.com/mcintosh109/Pi-Hole_my_blocklist][mcintosh109/Pi-Hole_my_blocklist: This is my Pi-Hole Personal blocklist]]
+
+*** [[https://github.com/hl2guide/Filterlist-for-AdGuard][hl2guide/Filterlist-for-AdGuard: An aggressive filter-list that consolidates over 110 lists for use in AdGuard Home.]]
+
+
+
+* GunagTao's NixOS services Index
+** [[http://10.220.170.112:2344/photos][PhotoPri入sm: Browse Your Life]]
+** [[http://10.220.170.112/apps/files/][Files - Nextcloud]]
+** [[http://10.220.170.112:9000/unread][Unread (73) - Miniflux]]
+** [[http://10.220.170.112:9002/#][AdGuard Home]]
+** [[http://10.220.170.112:8888/lab?][JupyterLab]]
+** [[http://10.220.170.112:8334/login][Filestash]]
+
+* [[https://direnv.net/][direnv – unclutter your .profile | direnv]]
+:PROPERTIES:
+:ID:       c740666b-d8ac-442b-b7f3-e00f0a68af08
+:END:
+- [2020-12-05 Sat 19:04] <- [[id:c9d9d8a7-2e24-411e-9dea-091e5d7249f1][purcell/envrc: Emacs support for direnv which operates buffer-locally]]
+
+* Terminal
+:PROPERTIES:
+:ID:       ad8a3bdf-d408-42ac-89af-2994c632752b
+:END:
+- [2020-12-05 Sat 19:07] <- [[id:a223bc68-1e14-402c-a962-acf5b623fade][cprussin/fzf-pass: Wayland client for pass using fzf as the user interface]]
+** Shell
+:PROPERTIES:
+:ID:       b5c87647-5046-4b93-b91e-10bbb73498c7
+:END:
+ - [2020-12-14 Mon 13:07] -> [[id:65ad5d5a-25e5-424f-a873-8dc61722c961][tmux]]
+*** [[https://starship.rs/][Starship: Cross-Shell Prompt]]
+*** Tmux
+
+
+* Diagrams
+
+** [[https://plantuml.com/zh/emacs][Integration with Emacs]]
+
+- [[file:emacs.org][Emacs]]
+
+* Misc tools
+
+** Disk
+
+*** [[https://github.com/muesli/duf][muesli/duf: Disk Usage/Free Utility - a better 'df' alternative]]
+
+* Desktop
+
+** screen
+
+*** [[https://github.com/wulkano/Kap][wulkano/Kap: An open-source screen recorder built with web technology]] :macos:
+
+** desktop bar
+
+*** [[https://github.com/taffybar/taffybar][taffybar/taffybar: A gtk based status bar for tiling window managers such as XMonad]]
+
+* Dictionaries
+
+** [[https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=36097&extra=page%3D1][⚜ 打造完美《牛津高阶双解 第四版》(2019.11.11更新) - MDict 词库资源区 - MDict Dictionaries - 掌上百科 - PDAWIKI - Powered by Discuz!]]
+
+* keyboard manager
+
+** [[https://github.com/david-janssen/kmonad][david-janssen/kmonad: An advanced keyboard manager]]
+
+- [[file:haskell-packages.org][Haskell Packages]]
+
+* Ebook reader application
+ - [[https://github.com/reHackable/awesome-reMarkable][reHackable/awesome-reMarkable: A curated list of projects related to the reMarkable tablet]]
+** [[https://github.com/koreader/koreader][koreader/koreader: An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices]]

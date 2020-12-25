@@ -1,0 +1,13 @@
+#+TITLE: Rlang Packages
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-12 Sat 13:20
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:GuangTao-R.org][GuangTao's R]]
+
+* Time series
+
+** [[https://github.com/business-science/timetk][business-science/timetk: A toolkit for working with time series in R]]

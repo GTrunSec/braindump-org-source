@@ -1,0 +1,33 @@
+#+TITLE: Database
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-03 Thu 17:26
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Database
+** pg
+*** ⚑ WAITING http://www.postgresqltutorial.com/postgresql-list-users/
+*** https://jdbc.postgresql.org/download.html
+** Doc & book
+*** [[https://github.com/kylelobo/The-Documentation-Compendium][kylelobo/The-Documentation-Compendium: 📢 Various README templates & tips on writing high-quality documentation that people want to read.]]
+
+* PostgreSQL
+
+** Psql Commands
+
+#+begin_src sh :async t :exports both :results output
+sudo -u postgres psql postgres
+#+end_src
+
+** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
+
+- [[file:GuangTao-haskell.org][GuangTao's Haskell]]
+* Nextcloud
+
+** repair install with new datadir
+
+#+begin_src sh :async t :exports both :results output
+nextcloud-occ install --data-dir /DATABASE-4TB/nextcloud/data
+#+end_src

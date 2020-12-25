@@ -1,0 +1,14 @@
+#+TITLE: Regex
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat 21:49
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/ziishaned/learn-regex][ziishaned/learn-regex: Learn regex the easy way]]
+- [[https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md#233--%E5%8F%B7][learn-regex/README-cn.md at master · ziishaned/learn-regex]]
+
+* [[https://github.com/feuerbach/regex-applicative][feuerbach/regex-applicative: Regex-based parsing with applicative interface]]

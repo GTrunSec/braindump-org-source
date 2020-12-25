@@ -1,0 +1,142 @@
+#+TITLE: 建筑艺术素材
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+#+TAGS: 高雅(y)
+
+- tags :: [[file:PlanetCoaster.org][PlanetCoaster]]
+
+* 房屋设计
+** 视频素材
+
+*** 一条 Yit 建筑房屋
+
+**** [[https://www.youtube.com/watch?v=HwaWWcYsYyg][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+:PROPERTIES:
+:id: 9050b828-5b2a-49db-82ed-c913ed18d3b6
+:END:
+
+- [2020-11-20 Fri 15:32] <- [[id:59c0b564-7a2c-466e-b759-d6b7b68df8bd][水台]]
+- [2020-09-27 Sun 03:38] <- [[id:a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54][小型庭院]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/HwaWWcYsYyg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=_MtlQnvF0LY][“他家居然有10個院子！ - YouTube”🔊]]
+:PROPERTIES:
+:ID:       c29e2368-9c21-491d-b31e-53c0079f2fba
+:END:
+
+- [2020-12-24 Thu 00:53] <- [[id:a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54][小型庭院]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/_MtlQnvF0LY"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=qu0oVn44kOM][“他把380㎡的家改成500㎡，室內裝電梯，有5個院子！ - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/qu0oVn44kOM"
+:height "367"
+:width "653"}]]
+**** ❤ LOVE [[https://www.youtube.com/watch?v=tJNKRh_zY1s][“他在中國最美梯田為母親造1000㎡大宅 - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/tJNKRh_zY1s"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=SSn_f2lDMFY][“一個和尚，在荒山蓋了爆美小樓，獨自修行 A Monk Builds a Beautiful House on a Waste Hill and Practices Alone - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/SSn_f2lDMFY"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=PVoqAH0iPLg][“他把牛棚改成300㎡超美別墅，就為了給大6歲的愛妻一個家 - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/PVoqAH0iPLg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=oRFiv1tpWfs][“中國最美尼姑庵，竟然是國家隊前教練改造的 - YouTube”🔊]] :高雅:
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/oRFiv1tpWfs"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=MhDHKUDJzfg][“她把福建一個200多年前的老房子拆了，搬到北京重新打造了一個爆美的家 - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/MhDHKUDJzfg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=SRGdPvAlxq4][“老祖宗太厲害了！這樣的房子最養人 - YouTube”🔊]]
+- [[file:家具.org][家具]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/SRGdPvAlxq4"
+:height "367"
+:width "653"}]]
+
+
+* Kinetic Sculptures
+** [[https://www.youtube.com/watch?v=zqNnOYoU5ls][INCREDIBLE Kinetic Sculptures You Need To See - Oddly Satisfying Video - YouTube]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/zqNnOYoU5ls"
+:height "367"
+:width "653"}]]
+

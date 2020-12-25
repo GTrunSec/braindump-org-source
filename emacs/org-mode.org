@@ -1,0 +1,92 @@
+#+TITLE: Org mode
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:emacs.org][Emacs]], [[file:GuangTao-profile.org][GuangTao's Profile]]
+
+
+* org mode parser
+** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
+[[file:GuangTao-rust.org][
+My rust]]
+
+
+** [[https://github.com/ixmatus/orgmode-parse][ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!]]
+[[file:GuangTao-haskell.org][GuangTao's Haskell]]
+
+** org mode elisp parsing
+#+begin_src emacs-lisp :tangle yes
+(nconc
+ '(("month" "day" "clockin" "clockout" "duration" "status" "title"))
+ '(hline)
+ (let ((ast (org-element-parse-buffer 'element)))
+   (org-element-map ast 'clock
+     (lambda (x)
+       (let ((val (org-element-property :value x)))
+     `(,(calendar-month-name (org-element-property :month-start val) t)
+       ,(number-to-string (org-element-property :day-start val))
+       ,(concat (number-to-string (org-element-property :hour-start val))
+            ":"
+            (format "%02d" (org-element-property :minute-start val)))
+       ,(concat (number-to-string (org-element-property :hour-end val))
+            ":"
+            (format "%02d" (org-element-property :minute-end val)))
+       ,(org-element-property :duration x)
+       ,(org-element-property :status x)
+       ,@(org-element-map
+         (org-element-property :parent (org-element-property :parent x))
+         'headline
+           (lambda (x) (org-element-property :title x)))))))))
+#+end_src
+
+#+RESULTS:
+| month | day | clockin | clockout | duration | status | title                      |
+|-------+-----+---------+----------+----------+--------+----------------------------|
+| Nov   |  14 |   16:19 |    17:59 |     1:40 | closed |                            |
+| Nov   |  28 |   11:00 |    12:30 |     1:30 | closed |                            |
+| Nov   |  19 |    0:14 |     1:43 |     1:29 | closed |                            |
+| Nov   |  10 |   14:49 |    16:07 |     1:18 | closed |                            |
+| Nov   |  28 |   19:35 |    21:39 |     2:04 | closed |                            |
+| Nov   |  28 |   13:39 |    16:21 |     2:42 | closed |                            |
+| Nov   |  19 |   20:45 |    22:21 |     1:36 | closed |                            |
+| Nov   |  29 |   14:42 |    16:22 |     1:40 | closed |                            |
+| Nov   |   5 |   23:39 |     1:21 |     1:42 | closed | 解析网易云音乐，生产图表化 |
+
+* org mode viewer
+** [[https://github.com/alphapapa/org-now][alphapapa/org-now: Conveniently show current Org tasks in a sidebar window]]
+* Org mode Linker
+** [[https://github.com/landakram/org-z][landakram/org-z: Lightweight, Org-mode flavored zettelkasten links.]]
+* Modeline
+** [[https://github.com/unhammer/org-upcoming-modeline][unhammer/org-upcoming-modeline: put upcoming org event in modeline]]
+* org mode HTML theme
+** [[https://gongzhitaao.org/orgcss/org.css][https://gongzhitaao.org/orgcss/org.css]]
+* Org mode To PDF
+** [[https://emacs-china.org/t/org-mode-pdf/245/6][Org-mode导出的pdf怎么让标题和目录分页显示？ - Org-mode - Emacs China]]
+
+#+begin_example
+#+LATEX: \newpage
+#+end_example
+
+** ❤ LOVE [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
+
+* Org mode Config
+** ✰ IMPORTANT [[https://github.com/alphapapa/unpackaged.el#ensure-blank-lines-between-headings-and-before-contents][alphapapa/unpackaged.el: A collection of useful Emacs Lisp code that isn't substantial enough to be packaged]]
+
+* Org mode Tags
+
+** [[https://orgmode.org/manual/Tag-Hierarchy.html#Tag-Hierarchy][Tag Hierarchy (The Org Manual)]]
+
+
+- [[https://emacs-china.org/t/org-roam-org-mode/14266][如何在 Org-roam 或者 Org-mode 下实现嵌套标签？ - Org-mode - Emacs China]]
+
+
+
+* Org mode Agenda
+** [[http://doc.norang.ca/org-mode.html#GettingOrgModeWithGit][Org Mode - Organize Your Life In Plain Text!]] bh config
+** https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html <2018-06-07 Thu> :EMACS:
+** https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html <2018-06-07 Thu> :EMACS:

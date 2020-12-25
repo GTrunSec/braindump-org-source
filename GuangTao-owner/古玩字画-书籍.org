@@ -1,0 +1,18 @@
+#+TITLE: 古玩字画-书籍
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+#+TAGS: 工艺(g)
+* 珠宝
+** 珠翠光华
+:PROPERTIES:
+:ID:       2f099857-bead-44c5-954a-2109b1515979
+:END:
+
+- [2020-11-22 Sun 14:37] -> [[id:153dd8d5-3231-4d10-929a-8e546f2a2e25][点翠]]
+- [2020-09-12 Sat 14:33] -> [[id:5b7ea7d7-31e6-4043-8aa0-f3234ae86103][十三陵的定陵，万历孝靖皇后的凤冠 - YouTube]]
+- [[https://baike.baidu.com/item/%E7%8F%A0%E7%BF%A0%E5%85%89%E5%8D%8E%EF%BC%9A%E4%B8%AD%E5%9B%BD%E9%A6%96%E9%A5%B0%E5%9B%BE%E5%8F%B2][珠翠光华：中国首饰图史_百度百科]]

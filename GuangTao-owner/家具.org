@@ -1,0 +1,23 @@
+#+TITLE: 家具
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-24 Thu 01:16
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:建筑素材分类.org][建筑素材分类]]
+
+
+* 罗汉家具 [[https://www.youtube.com/watch?v=sEc7DAN5GdI][漆器家具的浪漫 The Romance of Lacquerware - YouTube]] :黄花梨:
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/sEc7DAN5GdI"
+:height "367"
+:width "653"}]]
