@@ -125,9 +125,58 @@
 :src "https://www.youtube.com/embed/SRGdPvAlxq4"
 :height "367"
 :width "653"}]]
+**** [[https://www.youtube.com/watch?v=l-E95bDiGHg][中国独树一帜的秘境酒店！ - YouTube - Brave]]
+:PROPERTIES:
+:id: b8b0fdf0-0125-4de8-93dc-1ca310a1ffc4
+:END:
+- [2020-12-25 Fri 01:02] <- [[id:f2295123-a3fb-4739-925c-aebb51dcaa55][酒店旅馆]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/l-E95bDiGHg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=m_iTEKQV1yQ][美國大叔賣掉房屋，移居中國14年：在百年老宅找到人生理想 14 Years Ago This American Man Sold His House and Moved to China - YouTube - Brave]]
 
+**** [[https://www.youtube.com/watch?v=16pcCiO8XLA][他在北京800㎡家造3個茶室，家具全用明清 He Builds 3 Tea Rooms in His 800-m2 Home in Beijing - YouTube]]
+:PROPERTIES:
+:ID:       52a954f9-1d12-49d9-ba81-ed893662d82b
+:END:
+
+- [2020-12-25 Fri 01:51] <- [[id:e33ce4eb-532b-4fbc-b2ff-6f7408fe3c0b][明清家具]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/16pcCiO8XLA"
+:height "367"
+:width "653"}]]
+
+**** [[https://www.youtube.com/watch?v=Oa78y5gD4R8][“香港建築師改造福建民居，獲國際大獎 Hong Kong Architect Wins Major International Award for Buildings - YouTube”🔊]]
+:PROPERTIES:
+:ID:       c476de67-9ca9-480d-a27c-312665765faf
+:END:
+
+- [2020-12-25 Fri 01:54] -> [[id:2ab1740b-8cb4-40b3-95df-07375d8c58d2][民居]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/Oa78y5gD4R8"
+:height "367"
+:width "653"}]]
 
 * Kinetic Sculptures
+:PROPERTIES:
+:ID:       c60d65be-6f85-498b-abf6-e5d49c705658
+:END:
 ** [[https://www.youtube.com/watch?v=zqNnOYoU5ls][INCREDIBLE Kinetic Sculptures You Need To See - Oddly Satisfying Video - YouTube]]
 
 [:div.videoWrapper.mb-4

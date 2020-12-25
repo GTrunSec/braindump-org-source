@@ -50,11 +50,26 @@
 ** https://www.youtube.com/watch?v=L-GxPD2Keb0
 * 灯
 ** https://www.pinterest.com/pin/524739794061108229/ [floor lamp]
+* 酒店旅馆
+:PROPERTIES:
+:id: f2295123-a3fb-4739-925c-aebb51dcaa55
+:END:
+ - [2020-12-25 Fri 01:02] -> [[id:b8b0fdf0-0125-4de8-93dc-1ca310a1ffc4][中国独树一帜的秘境酒店！ - YouTube - Brave]]
 * 窗设计
+:PROPERTIES:
+:id: 7752c9d5-30c3-47f6-a59b-e4a8ccbed348
+:END:
 ** https://www.youtube.com/watch?v=SRGdPvAlxq4                                 :古风:
 ** https://www.youtube.com/watch?v=FdXVxj82YUM
 * 储藏的设计
 https://www.youtube.com/watch?v=RkfC03qljdk
+* 民居
+:PROPERTIES:
+:ID:       2ab1740b-8cb4-40b3-95df-07375d8c58d2
+:END:
+- [2020-12-25 Fri 01:54] <- [[id:c476de67-9ca9-480d-a27c-312665765faf][“香港建築師改造福建民居，獲國際大獎 Hong Kong Architect Wins Major International Award for Buildings - YouTube”🔊]]
+
+
 
 * [[https://github.com/space10-community/the-growroom][space10-community/the-growroom]] :life:interesting:
 

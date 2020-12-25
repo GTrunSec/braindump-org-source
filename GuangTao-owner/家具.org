@@ -21,3 +21,9 @@
 :src "https://www.youtube.com/embed/sEc7DAN5GdI"
 :height "367"
 :width "653"}]]
+
+* 明清家具
+:PROPERTIES:
+:ID:       e33ce4eb-532b-4fbc-b2ff-6f7408fe3c0b
+:END:
+ - [2020-12-25 Fri 01:51] -> [[id:52a954f9-1d12-49d9-ba81-ed893662d82b][他在北京800㎡家造3個茶室，家具全用明清 He Builds 3 Tea Rooms in His 800-m2 Home in Beijing - YouTube]]
