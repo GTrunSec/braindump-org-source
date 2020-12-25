@@ -44,3 +44,7 @@
 *** [[https://github.com/peterdsharpe/StockMarketAnalysis][peterdsharpe/StockMarketAnalysis: Futility can be fun sometimes]]
 
 * [[https://github.com/GTrunSec/homework_fall2020][GTrunSec/homework_fall2020: Assignments for Berkeley CS 285: Deep Reinforcement Learning (Fall 2020)]]
+
+* [[https://github.com/ageron/handson-ml][ageron/handson-ml: A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.]]
+
+- [[file:../../../../Documents/org-notes/braindump/data-science/machine-learning.org][Machine Learning]]

@@ -1,2 +1,0 @@
-#+TITLE: Nov 30th, 2020
-* DONE 初步完成旅行—>美食的 roam-org

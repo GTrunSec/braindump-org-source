@@ -8,7 +8,7 @@
 #+TAGS: yara snort
 
 
-- tags :: [[file:security.org][Security Projects or Ideas]]*
+- tags ::[[file:security-project.org][Security Projects]]
 
 
 * [[https://github.com/fireeye/red_team_tool_countermeasures][fireeye/red_team_tool_countermeasures]] :yara:snort:

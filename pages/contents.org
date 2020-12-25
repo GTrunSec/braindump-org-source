@@ -38,9 +38,9 @@
 
 * Julia
 
-** [[file:../julia.org][GuangTao's Julia]]
+** [[file:../../../../Documents/org-notes/braindump/programming/GuangTao-julia.org][GuangTao's Julia]]
 
-** [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+** [[file:../../../../Documents/org-notes/braindump/math/mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 
 * [[file:../linux.org][Linux]]
 
@@ -80,5 +80,5 @@
 ** [[file:../cartoon.org][Cartoon]]
 * Misc
 ** [[file:../logseq.org][Logseq]]
-* [[file:../logs.org][Logs]]
-** [[file:../logging_parser.org][logging parser]]
+* [[file:../../../../Documents/org-notes/braindump/data-science/logs.org][Logs]]
+** [[file:../../../../Documents/org-notes/braindump/data-science/logseq.org][Logseq]]

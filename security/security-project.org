@@ -1,4 +1,4 @@
-#+TITLE: Security Projects or Ideas
+#+TITLE: Security Projects
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
