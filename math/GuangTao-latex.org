@@ -5,7 +5,12 @@
 #+SETUPFILE: ../hugo.setup
 #+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:GuangTao-math.org][GuangTao's math]]
+
 * math symbol
+
 ** [[https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/][Writing Mathematic Fomulars in Markdown | csrgxtu]]
 :PROPERTIES:
 :ID:       557d4a7e-64c3-4ed5-9901-e39d595ecbc8
@@ -13,8 +18,3 @@
 - [2020-11-20 Fri 03:07] <- [[id:103f4c38-5d9f-4826-b524-c77c776f239e][Markdown]]
 
 * [[https://www.overleaf.com/learn/latex/mathematical_expressions][Mathematical expressions - Overleaf, Online LaTeX Editor]]
-
-
-\[ x^n + y^n = z^n\]
-
-♓ \[x^n π]

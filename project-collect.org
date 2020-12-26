@@ -6,6 +6,8 @@
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-
+- tags :: [[file:GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
 
 * [[https://www.okta.com/][Okta | The Identity Standard]]
+* Task manager
+** [[https://github.com/alainm23/planner][alainm23/planner: Task manager with Todoist support designed for GNU/Linux 🚀]]

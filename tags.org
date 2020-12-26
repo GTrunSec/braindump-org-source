@@ -5,11 +5,11 @@
 #+SETUPFILE: ./hugo.setup
 #+SETUPFILE: ./theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+- tags :: [[file:GuangTao-owner/GuangTao-workflow.org][GuangTao's Workflow]]
 
-- tags ::[[file:GuangTao-workflow.org][GuangTao's Workflow]]
 
 * Org Mode braindump tags
-** [[file:GuangTao-nix.org][GuangTao's Nix]]
+** [[file:nix/GuangTao-nix.org][GuangTao's Nix]]
 #+begin_src plantuml :file ./tags/my-nix-tags.png
 @startuml
 title My nix

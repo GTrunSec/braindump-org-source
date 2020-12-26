@@ -73,6 +73,4 @@ https://www.youtube.com/watch?v=RkfC03qljdk
 
 * [[https://github.com/space10-community/the-growroom][space10-community/the-growroom]] :life:interesting:
 
-   +
-   +
-   +
+[[https://raw.githubusercontent.com/space10-community/the-growroom/master/growroom.png][growroom.png (1000×804)]]

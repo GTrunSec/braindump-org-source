@@ -6,6 +6,7 @@
 #+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+- tags :: [[file:../../../../Documents/org-notes/braindump/system/system.org][System]]
 * Linux
 :PROPERTIES:
 :developer: Community Linus Torvalds
