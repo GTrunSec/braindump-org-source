@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:emacs.org][Emacs]], [[file:GuangTao-profile.org][GuangTao's Profile]]
+- tags :: [[file:emacs.org][Emacs]], [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
 
 
 * org mode parser
@@ -72,6 +72,16 @@ My rust]]
 #+LATEX: \newpage
 #+end_example
 
+#+begin_example
+nil)
+nil)
+#+end_example
+#+begin_src emacs-lisp :tangle yes
+(setq redisplay-dont-pause nil)
+#+end_src
+
+#+RESULTS:
+
 ** ❤ LOVE [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
 
 * Org mode Config
@@ -90,3 +100,7 @@ My rust]]
 ** [[http://doc.norang.ca/org-mode.html#GettingOrgModeWithGit][Org Mode - Organize Your Life In Plain Text!]] bh config
 ** https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html <2018-06-07 Thu> :EMACS:
 ** https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html <2018-06-07 Thu> :EMACS:
+
+* Org mode Babel
+
+** [[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html][Python Source Code Blocks in Org Mode]] :python:

@@ -30,6 +30,8 @@
 ** [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 ** [[file:../mitmath-18337.org][18.337 - Parallel Computing and Scientific Machine Learning]]
 ** [[file:../GuangTao-math.org][GuangTao's math]]
+*** [[file:../math/calculus-with-python.org][Calculus with Python]]
+
 ** [[file:../GuangTao-latex.org][GuangTao's latex]]
 
 
