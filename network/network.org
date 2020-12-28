@@ -132,3 +132,8 @@ Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008
 ** [[https://github.com/RustScan/RustScan][RustScan/RustScan: 🤖 The Modern Port Scanner 🤖]]
 * Network Deployment
 ** [[https://github.com/opstrace/opstrace][opstrace/opstrace: Secure observability, deployed in your own network.]]
+* VPN Server
+:PROPERTIES:
+:ID:       b638affe-16db-4051-a7cb-d0df0ca1d172
+:END:
+ - [2020-12-27 Sun 19:41] -> [[id:d8d07c1a-0c10-49e0-a81c-d53f7641e6a7][Wireguard - NixOS Wiki]]

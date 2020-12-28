@@ -27,3 +27,9 @@
 ** [[https://github.com/elitak/nixos-infect][elitak/nixos-infect: [GPLv3+] install nixos over the existing OS in a DigitalOcean droplet (and others with minor modifications)]]
 * NixOS Flakes
 ** [[https://nrdxp.dev/nixos/2020/12/19/NixOS-Flakes-and-KISS.html][NixOS, Flakes and KISS | nrdxp]]
+* NixOS Network
+** [[https://nixos.wiki/wiki/Wireguard][Wireguard - NixOS Wiki]] :vpn:
+:PROPERTIES:
+:ID:       d8d07c1a-0c10-49e0-a81c-d53f7641e6a7
+:END:
+- [2020-12-27 Sun 19:41] <- [[id:b638affe-16db-4051-a7cb-d0df0ca1d172][VPN Server]]

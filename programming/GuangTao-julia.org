@@ -50,7 +50,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 - [2020-12-10 Thu 01:29] <- [[id:ed9aaa03-b3de-4487-a770-100ee1411e61][Unicode Input · The Julia Language]]
 - [2020-12-09 Wed 23:18] -> [[id:5e3a1b24-a5ad-40c1-bd36-009b885c5d5f][bkamins/Julia-DataFrames-Tutorial: A tutorial on Julia DataFrames package]]
 
-*** [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+** [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 :PROPERTIES:
 :header-args:sh: :dir ~/data/Jupyter-data-science-environment
 :ID:       b6dc7a84-c972-4733-9dc1-d1ac105e2fee
@@ -77,7 +77,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
 *** [[https://github.com/hyper0x/JuliaBasics/tree/master/book][JuliaBasics/book at master · hyper0x/JuliaBasics]]
 :PROPERTIES:
-:header-args:sh: :dir ~/data
+:header-args:sh: :dir ~/data/Jupyter-data-science-environment/notebook
 :END:
 
 
@@ -85,7 +85,6 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 git clone https://github.com/hyper0x/JuliaBasics.git
 #+end_src
 
-#+RESULTS:
 
 *** [[https://github.com/PaulSoderlind/JuliaTutorial][PaulSoderlind/JuliaTutorial: Julia Tutorial for Finance and Econometrics Students]]
 :PROPERTIES:

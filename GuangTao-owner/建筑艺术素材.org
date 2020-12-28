@@ -173,7 +173,18 @@
 :height "367"
 :width "653"}]]
 
-****
+**** [[https://www.youtube.com/watch?v=2IuBaqBEfmE][“史上最慘民宿：造價2000萬，4年只營業了3天！Cost 20 Million to Restore, Only Opened 3 Days in 4 Years - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/2IuBaqBEfmE"
+:height "367"
+:width "653"}]]
+
 
 * Kinetic Sculptures
 :PROPERTIES:
