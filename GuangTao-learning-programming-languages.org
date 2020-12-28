@@ -1,4 +1,4 @@
-#+TITLE: My learning Programming languages
+#+TITLE: GuangTao's learning Programming languages
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat

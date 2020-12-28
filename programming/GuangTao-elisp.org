@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
+- tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]], [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
 
 * Elisp documents
 ** [[https://github.com/p3r7/awesome-elisp][GitHub - p3r7/awesome-elisp: A curated list of emacs-lisp development resources]]

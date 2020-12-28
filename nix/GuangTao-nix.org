@@ -8,7 +8,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
 
-- tags :: [[file:../programming-languages.org][My learning Programming languages]], [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]]
+- tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]], [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]]
   
 * Nix Documents
 :PROPERTIES:

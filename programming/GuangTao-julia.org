@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- Tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:julia-packages.org][Julia lang Packages list]]
+- Tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]], [[file:julia-packages.org][Julia lang Packages list]]
 
 * Julia (programming language)
 :PROPERTIES:
