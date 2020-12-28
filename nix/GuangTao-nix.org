@@ -8,7 +8,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
 
-- tags :: [[file:programming-languages.org][My learning Programming languages]], [[file:nixos.org][NixOS]],[[file:nixops.org][NixOps]]
+- tags :: [[file:../programming-languages.org][My learning Programming languages]], [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]]
   
 * Nix Documents
 :PROPERTIES:
@@ -75,19 +75,20 @@
 ** wiki
 - https://nixos.wiki/wiki/Language-specific_package_helpers
 
-** Nix [[file:GuangTao-rust.org][GuangTao's Rust]]
+** Nix [[file:../programming/GuangTao-rust.org][GuangTao's Rust]]
 :PROPERTIES:
 :id: 8eba3b48-150b-4ca6-a794-79f341d860aa
 :END:
 - [2020-12-07 Mon 21:01] -> [[id:36aa9c9d-bf10-40f0-9463-b5169ffa1f2a][nix-community/redoxpkgs: Cross-compile to Redox using Nix [maintainer=@aaronjanse]​]]
+*** [[https://discourse.nixos.org/t/comparing-solutions-for-building-rust-on-nix/10707][Comparing solutions for building Rust on Nix - Development - NixOS Discourse]]
+
 *** [[https://github.com/nmattia/naersk][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
 :PROPERTIES:
 :id: 02aa0111-a92e-41d6-abca-ce4cc6c7a931
 :END:
 - [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
 *** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
-
-** Nix [[file:GuangTao-haskell.org][GuangTao's Haskell]]
+** Nix [[file:../programming/GuangTao-haskell.org][GuangTao's Haskell]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
 :END:
@@ -111,7 +112,7 @@
 *** Nix Haskell Documents for beginning
 **** [[https://www.srid.ca/1948201.html][Nix recipes for Haskellers - Sridhar Ratnakumar]]
 **** [[https://github.com/Gabriel439/haskell-nix][Gabriel439/haskell-nix: Nix and Haskell in production]]
-** Nix [[file:GuangTao-python.org][Python]]
+** Nix [[file:../programming/GuangTao-python.org][GuangTao's Python]]
 :PROPERTIES:
 :ID:       f08fdb79-58f8-4186-b890-06e1486702e9
 :END:
@@ -121,7 +122,7 @@
 nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 #+end_src
 
-** Nix [[file:GuangTao-golang.org][GuangTao's Golang]]
+** Nix [[file:../programming/GuangTao-golang.org][GuangTao's Golang]]
 :PROPERTIES:
 :id: 33107453-baf3-4e27-871b-833b93f5ad76
 :END:
@@ -132,11 +133,11 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 *** Go Nix discussing
 - [[https://discourse.nixos.org/t/build-golang-code-provided-not-as-go-module/9543/10][Build GoLang code provided not as Go module - Learn - NixOS Discourse]]
   
-** Nix [[file:node.org][My Node list]]
+** Nix [[file:../programming/node.org][GuangTao's Node Java]]
 *** https://andreas.rammhold.de/posts/ranz2nix/
 *** [[https://github.com/nix-community/yarn2nix][nix-community/yarn2nix: Generate nix expressions from a yarn.lock file [maintainer=???]​]]
 
-** Nix [[file:GuangTao-clang.org][GuangTao's Clang]]
+** Nix [[file:../programming/GuangTao-golang.org][GuangTao's Golang]]
 
 *** C/C++ Nix infrastructure
 :PROPERTIES:
