@@ -8,7 +8,9 @@
 
 #+TAGS: doom(d) roam(r) org_mode(o) literate(l)
 
-  - tags :: [[file:org-mode.org][Org mode]], [[file:GuangTao-profile.org][GuangTao's Profile]], [[file:GuangTao-elisp.org][GuangTao's Elisp]]
+- tags :: [[file:org-mode.org][Org mode]], [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]], [[file:../programming/GuangTao-elisp.org][GuangTao's Elisp]]
+
+
 * Configuration
 ** [[https://github.com/jethrokuan/dots/blob/master/.doom.d/config.el][dots/config.el at master · jethrokuan/dots]] :roam:org_mode:
 ** [[https://github.com/redguardtoo/emacs.d][redguardtoo/emacs.d: Fast and robust Emacs setup.]]
@@ -42,3 +44,5 @@
 :END:
 ** [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker]]
 ** [[https://github.com/daviderestivo/galactic-emacs][daviderestivo/galactic-emacs: A Emacs distribution coming from the space ...]]
+* Dired
+** [[https://github.com/Fuco1/dired-hacks][Fuco1/dired-hacks: Collection of useful dired additions]]

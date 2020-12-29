@@ -97,6 +97,7 @@
 ** [[file:../life/life-hack.org][life hacker]]
 ** GTD
 ** [[file:../GuangTao-owner/GuangTao-public-gtd.org][GuangTao's Public GTD list]]
+** [[file:../GuangTao-owner/GuangTao-media.org][GuangTao's Media]]
 * Workflow
 ** [[file:../deployment/git-workflow.org][GuangTao's Git workflow]]
 * [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
