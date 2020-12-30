@@ -1,0 +1,12 @@
+#+TITLE: disnix
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-30 Wed 14:58
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+
+* [[https://hydra.nixos.org/build/133175656/download/2/manual/#chap-installation][Disnix User's Guide]]

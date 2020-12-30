@@ -1,0 +1,23 @@
+#+TITLE: Dec 30th, 2020
+
+* [[id:0ff6ab4b-c02f-423c-bb5c-d97cca75ba82][美食短视频]]
+
+** [[https://www.youtube.com/watch?v=wtMFGUma4uY][“1600元的寧夏鹽池灘羊，沒有羶味的羊？做成手抓羊肉，有多美味？【衣谷水原egg】 - YouTube”🔊]] :羊肉:
+
+中国最好吃的羊？
+
+** [[https://www.youtube.com/watch?v=-nQmHFgJaE8][停电也要吃，广西桂林牛八宝，8种牛杂一锅炖，阿星点蜡烛吃火锅Niu Babao Hot Pot in Guilin, Guangxi - YouTube]] :牛杂:
+:PROPERTIES:
+:ID:       faf18a86-487a-40a3-907e-f35e071f7c8e
+:END:
+- [2020-12-30 Wed 13:51] <- [[id:5acaa1d5-e7bd-4efa-bb5c-9aa1ccda3538][广西美食]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/-nQmHFgJaE8"
+:height "367"
+:width "653"}]]

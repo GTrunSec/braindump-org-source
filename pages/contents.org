@@ -50,9 +50,6 @@
 
 
 * [[file:../data-science/machine-learning.org][Machine Learning]]
-:PROPERTIES:
-:ID:       3e2e382f-4e4e-4ec7-9631-d9bd144b05db
-:END:
  - [2020-12-28 Mon 13:56] -> [[id:82731a28-3c90-497f-974f-b2f02f9134c6][18.337 - Parallel Computing and Scientific Machine Learning]]
 * Julia
 
@@ -89,7 +86,7 @@
 ** [[file:../GuangTao-owner/古墓文物.org][古墓文物]]
 ** [[file:../GuangTao-owner/learn-music.org][learning music agenda]]
 
-* [[file:../life/life.org][GuangTao's Life]]
+* [[file:../life/GuangTao-life.org][GuangTao's Life]]
 
 ** [[file:../GuangTao-owner/游山玩水.org][游山玩水]]
 ** [[file:../GuangTao-owner/traveling.org][我的旅行计划]]
@@ -98,6 +95,7 @@
 ** GTD
 ** [[file:../GuangTao-owner/GuangTao-public-gtd.org][GuangTao's Public GTD list]]
 ** [[file:../GuangTao-owner/GuangTao-media.org][GuangTao's Media]]
+** [[file:../life/GuangTao-regular-life.org][GuangTao's  Regular life]]
 * Workflow
 ** [[file:../deployment/git-workflow.org][GuangTao's Git workflow]]
 * [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]

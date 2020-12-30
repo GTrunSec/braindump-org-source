@@ -6,7 +6,7 @@
 #+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:life.org][GuangTao's Life]], [[file:my-regular-life.org][My Regular life]], [[file:美食.org][美食]], [[file:游山玩水.org][游山玩水]], [[file:古墓文物.org][古墓文物]]
+- tags :: [[file:GuangTao-life.org][GuangTao's Life]], [[file:my-regular-life.org][My Regular life]], [[file:美食.org][美食]], [[file:游山玩水.org][游山玩水]], [[file:古墓文物.org][古墓文物]]
 
 * 成都市
 :PROPERTIES:

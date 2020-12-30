@@ -1,4 +1,4 @@
-#+TITLE: My Regular life
+#+TITLE: GuangTao's  Regular life
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
@@ -8,7 +8,7 @@
 #+OPTIONS: prop:t p:t
 
 
-- tags :: [[file:life-hack.org][life hacker]], [[file:life.org][GuangTao's Life]]
+- tags :: [[file:life-hack.org][life hacker]], [[file:GuangTao-life.org][GuangTao's Life]]
 
 
 * wasting my clothes [0/3]
@@ -37,3 +37,5 @@
 
   #+end_src
 
+* daily Health
+** [[id:1d5ced14-2c4c-464b-9681-00650626907c][每天梳头100下]]
