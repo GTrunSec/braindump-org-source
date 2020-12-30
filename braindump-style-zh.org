@@ -1,0 +1,22 @@
+#+TITLE: braindump风格中文
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-29 Tue 16:21
+#+SETUPFILE: ./hugo.setup
+#+SETUPFILE: ./theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* 双链和单链的用法
+
+
+双链:
+
+- 对于有意义，值得被追溯的
+- 能够多链不同的知识点
+
+
+单链：
+- 记录一些随机观看到，有趣的人和事。如视频
+- 对于那些没有和自己知识体系关联太多的事物
