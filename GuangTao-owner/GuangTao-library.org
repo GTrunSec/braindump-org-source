@@ -76,6 +76,17 @@
 :ADDED:    [2020-01-01]
 :AMAZON:   https://www.amazon.com/Handbook-Computer-Networks-Cyber-Security-dp-3030222764/dp/3030222764/ref=mt_hardcover?_encoding=UTF8&me=&qid=1577927674
 :END:
+* Math Books
+** Concrete Mathematics: A Foundation for Computer Science (2nd Edition)
+:PROPERTIES:
+:AUTHOR:   Ronald Graham, Oren Patashnik
+:ADDED:    [2020-12-29]
+:AMAZON:   https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025/ref=sr_1_1?dchild=1&keywords=Concrete+Mathematics&qid=1609292464&s=books&sr=1-1
+:END:
+
+
+
+
 * Cyber security
 ** Handbook of Computer Networks and Cyber Security: Principles and Paradigms
 :PROPERTIES:
