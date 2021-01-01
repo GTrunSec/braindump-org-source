@@ -575,6 +575,7 @@ Nickel is a lightweight configuration language. Its purpose is to automate the g
 * Nix cross-compiling
 ** [[https://github.com/pololu/nixcrpkgs][pololu/nixcrpkgs: Tools for cross-compiling standalone applications using Nix.]]
 ** [[https://github.com/Mic92/nix-ld][Mic92/nix-ld: Run unpatched dynamic binaries on NixOS]]
+** [[https://github.com/Fuseteam/thefloweringash][Fuseteam/thefloweringash]] :arm:
 * Nix ISSUE
 ** Nix flake issue
 :PROPERTIES:

@@ -104,3 +104,11 @@ nil)
 * Org mode Babel
 
 ** [[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html][Python Source Code Blocks in Org Mode]] :python:
+
+* Org mode to Ipynb
+** [[https://github.com/jgm/pandoc/issues/6367][Are round trips supported between ipynb and org-mode? · Issue #6367 · jgm/pandoc]]
+
+
+#+begin_src sh :async t :exports both :results output
+pandoc testing_org.org -o testing_org_back.ipynb
+#+end_src

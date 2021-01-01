@@ -35,3 +35,5 @@
 * Security Data Analysise
 
 ** [[https://github.com/sooshie/Security-Data-Analysis][sooshie/Security-Data-Analysis: A series of labs that will help users apply various data science techniques to security related data.]]
+
+** [[https://www.youtube.com/watch?v=pG5lU9CLnIU][Data Analysis, Machine Learning, Bro, and You! by Brian Wylie - YouTube]] :zeek:
