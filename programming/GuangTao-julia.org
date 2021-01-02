@@ -11,25 +11,24 @@
 
 * Julia (programming language)
 :PROPERTIES:
-:paradigm: Multi-paradigm: multiple dispatch (primary paradigm), procedural, functional, meta, multistaged
-:designed-by: Jeff Bezanson, Alan Edelman, Stefan Karpinski, Viral B. Shah
-:developer: Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and other contributors
+:license: mit (core), gpl v2; a makefile option omits gpl libraries
+:url: https://en.wikipedia.org?curid=38455554
+:typing-discipline: dynamic, nominative, parametric, optional
+:os: linux, macos, windows and freebsd
+:website: julialang.org
+:designed-by: jeff bezanson, alan edelman, stefan karpinski, viral b. shah
 :first-appeared: 2012; 8 years ago (2012)
-:stable-release: 1.5.2, / 24 September 2020; 28 days ago (2020-09-24)
-:preview-release: 1.6.0-DEV with daily updates (and 1.0.6 being worked on)
-:typing-discipline: Dynamic, nominative, parametric, optional
-:implementation-language: Julia, C, C++, Scheme, LLVM
-:platform: Tier 1: x86-64, IA-32, 64-bit ARM, CUDA/NvidiaGPUs Tier 2: Windows 32-bit (64-bit is tier 1) Tier 3:32-bit ARM, PowerPC, AMD GPUs. Also has web browser support (for JavaScript and WebAssembly) and works in Android. For more details see "supported platforms".
-:os:       Linux, macOS, Windows and FreeBSD
-:license:  MIT (core), GPL v2; a makefile option omits GPL libraries
 :filename-extensions: .jl
-:website:  JuliaLang.org
+:preview-release: 1.6.0-dev with daily updates (and 1.0.6 being worked on)
+:stable-release: 1.5.2, / 24 september 2020; 28 days ago (2020-09-24)
+:developer: jeff bezanson, stefan karpinski, viral b. shah, and other contributors
 :wikinfo-id: 38455554
-:URL:      https://en.wikipedia.org?curid=38455554
+:paradigm: multi-paradigm: multiple dispatch (primary paradigm), procedural, functional, meta, multistaged
+:platform: tier 1: x86-64, ia-32, 64-bit arm, cuda/nvidiagpus tier 2: windows 32-bit (64-bit is tier 1) tier 3:32-bit arm, powerpc, amd gpus. also has web browser support (for javascript and webassembly) and works in android. for more details see "supported platforms".
+:implementation-language: julia, c, c++, scheme, llvm
 :END:
 
 Julia is a high-level, high-performance, dynamic programming language. While it is a general purpose language and can be used to write any application, many of its features are well-suited for numerical analysis and computational science.Distinctive aspects of Julia's design include a type system with parametric polymorphism in a dynamic programming language; with multiple dispatch as its core programming paradigm. Julia supports concurrent, (composable) parallel and distributed computing (with or without using MPI and/or the built-in corresponding to "OpenMP-style"threads), and direct calling of C and Fortran libraries without glue code.
-
 * Environment
 
 ** Julia Jupyter
@@ -50,7 +49,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 - [2020-12-10 Thu 01:29] <- [[id:ed9aaa03-b3de-4487-a770-100ee1411e61][Unicode Input · The Julia Language]]
 - [2020-12-09 Wed 23:18] -> [[id:5e3a1b24-a5ad-40c1-bd36-009b885c5d5f][bkamins/Julia-DataFrames-Tutorial: A tutorial on Julia DataFrames package]]
 
-** [[file:mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+** [[file:../math/mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 :PROPERTIES:
 :header-args:sh: :dir ~/data/Jupyter-data-science-environment
 :ID:       b6dc7a84-c972-4733-9dc1-d1ac105e2fee
@@ -58,7 +57,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:01] -> [[id:d5edd4b2-2ad8-43ef-9390-bce5dfd41b7c][math course with Julia]]
 
-** [[file:GuangTao-finance.org][GuangTao's Finance]]
+** [[file:../financial/GuangTao-finance.org][GuangTao's Finance]]
 
 *** [[https://github.com/PaulSoderlind/EmpiricalFinancePhD][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
 :PROPERTIES:
@@ -67,7 +66,7 @@ Julia is a high-level, high-performance, dynamic programming language. While it 
 
  - [2020-11-20 Fri 03:02] -> [[id:54f94d64-138c-4f43-8dc6-81c01654466f][financial course with Julia]]
 
-** [[file:machine-learning.org][Machine Learning]]
+** [[file:../data-science/machine-learning.org][Machine Learning]]
 :PROPERTIES:
 :id: 06e237f2-f098-4908-ad35-1d78a7e17a4d
 :END:

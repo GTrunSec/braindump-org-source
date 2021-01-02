@@ -19,3 +19,6 @@
 
 * [[https://www.overleaf.com/learn/latex/mathematical_expressions][Mathematical expressions - Overleaf, Online LaTeX Editor]]
 
+* [[https://github.com/thomasjm/puma][thomasjm/puma: Web-based LaTeX editor]]
+
+* [[https://www.mathjax.org/][MathJax | Beautiful math in all browsers.]]

@@ -96,3 +96,7 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * Julia Parallel
 
 ** [[https://github.com/omlins/ParallelStencil.jl][omlins/ParallelStencil.jl: Package for writing high-level code for parallel high-performance stencil computations that can be deployed on both GPUs and CPUs]]
+
+* Julia Plots
+
+** [[https://docs.juliaplots.org/latest/backends/][Backends · Plots]]
