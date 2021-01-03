@@ -7,8 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-使用[[https://github.com/gildas-lormeau/SingleFile][gildas-lormeau/SingleFile: Web Extension for Firefox/Chrome/Edge and CLI
-tool to save a faithful copy of a complete web page as a single HTML file]] 存储离
+使用[[https://github.com/gildas-lormeau/SingleFile][gildas-lormeau/SingleFile: Web Extension for Firefox/Chrome/Edge and CLItool to save a faithful copy of a complete web page as a single HTML file]] 存储离
 线的订单页面方便日后查找。
 
 * 参考
@@ -42,8 +41,12 @@ Ordered on August 10, 2018
 
 [[https://www.amazon.com/gp/product/B01CU0949U/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1][Amazon.com: Cuisinart STM-1000 Digital Glass Steamer, Stainless Steel: Kitchen & Dining]]
 
-#+DOWNLOADED: https://m.media-amazon.com/images/S/aplus-media/sota/afb8e73e-ed8e-4e9f-bf0c-6978aaf2c8cb._SL300__.jpg @ 2019-07-24 23:27:03
-[[attachment:afb8e73e-ed8e-4e9f-bf0c-6978aaf2c8cb._SL300___2019-07-24_23-27-03.jpg]]
+
+#+NAME: 
+#+CAPTION: 
+#+ATTR_HTML: :width 500
+[[attachment:20210103_144754screenshot.png]]
+
 
 ** 电饭锅
 没用过日本牌子的电饭锅，当初想买来着，一价格比较贵再一个不经常吃米所以就放弃了。
@@ -59,7 +62,6 @@ Ordered on August 10, 2018
 
 这种类型的电饭锅在美国家庭很常见，一键设置很方便。
 
-#+DOWNLOADED: https://m.media-amazon.com/images/S/aplus-media/vc/46e86181-9cea-4731-8ac7-b9e8a4efe2c3.__CR0,0,200,225_PT0_SX200_V1___.jpg @ 2019-07-24 21:37:34
 [[attachment:46e86181-9cea-4731-8ac7-b9e8a4efe2c3.__CR0,0,200,225_PT0_SX200_V1____2019-07-24_21-37-34.jpg]]
 
 ** 面包机
