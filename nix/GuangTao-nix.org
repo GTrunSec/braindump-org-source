@@ -81,7 +81,12 @@
 :END:
 - [2020-12-07 Mon 21:01] -> [[id:36aa9c9d-bf10-40f0-9463-b5169ffa1f2a][nix-community/redoxpkgs: Cross-compile to Redox using Nix [maintainer=@aaronjanse]​]]
 *** [[https://discourse.nixos.org/t/comparing-solutions-for-building-rust-on-nix/10707][Comparing solutions for building Rust on Nix - Development - NixOS Discourse]]
+*** [[https://github.com/oxalica/rust-overlay][oxalica/rust-overlay]]
+:PROPERTIES:
+:ID:       41252713-70ef-4d4f-b6b8-22ad53c69235
+:END:
 
+- [2021-01-02 Sat 15:44] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
 *** [[https://github.com/nmattia/naersk][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
 :PROPERTIES:
 :id: 02aa0111-a92e-41d6-abca-ce4cc6c7a931
@@ -174,7 +179,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2020-11-20 Fri 02:28] <- [[id:2e37c4e9-b74d-490c-9b12-fc5aade3de68][Nix Friday - Flakes! - YouTube]]
 - [2020-11-09 Mon 22:30] -> [[id:fdf6b3e7-b611-449e-889b-bd8398b252e1][Nix flake issue]]
 - [2020-11-09 Mon 15:40] -> [[id:8a9e45f4-fa22-41b9-9862-d653ea91822c][configuration flakes]]
-
+- [2021-01-02 Sat 23:15] -> [[id:daf6fac0-3a1c-4b57-8073-90ad315e8a7e][“Jörg Thalheim: Nix flakes 101 (rC3 2020) - YouTube”🔊]]
 ** Flakes wiki
 :PROPERTIES:
 :ID:       0196e56d-f4d4-451d-8848-3f37119e7856

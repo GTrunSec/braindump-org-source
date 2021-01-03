@@ -38,7 +38,7 @@
 :PROPERTIES:
 :ID:       82731a28-3c90-497f-974f-b2f02f9134c6
 :END:
-- [2020-12-28 Mon 13:56] <- [[id:3e2e382f-4e4e-4ec7-9631-d9bd144b05db][Machine Learning]]
+ - [2021-01-02 Sat 13:34] -> [[id:c8ba296c-fa36-4a1a-91ff-04e2d611fcbc][Julia Machine Learning]]
 ** [[file:../math/mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
 :PROPERTIES:
 :ID:       4e06c48f-e11f-45a7-8747-ca96e07f4af3

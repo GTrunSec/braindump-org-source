@@ -19,7 +19,11 @@
 ** [[https://github.com/Jutho][Jutho (Jutho)]]
 
 * Julia Machine Learning
+:PROPERTIES:
+:ID:       c8ba296c-fa36-4a1a-91ff-04e2d611fcbc
+:END:
 
+- [2021-01-02 Sat 13:34] <- [[id:82731a28-3c90-497f-974f-b2f02f9134c6][18.337 - Parallel Computing and Scientific Machine Learning]]
 ** [[https://github.com/Jutho/TensorOperations.jl][Jutho/TensorOperations.jl: Julia package for tensor contractions and related operations]]
 
 * Julia lsp

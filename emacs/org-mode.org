@@ -81,8 +81,9 @@ nil)
 #+end_src
 
 #+RESULTS:
+** [[https://emacs-china.org/t/org-noter-plus-pdf-epub/15682][[新插件] org-noter-plus 提取PDF或EPUB文档的大纲及笔记 - Org-mode - Emacs China]]
 
-** ❤ LOVE [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
+* ❤ LOVE [[https://github.com/yantar92/org][yantar92/org: Speed-up org-mode]]
 
 * Org mode Config
 ** ✰ IMPORTANT [[https://github.com/alphapapa/unpackaged.el#ensure-blank-lines-between-headings-and-before-contents][alphapapa/unpackaged.el: A collection of useful Emacs Lisp code that isn't substantial enough to be packaged]]
