@@ -1,0 +1,2688 @@
+#+TITLE: StatisticsWithJuliaDRAFT
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-09 Wed 12:25
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* INPROCESS [[https://github.com/h-Klok/StatsWithJuliaBook][h-Klok/StatsWithJuliaBook]]
+:PROPERTIES:
+:id: 5366e5e7-8663-4dc7-b676-7b97f5257381
+:END:
+- [2020-12-17 Thu 23:20] -> [[id:0c1d1c3c-5182-4db8-b2dc-4c93c81f4243][Julia tutorial or courses]]
+
+- [2020-12-09 Wed 12:27] -> [[id:306c7b79-8a54-4e5b-8678-444eab1327fd][Julia Books]]
+
+- [[https://github.com/StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl][StatisticalRethinkingJulia/StatisticsWithJuliaPlutoNotebooks.jl: Pluto notebooks accompanying the book Statistics With Julia (https://statisticswithjulia.org).]]
+** [[https://github.com/h-Klok/StatsWithJuliaBook/tree/master/1_chapter][StatsWithJuliaBook/1_chapter at master · h-Klok/StatsWithJuliaBook]]
+
+./notebook/StatsWithJuliaBook/1_chapter/
+
+*** DONE bubbleSort.jl
+
+#+begin_src julia :exports both :results output
+function bubbleSort!(a)
+    n = length(a)
+    for i in 1:n-1
+        for j in 1:n-i
+            if a[j] > a[j+1]
+                a[j], a[j+1] = a[j+1], a[j]
+            end
+        end
+    end
+    return a
+end
+
+data = [65, 51, 32, 12, 23, 84, 68, 1]
+bubbleSort!(data)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+bubbleSort! (generic function with 1 method)
+8-element Array{Int64,1}:
+ 65
+ 51
+ 32
+ 12
+ 23
+ 84
+ 68
+  1
+8-element Array{Int64,1}:
+  1
+ 12
+ 23
+ 32
+ 51
+ 65
+ 68
+ 84
+#+end_example
+
+- comprehension
+
+#+begin_src julia :async t :exports both :results output
+array1 = [(2n+1)^2 for n in 1:5]
+array2 = [sqrt(i) for i in array1]
+println(typeof(1:5), "  ", typeof(array1), "  ", typeof(array2))
+1:5, array1, array2
+#+end_src
+
+#+RESULTS:
+#+begin_example
+5-element Array{Int64,1}:
+   9
+  25
+  49
+  81
+ 121
+5-element Array{Float64,1}:
+  3.0
+  5.0
+  7.0
+  9.0
+ 11.0
+UnitRange{Int64}  Array{Int64,1}  Array{Float64,1}
+(1:5, [9, 25, 49, 81, 121], [3.0, 5.0, 7.0, 9.0, 11.0])
+#+end_example
+
+
+- fast.jl
+#+begin_src julia :async t :exports both :results output
+using Statistics
+
+@time begin
+    data = [mean(rand(5*10^2)) for _ in 1:10^6]
+    println("98% of the means lie in the estimated range: ",
+                    (quantile(data,0.01),quantile(data,0.99)) )
+end
+#+end_src
+
+#+RESULTS:
+: 98% of the means lie in the estimated range: (0.4698606931732886, 0.5300374817804305)
+:   1.004519 seconds (1.74 M allocations: 3.936 GiB, 5.54% gc time)
+
+*** imageProcessing
+
+* Dependence packages
+** Chapter 1
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'import Pkg; Pkg.add("LaTeXStrings");Pkg.add("Measures")'
+#+end_src
+
+#+begin_src sh :async t :exports both :results output
+julia_wrapped -e 'import Pkg; Pkg.add("HTTP");Pkg.add("JSON");Pkg.add("SpecialFunctions");Pkg.add("StatsBase")'
+#+end_src
+* StatisticsWithJuliaDRAFT
+:PROPERTIES:
+:NOTER_DOCUMENT: StatisticsWithJuliaDRAFT.pdf
+:END:
+
+
+
+** Skeleton
+*** Preface
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.090909)
+:END:
+**** Link on page 3: [[https://github.com/h-Klok/StatsWithJuliaBook][https://github.com/h-Klok/StatsWithJuliaBook]]
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.167914)
+:END:
+**** Link on page 5: [[https://github.com/h-Klok/StatsWithJuliaBook][https://github.com/h-Klok/StatsWithJuliaBook]]
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.244431)
+:END:
+**** Link on page 5: [[https://statisticswithjulia.org/][https://statisticswithjulia.org/]]
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.35575)
+:END:
+*** Introducing Julia - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (13 . 0.090909)
+:END:
+**** Link on page 15: [[https://github.com/h-Klok/StatsWithJuliaBook][https://github.com/h-Klok/StatsWithJuliaBook]]
+:PROPERTIES:
+:NOTER_PAGE: (15 . 0.419867)
+:END:
+**** Language Overview
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.090909)
+:END:
+***** Link on page 16: [[https://julialang.org/][https://julialang.org/]]
+:PROPERTIES:
+:NOTER_PAGE: (16 . 0.446677)
+:END:
+***** Link on page 17: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/helloWorld.jl][Hello world and perfect squares]]
+:PROPERTIES:
+:NOTER_PAGE: (17 . 0.297135)
+:END:
+***** Link on page 18: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/comprehension.jl][Using a comprehension]]
+:PROPERTIES:
+:NOTER_PAGE: (18 . 0.607385)
+:END:
+***** Link on page 19: [[https://docs.julialang.org][https://docs.julialang.org]]
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.471538)
+:END:
+***** Link on page 19: [[https://docs.julialang.org/][https://docs.julialang.org/]]
+:PROPERTIES:
+:NOTER_PAGE: (19 . 0.833328)
+:END:
+***** Link on page 21: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/slow.jl][Slow code example]]
+:PROPERTIES:
+:NOTER_PAGE: (21 . 0.23985)
+:END:
+***** Link on page 21: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/fast.jl][Fast code example]]
+:PROPERTIES:
+:NOTER_PAGE: (21 . 0.727734)
+:END:
+***** Link on page 23: [[https://docs.julialang.org/en/v1/manual/variables-and-scoping/][https://docs.julialang.org/en/v1/manual/variables-and-scoping/]]
+:PROPERTIES:
+:NOTER_PAGE: (23 . 0.748116)
+:END:
+***** Link on page 24: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/variableScope.jl][Variable scope and the global keyword]]
+:PROPERTIES:
+:NOTER_PAGE: (24 . 0.473624)
+:END:
+**** Setup and Interface
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.412427)
+:END:
+***** Link on page 25: [[https://julialang.org/downloads/][https://julialang.org/downloads/]]
+:PROPERTIES:
+:NOTER_PAGE: (25 . 0.782005)
+:END:
+***** Link on page 26: [[https://github.com/h-Klok/StatsWithJuliaBook][the book’s]]
+:PROPERTIES:
+:NOTER_PAGE: (26 . 0.348039)
+:END:
+***** Link on page 26: [[https://github.com/h-Klok/StatsWithJuliaBook][GitHub]]
+:PROPERTIES:
+:NOTER_PAGE: (26 . 0.365146)
+:END:
+***** Link on page 27: [[https://julialang.org/packages/][https://julialang.org/packages/]]
+:PROPERTIES:
+:NOTER_PAGE: (27 . 0.497698)
+:END:
+***** Link to document on page 28: [[file:QQQQ.pdf][*Base.jl]] (target page: 1)
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.283018)
+:END:
+***** Link on page 28: [[https://github.com/JuliaIO/BSON.jl][BSON.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.312073)
+:END:
+***** Link on page 28: [[https://github.com/JuliaMath/Calculus.jl][Calculus.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.341129)
+:END:
+***** Link on page 28: [[https://github.com/JuliaData/CategoricalArrays.jl][CategoricalArrays.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.387292)
+:END:
+***** Link on page 28: [[https://github.com/JuliaStats/Clustering.jl][Clustering.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.416347)
+:END:
+***** Link on page 28: [[https://github.com/JuliaMath/Combinatorics.jl][Combinatorics.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.445404)
+:END:
+***** Link on page 28: [[https://github.com/JuliaData/CSV.jl][CSV.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.47446)
+:END:
+***** Link on page 28: [[https://github.com/JuliaData/DataFrames.jl][DataFrames.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.503515)
+:END:
+***** Link on page 28: [[https://github.com/JuliaCollections/DataStructures.jl][DataStructures.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.532571)
+:END:
+***** Link on page 28: [[https://github.com/JuliaLang/julia/blob/master/stdlib/Dates/docs/src/index.md][*Dates.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.561626)
+:END:
+***** Link on page 28: [[https://github.com/bensadeghi/DecisionTree.jl][DecisionTree.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.590682)
+:END:
+***** Link on page 28: [[https://github.com/JuliaDiffEq/DifferentialEquations.jl][DifferentialEquations.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.619737)
+:END:
+***** Link on page 28: [[https://github.com/JuliaStats/Distributions.jl][Distributions.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.665902)
+:END:
+***** Link on page 28: [[https://github.com/FluxML/Flux.jl][Flux.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.694957)
+:END:
+***** Link on page 28: [[https://github.com/JuliaStats/GLM.jl][GLM.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.724013)
+:END:
+***** Link on page 28: [[https://github.com/stevengj/HCubature.jl][HCubature.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.752226)
+:END:
+***** Link on page 28: [[https://github.com/JuliaStats/HypothesisTests.jl][HypothesisTests.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.782124)
+:END:
+***** Link on page 28: [[https://github.com/JuliaWeb/HTTP.jl][HTTP.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.811179)
+:END:
+***** Link on page 28: [[https://github.com/JuliaLang/IJulia.jl][IJulia.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.840235)
+:END:
+***** Link on page 28: [[https://github.com/JuliaImages/Images.jl][Images.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.86929)
+:END:
+***** Link on page 28: [[https://github.com/JuliaIO/JSON.jl][JSON.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (28 . 0.898346)
+:END:
+***** Link on page 29: [[https://github.com/JunoLab/Juno.jl][Juno.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.094001)
+:END:
+***** Link on page 29: [[https://github.com/JuliaStats/KernelDensity.jl][KernelDensity.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.120182)
+:END:
+***** Link on page 29: [[https://github.com/JuliaStats/Lasso.jl][Lasso.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.146362)
+:END:
+***** Link on page 29: [[https://github.com/stevengj/LaTeXStrings.jl][LaTeXStrings.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.172543)
+:END:
+***** Link on page 29: [[https://github.com/mpastell/LIBSVM.jl][LIBSVM.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.197881)
+:END:
+***** Link on page 29: [[https://github.com/JuliaGraphs/LightGraphs.jl][LightGraphs.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.224904)
+:END:
+***** Link on page 29: [[https://github.com/JuliaLang/julia/blob/master/stdlib/LinearAlgebra/docs/src/index.md][*LinearAlgebra.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.251085)
+:END:
+***** Link on page 29: [[https://github.com/JuliaGraphics/Measures.jl][Measures.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.277265)
+:END:
+***** Link on page 29: [[https://github.com/JuliaML/MLDatasets.jl][MLDatasets.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.319711)
+:END:
+***** Link on page 29: [[https://github.com/JuliaStats/MultivariateStats.jl][MultivariateStats.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.346734)
+:END:
+***** Link on page 29: [[https://github.com/JuliaNLSolvers/NLsolve.jl][NLsolve.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.390021)
+:END:
+***** Link on page 29: [[https://github.com/JuliaPlots/Plots.jl/][Plots.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.416202)
+:END:
+***** Link on page 29: [[https://github.com/JuliaPy/PyCall.jl][PyCall.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.45949)
+:END:
+***** Link on page 29: [[https://github.com/JuliaPy/PyPlot.jl][PyPlot.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.48567)
+:END:
+***** Link on page 29: [[https://github.com/JuliaMath/QuadGK.jl][QuadGK.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.528958)
+:END:
+***** Link on page 29: [[https://github.com/JuliaLang/julia/blob/master/stdlib/Random/docs/src/index.md][*Random.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.572246)
+:END:
+***** Link on page 29: [[https://github.com/JuliaInterop/RCall.jl][RCall.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.598427)
+:END:
+***** Link on page 29: [[https://github.com/johnmyleswhite/RDatasets.jl][RDatasets.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.624607)
+:END:
+***** Link on page 29: [[https://github.com/JuliaMath/Roots.jl][Roots.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.667895)
+:END:
+***** Link on page 29: [[https://github.com/JuliaMath/SpecialFunctions.jl][SpecialFunctions.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.694076)
+:END:
+***** Link on page 29: [[https://github.com/JuliaLang/julia/blob/master/stdlib/Statistics/docs/src/index.md][*Statistics.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.737364)
+:END:
+***** Link on page 29: [[https://github.com/JuliaStats/StatsBase.jl][StatsBase.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.763544)
+:END:
+***** Link on page 29: [[https://github.com/JuliaStats/StatsModels.jl][StatsModels.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.806832)
+:END:
+***** Link on page 29: [[https://github.com/JuliaPlots/StatsPlots.jl][StatsPlots.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.833013)
+:END:
+***** Link on page 29: [[https://github.com/JuliaStats/TimeSeries.jl][TimeSeries.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (29 . 0.859193)
+:END:
+**** Crash Course by Example
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.090909)
+:END:
+***** Link on page 30: [[https://julialang.org/learning/][https://julialang.org/learning/]]
+:PROPERTIES:
+:NOTER_PAGE: (30 . 0.40791)
+:END:
+***** Link on page 31: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/bubbleSort.jl][Bubble sort]]
+:PROPERTIES:
+:NOTER_PAGE: (31 . 0.093426)
+:END:
+***** Link on page 32: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/polyRoots.jl][Roots of a polynomial]]
+:PROPERTIES:
+:NOTER_PAGE: (32 . 0.651217)
+:END:
+***** Link on page 35: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/multiWayMarkovChainStationary.jl][Steady state of a Markov chain in several ways]]
+:PROPERTIES:
+:NOTER_PAGE: (35 . 0.093426)
+:END:
+***** Link on page 37: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/shakespeareWords.jl][Web interface, JSON and string parsing]]
+:PROPERTIES:
+:NOTER_PAGE: (37 . 0.156734)
+:END:
+**** Plots, Images and Graphics
+:PROPERTIES:
+:NOTER_PAGE: (38 . 0.326684)
+:END:
+***** Link on page 38: [[http://docs.juliaplots.org/][http://docs.juliaplots.org/]]
+:PROPERTIES:
+:NOTER_PAGE: (38 . 0.734133)
+:END:
+***** Link on page 39: [[http://tug.ctan.org/info/undergradmath/undergradmath.pdf][Note the use of the LaTeXStrings package enabling L A TEX formatted formulas. See for example, http://tug.ctan.org/info/undergradmath/undergradmath.pdf]]
+:PROPERTIES:
+:NOTER_PAGE: (39 . 0.546567)
+:END:
+***** Link on page 39: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/plotSimple.jl][Basic plotting]]
+:PROPERTIES:
+:NOTER_PAGE: (39 . 0.575085)
+:END:
+***** Link on page 41: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/hailstoneHistogram.jl][Histogram of hailstone sequence lengths]]
+:PROPERTIES:
+:NOTER_PAGE: (41 . 0.352667)
+:END:
+***** Link on page 42: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/graph.jl][Animated edges of a graph]]
+:PROPERTIES:
+:NOTER_PAGE: (42 . 0.459516)
+:END:
+***** Link on page 44: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/imageProcessing.jl][Working with images]]
+:PROPERTIES:
+:NOTER_PAGE: (44 . 0.352884)
+:END:
+**** Random Numbers and Monte Carlo Simulation
+:PROPERTIES:
+:NOTER_PAGE: (45 . 0.482607)
+:END:
+***** Link on page 46: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/seedExample.jl][Pseudorandom number generation]]
+:PROPERTIES:
+:NOTER_PAGE: (46 . 0.608444)
+:END:
+***** Link on page 47: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/piEstimate.jl][Estimating π]]
+:PROPERTIES:
+:NOTER_PAGE: (47 . 0.669497)
+:END:
+***** Link on page 48: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/lcg.jl][A linear congruential generator]]
+:PROPERTIES:
+:NOTER_PAGE: (48 . 0.620275)
+:END:
+***** Link on page 51: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/randomWalks.jl][Random walks and seeds]]
+:PROPERTIES:
+:NOTER_PAGE: (51 . 0.093426)
+:END:
+**** Integration with Other Languages
+:PROPERTIES:
+:NOTER_PAGE: (52 . 0.090909)
+:END:
+***** Link on page 52: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/usingR.jl][Using R from Julia]]
+:PROPERTIES:
+:NOTER_PAGE: (52 . 0.495973)
+:END:
+***** Link on page 53: [[https://vincentarelbundock.github.io/Rdatasets/datasets.html][https://vincentarelbundock.github.io/Rdatasets/datasets.html]]
+:PROPERTIES:
+:NOTER_PAGE: (53 . 0.454936)
+:END:
+***** Link on page 54: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/usingPython.jl][NLP via Python’s TextBlob]]
+:PROPERTIES:
+:NOTER_PAGE: (54 . 0.434164)
+:END:
+***** Link on page 55: [[https://github.com/JuliaInterop][https://github.com/JuliaInterop]]
+:PROPERTIES:
+:NOTER_PAGE: (55 . 0.450631)
+:END:
+*** Basic Probability - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (57 . 0.090909)
+:END:
+**** Random Experiments
+:PROPERTIES:
+:NOTER_PAGE: (58 . 0.297047)
+:END:
+***** Link on page 59: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/diceSumEven.jl][Even sum of two dice]]
+:PROPERTIES:
+:NOTER_PAGE: (59 . 0.237519)
+:END:
+***** Link on page 60: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/passwords.jl][Password matching]]
+:PROPERTIES:
+:NOTER_PAGE: (60 . 0.397846)
+:END:
+***** Link on page 62: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/birthdayProblem.jl][The birthday problem]]
+:PROPERTIES:
+:NOTER_PAGE: (62 . 0.093426)
+:END:
+***** Link on page 64: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/fishing.jl][Fishing with and without replacement]]
+:PROPERTIES:
+:NOTER_PAGE: (64 . 0.093426)
+:END:
+***** Link on page 68: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/catalan.jl][Lattice paths]]
+:PROPERTIES:
+:NOTER_PAGE: (68 . 0.093426)
+:END:
+**** Working With Sets
+:PROPERTIES:
+:NOTER_PAGE: (69 . 0.404702)
+:END:
+***** Link on page 70: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/sets.jl][Basic set operations]]
+:PROPERTIES:
+:NOTER_PAGE: (70 . 0.093426)
+:END:
+***** Link on page 71: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/mcFalacy.jl][An innocent mistake with Monte Carlo]]
+:PROPERTIES:
+:NOTER_PAGE: (71 . 0.22422)
+:END:
+***** Link on page 73: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/secretaryEnvelopes.jl][Secretary with envelopes]]
+:PROPERTIES:
+:NOTER_PAGE: (73 . 0.317923)
+:END:
+***** Link on page 75: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/occupancyProblem.jl][An occupancy problem]]
+:PROPERTIES:
+:NOTER_PAGE: (75 . 0.455755)
+:END:
+**** Independence
+:PROPERTIES:
+:NOTER_PAGE: (76 . 0.332149)
+:END:
+***** Link on page 77: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/independence.jl][Independent events]]
+:PROPERTIES:
+:NOTER_PAGE: (77 . 0.093426)
+:END:
+**** Conditional Probability
+:PROPERTIES:
+:NOTER_PAGE: (77 . 0.73201)
+:END:
+***** Link on page 79: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/conditionalProbability.jl][Defects in manufacturing]]
+:PROPERTIES:
+:NOTER_PAGE: (79 . 0.393112)
+:END:
+**** Bayes' Rule
+:PROPERTIES:
+:NOTER_PAGE: (79 . 0.702814)
+:END:
+***** Link on page 80: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/txRxBayes.jl][Tx Rx Bayes]]
+:PROPERTIES:
+:NOTER_PAGE: (80 . 0.465504)
+:END:
+***** Link on page 83: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/montyHall.jl][The Monty Hall problem]]
+:PROPERTIES:
+:NOTER_PAGE: (83 . 0.093426)
+:END:
+*** Probability Distributions - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (85 . 0.090909)
+:END:
+**** Random Variables
+:PROPERTIES:
+:NOTER_PAGE: (85 . 0.649405)
+:END:
+***** Link on page 86: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/randomVariable.jl][A simple random variable]]
+:PROPERTIES:
+:NOTER_PAGE: (86 . 0.47309)
+:END:
+***** Link on page 88: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/discreteContinuous.jl][Plotting discrete and continuous distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (88 . 0.276721)
+:END:
+**** Moment Based Descriptors
+:PROPERTIES:
+:NOTER_PAGE: (88 . 0.652918)
+:END:
+***** Link on page 89: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/meanIntegration.jl][Expectation via numerical integration]]
+:PROPERTIES:
+:NOTER_PAGE: (89 . 0.473851)
+:END:
+***** Link on page 91: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/varianceTransformation.jl][Variance of X as the mean of Y]]
+:PROPERTIES:
+:NOTER_PAGE: (91 . 0.629024)
+:END:
+**** Functions Describing Distributions
+:PROPERTIES:
+:NOTER_PAGE: (94 . 0.090909)
+:END:
+***** Link on page 95: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/cdfFromPdf.jl][CDF from the Riemann sum of a PDF]]
+:PROPERTIES:
+:NOTER_PAGE: (95 . 0.517131)
+:END:
+***** Link on page 97: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/inverseCDF.jl][The inverse CDF]]
+:PROPERTIES:
+:NOTER_PAGE: (97 . 0.365875)
+:END:
+***** Link on page 99: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/mgf.jl][A sum of two triangular random variables]]
+:PROPERTIES:
+:NOTER_PAGE: (99 . 0.499034)
+:END:
+**** Distributions and Related Packages
+:PROPERTIES:
+:NOTER_PAGE: (100 . 0.301749)
+:END:
+***** Link on page 100: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/weightVector.jl][Sampling from a weight vector]]
+:PROPERTIES:
+:NOTER_PAGE: (100 . 0.713513)
+:END:
+***** Link on page 101: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/triangularDist.jl][Using the pdf(), cdf(), and quantile() functions with Distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (101 . 0.630308)
+:END:
+***** Link on page 102: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/distributionDescriptors.jl][Descriptors of Distribution objects]]
+:PROPERTIES:
+:NOTER_PAGE: (102 . 0.594597)
+:END:
+***** Link on page 103: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/basicDistRand.jl][Using rand() with Distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (103 . 0.170903)
+:END:
+***** Link on page 104: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/triangularDistInv.jl][Inverse transform sampling]]
+:PROPERTIES:
+:NOTER_PAGE: (104 . 0.717641)
+:END:
+**** Families of Discrete Distributions
+:PROPERTIES:
+:NOTER_PAGE: (105 . 0.241104)
+:END:
+***** Link on page 105: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/discreteDists.jl][Families of discrete distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (105 . 0.638168)
+:END:
+***** Link on page 106: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/uniformDiscreteDice.jl][Discrete uniform die toss]]
+:PROPERTIES:
+:NOTER_PAGE: (106 . 0.696962)
+:END:
+***** Link on page 108: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/binomialCoinFlip.jl][Coin flipping and the binomial distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (108 . 0.374819)
+:END:
+***** Link on page 109: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/geometric.jl][The geometric distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (109 . 0.536681)
+:END:
+***** Link on page 111: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/negativeBinomial.jl][The negative binomial distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (111 . 0.404053)
+:END:
+***** Link on page 113: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/hypergeometric.jl][Comparison of several hypergeometric distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (113 . 0.495196)
+:END:
+***** Link on page 115: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/poisson.jl][The Poisson distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (115 . 0.385337)
+:END:
+**** Families of Continuous Distributions
+:PROPERTIES:
+:NOTER_PAGE: (116 . 0.090909)
+:END:
+***** Link on page 116: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/continuousDists.jl][Families of continuous distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (116 . 0.461817)
+:END:
+***** Link on page 117: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/continuousUniform.jl][Uniformly distributed angles]]
+:PROPERTIES:
+:NOTER_PAGE: (117 . 0.70739)
+:END:
+***** Link on page 119: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/expGeom.jl][Flooring an exponential random variable]]
+:PROPERTIES:
+:NOTER_PAGE: (119 . 0.415254)
+:END:
+***** Link on page 121: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/gammaDist.jl][Gamma random variable as a sum of exponentials]]
+:PROPERTIES:
+:NOTER_PAGE: (121 . 0.517444)
+:END:
+***** Link on page 123: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/betaDist.jl][The gamma and beta special functions]]
+:PROPERTIES:
+:NOTER_PAGE: (123 . 0.296859)
+:END:
+***** Link on page 123: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/gammafunctionIntegration.jl][The gamma function at 1/2]]
+:PROPERTIES:
+:NOTER_PAGE: (123 . 0.72011)
+:END:
+***** Link on page 125: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/weibullHazard.jl][Hazard rates and the Weibull distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (125 . 0.422271)
+:END:
+***** Link on page 127: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/normalCalculus.jl][Numerical derivatives of the normal density]]
+:PROPERTIES:
+:NOTER_PAGE: (127 . 0.479534)
+:END:
+***** Link on page 128: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/rayleigh.jl][Alternative representations of Rayleigh random variables]]
+:PROPERTIES:
+:NOTER_PAGE: (128 . 0.586689)
+:END:
+***** Link on page 129: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/normalDistribution.jl][The Box-Muller transform]]
+:PROPERTIES:
+:NOTER_PAGE: (129 . 0.718159)
+:END:
+***** Link on page 131: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/cauchyCMA.jl][The law of large numbers breaks down with very heavy tails]]
+:PROPERTIES:
+:NOTER_PAGE: (131 . 0.744808)
+:END:
+**** Joint Distributions and Covariance
+:PROPERTIES:
+:NOTER_PAGE: (132 . 0.522806)
+:END:
+***** Link on page 134: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/jointPDF.jl][Visualizing a bivariate density]]
+:PROPERTIES:
+:NOTER_PAGE: (134 . 0.386726)
+:END:
+***** Link on page 137: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/multiRVgeneration.jl][Generating random vectors with desired mean and covariance]]
+:PROPERTIES:
+:NOTER_PAGE: (137 . 0.309672)
+:END:
+***** Link on page 138: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/multiDimensionalIntegration.jl][Multidimensional integration]]
+:PROPERTIES:
+:NOTER_PAGE: (138 . 0.617092)
+:END:
+***** Link on page 140: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/bivariateNormal.jl][Bivariate normal data]]
+:PROPERTIES:
+:NOTER_PAGE: (140 . 0.093426)
+:END:
+*** Processing and Summarizing Data - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (141 . 0.090909)
+:END:
+**** Link on page 143: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/callByValueByReference.jl][Call by value vs. call by reference]]
+:PROPERTIES:
+:NOTER_PAGE: (143 . 0.136832)
+:END:
+**** Link on page 144: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/shallowDeepCopy.jl][Deep copy and shallow copy]]
+:PROPERTIES:
+:NOTER_PAGE: (144 . 0.093426)
+:END:
+**** Working with Data Frames
+:PROPERTIES:
+:NOTER_PAGE: (145 . 0.090909)
+:END:
+***** Link on page 145: [[http://juliadata.github.io/DataFrames.jl/stable/][http://juliadata.github.io/DataFrames.jl/stable/]]
+:PROPERTIES:
+:NOTER_PAGE: (145 . 0.422447)
+:END:
+***** Link on page 146: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeInspection.jl][Creating and inspecting a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (146 . 0.093426)
+:END:
+***** Link on page 147: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeReferencing.jl][Referencing data in a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (147 . 0.222294)
+:END:
+***** Link on page 148: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeEditing.jl][Editing and copying a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (148 . 0.330295)
+:END:
+***** Link on page 149: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeCopyDeepCopy.jl][Using copy() and deepcopy() with a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (149 . 0.513562)
+:END:
+***** Link on page 150: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeMissing.jl][Handling missing entries]]
+:PROPERTIES:
+:NOTER_PAGE: (150 . 0.587299)
+:END:
+***** Link on page 152: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeReshape.jl][Reshaping, joining and merging data frames]]
+:PROPERTIES:
+:NOTER_PAGE: (152 . 0.093426)
+:END:
+***** Link on page 153: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeOperations.jl][Manipulating DataFrame objects]]
+:PROPERTIES:
+:NOTER_PAGE: (153 . 0.581655)
+:END:
+***** Link on page 155: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeImputation.jl][Cleaning and imputing data]]
+:PROPERTIES:
+:NOTER_PAGE: (155 . 0.446221)
+:END:
+**** Summarizing Data
+:PROPERTIES:
+:NOTER_PAGE: (156 . 0.686398)
+:END:
+***** Link on page 158: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/summarizingData.jl][Summary statistics]]
+:PROPERTIES:
+:NOTER_PAGE: (158 . 0.562741)
+:END:
+***** Link on page 160: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/meanVectCovMatrixSummary.jl][Estimating elements of a covariance matrix]]
+:PROPERTIES:
+:NOTER_PAGE: (160 . 0.549902)
+:END:
+***** Link on page 162: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/sampleCovarianceMatrix.jl][Sample covariance]]
+:PROPERTIES:
+:NOTER_PAGE: (162 . 0.315806)
+:END:
+**** Plots for Single Samples and Time Series
+:PROPERTIES:
+:NOTER_PAGE: (163 . 0.720716)
+:END:
+***** Link on page 165: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/manualHistogram.jl][Creating a manual histogram]]
+:PROPERTIES:
+:NOTER_PAGE: (165 . 0.339107)
+:END:
+***** Link on page 167: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/statsPlotsDensity.jl][Classic vs. smooth histograms]]
+:PROPERTIES:
+:NOTER_PAGE: (167 . 0.455354)
+:END:
+***** Link on page 169: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/KDE.jl][Kernel density estimation]]
+:PROPERTIES:
+:NOTER_PAGE: (169 . 0.093426)
+:END:
+***** Link on page 170: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/ecdf.jl][Empirical cumulative distribution function]]
+:PROPERTIES:
+:NOTER_PAGE: (170 . 0.316851)
+:END:
+***** Link on page 171: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/normalProbabilityPlot.jl][Normal probability plot]]
+:PROPERTIES:
+:NOTER_PAGE: (171 . 0.672756)
+:END:
+***** Link on page 173: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/multipleSimplePlot.jl][Multiple simple plots for a time-series]]
+:PROPERTIES:
+:NOTER_PAGE: (173 . 0.455351)
+:END:
+***** Link on page 175: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/radialPlot.jl][Radial plot]]
+:PROPERTIES:
+:NOTER_PAGE: (175 . 0.273076)
+:END:
+**** Plots for Comparing Two or More Samples
+:PROPERTIES:
+:NOTER_PAGE: (176 . 0.381045)
+:END:
+***** Link on page 177: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/qqPlot.jl][Q-Q Plots]]
+:PROPERTIES:
+:NOTER_PAGE: (177 . 0.093426)
+:END:
+***** Link on page 178: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/boxplot.jl][Box plots of data]]
+:PROPERTIES:
+:NOTER_PAGE: (178 . 0.354372)
+:END:
+***** Link on page 178: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/violinPlot.jl][Violin plot]]
+:PROPERTIES:
+:NOTER_PAGE: (178 . 0.795311)
+:END:
+**** Plots for Multivariate and High Dimensional Data
+:PROPERTIES:
+:NOTER_PAGE: (179 . 0.504571)
+:END:
+***** Link on page 180: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/scatterplotMatrix.jl][Scatterplot matrix]]
+:PROPERTIES:
+:NOTER_PAGE: (180 . 0.537253)
+:END:
+***** Link on page 182: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/marginalHists.jl][Heatmap and marginal histograms]]
+:PROPERTIES:
+:NOTER_PAGE: (182 . 0.614231)
+:END:
+***** Link on page 184: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/andrewsPlot.jl][Andrews plot]]
+:PROPERTIES:
+:NOTER_PAGE: (184 . 0.366453)
+:END:
+**** Plots for the Board Room
+:PROPERTIES:
+:NOTER_PAGE: (185 . 0.330917)
+:END:
+***** Link on page 185: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/pieChart.jl][A pie chart]]
+:PROPERTIES:
+:NOTER_PAGE: (185 . 0.615936)
+:END:
+***** Link on page 186: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/barPlots.jl][Two different bar plots]]
+:PROPERTIES:
+:NOTER_PAGE: (186 . 0.503674)
+:END:
+***** Link on page 187: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/stackplot.jl][A stack plot]]
+:PROPERTIES:
+:NOTER_PAGE: (187 . 0.483547)
+:END:
+**** Working with Files and Remote Servers
+:PROPERTIES:
+:NOTER_PAGE: (187 . 0.794097)
+:END:
+***** Link on page 188: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/lineSearch.jl][Filtering an input file]]
+:PROPERTIES:
+:NOTER_PAGE: (188 . 0.356548)
+:END:
+***** Link on page 189: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/directorySearch.jl][Searching files in a directory]]
+:PROPERTIES:
+:NOTER_PAGE: (189 . 0.215721)
+:END:
+***** Link on page 190: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/remoteDataServer.jl][Pseudocode for a remote database query]]
+:PROPERTIES:
+:NOTER_PAGE: (190 . 0.122519)
+:END:
+*** Statistical Inference Concepts - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (191 . 0.090909)
+:END:
+**** A Random Sample
+:PROPERTIES:
+:NOTER_PAGE: (192 . 0.331843)
+:END:
+***** Link on page 193: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/statisticsOfARandomSample.jl][Distributions of the sample mean and sample variance]]
+:PROPERTIES:
+:NOTER_PAGE: (193 . 0.397455)
+:END:
+**** Sampling from a Normal Population
+:PROPERTIES:
+:NOTER_PAGE: (194 . 0.241104)
+:END:
+***** Link on page 195: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/friendOfANormalDistribution.jl][Friends of the normal distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (195 . 0.359831)
+:END:
+***** Link on page 198: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/meanVarIndependence.jl][Are the sample mean and variance independent?]]
+:PROPERTIES:
+:NOTER_PAGE: (198 . 0.460192)
+:END:
+***** Link on page 200: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/tDistribution.jl][Student’s T-distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (200 . 0.38377)
+:END:
+***** Link on page 202: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/fDistribution.jl][Ratio of variances and the F-distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (202 . 0.424059)
+:END:
+**** The Central Limit Theorem
+:PROPERTIES:
+:NOTER_PAGE: (203 . 0.090909)
+:END:
+***** Link on page 204: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/centralLimitTheorem.jl][The central limit theorem]]
+:PROPERTIES:
+:NOTER_PAGE: (204 . 0.506119)
+:END:
+**** Point Estimation
+:PROPERTIES:
+:NOTER_PAGE: (205 . 0.090909)
+:END:
+***** Link on page 207: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/stdVarBiasEstimate.jl][A biased estimator]]
+:PROPERTIES:
+:NOTER_PAGE: (207 . 0.093426)
+:END:
+***** Link on page 209: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/parametersNumerical.jl][Point estimation via the method of moments using a numerical solver]]
+:PROPERTIES:
+:NOTER_PAGE: (209 . 0.394688)
+:END:
+***** Link on page 211: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/gammaLikelihood.jl][The likelihood function for a gamma distributions parameters]]
+:PROPERTIES:
+:NOTER_PAGE: (211 . 0.494702)
+:END:
+***** Link on page 214: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/mleGamma.jl][MLE for the gamma distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (214 . 0.093426)
+:END:
+***** Link on page 216: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/mm_vs_mle.jl][MSE, bias and variance of estimators]]
+:PROPERTIES:
+:NOTER_PAGE: (216 . 0.093426)
+:END:
+**** Confidence Interval as a Concept
+:PROPERTIES:
+:NOTER_PAGE: (217 . 0.090909)
+:END:
+***** Link on page 217: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/confidenceIntervalConcept.jl][A confidence interval for a symmetric triangular distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (217 . 0.664903)
+:END:
+***** Link on page 218: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/ciCoverage.jl][Repetitions of a confidence interval]]
+:PROPERTIES:
+:NOTER_PAGE: (218 . 0.37159)
+:END:
+**** Hypothesis Tests Concepts
+:PROPERTIES:
+:NOTER_PAGE: (219 . 0.380441)
+:END:
+***** Link on page 222: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/teststatPvalRejectregion.jl][The distribution of a test statistic under H 0]]
+:PROPERTIES:
+:NOTER_PAGE: (222 . 0.157499)
+:END:
+***** Link on page 224: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/simpleHypothesisTest.jl][A simple hypothesis test]]
+:PROPERTIES:
+:NOTER_PAGE: (224 . 0.093426)
+:END:
+***** Link on page 225: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/receiverOperatingCurve.jl][Comparing receiver operating curves]]
+:PROPERTIES:
+:NOTER_PAGE: (225 . 0.618768)
+:END:
+***** Link on page 227: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/randomizationTest.jl][A randomized hypothesis test]]
+:PROPERTIES:
+:NOTER_PAGE: (227 . 0.208909)
+:END:
+**** A Taste of Bayesian Statistics
+:PROPERTIES:
+:NOTER_PAGE: (227 . 0.643273)
+:END:
+***** Link on page 231: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/bayesUnivariate.jl][Bayesian inference with a triangular prior]]
+:PROPERTIES:
+:NOTER_PAGE: (231 . 0.093426)
+:END:
+***** Link on page 232: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/bayesUnivariateConjugate.jl][Bayesian inference with a gamma prior]]
+:PROPERTIES:
+:NOTER_PAGE: (232 . 0.434886)
+:END:
+***** Link on page 235: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/bayesMCMC.jl][Bayesian inference using MCMC]]
+:PROPERTIES:
+:NOTER_PAGE: (235 . 0.093426)
+:END:
+*** Confidence Intervals - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (237 . 0.090909)
+:END:
+**** Single Sample Confidence Intervals for the Mean
+:PROPERTIES:
+:NOTER_PAGE: (238 . 0.090909)
+:END:
+***** Link on page 239: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/onePopVKnown.jl][CI for single sample population, variance assumed known]]
+:PROPERTIES:
+:NOTER_PAGE: (239 . 0.093426)
+:END:
+***** Link on page 240: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/onePopVUnknown.jl][CI for single sample population with variance assumed unknown]]
+:PROPERTIES:
+:NOTER_PAGE: (240 . 0.146247)
+:END:
+**** Two Sample Confidence Intervals for the Difference in Means
+:PROPERTIES:
+:NOTER_PAGE: (240 . 0.571025)
+:END:
+***** Link on page 241: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/twoPopVKnown.jl][CI for difference in population means with variances known]]
+:PROPERTIES:
+:NOTER_PAGE: (241 . 0.458495)
+:END:
+***** Link on page 242: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/twoPopMVUnknownAEqual.jl][CI for difference in means, variance unknown, assumed equal]]
+:PROPERTIES:
+:NOTER_PAGE: (242 . 0.538667)
+:END:
+***** Link on page 244: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/twoPopMVUnknownAUnequal.jl][CI for difference in means, variance unknown and unequal]]
+:PROPERTIES:
+:NOTER_PAGE: (244 . 0.093426)
+:END:
+***** Link on page 245: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/vDOF_comparison.jl][Analyzing the Satterthwaite approximation]]
+:PROPERTIES:
+:NOTER_PAGE: (245 . 0.190949)
+:END:
+**** Confidence Intervals for Proportions
+:PROPERTIES:
+:NOTER_PAGE: (246 . 0.757412)
+:END:
+***** Link on page 249: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/proportionCI.jl][Confidence interval for a proportion]]
+:PROPERTIES:
+:NOTER_PAGE: (249 . 0.093426)
+:END:
+***** Link on page 250: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/proportionCIsampleSize.jl][Sample size planning for proportions]]
+:PROPERTIES:
+:NOTER_PAGE: (250 . 0.683646)
+:END:
+***** Link on page 252: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/propCIcoverageAccuracy.jl][Coverage accuracy of a confidence interval for proportions]]
+:PROPERTIES:
+:NOTER_PAGE: (252 . 0.20341)
+:END:
+**** Confidence Interval for the Variance of Normal Population
+:PROPERTIES:
+:NOTER_PAGE: (253 . 0.090909)
+:END:
+***** Link on page 253: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/varianceCI.jl][Confidence interval for the variance]]
+:PROPERTIES:
+:NOTER_PAGE: (253 . 0.637543)
+:END:
+***** Link on page 255: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/sampleVarDists.jl][Comparison of sample variance distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (255 . 0.093426)
+:END:
+***** Link on page 256: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/varianceCIalphas.jl][Actual α vs. α used in variance confidence intervals]]
+:PROPERTIES:
+:NOTER_PAGE: (256 . 0.330087)
+:END:
+**** Bootstrap Confidence Intervals
+:PROPERTIES:
+:NOTER_PAGE: (257 . 0.363383)
+:END:
+***** Link on page 258: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/bCI.jl][Bootstrap confidence interval]]
+:PROPERTIES:
+:NOTER_PAGE: (258 . 0.35362)
+:END:
+***** Link on page 259: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/bootstrapCI.jl][Coverage probability for bootstrap confidence intervals]]
+:PROPERTIES:
+:NOTER_PAGE: (259 . 0.279434)
+:END:
+**** Prediction Intervals
+:PROPERTIES:
+:NOTER_PAGE: (260 . 0.381645)
+:END:
+***** Link on page 261: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/predictionInterval.jl][Prediction interval with unknown population mean and variance]]
+:PROPERTIES:
+:NOTER_PAGE: (261 . 0.093426)
+:END:
+**** Credible Intervals
+:PROPERTIES:
+:NOTER_PAGE: (262 . 0.420124)
+:END:
+***** Link on page 265: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/credible.jl][Credible intervals on a posterior distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (265 . 0.093426)
+:END:
+*** Hypothesis Testing - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (267 . 0.090909)
+:END:
+**** Single Sample Hypothesis Tests for the Mean
+:PROPERTIES:
+:NOTER_PAGE: (268 . 0.284396)
+:END:
+***** Link on page 270: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanSingleVarKnown.jl][Inference with single sample, population variance is known]]
+:PROPERTIES:
+:NOTER_PAGE: (270 . 0.225122)
+:END:
+***** Link on page 272: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanSingleVarUnknown.jl][Inference with single sample, population variance unknown]]
+:PROPERTIES:
+:NOTER_PAGE: (272 . 0.248311)
+:END:
+***** Link on page 274: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/signTest.jl][Non-parametric sign test]]
+:PROPERTIES:
+:NOTER_PAGE: (274 . 0.093426)
+:END:
+***** Link on page 275: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/TvsSign.jl][Comparison of sign test and T-test]]
+:PROPERTIES:
+:NOTER_PAGE: (275 . 0.255967)
+:END:
+**** Two Sample Hypothesis Tests for Comparing Means
+:PROPERTIES:
+:NOTER_PAGE: (276 . 0.574609)
+:END:
+***** Link on page 278: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanDiffVarKnown.jl][Inference on difference of two means with variances known]]
+:PROPERTIES:
+:NOTER_PAGE: (278 . 0.093426)
+:END:
+***** Link on page 279: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanDiffVarAssumedEqual.jl][Inference on difference of means, variances unknown, assumed equal]]
+:PROPERTIES:
+:NOTER_PAGE: (279 . 0.221196)
+:END:
+***** Link on page 281: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanDiffVarAssumedUnequal.jl][Inference on difference of means, variances unknown, not assumed equal]]
+:PROPERTIES:
+:NOTER_PAGE: (281 . 0.093426)
+:END:
+**** Analysis of Variance (ANOVA)
+:PROPERTIES:
+:NOTER_PAGE: (282 . 0.090909)
+:END:
+***** Link on page 283: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/sampleMeansANOVA.jl][Sample means for ANOVA]]
+:PROPERTIES:
+:NOTER_PAGE: (283 . 0.425549)
+:END:
+***** Link on page 285: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/ssDecomposition.jl][Decomposing the sum of squares]]
+:PROPERTIES:
+:NOTER_PAGE: (285 . 0.2876)
+:END:
+***** Link on page 287: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/anovaFTest.jl][Executing one-way ANOVA]]
+:PROPERTIES:
+:NOTER_PAGE: (287 . 0.093426)
+:END:
+***** Link on page 289: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/anovaFDistribution.jl][Monte Carlo based distributions of the ANOVA F-statistic]]
+:PROPERTIES:
+:NOTER_PAGE: (289 . 0.200234)
+:END:
+**** Independence and Goodness of Fit
+:PROPERTIES:
+:NOTER_PAGE: (291 . 0.090909)
+:END:
+***** Link on page 293: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/chiSqTest.jl][Chi-squared test for goodness of fit]]
+:PROPERTIES:
+:NOTER_PAGE: (293 . 0.267556)
+:END:
+***** Link on page 295: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/chiSqIndependence.jl][Chi-squared for checking independence]]
+:PROPERTIES:
+:NOTER_PAGE: (295 . 0.403038)
+:END:
+***** Link on page 298: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/ksStatistic.jl][Comparisons of distributions of the K-S test statistic]]
+:PROPERTIES:
+:NOTER_PAGE: (298 . 0.093426)
+:END:
+***** Link on page 300: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/ksBrownian.jl][ECDF, actual and postulated CDF’s, and their differences]]
+:PROPERTIES:
+:NOTER_PAGE: (300 . 0.093426)
+:END:
+***** Link on page 303: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/residualAnalysis.jl][The Wald-Wolfowitz runs test]]
+:PROPERTIES:
+:NOTER_PAGE: (303 . 0.093426)
+:END:
+**** More on Power
+:PROPERTIES:
+:NOTER_PAGE: (304 . 0.090909)
+:END:
+***** Link on page 305: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/power.jl][Distributions under different hypotheses]]
+:PROPERTIES:
+:NOTER_PAGE: (305 . 0.093426)
+:END:
+***** Link on page 308: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/powerCurves.jl][Power curves for different sample sizes]]
+:PROPERTIES:
+:NOTER_PAGE: (308 . 0.093426)
+:END:
+***** Link on page 310: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/pValDist.jl][Distribution of the p-value]]
+:PROPERTIES:
+:NOTER_PAGE: (310 . 0.139626)
+:END:
+*** Linear Regression and Extensions - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (311 . 0.090909)
+:END:
+**** Clouds of Points and Least Squares
+:PROPERTIES:
+:NOTER_PAGE: (313 . 0.090909)
+:END:
+***** Link on page 313: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/polyInterpolate.jl][Polynomial interpolation vs. a line]]
+:PROPERTIES:
+:NOTER_PAGE: (313 . 0.181467)
+:END:
+***** Link on page 314: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/bestFitLine.jl][L1 and L2 norm minimization by Monte Carlo guessing]]
+:PROPERTIES:
+:NOTER_PAGE: (314 . 0.093426)
+:END:
+***** Link on page 315: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/leastSqMethods.jl][Computing least squares estimates]]
+:PROPERTIES:
+:NOTER_PAGE: (315 . 0.093426)
+:END:
+**** Linear Regression with One Variable
+:PROPERTIES:
+:NOTER_PAGE: (316 . 0.090909)
+:END:
+***** Link on page 316: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/usingGLM.jl][Simple linear regression with GLM]]
+:PROPERTIES:
+:NOTER_PAGE: (316 . 0.181467)
+:END:
+***** Link on page 317: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/distRegEstimators.jl][The distribution of the regression estimators]]
+:PROPERTIES:
+:NOTER_PAGE: (317 . 0.093426)
+:END:
+***** Link on page 318: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/simpLinRegHypTst.jl][Statistical inference for simple linear regression]]
+:PROPERTIES:
+:NOTER_PAGE: (318 . 0.093426)
+:END:
+***** Link on page 318: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/confPredBands.jl][Confidence and prediction bands]]
+:PROPERTIES:
+:NOTER_PAGE: (318 . 0.409915)
+:END:
+***** Link on page 319: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/anscombeQuartet.jl][The Anscombe quartet datasets]]
+:PROPERTIES:
+:NOTER_PAGE: (319 . 0.093426)
+:END:
+***** Link on page 319: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/residualAnalysis.jl][Plotting the residuals]]
+:PROPERTIES:
+:NOTER_PAGE: (319 . 0.596753)
+:END:
+**** Multiple Linear Regression
+:PROPERTIES:
+:NOTER_PAGE: (320 . 0.322109)
+:END:
+***** Link on page 320: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/multiLinReg.jl][Multiple linear regression]]
+:PROPERTIES:
+:NOTER_PAGE: (320 . 0.430138)
+:END:
+***** Link on page 321: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/collinearity.jl][Exploring collinearity]]
+:PROPERTIES:
+:NOTER_PAGE: (321 . 0.093426)
+:END:
+**** Model Adaptations
+:PROPERTIES:
+:NOTER_PAGE: (322 . 0.090909)
+:END:
+***** Link on page 322: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/nonlinearGLM.jl][Linear regression of a polynomial model]]
+:PROPERTIES:
+:NOTER_PAGE: (322 . 0.181467)
+:END:
+***** Link on page 322: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/multiLinear.jl][Regression with categorical variables - no interaction effects]]
+:PROPERTIES:
+:NOTER_PAGE: (322 . 0.44261)
+:END:
+***** Link on page 323: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/interaction.jl][Regression with categorical variables - with interaction effects]]
+:PROPERTIES:
+:NOTER_PAGE: (323 . 0.093426)
+:END:
+***** Link on page 323: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/simpsonsParadox.jl][Simpson’s paradox]]
+:PROPERTIES:
+:NOTER_PAGE: (323 . 0.693611)
+:END:
+**** Model Selection
+:PROPERTIES:
+:NOTER_PAGE: (324 . 0.36398)
+:END:
+***** Link on page 324: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/stepwiseRegression.jl][Basic model selection]]
+:PROPERTIES:
+:NOTER_PAGE: (324 . 0.47222)
+:END:
+***** Link on page 326: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/stepwiseRegression.jl][Using LASSO for model selection]]
+:PROPERTIES:
+:NOTER_PAGE: (326 . 0.093426)
+:END:
+**** Logistic Regression and the Generalized Linear Model
+:PROPERTIES:
+:NOTER_PAGE: (326 . 0.557314)
+:END:
+***** Link on page 326: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/logisticRegression.jl][Logistic regression]]
+:PROPERTIES:
+:NOTER_PAGE: (326 . 0.667323)
+:END:
+***** Link on page 327: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/linkFunctions.jl][Exploring generalized linear models]]
+:PROPERTIES:
+:NOTER_PAGE: (327 . 0.093426)
+:END:
+**** A Taste of Time Series and Forecasting
+:PROPERTIES:
+:NOTER_PAGE: (328 . 0.090909)
+:END:
+***** Link on page 328: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/timeSeriesEDA.jl][Exploratory data analysis of a time series]]
+:PROPERTIES:
+:NOTER_PAGE: (328 . 0.181467)
+:END:
+***** Link on page 329: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/linearRegressionTimeSeries.jl][Using linear regression for forecasting in a time series]]
+:PROPERTIES:
+:NOTER_PAGE: (329 . 0.093426)
+:END:
+***** Link on page 330: [[https://github.com/h-Klok/StatsWithJuliaxBook/blob/master/8_chapter/autocorrelation.jl][Differencing, autocorrelation and a correlogram of a time series]]
+:PROPERTIES:
+:NOTER_PAGE: (330 . 0.093426)
+:END:
+*** Machine Learning Basics - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (331 . 0.090909)
+:END:
+**** Link on page 332: [[http://heli.stanford.edu/][http://heli.stanford.edu/]]
+:PROPERTIES:
+:NOTER_PAGE: (332 . 0.517186)
+:END:
+**** Training, Testing and Tricks of the Trade
+:PROPERTIES:
+:NOTER_PAGE: (333 . 0.090909)
+:END:
+***** Link on page 334: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/pretrainedMNIST.jl][Using a pre-trained neural network for classification]]
+:PROPERTIES:
+:NOTER_PAGE: (334 . 0.093426)
+:END:
+***** Link on page 335: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/MNISTbasic.jl][Attempting hand crafted machine learning]]
+:PROPERTIES:
+:NOTER_PAGE: (335 . 0.093426)
+:END:
+***** Link on page 336: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/fluxADAMsimpleRegression.jl][Using Flux.jl and ADAM for optimization]]
+:PROPERTIES:
+:NOTER_PAGE: (336 . 0.093426)
+:END:
+***** Link on page 337: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/leastSqSGD.jl][Using SGD for least squares]]
+:PROPERTIES:
+:NOTER_PAGE: (337 . 0.093426)
+:END:
+**** Supervised Learning Methods
+:PROPERTIES:
+:NOTER_PAGE: (338 . 0.090909)
+:END:
+***** Link on page 338: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/simpleLinearClassifier.jl][Linear least squares classification]]
+:PROPERTIES:
+:NOTER_PAGE: (338 . 0.181467)
+:END:
+***** Link on page 339: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/logisticRegressionMNIST.jl][Logistic softmax regression for classification]]
+:PROPERTIES:
+:NOTER_PAGE: (339 . 0.093426)
+:END:
+***** Link on page 340: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/simpleSVM.jl][Support vector machines]]
+:PROPERTIES:
+:NOTER_PAGE: (340 . 0.093426)
+:END:
+***** Link on page 341: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/simpleRandomForest.jl][Random forest]]
+:PROPERTIES:
+:NOTER_PAGE: (341 . 0.093426)
+:END:
+***** Link on page 342: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/NN_mnist.jl][Training dense and convolutional neural networks]]
+:PROPERTIES:
+:NOTER_PAGE: (342 . 0.093426)
+:END:
+**** Bias, Variance and Regularization
+:PROPERTIES:
+:NOTER_PAGE: (343 . 0.090909)
+:END:
+***** Link on page 343: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/ridgeRegressionCross.jl][Ridge regression with k-fold cross validation]]
+:PROPERTIES:
+:NOTER_PAGE: (343 . 0.181467)
+:END:
+***** Link on page 344: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/dropout.jl][Tuning the dropout probability 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 using Flux, Flux.Data.MNIST, Statistics,]]
+:PROPERTIES:
+:NOTER_PAGE: (344 . 0.093426)
+:END:
+**** Unsupervised Learning Methods
+:PROPERTIES:
+:NOTER_PAGE: (345 . 0.090909)
+:END:
+***** Link on page 345: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/kMeans.jl][Carrying out k-means via the Clustering package]]
+:PROPERTIES:
+:NOTER_PAGE: (345 . 0.181467)
+:END:
+***** Link on page 346: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/kMeansManual.jl][Manual implementation of k-means]]
+:PROPERTIES:
+:NOTER_PAGE: (346 . 0.093426)
+:END:
+***** Link on page 347: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/hClustering.jl][Carrying out hierarchical clustering]]
+:PROPERTIES:
+:NOTER_PAGE: (347 . 0.093426)
+:END:
+***** Link on page 348: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/pca.jl][Principal component analysis]]
+:PROPERTIES:
+:NOTER_PAGE: (348 . 0.093426)
+:END:
+***** Link on page 348: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/pcaMNIST.jl][Principal component analysis on MNIST]]
+:PROPERTIES:
+:NOTER_PAGE: (348 . 0.53735)
+:END:
+**** Reinforcement Learning and MDP
+:PROPERTIES:
+:NOTER_PAGE: (349 . 0.090909)
+:END:
+***** Link on page 349: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/mdpValueIteration.jl][Value iteration for an MDP]]
+:PROPERTIES:
+:NOTER_PAGE: (349 . 0.181467)
+:END:
+***** Link on page 350: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/qLearning.jl][A Q-Learning example]]
+:PROPERTIES:
+:NOTER_PAGE: (350 . 0.093426)
+:END:
+**** Generative Adversarial Networks
+:PROPERTIES:
+:NOTER_PAGE: (351 . 0.090909)
+:END:
+***** Link on page 351: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/ganMNISTGenerate.jl][Generating images from a pre-trained generative adversarial network]]
+:PROPERTIES:
+:NOTER_PAGE: (351 . 0.181467)
+:END:
+***** Link on page 352: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/ganMNIST.jl][Training a generative adversarial network]]
+:PROPERTIES:
+:NOTER_PAGE: (352 . 0.093426)
+:END:
+*** Simulation of Dynamic Models - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (353 . 0.090909)
+:END:
+**** Deterministic Dynamical Systems
+:PROPERTIES:
+:NOTER_PAGE: (354 . 0.486976)
+:END:
+***** Link on page 355: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/predatorPrey.jl][Trajectory of a predator prey model]]
+:PROPERTIES:
+:NOTER_PAGE: (355 . 0.537253)
+:END:
+***** Link on page 357: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/springMass.jl][Trajectory of a spring and mass system]]
+:PROPERTIES:
+:NOTER_PAGE: (357 . 0.454231)
+:END:
+***** Link on page 361: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/deterministicSEIR.jl][Trajectory of a deterministic SEIR epidemic]]
+:PROPERTIES:
+:NOTER_PAGE: (361 . 0.093426)
+:END:
+**** Markov Chains
+:PROPERTIES:
+:NOTER_PAGE: (361 . 0.629845)
+:END:
+***** Link on page 364: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/simpleMarkov.jl][Two different ways of describing Markov chains]]
+:PROPERTIES:
+:NOTER_PAGE: (364 . 0.093426)
+:END:
+***** Link on page 367: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/mcTransientCalculation.jl][Calculation of a matrix infinite geometric series]]
+:PROPERTIES:
+:NOTER_PAGE: (367 . 0.703297)
+:END:
+***** Link on page 369: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/catMouse.jl][Markovian cat and mouse survival]]
+:PROPERTIES:
+:NOTER_PAGE: (369 . 0.093426)
+:END:
+***** Link on page 372: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/qMatrixSimulation.jl][Simulation and analysis using a generator matrix]]
+:PROPERTIES:
+:NOTER_PAGE: (372 . 0.093426)
+:END:
+***** Link on page 374: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/mm1Gillespie.jl][M/M/1 queue simulation]]
+:PROPERTIES:
+:NOTER_PAGE: (374 . 0.174388)
+:END:
+***** Link on page 377: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/stochasticSIR.jls][Stochastic SEIR epidemic simulation]]
+:PROPERTIES:
+:NOTER_PAGE: (377 . 0.093426)
+:END:
+**** Discrete Event Simulation
+:PROPERTIES:
+:NOTER_PAGE: (378 . 0.090909)
+:END:
+***** Link on page 381: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/DESqueue.jl][Discrete event simulation of queues]]
+:PROPERTIES:
+:NOTER_PAGE: (381 . 0.093426)
+:END:
+***** Link on page 384: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/mm1DESwaitingTimes.jl][Discrete event simulation for M/M/1 waiting times]]
+:PROPERTIES:
+:NOTER_PAGE: (384 . 0.093426)
+:END:
+**** Models with Additive Noise
+:PROPERTIES:
+:NOTER_PAGE: (385 . 0.362561)
+:END:
+***** Link on page 386: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/predatorPreyStoch.jl][Trajectory of a predator prey model with noise]]
+:PROPERTIES:
+:NOTER_PAGE: (386 . 0.400673)
+:END:
+***** Link on page 391: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/temperatureNoise.jl][Kalman filtering]]
+:PROPERTIES:
+:NOTER_PAGE: (391 . 0.093426)
+:END:
+**** Network Reliability
+:PROPERTIES:
+:NOTER_PAGE: (392 . 0.315686)
+:END:
+***** Link on page 394: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/reliability.jl][Simple network reliability]]
+:PROPERTIES:
+:NOTER_PAGE: (394 . 0.402813)
+:END:
+***** Link on page 397: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/networkLifeTime.jl][Dynamic network reliability]]
+:PROPERTIES:
+:NOTER_PAGE: (397 . 0.093426)
+:END:
+**** Common Random Numbers and Multiple RNGs
+:PROPERTIES:
+:NOTER_PAGE: (398 . 0.503801)
+:END:
+***** Link on page 400: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/basicCRN.jl][Variance reduction via common random numbers]]
+:PROPERTIES:
+:NOTER_PAGE: (400 . 0.093426)
+:END:
+***** Link on page 402: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/twoRNGs.jl][A case for two RNGs]]
+:PROPERTIES:
+:NOTER_PAGE: (402 . 0.093426)
+:END:
+*** Appendix How-to in Julia - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (405 . 0.090909)
+:END:
+**** Link on page 405: [[https://statisticswithjulia.org/howto.html][https://statisticswithjulia.org/howto.html]]
+:PROPERTIES:
+:NOTER_PAGE: (405 . 0.486023)
+:END:
+**** Basics
+:PROPERTIES:
+:NOTER_PAGE: (405 . 0.695515)
+:END:
+**** Text and I/O
+:PROPERTIES:
+:NOTER_PAGE: (409 . 0.090909)
+:END:
+**** Data Structures
+:PROPERTIES:
+:NOTER_PAGE: (411 . 0.090909)
+:END:
+**** Data Frames, Time-Series, and Dates
+:PROPERTIES:
+:NOTER_PAGE: (415 . 0.090909)
+:END:
+**** Mathematics
+:PROPERTIES:
+:NOTER_PAGE: (416 . 0.279332)
+:END:
+**** Randomness, Statistics, and Machine Learning
+:PROPERTIES:
+:NOTER_PAGE: (418 . 0.456308)
+:END:
+**** Graphics
+:PROPERTIES:
+:NOTER_PAGE: (422 . 0.715313)
+:END:
+***** Link on page 422: [[https://statisticswithjulia.org/gallery.html][https://statisticswithjulia.org/gallery.html]]
+:PROPERTIES:
+:NOTER_PAGE: (422 . 0.841302)
+:END:
+*** Appendix Additional Julia Features - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (423 . 0.090909)
+:END:
+**** Link on page 423: [[https://docs.julialang.org][https://docs.julialang.org]]
+:PROPERTIES:
+:NOTER_PAGE: (423 . 0.428182)
+:END:
+*** Appendix Additional Packages - DRAFT
+:PROPERTIES:
+:NOTER_PAGE: (427 . 0.090909)
+:END:
+**** Link on page 427: [[https://github.com/s-broda/ARCHModels.jl][ARCH.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (427 . 0.488761)
+:END:
+**** Link on page 427: [[https://github.com/denizyuret/AutoGrad.jl][AutoGrad.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (427 . 0.60304)
+:END:
+**** Link on page 427: [[https://github.com/sisl/BayesNets.jl][BayesNets.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (427 . 0.733586)
+:END:
+**** Link on page 427: [[https://github.com/juliangehring/Bootstrap.jl][Bootstrap.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (427 . 0.881239)
+:END:
+**** Link on page 428: [[https://github.com/JuliaOpt/Convex.jl][Convex.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.094001)
+:END:
+**** Link on page 428: [[https://github.com/JuliaOpt/CPLEX.jl][CPLEX.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.190602)
+:END:
+**** Link on page 428: [[https://github.com/JuliaGPU/CUDAnative.jl][CUDAnative.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.306193)
+:END:
+**** Link on page 428: [[https://github.com/JuliaData/DataFramesMeta.jl][DataFramesMeta.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.352413)
+:END:
+**** Link on page 428: [[https://github.com/JuliaStats/Distances.jl][Distances.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.39779)
+:END:
+**** Link on page 428: [[https://github.com/JuliaApproximation/FastGaussQuadrature.jl][FastGaussQuadrature.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.461958)
+:END:
+**** Link on page 428: [[https://github.com/JuliaDiff/ForwardDiff.jl][ForwardDiff.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.542394)
+:END:
+**** Link on page 428: [[https://github.com/GiovineItalia/Gadfly.jl][GadFly.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.605721)
+:END:
+**** Link on page 428: [[https://github.com/JuliaStats/GLMNet.jl][GLMNet.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.703263)
+:END:
+**** Link on page 428: [[https://github.com/JuliaOpt/Gurobi.jl][Gurobi.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.765747)
+:END:
+**** Link on page 428: [[https://github.com/JuliaMath/Interpolations.jl][Interpolations.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (428 . 0.898346)
+:END:
+**** Link on page 429: [[https://github.com/JuliaComputing/JuliaDB.jl][JuliaDB.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.094001)
+:END:
+**** Link on page 429: [[https://github.com/piever/JuliaDBMeta.jl][JuliaDBMeta.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.190268)
+:END:
+**** Link on page 429: [[https://github.com/JuliaOpt/JuMP.jl][JuMP.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.218104)
+:END:
+**** Link on page 429: [[https://github.com/JuliaStats/Loess.jl][Loess.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.399066)
+:END:
+**** Link on page 429: [[https://github.com/JuliaNLSolvers/LsqFit.jl][LsqFit.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.444851)
+:END:
+**** Link on page 429: [[https://github.com/brian-j-smith/Mamba.jl][Mamba.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.506903)
+:END:
+**** Link on page 429: [[https://github.com/JuliaStats/MLBase.jl][MLBase.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.757136)
+:END:
+**** Link on page 429: [[https://github.com/alan-turing-institute/MLJ.jl][MLJ.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.836295)
+:END:
+**** Link on page 429: [[https://github.com/dmlc/MXNet.jl][MXNet.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (429 . 0.881239)
+:END:
+**** Link on page 430: [[https://github.com/JuliaOpt/NLopt.jl][NLopt.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.158663)
+:END:
+**** Link on page 430: [[https://github.com/joshday/OnlineStats.jl][OnlineStats.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.274645)
+:END:
+**** Link on page 430: [[https://github.com/JuliaNLSolvers/Optim.jl][Optim.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.356414)
+:END:
+**** Link on page 430: [[https://github.com/plotly/Plotly.jl][Plotly.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.489505)
+:END:
+**** Link on page 430: [[https://github.com/JuliaPOMDP/POMDPs.jl][POMDPs.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.537058)
+:END:
+**** Link on page 430: [[https://github.com/timholy/ProgressMeter.jl][ProgressMeter.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.653042)
+:END:
+**** Link on page 430: [[https://github.com/JuliaML/Reinforce.jl][Reinforce.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.700595)
+:END:
+**** Link on page 430: [[https://github.com/JuliaReinforcementLearning/ReinforcementLearning.jl][ReinforcementLearning.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.799471)
+:END:
+**** Link on page 430: [[https://github.com/cstjean/ScikitLearn.jl][ScikitLearn.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (430 . 0.881239)
+:END:
+**** Link on page 431: [[https://github.com/BenLauwens/SimJulia.jl][SimJulia.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.156645)
+:END:
+**** Link on page 431: [[https://github.com/JuliaStats/StatsFuns.jl][StatsFuns.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.202182)
+:END:
+**** Link on page 431: [[https://github.com/JuliaStats/StatsKit.jl][StatsKit.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.247718)
+:END:
+**** Link on page 431: [[https://github.com/JuliaData/DataTables.jl][Tables.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.344577)
+:END:
+**** Link on page 431: [[https://github.com/malmaud/TensorFlow.jl][TensorFlow.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.407221)
+:END:
+**** Link on page 431: [[https://github.com/Jutho/TensorOperations.jl][TensorOperations.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.504081)
+:END:
+**** Link on page 431: [[https://github.com/dmlc/XGBoost.jl][XGBoost.jl]]
+:PROPERTIES:
+:NOTER_PAGE: (431 . 0.549616)
+:END:
+*** Bibliography
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.087135)
+:END:
+**** Link on page 432: [[https://github.com/JuliaCloud][JuliaCloud]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.23177)
+:END:
+**** Link on page 432: [[https://github.com/JuliaDiff][JuliaDiff]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.260915)
+:END:
+**** Link on page 432: [[https://github.com/JuliaData][JuliaData]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.374792)
+:END:
+**** Link on page 432: [[https://github.com/JuliaDiff][JuliaDiff]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.404744)
+:END:
+**** Link on page 432: [[https://github.com/JuliaDiffEq][JuliaDiffEq]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.433889)
+:END:
+**** Link on page 432: [[https://github.com/JuliaGeometry][JuliaGeometry]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.480141)
+:END:
+**** Link on page 432: [[https://github.com/JuliaGPU][JuliaGPU]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.509287)
+:END:
+**** Link on page 432: [[https://github.com/JuliaGraphs][JuliaGraphs]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.538432)
+:END:
+**** Link on page 432: [[https://github.com/JuliaImages][JuliaImages]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.567576)
+:END:
+**** Link on page 432: [[https://github.com/JuliaInterop][JuliaInterop]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.61383)
+:END:
+**** Link on page 432: [[https://github.com/JuliaMath][JuliaMath]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.660082)
+:END:
+**** Link on page 432: [[https://github.com/JuliaML][JuliaML]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.689226)
+:END:
+**** Link on page 432: [[https://github.com/JuliaOpt][JuliaOpt]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.718371)
+:END:
+**** Link on page 432: [[https://github.com/JuliaParallel][JuliaParallel]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.764624)
+:END:
+**** Link on page 432: [[https://github.com/JuliaPOMDP][JuliaPOMDP]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.810876)
+:END:
+**** Link on page 432: [[https://github.com/JuliaPlots][JuliaPlots]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.840021)
+:END:
+**** Link on page 432: [[https://github.com/JuliaPy][JuliaPy]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.869167)
+:END:
+**** Link on page 432: [[https://github.com/JuliaStats][JuliaStats]]
+:PROPERTIES:
+:NOTER_PAGE: (432 . 0.898312)
+:END:
+**** Link on page 433: [[https://github.com/JuliaTeX][JuliaTeX]]
+:PROPERTIES:
+:NOTER_PAGE: (433 . 0.093967)
+:END:
+**** Link on page 433: [[https://github.com/JuliaText][JuliaText]]
+:PROPERTIES:
+:NOTER_PAGE: (433 . 0.121588)
+:END:
+**** Link on page 433: [[http://junolab.org/][Junolab]]
+:PROPERTIES:
+:NOTER_PAGE: (433 . 0.167125)
+:END:
+*** List of code listings
+:PROPERTIES:
+:NOTER_PAGE: (435 . 0.090909)
+:END:
+*** Index
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.090909)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/helloWorld.jl][Hello world and perfect squares]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.275936)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/comprehension.jl][Using a comprehension]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.293225)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/slow.jl][Slow code example]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.310514)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/fast.jl][Fast code example]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.327803)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/variableScope.jl][Variable scope and the global keyword]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.345092)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/bubbleSort.jl][Bubble sort]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.362381)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/polyRoots.jl][Roots of a polynomial]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.37967)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/multiWayMarkovChainStationary.jl][Steady state of a Markov chain in several ways]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.39696)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/shakespeareWords.jl][Web interface, JSON and string parsing]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.41425)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/plotSimple.jl][Basic plotting]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.431539)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/hailstoneHistogram.jl][Histogram of hailstone sequence lengths]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.448828)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/graph.jl][Animated edges of a graph]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.466117)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/imageProcessing.jl][Working with images]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.483407)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/seedExample.jl][Pseudorandom number generation]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.500696)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/piEstimate.jl][Estimating π]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.517985)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/lcg.jl][A linear congruential generator]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.535274)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/randomWalks.jl][Random walks and seeds]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.552563)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/usingR.jl][Using R from Julia]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.569852)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/usingPython.jl][NLP via Python’s TextBlob]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.587141)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/diceSumEven.jl][Even sum of two dice]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.604431)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/passwords.jl][Password matching]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.62172)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/birthdayProblem.jl][The birthday problem]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.639009)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/fishing.jl][Fishing with and without replacement]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.656298)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/catalan.jl][Lattice paths]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.673587)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/sets.jl][Basic set operations]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.690876)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/mcFalacy.jl][An innocent mistake with Monte Carlo]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.708165)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/secretaryEnvelopes.jl][Secretary with envelopes]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.725455)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/occupancyProblem.jl][An occupancy problem]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.742744)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/independence.jl][Independent events]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.760033)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/conditionalProbability.jl][Defects in manufacturing]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.777322)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/txRxBayes.jl][Tx Rx Bayes]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.794611)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/2_chapter/montyHall.jl][The Monty Hall problem]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.8119)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/randomVariable.jl][A simple random variable]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.829189)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/discreteContinuous.jl][Plotting discrete and continuous distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.846479)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/meanIntegration.jl][Expectation via numerical integration]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.863768)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/varianceTransformation.jl][Variance of X as the mean of Y]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.881057)
+:END:
+**** Link on page 439: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/cdfFromPdf.jl][CDF from the Riemann sum of a PDF]]
+:PROPERTIES:
+:NOTER_PAGE: (439 . 0.898346)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/inverseCDF.jl][The inverse CDF]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.094001)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/mgf.jl][A sum of two triangular random variables]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.111115)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/weightVector.jl][Sampling from a weight vector]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.128229)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/triangularDist.jl][Using the pdf(), cdf(), and quantile() functions with Distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.145343)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/distributionDescriptors.jl][Descriptors of Distribution objects]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.162457)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/basicDistRand.jl][Using rand() with Distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.179571)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/triangularDistInv.jl][Inverse transform sampling]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.196684)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/discreteDists.jl][Families of discrete distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.213798)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/uniformDiscreteDice.jl][Discrete uniform die toss]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.230912)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/binomialCoinFlip.jl][Coin flipping and the binomial distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.248025)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/geometric.jl][The geometric distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.265139)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/negativeBinomial.jl][The negative binomial distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.282253)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/hypergeometric.jl][Comparison of several hypergeometric distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.299366)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/poisson.jl][The Poisson distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.31648)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/continuousDists.jl][Families of continuous distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.333593)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/continuousUniform.jl][Uniformly distributed angles]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.350707)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/expGeom.jl][Flooring an exponential random variable]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.367821)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/gammaDist.jl][Gamma random variable as a sum of exponentials]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.384934)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/betaDist.jl][The gamma and beta special functions]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.402049)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/gammafunctionIntegration.jl][The gamma function at 1/2]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.418318)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/weibullHazard.jl][Hazard rates and the Weibull distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.436277)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/normalCalculus.jl][Numerical derivatives of the normal density]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.45339)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/rayleigh.jl][Alternative representations of Rayleigh random variables]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.470504)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/normalDistribution.jl][The Box-Muller transform]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.487617)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/cauchyCMA.jl][The law of large numbers breaks down with very heavy tails]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.504731)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/jointPDF.jl][Visualizing a bivariate density]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.521845)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/multiRVgeneration.jl][Generating random vectors with desired mean and covariance]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.538958)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/multiDimensionalIntegration.jl][Multidimensional integration]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.556072)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/3_chapter/bivariateNormal.jl][Bivariate normal data]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.573186)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/callByValueByReference.jl][Call by value vs. call by reference]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.590299)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/shallowDeepCopy.jl][Deep copy and shallow copy]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.607413)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeInspection.jl][Creating and inspecting a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.624527)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeReferencing.jl][Referencing data in a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.64164)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeEditing.jl][Editing and copying a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.658755)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeCopyDeepCopy.jl][Using copy() and deepcopy() with a DataFrame]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.675869)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeMissing.jl][Handling missing entries]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.692982)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeReshape.jl][Reshaping, joining and merging data frames]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.710096)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeOperations.jl][Manipulating DataFrame objects]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.72721)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/dataframeImputation.jl][Cleaning and imputing data]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.744323)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/summarizingData.jl][Summary statistics]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.761437)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/meanVectCovMatrixSummary.jl][Estimating elements of a covariance matrix]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.778551)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/sampleCovarianceMatrix.jl][Sample covariance]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.795664)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/manualHistogram.jl][Creating a manual histogram]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.812778)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/statsPlotsDensity.jl][Classic vs. smooth histograms]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.829891)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/KDE.jl][Kernel density estimation]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.847005)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/ecdf.jl][Empirical cumulative distribution function]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.864119)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/normalProbabilityPlot.jl][Normal probability plot]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.881232)
+:END:
+**** Link on page 440: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/multipleSimplePlot.jl][Multiple simple plots for a time-series]]
+:PROPERTIES:
+:NOTER_PAGE: (440 . 0.898346)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/radialPlot.jl][Radial plot]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.094001)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/qqPlot.jl][Q-Q Plots]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.111115)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/boxplot.jl][Box plots of data]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.128229)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/violinPlot.jl][Violin plot]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.145343)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/scatterplotMatrix.jl][Scatterplot matrix]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.162457)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/marginalHists.jl][Heatmap and marginal histograms]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.179571)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/andrewsPlot.jl][Andrews plot]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.196684)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/pieChart.jl][A pie chart]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.213798)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/barPlots.jl][Two different bar plots]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.230912)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/stackplot.jl][A stack plot]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.248025)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/lineSearch.jl][Filtering an input file]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.265139)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/directorySearch.jl][Searching files in a directory]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.282253)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/4_chapter/remoteDataServer.jl][Pseudocode for a remote database query]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.299366)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/statisticsOfARandomSample.jl][Distributions of the sample mean and sample variance]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.31648)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/friendOfANormalDistribution.jl][Friends of the normal distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.333593)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/meanVarIndependence.jl][Are the sample mean and variance independent?]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.350707)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/tDistribution.jl][Student’s T-distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.367821)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/fDistribution.jl][Ratio of variances and the F-distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.384934)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/centralLimitTheorem.jl][The central limit theorem]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.402049)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/stdVarBiasEstimate.jl][A biased estimator]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.419163)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/parametersNumerical.jl][Point estimation via the method of moments using a numerical solver]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.436277)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/gammaLikelihood.jl][The likelihood function for a gamma distributions parameters]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.45339)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/mleGamma.jl][MLE for the gamma distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.470504)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/mm_vs_mle.jl][MSE, bias and variance of estimators]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.487617)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/confidenceIntervalConcept.jl][A confidence interval for a symmetric triangular distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.504731)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/ciCoverage.jl][Repetitions of a confidence interval]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.521845)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/teststatPvalRejectregion.jl][The distribution of a test statistic under H 0]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.538958)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/simpleHypothesisTest.jl][A simple hypothesis test]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.556072)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/receiverOperatingCurve.jl][Comparing receiver operating curves]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.573186)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/randomizationTest.jl][A randomized hypothesis test]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.590299)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/bayesUnivariate.jl][Bayesian inference with a triangular prior]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.607413)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/bayesUnivariateConjugate.jl][Bayesian inference with a gamma prior]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.624527)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/5_chapter/bayesMCMC.jl][Bayesian inference using MCMC]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.64164)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/onePopVKnown.jl][CI for single sample population, variance assumed known]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.658755)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/onePopVUnknown.jl][CI for single sample population with variance assumed unknown]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.675869)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/twoPopVKnown.jl][CI for difference in population means with variances known]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.692982)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/twoPopMVUnknownAEqual.jl][CI for difference in means, variance unknown, assumed equal]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.710096)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/twoPopMVUnknownAUnequal.jl][CI for difference in means, variance unknown and unequal]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.72721)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/vDOF_comparison.jl][Analyzing the Satterthwaite approximation]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.744323)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/proportionCI.jl][Confidence interval for a proportion]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.761437)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/proportionCIsampleSize.jl][Sample size planning for proportions]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.778551)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/propCIcoverageAccuracy.jl][Coverage accuracy of a confidence interval for proportions]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.795664)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/varianceCI.jl][Confidence interval for the variance]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.812778)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/sampleVarDists.jl][Comparison of sample variance distributions]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.829891)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/varianceCIalphas.jl][Actual α vs. α used in variance confidence intervals]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.847005)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/bCI.jl][Bootstrap confidence interval]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.864119)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/bootstrapCI.jl][Coverage probability for bootstrap confidence intervals]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.881232)
+:END:
+**** Link on page 441: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/predictionInterval.jl][Prediction interval with unknown population mean and variance]]
+:PROPERTIES:
+:NOTER_PAGE: (441 . 0.898346)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/6_chapter/credible.jl][Credible intervals on a posterior distribution]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.094001)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanSingleVarKnown.jl][Inference with single sample, population variance is known]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.111115)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanSingleVarUnknown.jl][Inference with single sample, population variance unknown]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.128229)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/signTest.jl][Non-parametric sign test]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.145343)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/TvsSign.jl][Comparison of sign test and T-test]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.162457)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanDiffVarKnown.jl][Inference on difference of two means with variances known]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.179571)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanDiffVarAssumedEqual.jl][Inference on difference of means, variances unknown, assumed equal]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.196684)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/infMeanDiffVarAssumedUnequal.jl][Inference on difference of means, variances unknown, not assumed equal]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.213798)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/sampleMeansANOVA.jl][Sample means for ANOVA]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.230912)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/ssDecomposition.jl][Decomposing the sum of squares]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.248025)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/anovaFTest.jl][Executing one-way ANOVA]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.265139)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/anovaFDistribution.jl][Monte Carlo based distributions of the ANOVA F-statistic]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.282253)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/chiSqTest.jl][Chi-squared test for goodness of fit]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.299366)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/chiSqIndependence.jl][Chi-squared for checking independence]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.31648)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/ksStatistic.jl][Comparisons of distributions of the K-S test statistic]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.333593)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/ksBrownian.jl][ECDF, actual and postulated CDF’s, and their differences]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.350707)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/residualAnalysis.jl][The Wald-Wolfowitz runs test]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.367821)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/power.jl][Distributions under different hypotheses]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.384934)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/powerCurves.jl][Power curves for different sample sizes]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.402049)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/7_chapter/pValDist.jl][Distribution of the p-value]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.419163)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/polyInterpolate.jl][Polynomial interpolation vs. a line]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.436277)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/bestFitLine.jl][L1 and L2 norm minimization by Monte Carlo guessing]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.45339)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/leastSqMethods.jl][Computing least squares estimates]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.470504)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/usingGLM.jl][Simple linear regression with GLM]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.487617)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/distRegEstimators.jl][The distribution of the regression estimators]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.504731)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/simpLinRegHypTst.jl][Statistical inference for simple linear regression]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.521845)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/confPredBands.jl][Confidence and prediction bands]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.538958)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/anscombeQuartet.jl][The Anscombe quartet datasets]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.556072)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/residualAnalysis.jl][Plotting the residuals]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.573186)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/multiLinReg.jl][Multiple linear regression]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.590299)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/collinearity.jl][Exploring collinearity]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.607413)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/nonlinearGLM.jl][Linear regression of a polynomial model]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.624527)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/multiLinear.jl][Regression with categorical variables - no interaction effects]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.64164)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/interaction.jl][Regression with categorical variables - with interaction effects]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.658755)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/simpsonsParadox.jl][Simpson’s paradox]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.675869)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/stepwiseRegression.jl][Basic model selection]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.692982)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/stepwiseRegression.jl][Using LASSO for model selection]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.710096)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/logisticRegression.jl][Logistic regression]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.72721)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/linkFunctions.jl][Exploring generalized linear models]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.744323)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/timeSeriesEDA.jl][Exploratory data analysis of a time series]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.761437)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/8_chapter/linearRegressionTimeSeries.jl][Using linear regression for forecasting in a time series]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.778551)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaxBook/blob/master/8_chapter/autocorrelation.jl][Differencing, autocorrelation and a correlogram of a time series]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.795664)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/pretrainedMNIST.jl][Using a pre-trained neural network for classification]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.812778)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/MNISTbasic.jl][Attempting hand crafted machine learning]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.829891)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/fluxADAMsimpleRegression.jl][Using Flux.jl and ADAM for optimization]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.847005)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/leastSqSGD.jl][Using SGD for least squares]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.864119)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/simpleLinearClassifier.jl][Linear least squares classification]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.881232)
+:END:
+**** Link on page 442: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/logisticRegressionMNIST.jl][Logistic softmax regression for classification]]
+:PROPERTIES:
+:NOTER_PAGE: (442 . 0.898346)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/simpleSVM.jl][Support vector machines]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.094001)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/simpleRandomForest.jl][Random forest]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.11111)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/NN_mnist.jl][Training dense and convolutional neural networks]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.128217)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/ridgeRegressionCross.jl][Ridge regression with k-fold cross validation]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.145245)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/dropout.jl][Tuning the dropout probability]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.162432)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/kMeans.jl][Carrying out k-means via the Clustering package]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.179461)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/kMeansManual.jl][Manual implementation of k-means]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.196568)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/hClustering.jl][Carrying out hierarchical clustering]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.213755)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/pca.jl][Principal component analysis]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.230862)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/pcaMNIST.jl][Principal component analysis on MNIST]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.24797)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/mdpValueIteration.jl][Value iteration for an MDP]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.265077)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/qLearning.jl][A Q-Learning example]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.282184)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/ganMNISTGenerate.jl][Generating images from a pre-trained generative adversarial network]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.299293)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/9_chapter/ganMNIST.jl][Training a generative adversarial network]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.3164)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/predatorPrey.jl][Trajectory of a predator prey model]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.333508)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/springMass.jl][Trajectory of a spring and mass system]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.350615)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/deterministicSEIR.jl][Trajectory of a deterministic SEIR epidemic]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.367722)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/simpleMarkov.jl][Two different ways of describing Markov chains]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.384831)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/mcTransientCalculation.jl][Calculation of a matrix infinite geometric series]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.401938)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/catMouse.jl][Markovian cat and mouse survival]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.419045)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/qMatrixSimulation.jl][Simulation and analysis using a generator matrix]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.436153)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/mm1Gillespie.jl][M/M/1 queue simulation]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.452419)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/stochasticSIR.jls][Stochastic SEIR epidemic simulation]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.470369)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/DESqueue.jl][Discrete event simulation of queues]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.487476)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/mm1DESwaitingTimes.jl][Discrete event simulation for M/M/1 waiting times]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.503741)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/predatorPreyStoch.jl][Trajectory of a predator prey model with noise]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.521691)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/temperatureNoise.jl][Kalman filtering]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.538798)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/reliability.jl][Simple network reliability]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.555907)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/networkLifeTime.jl][Dynamic network reliability]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.573014)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/basicCRN.jl][Variance reduction via common random numbers]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.590121)
+:END:
+**** Link on page 443: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/10_chapter/twoRNGs.jl][A case for two RNGs]]
+:PROPERTIES:
+:NOTER_PAGE: (443 . 0.607229)
+:END:
+
+
