@@ -253,7 +253,8 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :PROPERTIES:
 :ID:       5acaa1d5-e7bd-4efa-bb5c-9aa1ccda3538
 :END:
- - [2020-12-30 Wed 13:51] -> [[id:faf18a86-487a-40a3-907e-f35e071f7c8e][停电也要吃，广西桂林牛八宝，8种牛杂一锅炖，阿星点蜡烛吃火锅Niu Babao Hot Pot in Guilin, Guangxi - YouTube]]
+- [2021-01-03 Sun 13:01] <- [[id:2684666d-1e9f-444b-bf5a-3685b8c0686f][广西阳朔啤酒鱼，清末老宅农家美味，阿星吃荔浦芋头扣肉，田螺酿Traditional Food in Yangshuo, Guangxi - YouTube]]
+- [2020-12-30 Wed 13:51] -> [[id:faf18a86-487a-40a3-907e-f35e071f7c8e][停电也要吃，广西桂林牛八宝，8种牛杂一锅炖，阿星点蜡烛吃火锅Niu Babao Hot Pot in Guilin, Guangxi - YouTube]]
 * 美食短视频
 :PROPERTIES:
 :ID:       0ff6ab4b-c02f-423c-bb5c-d97cca75ba82

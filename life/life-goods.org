@@ -133,6 +133,35 @@ Item price: $15.98
 [[attachment:71ymXtmO3XL._SX522__2019-07-24_21-09-28.jpg]]
 是还选择了一款药
 
+*** 头部按摩
+
+**** [[https://www.amazon.com/gp/product/B083S8GSJ8/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1][Amazon.com : Healifty Natural Horn Comb Head Scalp Massager Portable Massage Hair Smoothing Comb Gua Sha Tool for Girls Women Ladies Men : Beauty]] :ATTACH:
+:PROPERTIES:
+:ID:       e8623610-fc68-4467-95a2-0fcb829cf49f
+:END:
+
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210103_143731screenshot.png]]
+
+*** 梳子
+
+**** [[https://www.amazon.com/gp/product/B078MCFGQW/ref=ppx_yo_dt_b_asin_image_o00_s01?ie=UTF8&psc=1][Amazon.com : 100% Handmade Black Ox Horn Comb Handmade Premium Quality Natural Wide Tooth Round Handle : Beauty]] :ATTACH:
+:PROPERTIES:
+:ID:       45b1259a-15c7-4daf-97d9-02f15e6ef767
+:END:
+
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210103_144007screenshot.png]]
+
+
+
+
 ** 鼻子
 *** 鼻炎 :ATTACH:
 :PROPERTIES:
@@ -325,8 +354,21 @@ Item pri.98
 *** [[https://www.nordstromrack.com/shop/product/2872300/kenneth-cole-colombian-leather-top-zip-duffel-bag?color=BLACK][KENNETH COLE | Colombian Leather Top Zip Duffel Bag | Nordstrom Rack]] :ATTACH:
 * 衣服
 ** 皮夹克
+*** 皮革保养 :ATTACH:
+:PROPERTIES:
+:ID:       5ce3c8bd-dbdc-4fe1-9a16-189eedce1e4b
+:END:
+- [[https://www.amazon.com/gp/product/B00B94QJVK/ref=ppx_yo_dt_b_asin_title_o00_s02?ie=UTF8&psc=1][Amazon.com: Otter Wax Leather Care Kit: Arts, Crafts & Sewing]]
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210103_143447Otter-Wax-Leather-Care-Kit_9f1d60c6-679f-4646-a7e7-6b8bcf5d0683_800x.jpg.jpeg]]
+
+- [2021-01-03 Sun 14:28] DONE
+
 * 室内
-** ✰ Important 整理 :org:
+** ✰ IMPORTANT 整理 :org:
 *** 门挂
 **** [[https://lifease.com/collections/home-organizers-and-storage/products/1685015][Foldable Storage Bag 10/20 Grids – Lifease]] :ATTACH:
 ** 床单被套
