@@ -7,10 +7,16 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]], [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
+- tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]], [[file:../emacs/emacs.org][Emacs]], [[file:../emacs/org-mode.org][Org mode]]
 
 * Elisp documents
 ** [[https://github.com/p3r7/awesome-elisp][GitHub - p3r7/awesome-elisp: A curated list of emacs-lisp development resources]]
+
+* leraning elisp from blog
+
+** [[https://endlessparentheses.com/new-in-emacs-25-1-more-flow-control-macros.html][New in Emacs 25.1: More flow control macros · Endless Parentheses]]
+
+** [[https://stevelosh.com/blog/2018/07/fun-with-macros-if-let/][Fun with Macros: If-Let and When-Let / Steve Losh]]
 
 * Buffer
 ** [[https://emacs-china.org/t/topic/14553/17][如何给指定文件添加模式 - Emacs-general - Emacs China]]
@@ -45,3 +51,5 @@
 * pcasn pattern
 
 ** [[https://emacs-china.org/t/pcase-pattern/15111][pcase 各种 pattern 使用举例 - Emacs-general - Emacs China]]
+* elisp test
+** [[https://github.com/vermiculus/emake.el][vermiculus/emake.el: Test Elisp without the hoops]]

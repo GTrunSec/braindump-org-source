@@ -56,3 +56,4 @@
 * Windows Sysmon
 **  https://github.com/SwiftOnSecurity/sysmon-config
 **  https://github.com/JPCERTCC/SysmonSearch
+* [[https://github.com/evilsocket/uroboros][evilsocket/uroboros: A GNU/Linux monitoring and profiling tool focused on single processes.]]

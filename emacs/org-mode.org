@@ -65,6 +65,10 @@ My rust]]
 ** [[https://github.com/unhammer/org-upcoming-modeline][unhammer/org-upcoming-modeline: put upcoming org event in modeline]]
 * org mode HTML theme
 ** [[https://gongzhitaao.org/orgcss/org.css][https://gongzhitaao.org/orgcss/org.css]]
+* org mode exporting
+
+** [[https://emacs.stackexchange.com/questions/28301/export-javascript-source-block-to-script-tag-in-html-when-exporting-org-file-to][org mode - Export Javascript source block to script tag in HTML when exporting Org file to HTML - Emacs Stack Exchange]]
+
 * Org mode To PDF
 ** [[https://emacs-china.org/t/org-mode-pdf/245/6][Org-mode导出的pdf怎么让标题和目录分页显示？ - Org-mode - Emacs China]]
 
@@ -108,7 +112,6 @@ nil)
 
 * Org mode to Ipynb
 ** [[https://github.com/jgm/pandoc/issues/6367][Are round trips supported between ipynb and org-mode? · Issue #6367 · jgm/pandoc]]
-
 
 #+begin_src sh :async t :exports both :results output
 pandoc testing_org.org -o testing_org_back.ipynb

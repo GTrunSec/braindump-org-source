@@ -1,0 +1,11 @@
+#+TITLE:Cyber Attack Detection
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-03 Sun 22:24
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/ptresearch/AttackDetection][ptresearch/AttackDetection: Attack Detection]]

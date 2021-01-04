@@ -1,7 +1,7 @@
 {:git-pull-secs 60,
  :default-templates {:journals ""},
  :macros {},
- :ui/show-brackets? true,
+ :ui/show-brackets? false,
  :commands [],
  :project {:name "", :alias "", :twitter "", :description ""},
  :hidden [],

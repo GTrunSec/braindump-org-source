@@ -7,6 +7,8 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:../../../../Documents/org-notes/braindump/system/system.org][System]]
+
+
 * Linux
 :PROPERTIES:
 :developer: Community Linus Torvalds
@@ -25,9 +27,10 @@
 :official-website: www.linuxfoundation.org
 :wikinfo-id: 6097297
 :URL:      https://en.wikipedia.org?curid=6097297
+:ID:       ebba0c25-b44d-452c-af10-eb5bcc7fa056
 :END:
 Linux ((listen) LEEN-uuks or LIN-uuks) is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution. Distributions include the Linux kernel and supporting system software and libraries, many of which are provided by the GNU Project.
-
+ - [2021-01-03 Sun 22:33] -> [[id:29dd689f-887a-4301-afc4-05976ae928b5][Window manager]]
 * NixOS
 :PROPERTIES:
 :written-in: Nix expression language
@@ -55,3 +58,9 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 * Linux patches
 
 ** [[https://github.com/clearlinux-pkgs/linux][clearlinux-pkgs/linux]]
+
+* [[https://wiki.archlinux.org/index.php/HiDPI_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)][HiDPI (简体中文) - ArchWiki]]
+
+* Linux Gnome
+
+** [[https://github.com/material-shell/material-shell][material-shell/material-shell: A modern desktop interface for Linux. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.]]

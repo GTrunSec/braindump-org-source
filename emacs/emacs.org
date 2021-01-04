@@ -17,7 +17,13 @@
 *** [[https://zhuanlan.zhihu.com/c_1116711987706478592][如何提高编程速度 - 知乎]]
 ** [[https://github.com/zaeph/.emacs.d][zaeph/.emacs.d: Personal configuration for Emacs & Custom modules]] :org_mode:
 ** [[https://github.com/legoscia/dotemacs/blob/master/dotemacs.org][dotemacs/dotemacs.org at master · legoscia/dotemacs]] :literate:
-
+** [[https://github.com/anachronic/emacs.d][anachronic/emacs.d: My Emacs config files]]
+** [[https://github.com/alezost/emacs-config][alezost/emacs-config: My ".emacs]]
+** [[https://github.com/MatthewZMD/.emacs.d][MatthewZMD/.emacs.d: M-EMACS, a full-featured GNU Emacs configuration "distribution]]
+** [[https://github.com/magnars/.emacs.d][magnars/.emacs.d: My personal emacs settings, and the ones used in @emacsrocks]]
+** [[https://github.com/ema2159/emmacs_config][ema2159/emmacs_config: My personal emacs (or Emmacs) configuration]]
+** [[https://lupan.pl/dotemacs/][Lupan's site]] :org_mode:literate:
+** [[https://github.com/honmaple/maple-emacs][honmaple/maple-emacs: Emacs configuration]]
 
 * learning Emacs
 ** [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][Using Emacs - YouTube]]
@@ -44,5 +50,35 @@
 :END:
 ** [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs: An Emacs framework for the stubborn martian hacker]]
 ** [[https://github.com/daviderestivo/galactic-emacs][daviderestivo/galactic-emacs: A Emacs distribution coming from the space ...]]
+** [[https://github.com/seagle0128/.emacs.d][seagle0128/.emacs.d: Centaur Emacs - A Fancy and Fast Emacs Configuration]]
+** [[https://github.com/sachac/.emacs.d][sachac/.emacs.d: Emacs configuration]] :org_mode:literate:
 * Dired
 ** [[https://github.com/Fuco1/dired-hacks][Fuco1/dired-hacks: Collection of useful dired additions]]
+* Emacs Window
+** [[http://endlessparentheses.com/fill-and-unfill-paragraphs-with-a-single-key.html][Fill and unfill paragraphs with a single key · Endless Parentheses]]
+* Emacs Blog post
+** [[https://andy.wordpress.com/2013/01/03/automatic-emacsclient/][Automatically open remote files in local emacs – Andy Skelton on WordPress]]
+** [[http://slumpy.org/blog/][Blog | Kosta]]
+* Emacs editing
+** regex
+*** [[https://stackoverflow.com/questions/26478594/how-to-delete-empty-lines-in-a-file-by-emacs][regex - How to delete empty lines in a file by Emacs? - Stack Overflow]]
+** ivy
+*** [[https://sam217pa.github.io/2016/09/11/nuclear-power-editing-via-ivy-and-ag/][Nuclear weapon multi-editing via Ivy and Ag · Samuel Barreto]]
+* Emacs keybindings
+** [[https://github.com/abo-abo/hydra][abo-abo/hydra: make Emacs bindings that stick around]]
+** [[https://github.com/abo-abo/hydra/wiki/Ibuffer][Ibuffer · abo-abo/hydra Wiki]]
+** [[https://github.com/mattfidler][mattfidler (Matthew Fidler)]] [ergo]
+* Emacs Modeline
+** [[https://github.com/tarsius/moody][tarsius/moody: Tabs and ribbons for the mode-line]]
+** [[https://www.masteringemacs.org/article/hiding-replacing-modeline-strings][Hiding and replacing modeline strings with clean-mode-line - Mastering Emacs]]
+* Emacs Bookmark
+** [[https://www.emacswiki.org/emacs/BookmarkPlus][EmacsWiki: Bookmark Plus]]
+* Eshell
+** [[http://www.howardism.org/Technical/Emacs/eshell-present.html?from=timeline&isappinstalled=0][Presenting the Eshell]]
+* Emacs auctex
+** [[https://tex.stackexchange.com/questions/180637/my-pdf-is-not-shown-in-skim-unless-the-application-is-already-running][auctex - My PDF is not shown in Skim unless the application is already running - TeX - LaTeX Stack Exchange]]
+** [[https://stackoverflow.com/questions/18603645/how-to-open-a-pdf-with-skim-using-start-process-so-that-it-has-focus][emacs - How to open a *.pdf with Skim using start-process so that it has focus - Stack Overflow]]
+* Emacs [[https://docs.projectile.mx/projectile/index.html][Projectile :: Projectile]]
+* [[http://pragmaticemacs.com/emacs/multiple-cursors/][pragmaticemacs.com/emacs/multiple-cursors/]]
+* Emacs Comppany
+** [[http://sixty-north.com/blog/writing-the-simplest-emacs-company-mode-backend][Good With Computers]]
