@@ -64,3 +64,9 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 * Linux Gnome
 
 ** [[https://github.com/material-shell/material-shell][material-shell/material-shell: A modern desktop interface for Linux. Improve your user experience and get rid of the anarchy of traditional desktop workflows. Designed to simplify navigation and reduce the need to manipulate windows in order to improve productivity. It's meant to be 100% predictable and bring the benefits of tools coveted by professionals to everyone.]]
+
+* Linux Shell
+
+** [[https://github.com/nushell/nushell][nushell/nushell: A new type of shell]]
+
+- [[file:../programming/rust-project.org][Rust Project]]

@@ -1,0 +1,11 @@
+#+TITLE: Blue Team
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-04 Mon 23:14
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:red-team.org][Red Team]]
+
+* [[https://github.com/splunk/security-content][splunk/security-content: Splunk Security Content]]

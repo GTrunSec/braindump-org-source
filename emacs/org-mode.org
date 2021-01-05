@@ -116,3 +116,7 @@ nil)
 #+begin_src sh :async t :exports both :results output
 pandoc testing_org.org -o testing_org_back.ipynb
 #+end_src
+
+* Org roam
+
+** [[https://github.com/madnificent/org-roam-browser-extension][madnificent/org-roam-browser-extension: Org-roam extension to the browser]]

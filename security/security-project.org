@@ -63,6 +63,7 @@ Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bas
 Kaspersky Anti-Virus (Russian: Антивирус Касперского (Antivirus Kasperskogo); formerly known as AntiViral Toolkit Pro; often referred to as KAV) is a proprietary antivirus program developed by Kaspersky Lab. It is designed to protect users from malware and is primarily designed for computers running Microsoft Windows and macOS, although a version for Linux is available for business consumers.
 * Digital Forensics tools
 ** [[https://github.com/yampelo/beagle][yampelo/beagle: Beagle is an incident response and digital forensics tool which transforms security logs and data into graphs.]] :DAG:
+** [[https://github.com/Velocidex/velociraptor][Velocidex/velociraptor: Digging Deeper....]]
 * Network Security tools
 ** [[https://github.com/m57/dnsteal][m57/dnsteal: DNS Exfiltration tool for stealthily sending files over DNS requests.]]
 :PROPERTIES:

@@ -93,6 +93,7 @@
 :END:
 - [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
 *** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
+*** [[https://github.com/kolloch/crate2nix][kolloch/crate2nix: nix build file generator for rust crates]]
 ** Nix [[file:../programming/GuangTao-haskell.org][GuangTao's Haskell]]
 :PROPERTIES:
 :ID:       fdd307fb-61eb-4b95-a622-2738c75c4d46
@@ -500,7 +501,7 @@ postInstall = ''
   installShellCompletion xsos-bash-completion.bash
 '';
 #+end_src
-
+ 
 
 * nix expressions
 :PROPERTIES:
