@@ -73,8 +73,9 @@
 ** [[https://www.masteringemacs.org/article/hiding-replacing-modeline-strings][Hiding and replacing modeline strings with clean-mode-line - Mastering Emacs]]
 * Emacs Bookmark
 ** [[https://www.emacswiki.org/emacs/BookmarkPlus][EmacsWiki: Bookmark Plus]]
-* Eshell
+* Emacs shell
 ** [[http://www.howardism.org/Technical/Emacs/eshell-present.html?from=timeline&isappinstalled=0][Presenting the Eshell]]
+** [[https://github.com/spudlyo/clipetty][spudlyo/clipetty: Manipulate the system (clip)board with (e)macs from a (tty)]]
 * Emacs auctex
 ** [[https://tex.stackexchange.com/questions/180637/my-pdf-is-not-shown-in-skim-unless-the-application-is-already-running][auctex - My PDF is not shown in Skim unless the application is already running - TeX - LaTeX Stack Exchange]]
 ** [[https://stackoverflow.com/questions/18603645/how-to-open-a-pdf-with-skim-using-start-process-so-that-it-has-focus][emacs - How to open a *.pdf with Skim using start-process so that it has focus - Stack Overflow]]

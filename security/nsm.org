@@ -6,6 +6,9 @@
 #+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: learn(l)
+
+- tags :: [[file:../network/network.org][Network]]
+
 * hardware
 ** [[https://github.com/AnalogJ/scrutiny][AnalogJ/scrutiny: Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds]]
 * DNS
@@ -57,3 +60,4 @@
 **  https://github.com/SwiftOnSecurity/sysmon-config
 **  https://github.com/JPCERTCC/SysmonSearch
 * [[https://github.com/evilsocket/uroboros][evilsocket/uroboros: A GNU/Linux monitoring and profiling tool focused on single processes.]]
+* [[https://github.com/evilsocket/opensnitch][evilsocket/opensnitch: OpenSnitch is a GNU/Linux port of the Little Snitch application firewall]]

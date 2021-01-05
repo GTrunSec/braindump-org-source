@@ -1,0 +1,11 @@
+#+TITLE: Cloud Storage
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-05 Tue 01:06
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/nightwatchcybersecurity/public-cloud-storage-search][nightwatchcybersecurity/public-cloud-storage-search: A search engine for content shared publicly via cloud storage services]]

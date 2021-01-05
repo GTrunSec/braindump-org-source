@@ -14,3 +14,5 @@
 * Airflow tutorial
 
 ** [[https://www.youtube.com/watch?v=wAyu5BN3VpY&feature=emb_rel_pause][Airflow tutorial 6: Build a data pipeline using Google Bigquery - YouTube]]
+
+* [[https://github.com/nightwatchcybersecurity/airflowscan][nightwatchcybersecurity/airflowscan: Checklist and tools for increasing security of Apache Airflow]] :security:
