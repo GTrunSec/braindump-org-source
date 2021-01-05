@@ -662,7 +662,8 @@ nix develop \
 
 - [2020-11-23 Mon 20:02] <- [[id:5bad5a83-d6ab-44bd-a40d-ddcefb4928f5][add examples for mach-nix and conda by DavHau · Pull Request #135 · tweag/jupyterWith]]
 
-- [[file:Jupyter-data-science.org][Jupyter Data Science]]
+
+- [[file:../data-science/Jupyter-data-science.org][Jupyter Data Science]]
 
 * Nix Option
 
