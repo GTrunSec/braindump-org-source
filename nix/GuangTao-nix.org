@@ -323,13 +323,6 @@ import nixpkgs {
 }
 #+end_src
 
-** [[https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
-
-#+begin_src nix :async t :exports both :results output
-nix develop \
-  --redirect .#hydraJobs.build.x86_64-linux.nix ~/Dev/nix/outputs/out \
-  --redirect .#hydraJobs.build.x86_64-linux.nix.dev ~/Dev/nix/outputs/dev
-#+end_src
 ** learning flakes
 
 - [[https://www.youtube.com/watch?v=98EwejpIJzE][Flakes in nix 3.0 - YouTube]]
@@ -355,8 +348,16 @@ imports = [
 :END:
 
 - [2020-12-19 Sat 13:43] <- [[id:6e001e4d-4564-40ac-bba4-ffb93f8aba23][nix develop: Add --redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix]]
+- [2021-01-05 Tue 02:13] -> [[id:2ba3dbae-6d17-45d9-9285-2e3b55a4eec2][Tweag + Nix Dev Update #3 - Development - NixOS Discourse]]
 
 *** [[https://github.com/pauldub/nix-dev-shells/blob/master/flake.nix][nix-dev-shells/flake.nix at master · pauldub/nix-dev-shells]]
+** flakes dev update
+:PROPERTIES:
+:ID:       e69bb8b4-75e9-4887-98f4-73542602e8c6
+:END:
+ - [2021-01-05 Tue 02:12] -> [[id:14fa5200-b22f-44fa-b76a-a91e44d1090f][Tweag + Nix Dev Update #5 - Development - NixOS Discourse]]
+ - [2021-01-05 Tue 02:13] -> [[id:ff924256-2d59-47ec-9b6f-a67263b5534d][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
+ - [2021-01-05 Tue 02:13] -> [[id:2ba3dbae-6d17-45d9-9285-2e3b55a4eec2][Tweag + Nix Dev Update #3 - Development - NixOS Discourse]]
 * Nix Security
 ** [[https://github.com/jollheef/localhost/blob/master/security.nix][localhost/security.nix at master · jollheef/localhost]]
 ** Nix SElinux
@@ -595,23 +596,47 @@ systemd.services.nix-daemon.serviceConfig.LimitSTACKSoft = "infinity";
 #+end_src
 
 * Nix develop
+:PROPERTIES:
+:ID:       219e0640-4ec4-4af6-8e0c-6d54b5390d37
+:END:
+
 ** Nix Develop 3rdparty
 
 *** [[https://github.com/maralorn/nix-output-monitor][maralorn/nix-output-monitor: Pipe your nix-build output through the nix-output-monitor a.k.a nom to get additional information while building.]]
-
-** [[https://discourse.nixos.org/t/tweag-nix-dev-update-5/10560][Tweag + Nix Dev Update #5 - Development - NixOS Discourse]]
-
 ** [[https://github.com/NixOS/nix/pull/4161/commits/750ce500c221ecd4720a5b02e3f3cbb0bc05ef9d][nix develop: Add --redirect flag to redirect dependencies by edolstra · Pull Request #4161 · NixOS/nix]]
 :PROPERTIES:
 :ID:       6e001e4d-4564-40ac-bba4-ffb93f8aba23
 :END:
 - [2020-12-19 Sat 13:43] -> [[id:d664a2a5-461f-4aa7-8bd3-ed6e8934ce7a][flake devShell]]
+** Tweag Nix develop
+*** [[https://discourse.nixos.org/t/tweag-nix-dev-update-5/10560][Tweag + Nix Dev Update #5 - Development - NixOS Discourse]]
+:PROPERTIES:
+:ID:       14fa5200-b22f-44fa-b76a-a91e44d1090f
+:END:
 
-
+- [2021-01-05 Tue 02:12] <- [[id:e69bb8b4-75e9-4887-98f4-73542602e8c6][flakes dev update]]
 *** [[https://discourse.nixos.org/t/tweag-nix-dev-update-4/9862][Tweag + Nix Dev Update #4 - Development - NixOS Discourse]]
 :PROPERTIES:
 :ID:       ff924256-2d59-47ec-9b6f-a67263b5534d
 :END:
+
+- [2021-01-05 Tue 02:13] <- [[id:e69bb8b4-75e9-4887-98f4-73542602e8c6][flakes dev update]]
+#+begin_src nix :async t :exports both :results output
+nix develop \
+  --redirect .#hydraJobs.build.x86_64-linux.nix ~/Dev/nix/outputs/out \
+  --redirect .#hydraJobs.build.x86_64-linux.nix.dev ~/Dev/nix/outputs/dev
+#+end_src
+
+*** [[https://discourse.nixos.org/t/tweag-nix-dev-update-3/7154][Tweag + Nix Dev Update #3 - Development - NixOS Discourse]]
+:PROPERTIES:
+:ID:       2ba3dbae-6d17-45d9-9285-2e3b55a4eec2
+:END:
+
+- [2021-01-05 Tue 02:13] <- [[id:d664a2a5-461f-4aa7-8bd3-ed6e8934ce7a][flake devShell]]
+- [2021-01-05 Tue 02:13] <- [[id:e69bb8b4-75e9-4887-98f4-73542602e8c6][flakes dev update]]
+*** [[https://discourse.nixos.org/t/tweag-nix-dev-update-2/6808][Tweag + Nix Dev Update #2 - Development - NixOS Discourse]]
+
+*** [[https://discourse.nixos.org/t/tweag-nix-dev-update/6525][Tweag + Nix Dev Update - Development - NixOS Discourse]]
 
 * Visual Nix
 
