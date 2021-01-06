@@ -408,10 +408,66 @@ println("Zeros of the function f(x): ", zeroVals)
 :PROPERTIES:
 :NOTER_PAGE: (35 . 0.093426)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/multiWayMarkovChainStationary.jl"
+using LinearAlgebra, StatsBase
+
+# Transition probability matrix
+P = [0.5 0.4 0.1;
+     0.3 0.2 0.5;
+     0.5 0.3 0.2]
+
+# First way
+piProb1 = (P^100)[1,:]
+
+# Second way
+A = vcat((P' - I)[1:2,:],ones(3)')
+b = [0 0 1]'
+piProb2 = A\b
+
+# Third way
+eigVecs = eigvecs(copy(P'))
+highestVec = eigVecs[:,findmax(abs.(eigvals(P)))[2]]
+piProb3 = Array{Float64}(highestVec)/norm(highestVec,1)
+
+# Fourth way
+numInState = zeros(Int,3)
+state = 1
+N = 10^6
+for t in 1:N
+    numInState[state] += 1
+    global state = sample(1:3,weights(P[state,:]))
+end
+piProb4 = numInState/N
+
+display([piProb1 piProb2 piProb3 piProb4])
+#+end_src
 **** Link on page 37: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/shakespeareWords.jl][Web interface, JSON and string parsing]]
 :PROPERTIES:
 :NOTER_PAGE: (37 . 0.156734)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/shakespeareWords.jl"
+using HTTP, JSON
+
+data = HTTP.request("GET",
+"https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt")
+shakespeare = String(data.body)
+shakespeareWords = split(shakespeare)
+
+jsonWords = HTTP.request("GET",
+"https://raw.githubusercontent.com/"*
+"h-Klok/StatsWithJuliaBook/master/data/jsonCode.json")
+parsedJsonDict = JSON.parse( String(jsonWords.body))
+
+keywords = Array{String}(parsedJsonDict["words"])
+numberToShow = parsedJsonDict["numToShow"]
+wordCount = Dict([(x,count(w -> lowercase(w) == lowercase(x), shakespeareWords))
+                  for x in keywords])
+
+sortedWordCount = sort(collect(wordCount),by=last,rev=true)
+display(sortedWordCount[1:numberToShow])
+#+end_src
 *** Plots, Images and Graphics
 :PROPERTIES:
 :NOTER_PAGE: (38 . 0.326684)
@@ -428,14 +484,94 @@ println("Zeros of the function f(x): ", zeroVals)
 :PROPERTIES:
 :NOTER_PAGE: (39 . 0.575085)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/plotSimple.jl"
+using Plots, LaTeXStrings, Measures; pyplot()
+
+f(x,y) = x^2 + y^2
+f0(x) = f(x,0)
+f2(x) = f(x,2)
+
+xVals, yVals = -5:0.1:5 , -5:0.1:5
+plot(xVals, [f0.(xVals), f2.(xVals)],
+	c=[:blue :red], xlims=(-5,5), legend=:top,
+	ylims=(-5,25), ylabel=L"f(x,\cdot)", label=[L"f(x,0)" L"f(x,2)"])
+p1 = annotate!(0, -0.2, text("(0,0) The minimum\n of f(x,0)", :left, :top, 10))
+
+z = [ f(x,y) for y in yVals, x in xVals ]
+p2 = surface(xVals, yVals, z, c=cgrad([:blue, :red]),legend=:none,
+	ylabel="y", zlabel=L"f(x,y)")
+
+M = z[1:10,1:10]
+p3 = heatmap(M, c=cgrad([:blue, :red]), yflip=true, ylabel="y",
+	xticks=([1:10;], xVals), yticks=([1:10;], yVals))
+
+plot(p1, p2, p3, layout=(1,3), size=(1200,400), xlabel="x", margin=5mm)
+#+end_src
 **** Link on page 41: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/hailstoneHistogram.jl][Histogram of hailstone sequence lengths]]
 :PROPERTIES:
 :NOTER_PAGE: (41 . 0.352667)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/hailstoneHistogram.jl"
+using Plots; pyplot()
+
+function hailLength(x::Int)
+    n = 0
+    while x != 1
+        if x % 2 == 0
+            x = Int(x/2)
+        else
+            x = 3x +1
+        end
+        n += 1
+    end
+    return n
+end
+
+lengths = [hailLength(x0) for x0 in 2:10^7]
+
+histogram(lengths, bins=1000, normed=:true,
+    fill=(:blue, true), la=0, legend=:none,
+    xlims=(0, 500), ylims=(0, 0.012),
+    xlabel="Length", ylabel="Frequency")
+#+end_src
 **** Link on page 42: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/graph.jl][Animated edges of a graph]]
 :PROPERTIES:
 :NOTER_PAGE: (42 . 0.459516)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/graph.jl"
+using Plots; pyplot()
+
+function graphCreator(n::Int)
+    vertices = 1:n
+    complexPts = [exp(2*pi*im*k/n) for k in vertices]
+    coords = [(real(p),imag(p)) for p in complexPts]
+    xPts = first.(coords)
+    yPts = last.(coords)
+    edges = []
+    for v in vertices, u in (v+1):n
+        push!(edges,(v,u))
+    end
+
+    anim = Animation()
+    scatter(xPts, yPts, c=:blue, msw=0, ratio=1,
+        xlims=(-1.5,1.5), ylims=(-1.5,1.5), legend=:none)
+
+    for i in 1:length(edges)
+        u, v = edges[i][1], edges[i][2]
+        xpoints = [xPts[u], xPts[v]]
+        ypoints = [yPts[u], yPts[v]]
+        plot!(xpoints, ypoints, line=(:red))
+        frame(anim)
+    end
+
+    gif(anim, "graph.gif", fps = 60)
+end
+
+graphCreator(16)
+#+end_src
 **** Link on page 44: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/imageProcessing.jl][Working with images]]
 :PROPERTIES:
 :NOTER_PAGE: (44 . 0.352884)
@@ -486,18 +622,106 @@ plot(p1, p2, size=(800, 400), ratio=:equal, xlims=(0,cols), ylims=(0,rows),
 :PROPERTIES:
 :NOTER_PAGE: (46 . 0.608444)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/seedExample.jl"
+using Random
+
+Random.seed!(1974)
+println("Seed 1974: ",rand(),"\t", rand(), "\t", rand())
+Random.seed!(1975)
+println("Seed 1975: ",rand(),"\t", rand(), "\t", rand())
+Random.seed!(1974)
+println("Seed 1974: ",rand(),"\t", rand(), "\t", rand())
+#+end_src
 **** Link on page 47: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/piEstimate.jl][Estimating π]]
 :PROPERTIES:
 :NOTER_PAGE: (47 . 0.669497)
 :END:
+
+#+begin_src julia :async t :exports both :results output
+
+using Random, LinearAlgebra, Plots; pyplot()
+Random.seed!()
+
+N = 10^5
+data     = [[rand(),rand()] for _ in 1:N]
+indata   = filter((x)-> (norm(x) <= 1), data)
+outdata  = filter((x)-> (norm(x) > 1), data)
+piApprox = 4*length(indata)/N
+println("Pi Estimate: ", piApprox)
+
+scatter(first.(indata),last.(indata), c=:blue, ms=1, msw=0)
+scatter!(first.(outdata),last.(outdata), c=:red, ms=1, msw=0,
+	xlims=(0,1), ylims=(0,1), legend=:none, ratio=:equal)
+#+end_src
 **** Link on page 48: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/lcg.jl][A linear congruential generator]]
 :PROPERTIES:
 :NOTER_PAGE: (48 . 0.620275)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/lcg.jl"
+using Plots, LaTeXStrings, Measures; pyplot()
+
+a, c, m = 69069, 1, 2^32
+next(z) = (a*z + c) % m
+
+N = 10^6
+data = Array{Float64,1}(undef, N)
+
+x = 808
+for i in 1:N
+    data[i] = x/m
+    global x = next(x)
+end
+
+p1 = scatter(1:1000, data[1:1000],
+    c=:blue, m=4, msw=0, xlabel=L"n", ylabel=L"x_n")
+p2 = histogram(data, bins=50, normed=:true,
+    ylims=(0,1.1), xlabel="Support", ylabel="Density")
+plot(p1, p2, size=(800, 400), legend=:none, margin = 5mm)
+#+end_src
 **** Link on page 51: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/randomWalks.jl][Random walks and seeds]]
 :PROPERTIES:
 :NOTER_PAGE: (51 . 0.093426)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/randomWalks.jl"
+using Plots, Random, Measures; pyplot()
+
+function path(rng, alpha, n=5000)
+    x, y = 0.0, 0.0
+    xDat, yDat = [], []
+    for _ in 1:n
+        flip = rand(rng,1:4)
+        if flip == 1
+            x += 1
+        elseif flip == 2
+            y += 1
+        elseif flip == 3
+            x -= (2+alpha)*rand(rng)
+        elseif flip == 4
+            y -= (2+alpha)*rand(rng)
+        end
+        push!(xDat,x)
+        push!(yDat,y)
+    end
+    return xDat, yDat
+end
+
+alphaRange = [0.2, 0.21, 0.22]
+
+default(xlabel = "x", ylabel = "y", xlims=(-150,50), ylims=(-250,50))
+p1 = plot(path(MersenneTwister(27), alphaRange[1]), c=:blue)
+p1 = plot!(path(MersenneTwister(27), alphaRange[2]), c=:red)
+p1 = plot!(path(MersenneTwister(27), alphaRange[3]), c=:green)
+
+rng = MersenneTwister(27)
+p2 = plot(path(rng, alphaRange[1]), c=:blue)
+p2 = plot!(path(rng, alphaRange[2]), c=:red)
+p2 = plot!(path(rng, alphaRange[3]), c=:green)
+
+plot(p1, p2, size=(800, 400), legend=:none, margin=5mm)
+#+end_src
 *** Integration with Other Languages
 :PROPERTIES:
 :NOTER_PAGE: (52 . 0.090909)
@@ -506,6 +730,36 @@ plot(p1, p2, size=(800, 400), ratio=:equal, xlims=(0,cols), ylims=(0,rows),
 :PROPERTIES:
 :NOTER_PAGE: (52 . 0.495973)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/randomWalks.jl"
+
+#+end_src
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/usingR.jl"
+using CSV, DataFrames, RCall
+
+data1 = CSV.read("data/machine1.csv", header=false)[:,1]
+data2 = CSV.read("data/machine2.csv", header=false)[:,1]
+data3 = CSV.read("data/machine3.csv", header=false)[:,1]
+
+function R_ANOVA(allData)
+    data = vcat([ [x fill(i, length(x))] for (i, x) in
+    			enumerate(allData) ]...)
+    df = DataFrame(data, [:Diameter, :MachNo])
+    @rput df
+
+    R"""
+    df$MachNo <- as.factor(df$MachNo)
+    anova <- summary(aov( Diameter ~ MachNo, data=df))
+    fVal <- anova[[1]]["F value"][[1]][1]
+    pVal <- anova[[1]]["Pr(>F)"][[1]][1]
+    """
+    println("R ANOVA f-value: ", @rget fVal)
+    println("R ANOVA p-value: ", @rget pVal)
+end
+
+R_ANOVA([data1, data2, data3])
+#+end_src
 **** Link on page 53: [[https://vincentarelbundock.github.io/Rdatasets/datasets.html][https://vincentarelbundock.github.io/Rdatasets/datasets.html]]
 :PROPERTIES:
 :NOTER_PAGE: (53 . 0.454936)
@@ -514,6 +768,21 @@ plot(p1, p2, size=(800, 400), ratio=:equal, xlims=(0,cols), ylims=(0,rows),
 :PROPERTIES:
 :NOTER_PAGE: (54 . 0.434164)
 :END:
+
+#+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/usingPython.jl"
+using PyCall
+TB = pyimport("textblob")
+
+str =
+"""Some people think that Star Wars The Last Jedi is an excellent movie,
+with perfect, flawless storytelling and impeccable acting. Others
+think that it was an average movie, with a simple storyline and basic
+acting. However, the reality is almost everyone felt anger and
+disappointment with its forced acting and bad storytelling."""
+
+blob = TB.TextBlob(str)
+[ i.sentiment for i in blob.sentences ]
+#+end_src
 **** Link on page 55: [[https://github.com/JuliaInterop][https://github.com/JuliaInterop]]
 :PROPERTIES:
 :NOTER_PAGE: (55 . 0.450631)
