@@ -17,7 +17,7 @@
 :PROPERTIES:
 :ID:       98b25bca-f482-43dc-8311-629d657fef75
 :END:
- - [2020-12-28 Mon 14:10] -> [[id:0f94517d-f872-450a-a53e-15ff354dfd1c][GuangTao's Profile]]
+ - [2021-01-05 Tue 20:20] -> [[id:0f94517d-f872-450a-a53e-15ff354dfd1c][GuangTao's Profile]]
 *** [[file:../nix/nix-macos.org][Nix on MacOS]]
 :PROPERTIES:
 :ID:       c34125bd-7ad0-473b-a78d-ba000a093ef8
@@ -103,8 +103,8 @@
 :ID:       0f94517d-f872-450a-a53e-15ff354dfd1c
 :END:
 
-- [2020-12-28 Mon 14:10] <- [[id:98b25bca-f482-43dc-8311-629d657fef75][GuangTao's Nix]]
 
+ - [2021-01-05 Tue 20:20] <- [[id:98b25bca-f482-43dc-8311-629d657fef75][GuangTao's Nix]]
 ** [[file:../deployment/git.org][Git]]
 * Media
 ** [[file:../GuangTao-owner/cartoon.org][Cartoon]]

@@ -5,10 +5,11 @@
 #+SETUPFILE: ../hugo.setup
 #+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
 * [[https://github.com/GTrunSec/nix-expressions-jupyter-repl-test][GTrunSec/nix-expressions-jupyter-repl-test]]
 :PROPERTIES:
 :ID:       3ab69c8f-30f5-4eb6-9d40-8430aaf8203f
 :END:
-:BACKLINKS:
-[2020-11-09 Mon 19:12] <- [[id:0dcb0b08-5d66-4cf9-8b14-fafaccb739b0][nix expressions]]
-:END:
+- [2020-11-09 Mon 19:12] <- [[id:0dcb0b08-5d66-4cf9-8b14-fafaccb739b0][nix expressions]]

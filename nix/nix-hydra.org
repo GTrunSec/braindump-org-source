@@ -14,3 +14,6 @@
 * [[https://status.nixos.org/][NixOS Infra Status]]
 
 * [[https://github.com/NixOS/nixos-channel-scripts][NixOS/nixos-channel-scripts]]
+
+* [[https://discourse.nixos.org/t/personal-hydra-to-build-test-specific-packages-on-nixos-master-periodically/10815]["Personal hydra" to build & test specific packages on nixos-master periodically - Learn - NixOS Discourse]]
+** [[https://github.com/rmcgibbo/mydra/blob/master/.github/workflows/test.yml][mydra/test.yml at master · rmcgibbo/mydra]]

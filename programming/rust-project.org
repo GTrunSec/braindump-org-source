@@ -11,6 +11,5 @@
 
 * Rust Jupyter kernel
 
-
-
 ** [[https://github.com/google/evcxr][google/evcxr]]
+* [[https://github.com/riker-rs/riker][riker-rs/riker: Easily build efficient, highly concurrent and resilient applications. An Actor Framework for Rust.]] :actors:

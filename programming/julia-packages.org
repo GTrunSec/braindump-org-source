@@ -104,3 +104,10 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * Julia Plots
 
 ** [[https://docs.juliaplots.org/latest/backends/][Backends · Plots]]
+
+* [[https://github.com/JuliaDSP][Julia DSP]]
+
+** [[https://github.com/JuliaDSP/DSP.jl][JuliaDSP/DSP.jl: Filter design, periodograms, window functions, and other digital signal processing functionality]]
+
+
+- [[https://en.wikipedia.org/wiki/Digital_signal_processing][Digital signal processing - Wikipedia]]

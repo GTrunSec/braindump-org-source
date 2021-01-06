@@ -1,0 +1,17 @@
+#+TITLE: Nix Appimage
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-05 Tue 13:41
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+
+* Appimage issues
+
+** [[https://discourse.nixos.org/t/failure-appimage-run-with-gsetting/4403][Failure: appimage-run with gsetting - Learn - NixOS Discourse]]
+
+
+
+* [[https://github.com/GTrunSec/nixos-flk/tree/master/pkgs/appimage][nixos-flk/pkgs/appimage at master · GTrunSec/nixos-flk]]
