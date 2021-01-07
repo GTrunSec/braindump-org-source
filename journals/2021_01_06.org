@@ -1,0 +1,26 @@
+#+TITLE: Jan 6th, 2021
+
+* [[https://www.youtube.com/watch?v=dXWdFB36-Gk][“【達奇】神魔打架 凡人遭殃 誰能平定這場三界之亂？《DOOM 永恒》的故事 - YouTube”🔊]]
+
+* [[https://www.youtube.com/watch?v=RSYRoHpnYKg][3600元的澳洲鴕鳥鴯鶓，是有多美味？肉質意外的Q彈，你有吃過嗎【衣谷水原egg】 - YouTube]]
+:PROPERTIES:
+:ID:       45e342ff-ef05-43ec-8a2e-93e4dc04e9c3
+:END:
+ - [2021-01-06 Wed 22:56] <- [[id:69b2e5b4-5d34-4c83-ab47-3033e1551f64][游戏视频]]
+
+* [[https://www.youtube.com/watch?v=ogn3Ij9CWYs][262集 寻找藏地神山，误入措普沟偶遇藏族卓玛｜冒险雷探长Lei's adventure - YouTube]]
+:PROPERTIES:
+:ID:       554af770-12a2-4421-ad79-c48cad8e7241
+:END:
+ - [2021-01-06 Wed 23:05] <- [[id:ca4d0f62-84f5-4d83-b7f5-189b8fbb225a][游山玩水->西藏]]
+
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/ogn3Ij9CWYs"
+:height "367"
+:width "653"}]]

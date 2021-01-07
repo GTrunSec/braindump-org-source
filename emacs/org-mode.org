@@ -120,3 +120,7 @@ pandoc testing_org.org -o testing_org_back.ipynb
 * Org roam
 
 ** [[https://github.com/madnificent/org-roam-browser-extension][madnificent/org-roam-browser-extension: Org-roam extension to the browser]]
+
+* Org mode timelinee
+
+** [[https://github.com/jjuliano/org-simple-timeline][jjuliano/org-simple-timeline: Org-mode html export of vertical/horizontal Timelines]]

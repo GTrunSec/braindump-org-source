@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-04 Mon 23:58
-#+SETUPFILE: ../../hugo.setup
-#+SETUPFILE: ../../theme-readtheorg.setup
+#+SETUPFILE: ../../../hugo.setup
+#+SETUPFILE: ../../../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
@@ -656,7 +656,7 @@ scatter!(first.(outdata),last.(outdata), c=:red, ms=1, msw=0,
 #+end_src
 **** Link on page 48: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/lcg.jl][A linear congruential generator]]
 :PROPERTIES:
-:NOTER_PAGE: (48 . 0.620275)
+:noter_page: (48 . 0.620275)
 :END:
 
 #+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/lcg.jl"
@@ -766,7 +766,7 @@ R_ANOVA([data1, data2, data3])
 :END:
 **** Link on page 54: [[https://github.com/h-Klok/StatsWithJuliaBook/blob/master/1_chapter/usingPython.jl][NLP via Python’s TextBlob]]
 :PROPERTIES:
-:NOTER_PAGE: (54 . 0.434164)
+:noter_page: (54 . 0.434164)
 :END:
 
 #+begin_src julia :exports both :tangle "~/data/Jupyter-data-science-environment/notebook/StatsWithJuliaBook/1_chapter/usingPython.jl"

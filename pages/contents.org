@@ -10,7 +10,7 @@
 **** [[file:../security/README-hardenedlinux-zeek-script.org][README hardenedlinux-zeek-script]]
 * [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]]
 ** [[file:../programming/GuangTao-julia.org][GuangTao's Julia]]
-*** [[file:../programming/StatisticsWithJuliaDRAFT.org][StatisticsWithJuliaDRAFT]]
+*** [[file:../math/my-mathematic-julia/StatisticsWithJulia/Introducing Julia - DRAFT.org][StatisticsWithJulia Introducing Julia - DRAFT]]
 ** [[file:../programming/GuangTao-clang.org][GuangTao's Clang]]
 ** [[file:../programming/GuangTao-python.org][GuangTao's Python]]
 ** [[file:../nix/GuangTao-nix.org][GuangTao's Nix]]
