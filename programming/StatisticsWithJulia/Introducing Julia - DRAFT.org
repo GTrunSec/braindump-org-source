@@ -1,4 +1,4 @@
-#+TITLE: Test
+#+TITLE: StatisticsWithJulia Introducing Julia - DRAFT
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-04 Mon 23:58
