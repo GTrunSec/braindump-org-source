@@ -1,0 +1,14 @@
+#+TITLE: GuangTaos' Hardware
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-08 Fri 14:32
+#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ../theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
+
+* [[https://remarkable.com/][Home | reMarkable]]
+** [[https://github.com/pl-semiotics/nix-remarkable][pl-semiotics/nix-remarkable: Nix expressions for tools for the reMarkable tablet]]
+
+- [[file:../nix/GuangTao-nix.org][GuangTao's Nix]]

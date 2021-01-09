@@ -9,6 +9,8 @@
 
 - tags :: [[file:emacs.org][Emacs]], [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
 
+- [[https://code.orgmode.org/bzg/org-mode][bzg/org-mode: Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. - Gogs]]
+
 
 * org mode parser
 ** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
@@ -123,4 +125,3 @@ pandoc testing_org.org -o testing_org_back.ipynb
 
 * Org mode timelinee
 
-** [[https://github.com/jjuliano/org-simple-timeline][jjuliano/org-simple-timeline: Org-mode html export of vertical/horizontal Timelines]]

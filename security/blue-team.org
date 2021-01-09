@@ -9,3 +9,8 @@
 - tags :: [[file:red-team.org][Red Team]]
 
 * [[https://github.com/splunk/security-content][splunk/security-content: Splunk Security Content]]
+
+* [[https://github.com/tomchop][tomchop (Thomas Chopitea) - Brave]]
+* [[https://github.com/TravisFSmith/SweetSecurity][TravisFSmith/SweetSecurity: Network Security Monitoring on Raspberry Pi type devices - Brave]]
+* [[https://github.com/mdsecactivebreach][mdsecactivebreach (ActiveBreach) - Brave]]
+* [[https://github.com/gamelinux/prads][gamelinux/prads: Passive Real-time Asset Detection System - Brave]]

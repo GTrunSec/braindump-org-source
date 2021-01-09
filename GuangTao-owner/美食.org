@@ -3,7 +3,6 @@
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-30 Mon 14:14
 #+SETUPFILE: ../hugo.setup
-#+SETUPFILE: ../tags/travel-tags.setup
 #+SETUPFILE: ../theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
@@ -96,7 +95,7 @@
 - [2020-11-30 Mon 14:43] <- [[id:118a9dd5-7981-4fe8-837b-6c21c840ff30][大连]]
 ** TODO 寺儿沟 蚬子
 :PROPERTIES:
-:ID:       6f928e44-419c-4ff5-a922-7fd6f998a0be
+:id: 6f928e44-419c-4ff5-a922-7fd6f998a0be
 :END:
 - [2020-11-30 Mon 14:44] <- [[id:118a9dd5-7981-4fe8-837b-6c21c840ff30][大连]]
 - [[https://www.xuehua.us/a/5eb5152786ec4d5c78979e10][被寺儿沟人藏了几十年的“隐世”美食，今天我要全部曝光！ - 雪花新闻]]
@@ -255,6 +254,11 @@ https://movie.douban.com/subject/26298935/?from=subject-page
 :END:
 - [2021-01-03 Sun 13:01] <- [[id:2684666d-1e9f-444b-bf5a-3685b8c0686f][广西阳朔啤酒鱼，清末老宅农家美味，阿星吃荔浦芋头扣肉，田螺酿Traditional Food in Yangshuo, Guangxi - YouTube]]
 - [2020-12-30 Wed 13:51] -> [[id:faf18a86-487a-40a3-907e-f35e071f7c8e][停电也要吃，广西桂林牛八宝，8种牛杂一锅炖，阿星点蜡烛吃火锅Niu Babao Hot Pot in Guilin, Guangxi - YouTube]]
+* 厦门美食
+:PROPERTIES:
+:id: d263a1b4-6a95-4266-867a-3c5b322d96ec
+:END:
+ - [2021-01-07 Thu 16:29] -> [[id:9ba67851-de71-485f-9de8-53397c5a99a7][你们最喜欢的逛海鲜市场来了！试吃最毒的鱼河豚，嘴唇开始发麻了！【小文哥吃吃吃】 - YouTube - Brave]]
 * 美食短视频
 :PROPERTIES:
 :ID:       0ff6ab4b-c02f-423c-bb5c-d97cca75ba82
