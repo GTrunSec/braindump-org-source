@@ -6,3 +6,19 @@
 :END:
 
  - [2021-01-08 Fri 16:01] <- [[id:ca4d0f62-84f5-4d83-b7f5-189b8fbb225a][游山玩水->西藏]]
+* [[https://www.youtube.com/watch?v=KPoRV1mPNSQ][哈尔滨柴火铁锅炖，冰天雪地坐炕头，阿星烀饼子，吃东北大拌菜Northeast wood-fired iron pot stew in Harbin - YouTube]]
+:PROPERTIES:
+:ID:       eeed8cb3-72e9-40f8-a3cf-9a9445160280
+:END:
+ - [2021-01-08 Fri 21:31] -> [[id:ef92da81-9f30-47e5-adbe-08d062baec84][哈尔滨]]
+* [[https://www.youtube.com/watch?v=PuPgkfujwE4][终于还是下手了，万里挑一的变异黄金狗鲨，出锅后性价比超级高【小文哥吃吃吃】 - YouTube]]
+:PROPERTIES:
+:ID:       3701978f-b224-400c-8a35-6ec61dcd29b6
+:END:
+- [2021-01-08 Fri 23:06] <- [[id:760de8a6-6003-4548-b966-7e96011ea946][食材鱼]]
+* [[https://www.youtube.com/watch?v=KPoRV1mPNSQ][哈尔滨柴火铁锅炖，冰天雪地坐炕头，阿星烀饼子，吃东北大拌菜Northeast wood-fired iron pot stew in Harbin - YouTube]]
+:PROPERTIES:
+:ID:       c43aaaa5-cf8b-4b84-852a-39ae5557b3eb
+:END:
+
+ - [2021-01-09 Sat 00:13] -> [[id:ef92da81-9f30-47e5-adbe-08d062baec84][哈尔滨]]

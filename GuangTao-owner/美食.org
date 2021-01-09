@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-30 Mon 14:14
-#+SETUPFILE: ../hugo.setup
-#+SETUPFILE: ../theme-readtheorg.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
@@ -83,7 +83,6 @@
 :PROPERTIES:
 :ID:       c1d5a9b6-7344-4317-bdfd-cc4183cc6929
 :END:
-- [2020-11-30 Mon 14:40] <- [[id:f22579bb-d6c0-468c-a3ee-9fa89142f638][东北]]
 ** TODO [[https://www.youtube.com/watch?v=_tDbsyl9L0M][“回血美味，扶我起来，我还能吃！ | 二更 - YouTube”🔊]][烤翅]
 :PROPERTIES:
 :ID:       ac01edcf-8670-4f3b-97dc-0ee90a7b7b4a

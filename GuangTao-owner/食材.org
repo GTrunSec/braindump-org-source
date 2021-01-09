@@ -1,0 +1,17 @@
+#+TITLE: 食材
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-08 Fri 23:05
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:美食.org][美食]]
+
+
+* 食材鱼
+:PROPERTIES:
+:ID:       760de8a6-6003-4548-b966-7e96011ea946
+:END:
+ - [2021-01-08 Fri 23:06] -> [[id:3701978f-b224-400c-8a35-6ec61dcd29b6][终于还是下手了，万里挑一的变异黄金狗鲨，出锅后性价比超级高【小文哥吃吃吃】 - YouTube]]

@@ -2,12 +2,13 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
-#+SETUPFILE: ../hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/my-blog/public/theme/org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:GuangTao-profile.org][GuangTao's Profile]]
-
+- tags :: [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
+* Git deploy
+** [[https://gogs.io/][Gogs: A painless self-hosted Git service]]
 * git CONTRIBUTING
 - [[https://github.com/NixOS/nixpkgs/pull/96037][python38Packages.coloredlogs: disable tests on darwin by tobim · Pull Request #96037 · NixOS/nixpkgs]]
 

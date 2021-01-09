@@ -2,8 +2,9 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2019-07-22 Mon
-#+SETUPFILE: ../hugo.setup
-#+SETUPFILE: ../theme-readtheorg.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/tags/travel-tags.org
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:../life/GuangTao-life.org][GuangTao's Life]],  [[file:游山玩水.org][游山玩水]], [[file:古墓文物.org][古墓文物]]
@@ -63,8 +64,10 @@
 :URL:      https://zh.wikipedia.org?curid=509
 :ID:       f22579bb-d6c0-468c-a3ee-9fa89142f638
 :END:
- - [2020-11-30 Mon 14:40] -> [[id:c1d5a9b6-7344-4317-bdfd-cc4183cc6929][东北美食]]
 中国东北地区，简称中国东北、东北、东北地区，是中国的一個地理大区，也属于第一阶梯的经济大区。中國東北在永乐遷都后，具有重要的戰略地位。 現在的中国东北地区，廣義上指辽宁、吉林、黑龙江，以及风土文化相近的内蒙古呼伦贝尔市、兴安盟、赤峰市、通辽市（有时还包括锡林郭勒盟）所构成的地区；狭义则仅包括辽宁、吉林、黑龙江在内，即为东三省或东北三省。
+
+ - [2020-11-30 Mon 14:40] -> [[id:c1d5a9b6-7344-4317-bdfd-cc4183cc6929][东北美食]]
+
 ** 大连
 :PROPERTIES:
 :ID:       118a9dd5-7981-4fe8-837b-6c21c840ff30
@@ -72,6 +75,15 @@
  - [2020-11-30 Mon 14:44] -> [[id:6f928e44-419c-4ff5-a922-7fd6f998a0be][寺儿沟 蚬子]]
  - [2020-11-30 Mon 14:45] -> [[id:0207be74-56cc-4170-a809-3cfa325fda44][大连金州 鱼卤面]]
  - [2020-11-30 Mon 14:55] -> [[id:efe6f8bf-8c45-4e1e-ad88-d07a3813ccb6][金州 刘师傅烩勺面]]
+
+** 哈尔滨
+:PROPERTIES:
+:ID:       ef92da81-9f30-47e5-adbe-08d062baec84
+:END:
+
+
+
+ - [2021-01-08 Fri 21:31] <- [[id:eeed8cb3-72e9-40f8-a3cf-9a9445160280][哈尔滨柴火铁锅炖，冰天雪地坐炕头，阿星烀饼子，吃东北大拌菜Northeast wood-fired iron pot stew in Harbin - YouTube]]
 * 湖南
 :PROPERTIES:
 :ID:       a9a1166f-bf91-4709-91fb-766f3193c67b
