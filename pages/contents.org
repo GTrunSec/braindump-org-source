@@ -20,7 +20,7 @@
  - [2021-01-05 Tue 20:20] -> [[id:0f94517d-f872-450a-a53e-15ff354dfd1c][GuangTao's Profile]]
 *** [[file:../nix/nix-macos.org][Nix on MacOS]]
 :PROPERTIES:
-:ID:       c34125bd-7ad0-473b-a78d-ba000a093ef8
+:id: c34125bd-7ad0-473b-a78d-ba000a093ef8
 :END:
 *** [[file:../nix/nixos.org][NixOS]]
 *** [[file:../nix/nix-friday.org][Nix Friday]]

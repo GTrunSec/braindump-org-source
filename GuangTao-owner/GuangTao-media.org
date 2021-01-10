@@ -21,8 +21,27 @@
 - [2021-01-06 Wed 22:56] <- [[id:45e342ff-ef05-43ec-8a2e-93e4dc04e9c3][3600元的澳洲鴕鳥鴯鶓，是有多美味？肉質意外的Q彈，你有吃過嗎【衣谷水原egg】 - YouTube]]
 - [2020-12-29 Tue 15:54] -> [[id:034f55f1-a887-43db-881e-38599b7980fb][【達奇】他們是帝國的寒芒，帝皇的怒火，他們將終結野獸們的戰爭 《戰錘40K》故事 - YouTube]]
 * 短视频
+:PROPERTIES:
+:id: 6d4ab879-7906-4824-877a-7c686c9bc401
+:END:
  - [2020-12-29 Tue 16:03] -> [[id:5a7ce94f-96d0-4f75-953d-7da175117c30][【冬呱视频】整整14年！退休夫妻卖2套房买船在长江收垃圾，却被骂神经病 ▏凡人时代 - YouTube]]
-** [[https://www.youtube.com/channel/UCk8kvPE3cP7Yl9hCMEkh0CA][走遍中国5A景区 - YouTube]]
-- [[file:古墓文物.org][古墓文物]]
-* [[id:0ff6ab4b-c02f-423c-bb5c-d97cca75ba82][美食是短视频]]
-** [[https://www.youtube.com/channel/UCBsTeJ-_By1l8f7BKvvGgnQ][小文哥吃吃吃 - YouTube]]
+ - [2021-01-10 Sun 01:08] -> [[id:a8e536e9-59bb-4d43-ad01-c8e006225d0e][走遍中国5A景区 - YouTube]]
+* 美食短视频
+:PROPERTIES:
+:id: 0c570751-49aa-4ba1-8128-bd836eb81c14
+:END:
+- [2021-01-10 Sun 13:02] <- [[id:0ff6ab4b-c02f-423c-bb5c-d97cca75ba82][美食短视频]]
+** [[https://www.youtube.com/channel/UCBsTeJ-_By1l8f7BKvvGgnQ][小文哥吃吃吃 - YouTube]] :贝壳:
+:PROPERTIES:
+:id: 8e6c87de-0542-4a35-98a4-acd1f994b803
+:END:
+- [2021-01-10 Sun 12:11] <- [[id:9ba67851-de71-485f-9de8-53397c5a99a7][你们最喜欢的逛海鲜市场来了！试吃最毒的鱼河豚，嘴唇开始发麻了！【小文哥吃吃吃】 - YouTube - Brave]]
+- [2021-01-10 Sun 11:53] <- [[id:6c869a56-2d9f-4df0-b716-2dce254e935c][顶级贝壳刺身“日月贝”，兄弟给我寄来了30斤，吃的非常过瘾【小文哥吃吃吃】 - YouTube]]
+** [[https://www.youtube.com/channel/UCRDAEbWLedO9Ip1YAcCT0_g][Amoy硬邦帮 - YouTube]]
+:PROPERTIES:
+:ID:       15f864b5-bf96-4c5b-8d0c-e07c09049f47
+:END:
+
+- [2021-01-10 Sun 12:11] <- [[id:9ba67851-de71-485f-9de8-53397c5a99a7][你们最喜欢的逛海鲜市场来了！试吃最毒的鱼河豚，嘴唇开始发麻了！【小文哥吃吃吃】 - YouTube - Brave]]
+- [2021-01-10 Sun 12:00] <- [[id:d263a1b4-6a95-4266-867a-3c5b322d96ec][厦门美食]]
+

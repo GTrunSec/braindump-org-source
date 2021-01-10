@@ -5,7 +5,12 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+* [[https://www.youtube.com/channel/UCk8kvPE3cP7Yl9hCMEkh0CA][走遍中国5A景区 - YouTube]]
+:PROPERTIES:
+:ID:       a8e536e9-59bb-4d43-ad01-c8e006225d0e
+:END:
 
+- [2021-01-10 Sun 01:08] <- [[id:6d4ab879-7906-4824-877a-7c686c9bc401][短视频]]
 * 大龙 [0/0]
 ** [[https://www.youtube.com/watch?v=RrmopfbWEnQ][古墓龙带你探寻咸丰的定陵，这种未开放的帝陵你绝对没见过 - YouTube]][2020-05-19 Tue 17:11]
 ** [[https://www.youtube.com/watch?v=NY2JP6NQfmU][实拍世界著名佛教寺院 少林寺，近距离观看少林寺最神秘的方丈室 - YouTube]]

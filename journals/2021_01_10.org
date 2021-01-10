@@ -1,0 +1,63 @@
+#+TITLE: 2021_01_10
+
+* Sunday, 01/10/2021
+** 11:33
+*** [[https://www.youtube.com/watch?v=fqAqd8JamYY][顶级贝壳刺身“日月贝”，兄弟给我寄来了 30 斤，吃的非常过瘾【小文哥吃吃吃】 - YouTube]] :贝壳:刺身:
+:PROPERTIES:
+:ID:       6c869a56-2d9f-4df0-b716-2dce254e935c
+:END:
+ - [2021-01-10 Sun 11:53] <- [[id:8e6c87de-0542-4a35-98a4-acd1f994b803][小文哥吃吃吃 - YouTube]]
+** 12:36
+*** [[https://www.youtube.com/watch?v=42KD71cVmu8][【 厦门最赞的钓虾场，爽过没？】-S1810-HA126 - YouTube]]
+:PROPERTIES:
+:ID:       0c81f1a6-0c24-48bf-83ca-5a0aea918cac
+:END:
+ - [2021-01-10 Sun 12:57] <- [[id:15f864b5-bf96-4c5b-8d0c-e07c09049f47][Amoy硬邦帮 - YouTube]]
+** 13:24
+*** [[https://www.youtube.com/watch?v=kvH_aFufm2s][夫妻改造窯洞老房，火遍全球，山洞裡面泡溫泉 Couple Renovate Cave Dwelling into Wonderful Guesthouse with Hot Springs - YouTube]] :光源:ATTACH:
+:PROPERTIES:
+:ID:       00d9db91-9712-4aa1-bcd7-2857ac6fe64a
+:END:
+
+ - [2021-01-10 Sun 13:33] <- [[id:fcbb3f51-d94c-4ad6-87c7-4430b69a145b][一条 Yit 建筑房屋]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/kvH_aFufm2s"
+:height "367"
+:width "653"}]]
+
+#+begin_quote
+小庭院设计，光源场景使用
+#+end_quote
+
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210110_133805screenshot.png]]
+
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210110_133942screenshot.png]]
+
+#+NAME: 泡脚温泉池
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210110_134348screenshot.png]]
+
+#+NAME:光线，局部光，点光源，线光源
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210110_134533screenshot.png]]
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:20210110_134640screenshot.png]]
