@@ -1,0 +1,13 @@
+#+TITLE: Awesome Learning Coding
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-10 Sun 00:00
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* 中文
+** [[https://www.liaoxuefeng.com/wiki/1252599548343744][Java教程 - 廖雪峰的官方网站]]
+
+** [[https://www.liaoxuefeng.com/wiki/1022910821149312][JavaScript教程 - 廖雪峰的官方网站]]

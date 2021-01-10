@@ -136,6 +136,7 @@ Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008
 :PROPERTIES:
 :ID:       b638affe-16db-4051-a7cb-d0df0ca1d172
 :END:
- - [2020-12-27 Sun 19:41] -> [[id:d8d07c1a-0c10-49e0-a81c-d53f7641e6a7][Wireguard - NixOS Wiki]]
+- [2021-01-09 Sat 01:20] <- [[id:fd4cfad0-3fc4-4d75-8f12-704a8d6e3c24][Wireguard]]
+- [2020-12-27 Sun 19:41] -> [[id:d8d07c1a-0c10-49e0-a81c-d53f7641e6a7][Wireguard - NixOS Wiki]]
 ** P2P VPN
 *** [[https://github.com/zetamesh/zetamesh][zetamesh/zetamesh: P2P VPN: Build a security layer-three local area network on the WAN]]

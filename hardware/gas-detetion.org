@@ -1,0 +1,13 @@
+#+TITLE: Gas Detetion
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-09 Sat 01:09
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[http://radonftlab.com/radon-sensor-product/radon-detector/rd200/][RadonEye (BLE) | Radon FTLab]]
+
+** [[https://github.com/lopsided98/radonpy][lopsided98/radonpy: Tools to communicate with the RadonEye RD200 radon detector]]

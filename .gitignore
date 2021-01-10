@@ -2,7 +2,8 @@
 *.org.organice-bak
 ## nixos
 result
-private-org/*
+myself-private/*
+*-private.org
 *.html
 .DS_Store
 notdeftdb

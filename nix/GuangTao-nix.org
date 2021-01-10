@@ -172,8 +172,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 ** https://github.com/Kloenk/nix/blob/master/flake.nix
 ** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
 ** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
-
-
+** [[https://github.com/nprindle/nixos-configs][nprindle/nixos-configs: My configurations for NixOS]] :haskell:
 
 * Nix flakes
 :PROPERTIES:

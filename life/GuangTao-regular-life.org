@@ -11,24 +11,29 @@
 - tags :: [[file:life-hack.org][life hacker]], [[file:GuangTao-life.org][GuangTao's Life]]
 
 
-* wasting my clothes [0/3]
+* wasting my clothes [/3]
 ** TODO Put clothes washer
-  SCHEDULED: <2020-09-20 Sun 20:00 +1w>
-  :PROPERTIES:
-  :TRIGGER: next-sibling scheduled!("++1h")
-  :WILD_NOTIFIER_NOTIFY_BEFORE: 2
-  :END:
+   SCHEDULED: <2020-09-27 Sun 20:00 +1w>
+   :PROPERTIES:
+   :TRIGGER: next-sibling scheduled!("++1h")
+   :WILD_NOTIFIER_NOTIFY_BEFORE: 2
+   :LAST_REPEAT: [2021-01-09 Sat 18:24]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2021-01-09 Sat 18:24]
+   :END:
+[[file:../.attach/d6/48f71a-406b-428f-8163-a1fae21127a8/20210103_144754screenshot.png]]
 ** TODO Put clothes in dryer
-  :PROPERTIES:
-  :TRIGGER: next-sibling scheduled!("++1h")
-  :BLOCKER: previous-sibling
-  :WILD_NOTIFIER_NOTIFY_BEFORE: 2
-  :END:
+   :PROPERTIES:
+   :TRIGGER: next-sibling scheduled!("++1h")
+   :BLOCKER: previous-sibling
+   :WILD_NOTIFIER_NOTIFY_BEFORE: 2
+   :END:
 ** TODO Put clothes away
-  :PROPERTIES:
-  :TRIGGER: next-sibling scheduled!("++1M")
-  :WILD_NOTIFIER_NOTIFY_BEFORE: 2
-  :END:
+   :PROPERTIES:
+   :TRIGGER: next-sibling scheduled!("++1M")
+   :WILD_NOTIFIER_NOTIFY_BEFORE: 2
+   :END:
   #+begin_src emacs-lisp :tangle yes
 (require 'alert)
 
@@ -39,7 +44,9 @@
 
 * daily Health
 ** [[id:1d5ced14-2c4c-464b-9681-00650626907c][每天梳头100下]]
-:PROPERTIES:
-:ID:       47139c73-1d6f-4b50-955f-d17ca9b6d3df
-:END:
+   :PROPERTIES:
+   :ID:       47139c73-1d6f-4b50-955f-d17ca9b6d3df
+   :END:
 - [2021-01-03 Sun 14:51] <- [[id:d9722e5e-1b87-4529-892c-0a0b28408d3a][每天梳头 100 下]]
+
+* test

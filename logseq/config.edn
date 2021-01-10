@@ -50,4 +50,5 @@
  :git-push-secs 10,
  :git-auto-push false, 
  :journal-basis "daily", 
- :preferred-format "Org"}
+ :preferred-format "Org"
+ :feature/enable-journals? false}

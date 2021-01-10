@@ -83,3 +83,6 @@
 * [[http://pragmaticemacs.com/emacs/multiple-cursors/][pragmaticemacs.com/emacs/multiple-cursors/]]
 * Emacs Comppany
 ** [[http://sixty-north.com/blog/writing-the-simplest-emacs-company-mode-backend][Good With Computers]]
+* Emacs PDF
+** [[https://github.com/dalanicolai/pdf-continuous-scroll-mode.el][dalanicolai/pdf-continuous-scroll-mode.el: A minor mode for Emacs that implements a two-buffer hack to provide continuous scrolling in pdf-tools]]
+** [[https://github.com/dalanicolai/pymupdf-mode.el][dalanicolai/pymupdf-mode.el: Extend pdf-tools annotation capabilities via pymupdf]]

@@ -4,11 +4,8 @@
 #+DATE: 2020-12-05 Sat 14:22
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
-#+SETUPFILE: ./tags/open-source-tags.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/tags/open-source-tags.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 * Open Source Jobs
-
-** [[https://isrc.iscas.ac.cn/news/remoteworkjobs/][【招聘】只工作，不上班？欢迎加入开源软件供应链点亮计划！ - 中国科学院软件研究所 - 智能软件研究中心]] :china:
-
 * [[https://github.com/phodal/techlead][phodal/techlead: Tech Lead Toolbox]]
