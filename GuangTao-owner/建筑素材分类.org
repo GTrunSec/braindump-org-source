@@ -12,6 +12,7 @@
 * 小型庭院 :ATTACH:
 :PROPERTIES:
 :ID:       a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54
+:BRAIN_CHILDREN: ad00c0a0-717f-4939-8205-89d0c8d0178c
 :END:
 - [2020-11-20 Fri 15:31] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
   + [[attachment:20200925_225732screenshot.png]]
@@ -20,6 +21,7 @@
 ** 水台 :ATTACH:
 :PROPERTIES:
 :id: 59c0b564-7a2c-466e-b759-d6b7b68df8bd
+:BRAIN_CHILDREN: ad00c0a0-717f-4939-8205-89d0c8d0178c
 :END:
  - [2020-11-20 Fri 15:32] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
    + [[attachment:20200925_230006screenshot.png]]
@@ -53,11 +55,13 @@
 * 酒店旅馆
 :PROPERTIES:
 :id: f2295123-a3fb-4739-925c-aebb51dcaa55
+:BRAIN_PARENTS: ad00c0a0-717f-4939-8205-89d0c8d0178c
 :END:
  - [2020-12-25 Fri 01:02] -> [[id:b8b0fdf0-0125-4de8-93dc-1ca310a1ffc4][中国独树一帜的秘境酒店！ - YouTube - Brave]]
 * 窗设计
 :PROPERTIES:
 :id: 7752c9d5-30c3-47f6-a59b-e4a8ccbed348
+:BRAIN_CHILDREN: ad00c0a0-717f-4939-8205-89d0c8d0178c
 :END:
 ** https://www.youtube.com/watch?v=SRGdPvAlxq4                                 :古风:
 ** https://www.youtube.com/watch?v=FdXVxj82YUM

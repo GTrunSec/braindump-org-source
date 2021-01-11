@@ -44,4 +44,9 @@
 
 - [2021-01-10 Sun 12:11] <- [[id:9ba67851-de71-485f-9de8-53397c5a99a7][你们最喜欢的逛海鲜市场来了！试吃最毒的鱼河豚，嘴唇开始发麻了！【小文哥吃吃吃】 - YouTube - Brave]]
 - [2021-01-10 Sun 12:00] <- [[id:d263a1b4-6a95-4266-867a-3c5b322d96ec][厦门美食]]
-
+* 视频播主
+** [[https://www.youtube.com/channel/UCulFhrW_YCwkq_BP16C82mA][一条Yit - YouTube]]
+:PROPERTIES:
+:ID:       86a560ba-bffd-4bf2-8a57-4b622c08a222
+:END:
+ - [2021-01-10 Sun 20:02] -> [[id:152a7f9e-2fc9-4cd6-86ad-da15b602a60c][“8位中國女星同台演出，談容貌焦慮和女性危機 Eight Chinese actresses perform together to talk about female crisis - YouTube”🔊]]
