@@ -5,7 +5,12 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:../myself-private/GTD/gtd.org][GuangTao's Private GTD]]
+
 * Course
+
 ** financial course with Julia
 :PROPERTIES:
 :ID:       54f94d64-138c-4f43-8dc6-81c01654466f
@@ -14,6 +19,6 @@
 - [2020-11-20 Fri 03:02] <- [[id:cb4b3236-09f5-4fa8-8195-e1399a5b101a][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
 * Trading with Python
 :PROPERTIES:
-:ID:       0fe12dd9-88ea-4bc8-9b30-23d74e33c52e
+:ID: 0fe12dd9-88ea-4bc8-9b30-23d74e33c52e
 :END:
  - [2020-11-20 Fri 03:04] -> [[id:0f77f8f7-df29-459a-b40c-7b3f99eddf04][GitHub - chrisconlan/algorithmic-trading-with-python: Source code for Algorithmic Trading with Python (2020) by Chris Conlan]]

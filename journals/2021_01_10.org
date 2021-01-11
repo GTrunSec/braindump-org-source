@@ -71,3 +71,9 @@
  - [2021-01-10 Sun 20:02] <- [[id:86a560ba-bffd-4bf2-8a57-4b622c08a222][一条Yit - YouTube]]
 ** 19:53
 *** 数字花园
+** 20:15
+*** [[https://www.youtube.com/watch?v=FL5vPzzUO3M][2020年經歷「速生速死」的各行各業Industries Speeding through Life and Death in 2020 - YouTube]]
+:PROPERTIES:
+:ID:       68cd1676-a755-4e5d-8d59-9b3af365f58c
+:END:
+ - [2021-01-10 Sun 20:24] -> [[id:a340acf0-5928-4b6b-a194-6f22bfdc849d][过奥若干去的回望]]

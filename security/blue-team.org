@@ -14,3 +14,9 @@
 * [[https://github.com/TravisFSmith/SweetSecurity][TravisFSmith/SweetSecurity: Network Security Monitoring on Raspberry Pi type devices - Brave]]
 * [[https://github.com/mdsecactivebreach][mdsecactivebreach (ActiveBreach) - Brave]]
 * [[https://github.com/gamelinux/prads][gamelinux/prads: Passive Real-time Asset Detection System - Brave]]
+* Maldoc analysis
+:PROPERTIES:
+:ID:       abc20e5f-2b55-4645-b095-31e4a2a5cf72
+:END:
+
+ - [2021-01-11 Mon 01:19] -> [[id:21410330-69e0-4f34-9bd6-a4f84304c399][“Maldoc Analysis With CyberChef - YouTube”🔊]]

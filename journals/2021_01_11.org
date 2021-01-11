@@ -1,0 +1,7 @@
+* Monday, 01/11/2021
+** 00:59
+*** [[https://www.youtube.com/watch?v=pJvQgUk01k4][“Maldoc Analysis With CyberChef - YouTube”🔊]]
+:PROPERTIES:
+:ID:       21410330-69e0-4f34-9bd6-a4f84304c399
+:END:
+- [2021-01-11 Mon 01:19] <- [[id:abc20e5f-2b55-4645-b095-31e4a2a5cf72][Maldoc analysis]]

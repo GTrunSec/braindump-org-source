@@ -120,3 +120,7 @@
 * Dashboard
 
 ** [[https://github.com/resoai/TileBoard][resoai/TileBoard: A simple yet highly configurable Dashboard for HomeAssistant]]
+
+* Monitor
+
+** [[https://github.com/bubbleguuum/toggle-monitor-grayscale][bubbleguuum/toggle-monitor-grayscale: Toggle Xorg monitors between color and grayscale mode]]
