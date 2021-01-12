@@ -128,3 +128,6 @@ pandoc testing_org.org -o testing_org_back.ipynb
 
 * Org mode timelinee
 
+* Other Org resources Support
+
+** [[https://github.com/karlicoss/promnesia][karlicoss/promnesia: Another piece of your extended mind]]

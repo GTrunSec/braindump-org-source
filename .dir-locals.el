@@ -1,5 +1,6 @@
 ((org-mode .  ((eval . (setq-local org-attach-id-dir  "~/Dropbox/org-notes/braindump/.attach/"))
                ;;(eval . (org-hugo-auto-export-mode))
+               (eval . (org-superstar-mode 1))
                (eval . (setq-local org-download-timestamp "%Y%m%d_%H%M%S"))
                (eval . (setq-local wikinfo-base-url  "https://zh.wikipedia.org"))
                (eval . (setq-local org-roam-db-location "~/.emacs.d/.local/cache/org-roam-braindump.db"))

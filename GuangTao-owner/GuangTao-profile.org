@@ -40,8 +40,8 @@
 *** [[https://github.com/mcintosh109/Pi-Hole_my_blocklist][mcintosh109/Pi-Hole_my_blocklist: This is my Pi-Hole Personal blocklist]]
 
 *** [[https://github.com/hl2guide/Filterlist-for-AdGuard][hl2guide/Filterlist-for-AdGuard: An aggressive filter-list that consolidates over 110 lists for use in AdGuard Home.]]
-
-
+* searching profile
+** [[https://github.com/hound-search/hound][hound-search/hound: Lightning fast code searching made easy]]
 
 * GunagTao's NixOS services Index
 ** [[http://10.220.170.112:2344/photos][PhotoPri入sm: Browse Your Life]]

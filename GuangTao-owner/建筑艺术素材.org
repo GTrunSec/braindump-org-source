@@ -9,7 +9,7 @@
 
 #+TAGS: 高雅(y)
 
-- tags :: [[file:../gaming/PlanetCoaster.org][PlanetCoaster]]
+- tags :: [[file:../gaming/PlanetCoaster.org][PlaCoaster]]
 
 * 房屋设计
 ** 视频素材
