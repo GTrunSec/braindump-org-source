@@ -8,7 +8,6 @@
 
 * Mindmap Collect
 :PROPERTIES:
-:ID:       b76d8b0f-d16e-4460-8b2e-a5dfb8376b69
+:ID:       6aa1dbd8-fad3-45df-a022-502352b2c00e
 :END:
 
-{[Tags Memo » Org Mode braindump tags]}

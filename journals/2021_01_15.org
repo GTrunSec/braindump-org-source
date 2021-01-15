@@ -1,0 +1,24 @@
+* Friday, 01/15/2021
+** 01:01
+*** [[https://www.youtube.com/watch?v=3FLgaUk292c][【精讀】沒人能玩得懂這家公司的遊戲？ - YouTube]]
+
+
+
+nix-build --option substituters "http://221.4.35.244:8301" --option trusted-public-keys "221.4.35.244:3ehdeUIC5gWzY+I7iF3lrpmxOMyEZQbZlcjOmlOVpeo="
+** 13:01
+*** [[https://www.youtube.com/watch?v=q6DesVNuzts][【游戏读品】来自异世界的哀嚎！45分钟讲述《寂静岭：暴雨》downpour恐怖故事 - YouTube]]
+:PROPERTIES:
+:id: 88076d00-a2d5-4bba-80a9-b1556d5ed662
+:END:
+
+ - [2021-01-15 Fri 13:05] <- [[id:69b2e5b4-5d34-4c83-ab47-3033e1551f64][游戏视频]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/q6DesVNuzts"
+:height "367"
+:width "653"}]]

@@ -1,11 +1,11 @@
-#+TITLE: GuangTao's Workflow
+#+TITLE: Home assistant
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-12-08 Tue 22:35
+#+DATE: 2021-01-14 Thu 18:13
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[id:b4102556-aef1-4a8e-a7ef-0607820fa233][Org Mode braindump tags]]
+- tags :: [[file:GuangTao-life.org][GuangTao's Life]]
 
-* emacs
+* [[https://www.home-assistant.io/getting-started/][Install Home Assistant - Home Assistant]]

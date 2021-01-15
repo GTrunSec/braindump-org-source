@@ -12,7 +12,7 @@
 
 * Nix Documents
 :PROPERTIES:
-:ID:       b3517c38-80fc-490f-b0e9-7fef04fd854f
+:id: b3517c38-80fc-490f-b0e9-7fef04fd854f
 :END:
  - [2020-12-19 Sat 14:35] -> [[id:0196e56d-f4d4-451d-8848-3f37119e7856][Flakes wiki]]
 ** [[https://nix.dev/][Welcome to nix.dev — nix.dev documentation]]
@@ -92,7 +92,7 @@
 *** Haskell Infrastructure for Nixpkgs
 **** [[https://github.com/input-output-hk/haskell.nix][input-output-hk/haskell.nix: Alternative Haskell Infrastructure for Nixpkgs]]
 **** [[https://github.com/reflex-frp/reflex-platform][reflex-frp/reflex-platform: A curated package set and set of tools that let you build Haskell packages so they can run on a variety of platforms. reflex-platform is built on top of the nix package manager.]]
-
+**** [[https://github.com/scrive/nix-workshop][scrive/nix-workshop: Nix Workshop Tutorials]]
 *** Haskell Development -> NixPkgs
 **** [[https://discourse.nixos.org/t/nix-haskell-development-2020/6170][Nix Haskell Development (2020) - Howto - NixOS Discourse]]
 :PROPERTIES:

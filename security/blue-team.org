@@ -20,3 +20,4 @@
 :END:
 
  - [2021-01-11 Mon 01:19] -> [[id:21410330-69e0-4f34-9bd6-a4f84304c399][“Maldoc Analysis With CyberChef - YouTube”🔊]]
+* [[https://github.com/DCSO/tie-threatbus-bridge][DCSO/tie-threatbus-bridge: tool to feed IoCs from DCSO TIE to Threat Bus]]

@@ -17,6 +17,8 @@
 * 游戏视频
 :PROPERTIES:
 :ID:       69b2e5b4-5d34-4c83-ab47-3033e1551f64
+:BRAIN_CHILDREN: 013a0f32-f1bb-4b3f-8602-8b715b0712e2
+:BRAIN_PARENTS:
 :END:
 - [2021-01-13 Wed 21:23] <- [[id:984cc9a4-41a4-4b3e-8091-b771b4b60d52][“【遊戲讀品】恐怖B級神作《致命預感》全故事完美講述（壹） - YouTube”🔊]]
 - [2021-01-13 Wed 13:16] <- [[id:3fe272b4-d93e-4d79-9162-5c8a91d19667][【精讀】怪獸集結，SAN 值暴跌！2021 年最震撼的克蘇魯遊戲《海岸》（the shore） - YouTube]]
@@ -53,3 +55,9 @@
 :ID:       86a560ba-bffd-4bf2-8a57-4b622c08a222
 :END:
  - [2021-01-10 Sun 20:02] -> [[id:152a7f9e-2fc9-4cd6-86ad-da15b602a60c][“8位中國女星同台演出，談容貌焦慮和女性危機 Eight Chinese actresses perform together to talk about female crisis - YouTube”🔊]]
+** [[https://space.bilibili.com/443126/video?tid=0&page=4&keyword=&order=pubdate][博伟君的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili]]
+:PROPERTIES:
+:ID:       013a0f32-f1bb-4b3f-8602-8b715b0712e2
+:BRAIN_PARENTS: 69b2e5b4-5d34-4c83-ab47-3033e1551f64
+:BRAIN_CHILDREN:
+:END:

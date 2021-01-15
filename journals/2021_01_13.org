@@ -10,11 +10,11 @@
 :END:
  - [2021-01-13 Wed 13:16] -> [[id:69b2e5b4-5d34-4c83-ab47-3033e1551f64][游戏视频]]
 ** 21:23
-*** [[https://www.youtube.com/watch?v=7RPvYEoTPPw][“【遊戲讀品】恐怖B級神作《致命預感》全故事完美講述（壹） - YouTube”🔊]]
+*** [[https://www.youtube.com/watch?v=7RPvYEoTPPw][“【遊戲讀品】恐怖 B 級神作《致命預感》全故事完美講述（壹） - YouTube”🔊]]
 :PROPERTIES:
 :ID:       984cc9a4-41a4-4b3e-8091-b771b4b60d52
 :END:
  - [2021-01-13 Wed 21:23] <- [[id:69b2e5b4-5d34-4c83-ab47-3033e1551f64][游戏视频]]
-*** [[https://www.youtube.com/watch?v=N0O8vEkbK_M][“【遊戲讀品】雨衣殺手的傳說！恐怖B級神作《致命預感》全故事講述（二） - YouTube”🔊]]
+*** [[https://www.youtube.com/watch?v=N0O8vEkbK_M][“【遊戲讀品】雨衣殺手的傳說！恐怖 B 級神作《致命預感》全故事講述（二） - YouTube”🔊]]
 ** 23:30
-*** [[https://www.youtube.com/watch?v=WfbjY6ifgVA][【遊戲讀品】恐怖B級神作《致命預感》全故事完美講述（三） - YouTube]]
+*** [[https://www.youtube.com/watch?v=WfbjY6ifgVA][【遊戲讀品】恐怖 B 級神作《致命預感》全故事完美講述（三） - YouTube]]
