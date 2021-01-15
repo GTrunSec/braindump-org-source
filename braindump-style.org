@@ -8,6 +8,9 @@
 
 
 * Org files format
+:PROPERTIES:
+:ID:       0e1e7e6c-7727-4dec-8897-9b634eb7b581
+:END:
 
 ** file name
 your name + role

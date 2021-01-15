@@ -126,6 +126,8 @@ pandoc testing_org.org -o testing_org_back.ipynb
 
 ** [[https://github.com/madnificent/org-roam-browser-extension][madnificent/org-roam-browser-extension: Org-roam extension to the browser]]
 
+** [[https://github.com/Kinneyzhang/roam-block][Kinneyzhang/roam-block: An all-purpose block ref and block embed implement in emacs.]]
+
 * Org mode timelinee
 
 * Other Org resources Support

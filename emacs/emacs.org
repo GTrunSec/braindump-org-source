@@ -52,6 +52,7 @@
 ** [[https://github.com/daviderestivo/galactic-emacs][daviderestivo/galactic-emacs: A Emacs distribution coming from the space ...]]
 ** [[https://github.com/seagle0128/.emacs.d][seagle0128/.emacs.d: Centaur Emacs - A Fancy and Fast Emacs Configuration]]
 ** [[https://github.com/sachac/.emacs.d][sachac/.emacs.d: Emacs configuration]] :org_mode:literate:
+** [[https://writequit.org/org/settings.html][Lee's Emacs settings file]]
 * Dired
 ** [[https://github.com/Fuco1/dired-hacks][Fuco1/dired-hacks: Collection of useful dired additions]]
 * Emacs Window
@@ -86,3 +87,5 @@
 * Emacs PDF
 ** [[https://github.com/dalanicolai/pdf-continuous-scroll-mode.el][dalanicolai/pdf-continuous-scroll-mode.el: A minor mode for Emacs that implements a two-buffer hack to provide continuous scrolling in pdf-tools]]
 ** [[https://github.com/dalanicolai/pymupdf-mode.el][dalanicolai/pymupdf-mode.el: Extend pdf-tools annotation capabilities via pymupdf]]
+* Emacs Rocks
+** [[https://www.youtube.com/c/200ok-ch/videos][Alain M. Lafon - YouTube]]

@@ -1,13 +1,11 @@
-#+TITLE: GuangTao's Gaming
+#+TITLE: Nix Wiki
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-12-22 Tue 18:41
+#+DATE: 2021-01-14 Thu 12:36
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
 
-- tags :: [[file:PlanetCoaster.org][PlanetCoaster]]
-* Building
-** sdsd
-sdsd
+* [[https://github.com/scrive/nix-workshop][scrive/nix-workshop: Nix Workshop Tutorials]]

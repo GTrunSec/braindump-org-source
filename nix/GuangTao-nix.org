@@ -8,7 +8,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+OPTIONS: prop:t p:t
 
-- tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]], [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]]
+- tags :: [[file:nixos.org][NixOS]], [[file:nixops.org][NixOps]], [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]], [[file:nix-wiki.org][Nix Wiki]]
 
 * Nix Documents
 :PROPERTIES:
@@ -27,20 +27,6 @@
 :ID:       69d4adbf-d5cb-4cbb-90ea-5ea3f1bd5999
 :END:
 ** [[https://www.youtube.com/watch?v=mKXLAbrKrno][Functional programming and Nix for reproducible, immutable infrastructure - YouTube]]
-
-
-* Long-term learning config
-** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
-** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
-** [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
-** [[https://github.com/coreyoconnor/nix_configs/tree/master][coreyoconnor/nix_configs: The NixOS configuration for my desktop.]]
-** TODO [#A] [[https://github.com/jlesquembre/dotfiles/tree/master][jlesquembre/dotfiles: My dotfiles]]
-** [[https://github.com/charvp/nixos-config/tree/master/programs][nixos-config/programs at master · charvp/nixos-config]]
-
-** User
-*** [[https://github.com/zimbatm][zimbatm (zimbatm)]]
-
-
 * Nix Overlays
 :PROPERTIES:
 :ID:       72dd4354-5092-433e-aade-6df04bf6c96d
@@ -62,11 +48,10 @@
 
 ** Python Overlay
 :PROPERTIES:
-:ID:       abf91e96-c75b-4313-8ac7-da713ae86a4f
+:id: abf91e96-c75b-4313-8ac7-da713ae86a4f
 :END:
 
 -/.config/nixpkgs/nixos/channel/nixpkgs/pkgs/servers/syncserver/
-
 *** [[https://discourse.nixos.org/t/how-to-override-python-package-anki/8213][How to override Python package (Anki)? - Learn - NixOS Discourse]]
 :PROPERTIES:
 :ID:       2154d26e-213b-4ef4-9081-4960f8facb73
@@ -155,24 +140,6 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 
 - [2020-11-07 Sat 22:56] -> [[id:2cac43cc-1cbd-4092-a275-83856018a0a8][Nix Friday - C/CPP infrastructure in Nix - with Mic92 - YouTube]]
 
-* configuration flakes
-:PROPERTIES:
-:ID:       8a9e45f4-fa22-41b9-9862-d653ea91822c
-:END:
-- [2020-11-09 Mon 15:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
-** [[https://github.com/nrdxp/nixflk/][nrdxp/nixflk: highly structured NixOS configuration database]]
-** [[https://github.com/bqv/nixrc/blob/live/flake.nix][nixrc/flake.nix at live · bqv/nixrc]]
-** [[https://github.com/abcdw/rde/][abcdw/rde: My reproducible development environment]]
-** [[https://github.com/LEXUGE/nixos][LEXUGE/nixos: A fully automated replicable nixos configuration set]]
-** [[https://github.com/Ninlives/nixos-config][Ninlives/nixos-config: Bunch of Nix expressions for my working environment]]
-** [[https://github.com/berbiche/dotfiles/blob/master/flake.nix][dotfiles/flake.nix at master · berbiche/dotfiles]]
-** [[https://github.com/ImExtends/nixos-conf/blob/master/flake.nix][nixos-conf/flake.nix at master · ImExtends/nixos-conf]]
-** [[https://github.com/l5r/nixcfg/blob/template/flake.nix][nixcfg/flake.nix at template · l5r/nixcfg]]
-** [[https://github.com/cole-h/nixos-config/blob/nixus/flake.nix][nixos-config/flake.nix at nixus · cole-h/nixos-config]]
-** https://github.com/Kloenk/nix/blob/master/flake.nix
-** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
-** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
-** [[https://github.com/nprindle/nixos-configs][nprindle/nixos-configs: My configurations for NixOS]] :haskell:
 
 * Nix flakes
 :PROPERTIES:
@@ -185,7 +152,7 @@ nix-env -if https://github.com/DavHau/mach-nix/tarball/2.4.1 -A mach-nix
 - [2021-01-02 Sat 23:15] -> [[id:daf6fac0-3a1c-4b57-8073-90ad315e8a7e][“Jörg Thalheim: Nix flakes 101 (rC3 2020) - YouTube”🔊]]
 ** Flakes wiki
 :PROPERTIES:
-:ID:       0196e56d-f4d4-451d-8848-3f37119e7856
+:id: 0196e56d-f4d4-451d-8848-3f37119e7856
 :END:
 - [2020-12-19 Sat 14:35] <- [[id:b3517c38-80fc-490f-b0e9-7fef04fd854f][Nix Documents]]
 *** [[https://nixos.wiki/wiki/Flakes][Flakes - NixOS Wiki]]

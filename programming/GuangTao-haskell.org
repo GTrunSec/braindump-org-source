@@ -1,4 +1,3 @@
-
 #+TITLE: GuangTao's Haskell
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org

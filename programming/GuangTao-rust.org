@@ -17,7 +17,9 @@
  - [2021-01-02 Sat 15:44] -> [[id:41252713-70ef-4d4f-b6b8-22ad53c69235][oxalica/rust-overlay]]
 *** [[https://nixos.wiki/wiki/Rust][Rust - NixOS Wiki]]
 
+* Rust Doc
 
+** [[https://github.com/ralfbiedert/cheats.rs][ralfbiedert/cheats.rs: Rust Language Cheat Sheet - https://cheats.rs]]
 
 * Rust learning
 ** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]

@@ -5,4 +5,6 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
 * [[https://github.com/0x90n/InfoSec-Black-Friday][0x90n/InfoSec-Black-Friday: All the deals for InfoSec related software/tools this Black Friday]]

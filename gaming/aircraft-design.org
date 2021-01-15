@@ -8,4 +8,4 @@
 
 
 
-* [[https://github.com/peterdsharpe/AeroSandbox][peterdsharpe/AeroSandbox: Aircraft design optimization made fast through modern automatic differentiation. Written in Python, work in progress.]]
+* sweets[[https://github.com/peterdsharpe/AeroSandbox][peterdsharpe/AeroSandbox: Aircraft design optimization made fast through modern automatic differentiation. Written in Python, work in progress.]]

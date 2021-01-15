@@ -1,0 +1,40 @@
+#+TITLE: Nix Configuration Collect
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-13 Wed 16:17
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:../../../../Documents/org-notes/braindump/nix/GuangTao-nix.org][GuangTao's Nix]]
+
+* LTS NixOS configuration
+** [#A] [[https://github.com/wiedzmin/nixos-config/tree/master/modules][nixos-config/modules at master · wiedzmin/nixos-config]]
+** [#A] [[https://github.com/maxhbr/myconfig][maxhbr/myconfig: my Linux Configuration]]
+** [#A] [[https://github.com/evanjs/nixos_cfg/blob/master/modules/home-manager/randr/work.nix][nixos_cfg/work.nix at master · evanjs/nixos_cfg]]
+** [[https://github.com/coreyoconnor/nix_configs/tree/master][coreyoconnor/nix_configs: The NixOS configuration for my desktop.]]
+** TODO [#A] [[https://github.com/jlesquembre/dotfiles/tree/master][jlesquembre/dotfiles: My dotfiles]]
+** [[https://github.com/charvp/nixos-config/tree/master/programs][nixos-config/programs at master · charvp/nixos-config]]
+
+** User
+*** [[https://github.com/zimbatm][zimbatm (zimbatm)]]
+
+
+* configuration flakes
+:PROPERTIES:
+:ID:       8a9e45f4-fa22-41b9-9862-d653ea91822c
+:END:
+- [2020-11-09 Mon 15:40] <- [[id:0fbe152b-bad6-4054-a201-c51ab509ed73][flakes]]
+** [[https://github.com/nrdxp/nixflk/][nrdxp/nixflk: highly structured NixOS configuration database]]
+** [[https://github.com/bqv/nixrc/blob/live/flake.nix][nixrc/flake.nix at live · bqv/nixrc]]
+** [[https://github.com/abcdw/rde/][abcdw/rde: My reproducible development environment]]
+** [[https://github.com/LEXUGE/nixos][LEXUGE/nixos: A fully automated replicable nixos configuration set]]
+** [[https://github.com/Ninlives/nixos-config][Ninlives/nixos-config: Bunch of Nix expressions for my working environment]]
+** [[https://github.com/berbiche/dotfiles/blob/master/flake.nix][dotfiles/flake.nix at master · berbiche/dotfiles]]
+** [[https://github.com/ImExtends/nixos-conf/blob/master/flake.nix][nixos-conf/flake.nix at master · ImExtends/nixos-conf]]
+** [[https://github.com/l5r/nixcfg/blob/template/flake.nix][nixcfg/flake.nix at template · l5r/nixcfg]]
+** [[https://github.com/cole-h/nixos-config/blob/nixus/flake.nix][nixos-config/flake.nix at nixus · cole-h/nixos-config]]
+** https://github.com/Kloenk/nix/blob/master/flake.nix
+** [[https://github.com/qjcg/nix][qjcg/nix: My personal nix configuration]]
+** [[https://github.com/johnae/tektonix/tree/master][johnae/tektonix: TektonCD pipelines using the NixOS module system.]]
+** [[https://github.com/nprindle/nixos-configs][nprindle/nixos-configs: My configurations for NixOS]] :haskell:

@@ -22,10 +22,6 @@
 ** [[https://github.com/radareorg/cutter-jupyter][radareorg/cutter-jupyter: Jupyter Plugin for Cutter]]
 ** DONE [[https://github.com/mwouts/jupytext][https://github.com/mwouts/jupytext]]
 * [[https://github.com/vaibhavsagar/presentations][vaibhavsagar/presentations: Slides for presentations!]]
-- [[file:GuangTao-haskell.org][GuangTao's Haskell]]
-
-
-
 
 [:div.videoWrapper.mb-4
         [:iframe

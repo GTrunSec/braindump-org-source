@@ -5,3 +5,10 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Mindmap Collect
+:PROPERTIES:
+:ID:       b76d8b0f-d16e-4460-8b2e-a5dfb8376b69
+:END:
+
+{[Tags Memo » Org Mode braindump tags]}

@@ -5,10 +5,14 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 - tags :: [[file:GuangTao-owner/GuangTao-workflow.org][GuangTao's Workflow]]
 
-
 * Org Mode braindump tags
+:PROPERTIES:
+:ID:       a87e4e00-bb94-4336-9aec-2422e0ef27e7
+:END:
+
 ** [[file:nix/GuangTao-nix.org][GuangTao's Nix]]
 #+begin_src plantuml :file ./tags/my-nix-tags.png
 @startuml
@@ -36,3 +40,9 @@ State3 --> [*] : Aborted
 
 #+RESULTS:
 [[file:./tags/my-nix-tags.png]]
+* 1 Linked References to "Tags Memo"
+
+** [[file:mindmap.org::1][Mindmap To Braindump]]
+
+*** Mindmap Collect
+[[file:mindmap.org::14][Org Mode braindump tags]]
