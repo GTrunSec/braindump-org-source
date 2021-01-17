@@ -8,9 +8,9 @@
 
 - tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]]
 
-* Document
+* Golang Documents
 
-** For beginning
+** Golang For beginning
 :PROPERTIES:
 :ID:       fa315357-219b-44d4-8d34-4f5b1719df3f
 :END:
@@ -18,11 +18,19 @@
 :PROPERTIES:
 :header-args:sh: :dir ~/project/go
 :END:
+
+- clone
 #+begin_src sh :async t :exports both :results output
 git clone https://github.com/go101/go101.git
 #+end_src
 
-#+RESULTS:
+- run go101 serve
+#+begin_src sh :async t :exports both :results output
+go run . --port 3000
+#+end_src
+
+
+
 *** [[http://xahlee.info/golang/golang_package.html][Golang: Package, Import]]
 
 ** Go Books

@@ -69,6 +69,7 @@
 ** [[https://github.com/abo-abo/hydra][abo-abo/hydra: make Emacs bindings that stick around]]
 ** [[https://github.com/abo-abo/hydra/wiki/Ibuffer][Ibuffer · abo-abo/hydra Wiki]]
 ** [[https://github.com/mattfidler][mattfidler (Matthew Fidler)]] [ergo]
+** [[https://github.com/DogLooksGood/meow][DogLooksGood/meow: modular Emacs on wish]]
 * Emacs Modeline
 ** [[https://github.com/tarsius/moody][tarsius/moody: Tabs and ribbons for the mode-line]]
 ** [[https://www.masteringemacs.org/article/hiding-replacing-modeline-strings][Hiding and replacing modeline strings with clean-mode-line - Mastering Emacs]]

@@ -121,3 +121,7 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * [[https://fluxml.ai/Flux.jl/stable/models/basics/][Basics · Flux]]
 
 ** [[https://github.com/JuliaAcademy/DataScience/blob/master/10.%20Neural%20Nets.ipynb][DataScience/10. Neural Nets.ipynb at master · JuliaAcademy/DataScience]]
+
+* Julia climate
+
+** [[https://github.com/willtebbutt/GHCNData.jl][willtebbutt/GHCNData.jl: Helps access the Global Historical Climatological Network's daily data]]

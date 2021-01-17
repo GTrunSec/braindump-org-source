@@ -1,6 +1,4 @@
 #+TITLE: Contents
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-
 
 * [[file:../security/security-project.org][Security Projects]]
 ** [[file:../security/security-tools.org][Security Tools]]

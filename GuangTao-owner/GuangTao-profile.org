@@ -124,3 +124,7 @@
 * Monitor
 
 ** [[https://github.com/bubbleguuum/toggle-monitor-grayscale][bubbleguuum/toggle-monitor-grayscale: Toggle Xorg monitors between color and grayscale mode]]
+
+* Spell check
+** Hunspell
+*** [[https://github.com/adisbladis/nixconfig/blob/master/modules/my-spell.nix][nixconfig/my-spell.nix at master · adisbladis/nixconfig]]

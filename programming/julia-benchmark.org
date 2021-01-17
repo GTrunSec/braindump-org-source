@@ -1,0 +1,11 @@
+#+TITLE: Julia Benchmark Test
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-16 Sat 17:48
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:GuangTao-julia.org][GuangTao's Julia]]
+
+* [[https://www.youtube.com/watch?v=9C7MAAsMMBc][How to benchmark like a pro in Julia | Tom Kwong - YouTube]]

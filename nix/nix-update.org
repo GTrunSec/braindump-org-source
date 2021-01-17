@@ -1,0 +1,14 @@
+#+TITLE: Nix Update
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-16 Sat 20:06
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:GuangTao-nix.org][GuangTao's Nix]]
+
+* [[https://github.com/ryantm/nixpkgs-update][ryantm/nixpkgs-update: Updating nixpkgs packages since 2018]]
+
+* [[https://github.com/Mic92/nix-update][Mic92/nix-update: Swiss-knife for updating nix packages.]]
