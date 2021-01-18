@@ -19,3 +19,13 @@ sudo hwclock --hctosys
 * Debian Misc Tools
 
 ** [[https://github.com/linuxdabbler/debian-install-scripts][linuxdabbler/debian-install-scripts: scripts to run after installing debian]]
+
+* Debian VirtualBox Guest Additions
+- [[https://linuxize.com/post/how-to-install-virtualbox-guest-additions-on-debian-10/][How to Install VirtualBox Guest Additions on Debian 10 Linux | Linuxize]]
+#+begin_src sh :async t :exports both :results output
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+sudo mkdir -p /mnt/cdrom
+sudo mount /dev/cdrom /mnt/cdrom
+cd /mnt/cdrom
+sudo sh ./VBoxLinuxAdditions.run --nox11
+#+end_src

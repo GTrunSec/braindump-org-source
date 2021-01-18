@@ -1,12 +1,12 @@
-* Friday, 01/15/2021
+ * Friday, 01/15/2021
 ** 01:01
 *** [[https://www.youtube.com/watch?v=3FLgaUk292c][【精讀】沒人能玩得懂這家公司的遊戲？ - YouTube]]
 
 
 
-nix-build --option substituters "http://221.4.35.244:8301" --option trusted-public-keys "221.4.35.244:3ehdeUIC5gWzY+I7iF3lrpmxOMyEZQbZlcjOmlOVpeo="
+
 ** 13:01
-*** [[https://www.youtube.com/watch?v=q6DesVNuzts][【游戏读品】来自异世界的哀嚎！45分钟讲述《寂静岭：暴雨》downpour恐怖故事 - YouTube]]
+*** [[https://www.youtube.com/watch?v=q6DesVNuzts][【游戏读品】来自异世界的哀嚎！45 分钟讲述《寂静岭：暴雨》downpour 恐怖故事 - YouTube]]
 :PROPERTIES:
 :id: 88076d00-a2d5-4bba-80a9-b1556d5ed662
 :END:

@@ -341,6 +341,7 @@ IVRE (Instrument de veille sur les réseaux extérieurs) or DRUNK (Dynamic Recon
 ** [[https://github.com/ncsa/bro-doctor][ncsa/bro-doctor]]
 * Zeek deployment
 ** [[https://github.com/ncsa/bro-interface-setup][ncsa/bro-interface-setup]]
+** [[https://github.com/userjack6880/zeekctl-setcap][userjack6880/zeekctl-setcap: Zeekctl plugin for automatically executing 'setcap' on each node after an install]]
 * Zeek Notice or Alert
 ** [[https://github.com/pgaulon/zeek-notice-slack][pgaulon/zeek-notice-slack: Script extending Zeek Notice framework, adding Slack notifications]]
 * Zeek Lang Expression

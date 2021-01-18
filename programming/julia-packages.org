@@ -112,11 +112,6 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 
 - [[https://en.wikipedia.org/wiki/Digital_signal_processing][Digital signal processing - Wikipedia]]
 
-*
-
-*
-
-*
 
 * [[https://fluxml.ai/Flux.jl/stable/models/basics/][Basics · Flux]]
 

@@ -1,0 +1,20 @@
+#+TITLE: Nix Conf
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-17 Sun 20:51
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* Nix substituters
+#+begin_quote
+nix-build --option substituters "http://221.4.35.244:8301" --option trusted-public-keys "221.4.35.244:3ehdeUIC5gWzY+I7iF3lrpmxOMyEZQbZlcjOmlOVpeo="
+
+experimental-features = nix-command flakes
+trusted-substituters = http://221.4.35.244:8301
+substituters = http://221.4.35.244:8301
+trusted-public-keys = 221.4.35.244:3ehdeUIC5gWzY+I7iF3lrpmxOMyEZQbZlcjOmlOVpeo=
+trusted-users = root test
+#+end_quote
