@@ -275,17 +275,6 @@ nix-store --query --references $(nix-instantiate my-default.nix) | xargs nix-sto
 nix-store --query --references $(nix-instantiate default.nix) | \xargs nix-store --realise | xargs nix-store --query --requisites | cachix push $NAME
 #+end_src
 
-* Nix Shell
-** [[https://discourse.nixos.org/t/packaging-a-shell-script-that-has-completions/10290][Packaging a shell script that has completions - Learn - NixOS Discourse]]
-
-#+begin_src nix :async t :exports both :results output
-nativeBuildInputs = [ installShellFiles ];
-
-postInstall = ''
-  installShellCompletion xsos-bash-completion.bash
-'';
-#+end_src
- 
 
 * nix expressions
 :PROPERTIES:

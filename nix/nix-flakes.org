@@ -198,3 +198,7 @@ imports = [
  - [2021-01-05 Tue 02:13] -> [[id:2ba3dbae-6d17-45d9-9285-2e3b55a4eec2][Tweag + Nix Dev Update #3 - Development - NixOS Discourse]]
 
 * [[https://github.com/numtide/nix-flakes-installer#github-actions][numtide/nix-flakes-installer: A temporary place to host Nix Flakes releases, until the NixOS project publishes official releases.]]
+
+* flakes 3rdParty
+
+** [[https://github.com/nix-community/flake-nimble][nix-community/flake-nimble: Nimble packages Nix flake [maintainer=@ehmry] - Brave]] :nim:

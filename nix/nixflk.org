@@ -1,0 +1,12 @@
+#+TITLE: nixflk
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-18 Mon 02:17
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* nixflk PR
+
+** [[https://github.com/nrdxp/nixflk/pull/93][users: Initial home-manager only configurations(non-nixos systems) by Pacman99 · Pull Request #93 · nrdxp/nixflk]]

@@ -1,0 +1,20 @@
+#+TITLE: Language Server Protocol
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-18 Mon 13:34
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:../emacs/emacs-packages.org][Emacs Packages]]
+
+
+* LSP clients
+** [[https://github.com/manateelazycat/nox][manateelazycat/nox: Nox is a lightweight, high-performance LSP client for Emacs]] :emacs:
+:PROPERTIES:
+:ID:       24051f90-f51c-4fd4-8c6b-a958d1adf3c9
+:END:
+
+ - [2021-01-18 Mon 13:37] -> [[id:7c1d6939-e9f7-4cf2-9957-e60cc1d28fd7][Emacs LSP Clients]]
+*** [[https://emacs-china.org/t/nox-lsp/12435][欢迎使用 Nox -- 轻量级 LSP 客户端 - Emacs-general - Emacs China]]

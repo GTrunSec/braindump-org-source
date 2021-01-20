@@ -17,3 +17,7 @@
 
 * [[https://discourse.nixos.org/t/personal-hydra-to-build-test-specific-packages-on-nixos-master-periodically/10815]["Personal hydra" to build & test specific packages on nixos-master periodically - Learn - NixOS Discourse]]
 ** [[https://github.com/rmcgibbo/mydra/blob/master/.github/workflows/test.yml][mydra/test.yml at master · rmcgibbo/mydra]]
+
+* Hydra Check
+
+** [[https://github.com/nix-community/hydra-check][nix-community/hydra-check: check hydra for the build status of a package [maintainer=@makefu] - Brave]]

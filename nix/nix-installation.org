@@ -1,0 +1,25 @@
+#+TITLE: Nix Installation
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-18 Mon 17:18
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+
+* [[https://github.com/nix-community/nix-user-chroot][nix-community/nix-user-chroot: Install & Run nix without root permissions (maintainer=@Mic92) - Brave]])
+
+
+
+* NixOS Install
+
+** [[https://github.com/Mic92/nixos-shell][Mic92/nixos-shell: Spawns lightweight nixos vms in a shell - Brave]]
+
+** [[https://github.com/nix-community/nixos-install-scripts][nix-community/nixos-install-scripts: collection of one-shot scripts to install NixOS on various server hosters and other hardware. [maintainer=@nh2] - Brave]]
+
+* NixOS Multi-Arch
+
+** [[https://github.com/nix-community/aarch64-build-box][nix-community/aarch64-build-box: Config for the Community aarch64 NixOS box [maintainer=@grahamc] - Brave]]
