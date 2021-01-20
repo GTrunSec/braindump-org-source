@@ -1,3 +1,6 @@
 [submodule "math/my-mathematic-julia"]
 	path = math/my-mathematic-julia
 	url = https://github.com/GTrunSec/my-mathematic-julia.git
+[submodule "nix"]
+	path = nix
+	url = https://github.com/GTrunSec/braindump-nix-resource.git
