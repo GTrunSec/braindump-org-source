@@ -28,6 +28,17 @@
 ** [[https://github.com/hasura/graphql-engine][hasura/graphql-engine: Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.]]
 * Feed Reader
 ** [[https://github.com/miniflux/v2][miniflux/v2: Minimalist and opinionated feed reader]]
+* Input Method
+** Rime Scheme
+*** [[https://github.com/fkxxyz/rime-cloverpinyin][fkxxyz/rime-cloverpinyin: 🍀️四叶草拼音输入方案，做最好用的基于rime开源的简体拼音输入方案！]]
+
+- Linux
+#+begin_src sh :async t :exports both :results output
+ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
+#+end_src
+** fcitx5 Rime theme
+*** [[https://github.com/sxqsfun/fcitx5-sogou-themes][sxqsfun/fcitx5-sogou-themes: 几款 极简风 搜狗皮肤转换的 fcitx5主题😄️😄️😄️]]
+
 * Bookmark manage
 ** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
 * Book manager or Library

@@ -12,3 +12,7 @@
 
 * Hpkgs Index Search
 ** [[https://github.com/srid/rememorate][srid/rememorate: Nextgen search & z-index for neuron]]
+
+* GHC
+
+** [[https://github.com/alpmestan/ghc.nix][alpmestan/ghc.nix: Nix (shell) expression for working on GHC]] :nix:

@@ -6,6 +6,13 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+- tags :: [[file:emacs.org][Emacs]]
 
+* Emacs Org Mode Packages
+:PROPERTIES:
+:ID:       0967366b-0e08-4362-87ba-29493b2f3eab
+:END:
+
+ - [2021-01-20 Wed 00:30] -> [[id:cf8ef2c5-1316-4a5b-9740-e060288a6ece][isamert/orgmdb.el: An OMDb API client for Emacs with some org-mode related convenience functions.]]
 
 * Emacs LSP Clients
