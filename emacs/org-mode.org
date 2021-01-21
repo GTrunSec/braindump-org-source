@@ -142,9 +142,13 @@ pandoc testing_org.org -o testing_org_back.ipynb
 * Org mode database
 
 ** [[https://github.com/isamert/orgmdb.el][isamert/orgmdb.el: An OMDb API client for Emacs with some org-mode related convenience functions.]]
+:PROPERTIES:
+:ID:       cf8ef2c5-1316-4a5b-9740-e060288a6ece
+:END:
 
 
 
+ - [2021-01-20 Wed 00:30] <- [[id:0967366b-0e08-4362-87ba-29493b2f3eab][Emacs Org Mode Packages]]
 * Other Org resources Support
 
 ** [[https://github.com/karlicoss/promnesia][karlicoss/promnesia: Another piece of your extended mind]]

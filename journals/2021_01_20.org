@@ -1,0 +1,18 @@
+* Wednesday, 01/20/2021
+** 19:58
+*** ❤ LOVE [[https://www.youtube.com/watch?v=U3yHmXtcRdM][(1) 4個男友造出中國絕美祕境，明星也愛來Four Buddies Build a Gorgeous and Mysterious Restaurant which Attracts Celebrities - YouTube]]
+:PROPERTIES:
+:ID:       e9bd9297-95c6-4530-9f9c-b876f416d9b6
+:END:
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/U3yHmXtcRdM"
+:height "367"
+:width "653"}]]
+
+ - [2021-01-20 Wed 19:59] <- [[id:86a560ba-bffd-4bf2-8a57-4b622c08a222][一条Yit - YouTube]]
