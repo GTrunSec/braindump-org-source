@@ -8,3 +8,5 @@
 
 
 * [[https://github.com/Eeems/oxide/blob/master/oxide.nix][oxide/oxide.nix at master · Eeems/oxide]]
+
+* [[https://github.com/lschwetlick/maxio][lschwetlick/maxio: Companion daemon for the reMarkable™ paper tablet]]

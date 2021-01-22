@@ -73,7 +73,7 @@
 *** [[https://github.com/pylls?tab=overview&from=2019-12-01&to=2019-12-31][pylls (pulls)]]
 * Network SMTP
 - [2020-11-22 Sun 02:26] <- [[id:c5aca133-63fe-42d7-953c-68a2c8b22d69][initconf/smtp-url-analysis: Extracting and analyzing URLs from Emails for phishing events]]
-*  Network Security SMTP
+* Network Security SMTP
 :PROPERTIES:
 :ID:       7c76fdb1-ad82-4ef1-9276-6f3c4ac0ba1e
 :END:
@@ -140,3 +140,8 @@ Remote Desktop Services (RDS), known as Terminal Services in Windows Server 2008
 - [2020-12-27 Sun 19:41] -> [[id:d8d07c1a-0c10-49e0-a81c-d53f7641e6a7][Wireguard - NixOS Wiki]]
 ** P2P VPN
 *** [[https://github.com/zetamesh/zetamesh][zetamesh/zetamesh: P2P VPN: Build a security layer-three local area network on the WAN]]
+* Proxy
+:PROPERTIES:
+:ID:       85f142c8-155f-4e12-a369-9fb921a9ffc8
+:END:
+- [2021-01-21 Thu 17:56] <- [[id:d4879094-3cf8-42bf-92d1-c39912aea038][traefik/traefik: The Cloud Native Application Proxy]]

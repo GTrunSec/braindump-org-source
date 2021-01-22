@@ -12,7 +12,7 @@
 :PROPERTIES:
 :ID:       d9722e5e-1b87-4529-892c-0a0b28408d3a
 :END:
- - [2021-01-03 Sun 14:51] -> [[id:47139c73-1d6f-4b50-955f-d17ca9b6d3df][每天梳头100下]]
+ - [2021-01-03 Sun 14:51] -> [[id:47139c73-1d6f-4b50-955f-d17ca9b6d3df][daily health]]
 
 测试头皮是否为健康状态
 #+begin_quote

@@ -23,3 +23,4 @@
 
 * Rust async
 ** [[https://github.com/rust-lang/futures-rs][rust-lang/futures-rs: Zero-cost asynchronous programming in Rust]]
+* [[https://github.com/svenstaro/miniserve][svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!]]

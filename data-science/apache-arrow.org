@@ -6,6 +6,6 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:../deployment/kafka.org][Kafka Spark]]
+- tags :: [[file:../deployment/kafka.org][Kafka Spark]], [[file:apache-arrow.org][Apache Arrow]]
 
 * [[https://github.com/ballista-compute/ballista][ballista-compute/ballista: Distributed compute platform implemented in Rust, using Apache Arrow memory model.]]

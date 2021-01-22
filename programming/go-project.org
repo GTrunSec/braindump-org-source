@@ -1,0 +1,15 @@
+#+TITLE: Golang Project
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-21 Thu 17:55
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/traefik/traefik][traefik/traefik: The Cloud Native Application Proxy]]
+:PROPERTIES:
+:ID:       d4879094-3cf8-42bf-92d1-c39912aea038
+:END:
+ - [2021-01-21 Thu 17:56] <- [[id:85f142c8-155f-4e12-a369-9fb921a9ffc8][Proxy]]

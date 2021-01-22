@@ -7,5 +7,14 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/tags/open-source-tags.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+
+
+* [[https://opencollective.com/discover][Discover - Open Collective]]
+
+** cryptpad
+
+** nixos
+
 * Open Source Jobs
+
 * [[https://github.com/phodal/techlead][phodal/techlead: Tech Lead Toolbox]]

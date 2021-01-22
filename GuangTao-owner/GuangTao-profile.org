@@ -36,9 +36,10 @@
 #+begin_src sh :async t :exports both :results output
 ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
 #+end_src
-** fcitx5 Rime theme
-*** [[https://github.com/sxqsfun/fcitx5-sogou-themes][sxqsfun/fcitx5-sogou-themes: 几款 极简风 搜狗皮肤转换的 fcitx5主题😄️😄️😄️]]
-
+** fcitx5
+- 按 ctrl+alt+H ,以激活 spell hint状态. => english mode
+*** fcitx5 Rime theme
+**** [[https://github.com/sxqsfun/fcitx5-sogou-themes][sxqsfun/fcitx5-sogou-themes: 几款 极简风 搜狗皮肤转换的 fcitx5主题😄️😄️😄️]]
 * Bookmark manage
 ** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
 * Book manager or Library

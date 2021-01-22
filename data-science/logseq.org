@@ -7,10 +7,11 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:org-mode.org][Org mode]]
+- tags :: [[file:../emacs/org-mode.org][Org mode]]
+
 
 - https://logseq.com/
-
+* [[https://cn.logseq.com/][Logseq 中文社区 - Logseq - 开源，隐私第一的知识管理平台]]
 * Issue
 ** DONE [[https://github.com/logseq/logseq/issues/791][双向链接对于一个带有URL的标题会失效 · Issue #791 · logseq/logseq]]
 

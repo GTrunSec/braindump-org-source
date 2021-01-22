@@ -53,3 +53,5 @@
 ** [[https://emacs-china.org/t/pcase-pattern/15111][pcase 各种 pattern 使用举例 - Emacs-general - Emacs China]]
 * elisp test
 ** [[https://github.com/vermiculus/emake.el][vermiculus/emake.el: Test Elisp without the hoops]]
+* elisp packages
+** [[https://github.com/zainab-ali/pair-tree.el][zainab-ali/pair-tree.el: An Emacs Lisp cons cell explorer]]
