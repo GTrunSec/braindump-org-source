@@ -38,7 +38,7 @@
 
 ** [[https://www.youtube.com/watch?v=pG5lU9CLnIU][Data Analysis, Machine Learning, Bro, and You! by Brian Wylie - YouTube]] :zeek:
 
-* Learning  Data Science
+* Learning Data Science
 
 ** [[https://www.youtube.com/watch?v=SLE0vz85Rqo&feature=youtu.be][Intro to Julia for data science - YouTube]]
 
@@ -48,3 +48,9 @@
 ** [[https://www.kaggle.com/learn/overview][Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle]]
 
 - [[file:../programming/GuangTao-python.org][GuangTao's Python]]
+
+* [[https://github.com/nix-community/nix-data][nix-community/nix-data: Standard set of packages and overlays for data-scientists [maintainer=@tbenst]​]]
+:PROPERTIES:
+:ID:       3c699375-3ec9-4b71-af3f-a49f88527e0b
+:END:
+ - [2021-01-22 Fri 15:22] <- [[id:7313dc74-f2de-49f9-8f73-87aac798cb00][Nix Project]]

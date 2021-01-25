@@ -37,10 +37,14 @@
 ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
 #+end_src
 ** fcitx5
-- 按 ctrl+alt+H ,以激活 spell hint状态. => english mode
+- 按 ctrl+alt+H ,以激活 spell hint 状态. => english mode
 *** fcitx5 Rime theme
 **** [[https://github.com/sxqsfun/fcitx5-sogou-themes][sxqsfun/fcitx5-sogou-themes: 几款 极简风 搜狗皮肤转换的 fcitx5主题😄️😄️😄️]]
-* Bookmark manage
+* Profile Bookmark
+:PROPERTIES:
+:ID:       3f5d16e6-fc4c-4cd8-9630-4b25b13ab014
+:BRAIN_CHILDREN: de609125-3bdf-4f7d-bbf9-6d651d3683c3
+:END:
 ** [[https://github.com/Kovah/LinkAce][Kovah/LinkAce: Your self-hosted bookmark archive. Free and open source.]]
 * Book manager or Library
 ** [[https://getpolarized.io/docs/key-bindings-for-common-polar-operations.html][Documentation | Documentation]]
@@ -54,7 +58,8 @@ ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
 *** [[https://github.com/hl2guide/Filterlist-for-AdGuard][hl2guide/Filterlist-for-AdGuard: An aggressive filter-list that consolidates over 110 lists for use in AdGuard Home.]]
 * searching profile
 ** [[https://github.com/hound-search/hound][hound-search/hound: Lightning fast code searching made easy]]
-
+1. nixpkgs
+2. zeek
 * GunagTao's NixOS services Index
 ** [[http://10.220.170.112:2344/photos][PhotoPri入sm: Browse Your Life]]
 ** [[http://10.220.170.112/apps/files/][Files - Nextcloud]]
@@ -140,3 +145,7 @@ ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
 * Spell check
 ** Hunspell
 *** [[https://github.com/adisbladis/nixconfig/blob/master/modules/my-spell.nix][nixconfig/my-spell.nix at master · adisbladis/nixconfig]]
+
+* Mail Client
+
+** [[https://www.thunderbird.net/zh-CN/][Thunderbird — 收发邮件更简单。 — Thunderbird]]

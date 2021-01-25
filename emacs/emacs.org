@@ -74,7 +74,12 @@
 ** [[https://github.com/tarsius/moody][tarsius/moody: Tabs and ribbons for the mode-line]]
 ** [[https://www.masteringemacs.org/article/hiding-replacing-modeline-strings][Hiding and replacing modeline strings with clean-mode-line - Mastering Emacs]]
 * Emacs Bookmark
+:PROPERTIES:
+:ID:       de609125-3bdf-4f7d-bbf9-6d651d3683c3
+:BRAIN_PARENTS: 3f5d16e6-fc4c-4cd8-9630-4b25b13ab014
+:END:
 ** [[https://www.emacswiki.org/emacs/BookmarkPlus][EmacsWiki: Bookmark Plus]]
+** [[https://github.com/minad/bookmark-view][minad/bookmark-view]]
 * Emacs shell
 ** [[http://www.howardism.org/Technical/Emacs/eshell-present.html?from=timeline&isappinstalled=0][Presenting the Eshell]]
 ** [[https://github.com/spudlyo/clipetty][spudlyo/clipetty: Manipulate the system (clip)board with (e)macs from a (tty)]]

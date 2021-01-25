@@ -120,3 +120,5 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * Julia climate
 
 ** [[https://github.com/willtebbutt/GHCNData.jl][willtebbutt/GHCNData.jl: Helps access the Global Historical Climatological Network's daily data]]
+
+* [[https://github.com/JuliaPerf/MCAnalyzer.jl][JuliaPerf/MCAnalyzer.jl: A set of tools for machine code analyzing of Julia code - Brave]]

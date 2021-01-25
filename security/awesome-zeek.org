@@ -37,6 +37,7 @@
 * Zeek Script
 :PROPERTIES:
 :ID:       5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa
+:BRAIN_CHILDREN: 5f3948fa-c19f-4ec4-8a42-0f2c66acec7e
 :END:
 - [[https://github.com/zeek/packages/blob/master/aggregate.meta][packages/aggregate.meta at master · zeek/packages]]
 
@@ -253,6 +254,7 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 * Zeek Plugin or analyzer
 :PROPERTIES:
 :ID:       5f3948fa-c19f-4ec4-8a42-0f2c66acec7e
+:BRAIN_PARENTS: 5c8a9d78-d667-4d66-b4ab-8fdf428ec9aa
 :END:
 ** [[https://github.com/amzn/zeek-plugin-enip][amzn/zeek-plugin-enip: Zeek network security monitor plugin that enables parsing of the Ethernet/IP and Common Industrial Protocol standards]]
 ** [[https://github.com/amzn/zeek-plugin-profinet][amzn/zeek-plugin-profinet: Zeek network security monitor plugin that enables parsing of the Profinet protocol]]
@@ -275,6 +277,7 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 *** [[https://github.com/perfsonar/owamp][perfsonar/owamp: A tool for performing one-way active measurements]]
 ** [[https://github.com/MITRECND/bro-http2][MITRECND/bro-http2: Plugin for Zeek/Bro which provides http2 decoder/analyzer]]
 ** [[https://github.com/salesforce/GQUIC_Protocol_Analyzer][salesforce/GQUIC_Protocol_Analyzer: GQUIC Protocol Analyzer for Zeek (Bro) Network Security Monitor]]
+** [[https://github.com/esnet/zeek-exporter][esnet/zeek-exporter: Prometheus Exporter for Zeek]]
 * Zeek Performance
 ** [[https://github.com/mozilla/zept][mozilla/zept: Zeek Extreme Performance Tuning]]
 ** [[https://github.com/zeek/packet-bricks][zeek/packet-bricks: A netmap-based packet layer for distributing and filtering traffic.]]

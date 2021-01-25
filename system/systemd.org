@@ -1,0 +1,19 @@
+#+TITLE: Systemd
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-24 Sun 16:34
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+/
+
+* Systemd Services
+
+** Systemd Timers
+
+*** [[https://github.com/evanjs/nixos_cfg/blob/master/services/autoPull.nix][nixos_cfg/autoPull.nix at master · evanjs/nixos_cfg]]
+:PROPERTIES:
+:ID:       41256eb0-964c-4745-afca-3edb4b3f58ba
+:END:
+ - [2021-01-24 Sun 16:37] <- [[id:a8946fdb-d503-43e3-9400-f833f253901a][NixOS Modules Collect]]

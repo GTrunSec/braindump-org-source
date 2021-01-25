@@ -9,3 +9,7 @@
 - tags :: [[file:haskell-packages.org][Haskell Packages]], [[file:GuangTao-haskell.org][GuangTao's Haskell]]
 
 * [[https://github.com/heath/feng][heath/feng: your featherweight sidekick]]
+
+* Haskell Miso
+
+** [[https://github.com/abarbu/realworld-miso][abarbu/realworld-miso: RealWorld implemented in Miso]]
