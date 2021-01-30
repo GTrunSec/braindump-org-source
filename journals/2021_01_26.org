@@ -1,0 +1,14 @@
+* Tuesday, 01/26/2021
+** 13:31
+*** [[https://www.youtube.com/watch?v=FpE6YXW2JZg][“賣到4000元的魚鷹，每年能抓上萬多塊錢大鯉魚，抓魚真有那麼厲害【衣谷水原egg】 - YouTube”🔊]]
+
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/FpE6YXW2JZg"
+:height "367"
+:width "653"}]]

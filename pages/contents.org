@@ -29,6 +29,8 @@
 *** [[file:../programming/jupyter-haskell.org][Jupyter Haskell]]
 ** [[file:../programming/GuangTao-R.org][GuangTao's R]]
 ** [[file:../programming/GuangTao-rust.org][GuangTao's Rust]]
+** [[file:../programming/leetcode.org][leetcode]]
+** [[file:../programming/algorithm.org][Algorithm]]
 
 * [[file:../GuangTao-owner/GuangTao-library.org][GuangTao's Library]]
 * Mathmatic

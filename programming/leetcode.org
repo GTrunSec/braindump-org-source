@@ -7,8 +7,16 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:GuangTao-rust.org][GuangTao's Rust]]
+- tags :: [[file:GuangTao-rust.org][GuangTao's Rust]], [[file:GuangTao-golang.org][GuangTao's Golang]], [[file:algorithm.org][Algorithm]]
 
 * leetcode Rust
 ** [[https://github.com/iosmanthus/leetcode-rust][iosmanthus/leetcode-rust: 震惊, 这个傻瓜用Rust刷Leetcode]]
 ** [[https://github.com/Aloxaf/LeetCode-Rust][Aloxaf/LeetCode-Rust: 听说刷题建 repo 是立 flag 一般的行为?]]
+
+* [[https://github.com/halfrost/LeetCode-Go][halfrost/LeetCode-Go: ✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解 - Brave]]
+
+** [[https://books.halfrost.com/leetcode/ChapterOne/Algorithm/][算法知识 | LeetCode Cookbook - Brave]]
+:PROPERTIES:
+:ID:       8ef23fa0-5048-48d6-9668-a3ceadcf3f6c
+:END:
+- [2021-01-25 Mon 18:41] <- [[id:06b5d51b-4b7b-40f6-b178-fa26c5163874][Introduction to Algorithms]]

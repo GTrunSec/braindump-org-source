@@ -26,7 +26,7 @@ sudo -u postgres psql postgres
 
 ** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
 
-- [[file:GuangTao-haskell.org][GuangTao's Haskell]]
+- [[file:../programming/haskell-packages.org][Haskell Packages]]
 * Nextcloud
 
 ** repair install with new datadir
@@ -40,3 +40,4 @@ nextcloud-occ install --data-dir /DATABASE-4TB/nextcloud/data
 ** [[https://github.com/jfischoff/trek][jfischoff/trek: A database migration system]]
 
 - [[file:../programming/haskell-packages.org][Haskell Packages]]
+* [[https://github.com/tiangolo/full-stack-fastapi-postgresql][tiangolo/full-stack-fastapi-postgresql: Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more. - Brave]]

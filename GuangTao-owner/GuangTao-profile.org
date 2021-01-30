@@ -120,6 +120,14 @@ ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
 
 **** [[https://github.com/xmendez/i3-scripts][xmendez/i3-scripts: Scripts for the i3 windows manager]]
 
+* Media
+
+** Video Player
+
+*** VLC VideoLAN
+
+- [[https://wiki.videolan.org/QtHotkeys/][QtHotkeys - VideoLAN Wiki]]
+
 * Dictionaries
 
 ** [[https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=36097&extra=page%3D1][⚜ 打造完美《牛津高阶双解 第四版》(2019.11.11更新) - MDict 词库资源区 - MDict Dictionaries - 掌上百科 - PDAWIKI - Powered by Discuz!]]

@@ -8,6 +8,12 @@
 
 
 - tags :: [[file:PlanetCoaster.org][PlanetCoaster]]
+
+
 * Building
-** sdsd
-sdsd
+
+* 游戏列表
+:PROPERTIES:
+:ID:       8d8cbd00-c434-49e5-8edf-a0f82e0c734e
+:END:
+- [2021-01-27 Wed 12:41] <- [[id:426b5c5f-f26d-45ac-a349-934b18c518ae][国产沙盒修仙游戏《鬼谷八荒》好评率95%：画风优美、bug较多 _ 游民星空 GamerSky.com]]

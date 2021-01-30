@@ -3,7 +3,7 @@
                (eval . (org-superstar-mode +1))
                (eval . (setq-local org-roam-directory "~/Dropbox/org-notes/braindump/"))
                ;;(eval . (org-id-update-id-locations))
-               (eval . (setq-local org-download-timestamp "%Y%m%d_%H%M%S"))
+               (eval . (iscroll-mode +1))
                (eval . (setq-local wikinfo-base-url  "https://zh.wikipedia.org"))
                (eval . (setq-local org-roam-db-location "~/.emacs.d/.local/cache/org-roam-braindump.db"))
                )))

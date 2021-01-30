@@ -9,3 +9,5 @@
 
 
 * [[https://github.com/TimelyDataflow/differential-dataflow][TimelyDataflow/differential-dataflow: An implementation of differential dataflow using timely dataflow on Rust.]]
+
+* [[https://github.com/TimelyDataflow/timely-dataflow][TimelyDataflow/timely-dataflow: A modular implementation of timely dataflow in Rust - Brave]]

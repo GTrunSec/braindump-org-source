@@ -18,8 +18,11 @@
   - [[https://github.com/mstksg/advent-of-code-2020][mstksg/advent-of-code-2020: 🎅🌟❄️☃️🎄🎁]]
 - [2020-12-11 Fri 21:29] -> [[id:7726d48c-5ff3-45e0-9ba9-53bc9af2f186][Advent of Code with Nix]]
   - [[https://github.com/crazazy/aoc2020][crazazy/aoc2020: Advent of Code done in the nix language]]
-- [2020-12-12 Sat 14:31] -> [[id:631b11c6-8db1-4d4c-9a66-6adf8b632098][Rust advent Of Code 2020]]
+- [[id:f0a6afaf-8b1e-4c22-a665-b073fdce7cd2][Rust advent Of Code 2020]]
   + [[https://github.com/kolmodin/advent-of-code-2020][kolmodin/advent-of-code-2020]]
+
+** [[https://adventofcode.com/2020/day/1][Day 1 - Advent of Code 2020]]
+
 * Advent of Code 2019
 :PROPERTIES:
 :ID:       879e7b4a-dbd1-41c1-a2ec-f826d438379b

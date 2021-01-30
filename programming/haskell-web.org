@@ -13,3 +13,5 @@
 * Haskell Miso
 
 ** [[https://github.com/abarbu/realworld-miso][abarbu/realworld-miso: RealWorld implemented in Miso]]
+
+* [[https://github.com/jaspervdj/hakyll][jaspervdj/hakyll: A static website compiler library in Haskell - Brave]]
