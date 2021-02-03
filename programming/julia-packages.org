@@ -24,9 +24,7 @@
 :END:
 
 - [2021-01-02 Sat 13:34] <- [[id:82731a28-3c90-497f-974f-b2f02f9134c6][18.337 - Parallel Computing and Scientific Machine Learning]]
-** [[https://github.com/Jutho/TensorOperations.jl][Jutho/TensorOperations.jl: Julia package for tensor contractions and related operations]]
-
-* Julia lsp
+** [[https://github.com/Jutho/TensorOperations.jl][Jutho/TensorOperations.jl: Julia package for tensor contractions and related operations]]* Julia lsp
 
 #+begin_src julia :async t :exports both :results output
 
@@ -50,10 +48,7 @@ julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"
 
 * JUlia pycall
 
-** [[https://github.com/JuliaPy/PyCall.jl][JuliaPy/PyCall.jl: Package to call Python functions from the Julia language]]
-
-
-#+begin_src sh :async t :exports both :results output
+** [[https://github.com/JuliaPy/PyCall.jl][JuliaPy/PyCall.jl: Package to call Python functions from the Julia language]]#+begin_src sh :async t :exports both :results output
 Pkg.add("PyPlot")
 #+end_src
 
@@ -126,3 +121,12 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * Julia Threads
 
 ** https://github.com/JuliaFolds/FoldsThreads.jl
+
+* [[https://github.com/JuliaRobotics][JuliaRobotics - Brave]]
+:PROPERTIES:
+:ID:       547a5b0e-d9d7-48dc-a871-02211cdcb48b
+:END:
+
+ - [2021-02-02 Tue 13:40] -> [[id:ab228152-3223-4be0-ae6f-ab17bb79d094][Robotics Environment]]
+
+** [[https://github.com/JuliaRobotics/RoME.jl][JuliaRobotics/RoME.jl: Robot Motion Estimate: A front-end for SLAM in Julia - Brave]]

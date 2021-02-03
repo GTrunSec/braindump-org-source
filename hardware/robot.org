@@ -10,7 +10,11 @@
 * ROS
 ** ROS lisp
 - [[https://wiki.ros.org/roslisp][roslisp - ROS Wiki]]
-* Environment
+* Robotics Environment
+:PROPERTIES:
+:ID:       ab228152-3223-4be0-ae6f-ab17bb79d094
+:END:
+- [2021-02-02 Tue 13:40] <- [[id:547a5b0e-d9d7-48dc-a871-02211cdcb48b][JuliaRobotics - Brave]]
 ** [[https://github.com/lopsided98/nix-ros-overlay][lopsided98/nix-ros-overlay: ROS overlay for the Nix package manager]]
 :PROPERTIES:
 :ID:       f97dc1ae-97a8-44ca-8f94-1212d8905c12

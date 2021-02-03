@@ -1,0 +1,16 @@
+* Monday, 02/01/2021
+** 17:37
+*** [[https://www.youtube.com/watch?v=XKtpqiNxEfM][“150元一斤的東北林蛙，為什麼必須要整隻燉呢？入口美味還是驚嚇？ 【衣谷水原egg】 - YouTube”🔊]]
+
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/XKtpqiNxEfM"
+:height "367"
+:width "653"}]]
+** 18:07
+*** [[https://www.youtube.com/watch?v=LOqKu0VrTFg][【達奇】這是人類的至暗時刻《戰錘40K》"叛教時代"故事 - YouTube]]
