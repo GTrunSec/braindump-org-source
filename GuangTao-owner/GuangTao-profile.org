@@ -87,12 +87,14 @@ ln -s ~/Nextcloud/Rime ~/.local/share/fcitx5/rime
 *** [[https://starship.rs/][Starship: Cross-Shell Prompt]]
 *** Tmux
 **** [[https://github.com/gpakosz/.tmux][gpakosz/.tmux: 🇫🇷 Oh my tmux! My self-contained, pretty & versatile tmux configuration made with ❤️]]
+** terminal emulator
 
+*** [[https://github.com/wez/wezterm][wez/wezterm: A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust]]
 * Diagrams
 
 ** [[https://plantuml.com/zh/emacs][Integration with Emacs]]
 
-- [[file:emacs.org][Emacs]]
+- [[file:../emacs/emacs.org][Emacs]]
 
 * Misc tools
 

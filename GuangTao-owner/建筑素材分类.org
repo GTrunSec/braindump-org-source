@@ -14,8 +14,17 @@
 :BRAIN_CHILDREN: ad00c0a0-717f-4939-8205-89d0c8d0178c
 :END:
 - [2020-11-20 Fri 15:31] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+- [2020-12-24 Thu 00:53] -> [[id:c29e2368-9c21-491d-b31e-53c0079f2fba][“他家居然有10個院子！ - YouTube”🔊]]
+  #+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 700
   + [[attachment:20200925_225732screenshot.png]]
- - [2020-12-24 Thu 00:53] -> [[id:c29e2368-9c21-491d-b31e-53c0079f2fba][“他家居然有10個院子！ - YouTube”🔊]]
+
+
+
+
+
+
 * 后庭院
 ** 水台 :ATTACH:
 :PROPERTIES:
@@ -23,7 +32,14 @@
 :BRAIN_CHILDREN: ad00c0a0-717f-4939-8205-89d0c8d0178c
 :END:
  - [2020-11-20 Fri 15:32] -> [[id:9050b828-5b2a-49db-82ed-c913ed18d3b6][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+     #+NAME:
+     #+CAPTION:
+     #+ATTR_HTML: :width 700
    + [[attachment:20200925_230006screenshot.png]]
+
+ -
+
+ -
 * 模型
 ** [[https://www.pinterest.com/pin/617485798885413770/][Pinterest]]
 * 桥

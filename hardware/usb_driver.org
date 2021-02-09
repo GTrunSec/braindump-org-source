@@ -1,12 +1,12 @@
-#+TITLE: GuangTao's Node Java
+#+TITLE: USB Driver
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-11-28 Sat
+#+DATE: 2021-02-03 Wed 22:18
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+- tags ::  [[file:GuangTao-hardware.org][GuangTaos' Hardware]]
 
-* Node packages list
 
-* [[https://github.com/evanw/esbuild][evanw/esbuild: An extremely fast JavaScript bundler and minifier]]
+* [[https://usbguard.github.io/blog/2017/Screen-Locking][Blocking USB devices while the screen is locked | USBGuard - Brave]]

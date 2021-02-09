@@ -1,0 +1,28 @@
+* Monday, 02/08/2021
+** 15:12
+*** [[https://www.youtube.com/watch?v=UxT_sZiJn8c][“【達奇】震撼大地的諸神之戰 壹條弒神自封的復仇之路 《戰神》系列劇情詳解 第二期 - YouTube”🔊]]
+:PROPERTIES:
+:ID:       48347c55-ff91-4aea-a9fe-8cffb28c35bc
+:END:
+
+- [2021-02-08 Mon 15:13] -> [[id:69b2e5b4-5d34-4c83-ab47-3033e1551f64][游戏视频]]
+
+** 21:39
+
+*** [[https://www.youtube.com/watch?v=BiYke3iUsAc][1255 买 5 只超大皮皮虾，做生腌皮皮虾，刺激的根本停不下来【小文哥吃吃吃】 - YouTube]]
+:PROPERTIES:
+:ID:       4de09153-2f12-4e69-855f-fcfd27f32be1
+:END:
+
+
+ - [2021-02-08 Mon 21:39] -> [[id:bf71fc8c-e9d5-4b0b-b195-47948ae1a618][皮皮虾]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/BiYke3iUsAc"
+:height "367"
+:width "653"}]]

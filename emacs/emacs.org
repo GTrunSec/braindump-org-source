@@ -11,6 +11,10 @@
 - tags :: [[file:org-mode.org][Org mode]], [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]], [[file:../programming/GuangTao-elisp.org][GuangTao's Elisp]]
 
 
+* Emacs Branch
+
+** [[https://github.com/emacs-ng/emacs-ng][emacs-ng/emacs-ng: A new approach to Emacs - Including TypeScript, Threading, Async I/O, and WebRender.]]
+
 * Configuration
 ** [[https://github.com/jethrokuan/dots/blob/master/.doom.d/config.el][dots/config.el at master · jethrokuan/dots]] :roam:org_mode:
 ** [[https://github.com/redguardtoo/emacs.d][redguardtoo/emacs.d: Fast and robust Emacs setup.]]
@@ -24,7 +28,6 @@
 ** [[https://github.com/ema2159/emmacs_config][ema2159/emmacs_config: My personal emacs (or Emmacs) configuration]]
 ** [[https://lupan.pl/dotemacs/][Lupan's site]] :org_mode:literate:
 ** [[https://github.com/honmaple/maple-emacs][honmaple/maple-emacs: Emacs configuration]]
-
 * learning Emacs
 ** [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg][Using Emacs - YouTube]]
 ** [[https://www.bilibili.com/video/BV1Pz4y1y7p9?p=1&share_medium=android&share_plat=android&share_source=COPY&share_tag=s_i&timestamp=1604203132&unique_k=3l72PN][Emacs入门教程_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili]]
@@ -56,6 +59,7 @@
 ** [[https://writequit.org/org/settings.html][Lee's Emacs settings file]]
 * Dired
 ** [[https://github.com/Fuco1/dired-hacks][Fuco1/dired-hacks: Collection of useful dired additions]]
+** [[https://github.com/ShuguangSun/find-dupes-dired][ShuguangSun/find-dupes-dired: Find dupes and handle them in dired-mode.]]
 * Emacs Window
 ** [[http://endlessparentheses.com/fill-and-unfill-paragraphs-with-a-single-key.html][Fill and unfill paragraphs with a single key · Endless Parentheses]]
 * Emacs Blog post
@@ -66,6 +70,8 @@
 *** [[https://stackoverflow.com/questions/26478594/how-to-delete-empty-lines-in-a-file-by-emacs][regex - How to delete empty lines in a file by Emacs? - Stack Overflow]]
 ** ivy
 *** [[https://sam217pa.github.io/2016/09/11/nuclear-power-editing-via-ivy-and-ag/][Nuclear weapon multi-editing via Ivy and Ag · Samuel Barreto]]
+** [[http://kirste.userpage.fu-berlin.de/chemnet/use/info/emacs/emacs_14.html#:~:text=Save%20position%20of%20point%20in,point%2Dto%2Dregister%20).&text=Jump%20to%20the%20position%20saved,something%20else%20in%20that%20register.][GNU Emacs Manual - Registers]]
+** [[http://ergoemacs.org/emacs/emacs_jump_to_previous_position.html][Emacs: Jump to Previous Position]]
 * Emacs keybindings
 ** [[https://github.com/abo-abo/hydra][abo-abo/hydra: make Emacs bindings that stick around]]
 ** [[https://github.com/abo-abo/hydra/wiki/Ibuffer][Ibuffer · abo-abo/hydra Wiki]]

@@ -8,7 +8,7 @@
 
 - tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]]
 
-* Environment
+* Rust Environment
 ** rust nix
 :PROPERTIES:
 :ID:       a3de31d7-f2be-4939-a19f-0bfd4ddba542
@@ -21,7 +21,7 @@
 
 ** [[https://github.com/ralfbiedert/cheats.rs][ralfbiedert/cheats.rs: Rust Language Cheat Sheet - https://cheats.rs]]
 
-* Rust learning
+* Learning Rust
 ** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]
 ** [[https://github.com/ctjhoa/rust-learning][ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust]]
 ** [[https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
@@ -30,8 +30,13 @@
 :END:
 - [2020-12-08 Tue 15:06] <- [[id:1f7b01a1-1a38-404a-859a-5667b466272d][Rust embedded]]
 
+** [[https://github.com/pretzelhammer/rust-blog/blob/master/posts/learning-rust-in-2020.md][rust-blog/learning-rust-in-2020.md at master · pretzelhammer/rust-blog]]
+
+
+
 ** [[https://bfnightly.bracketproductions.com/rustbook/chapter_3.html][Walking A Map - Roguelike Tutorial - In Rust]]
 - [[https://github.com/thebracket/rustrogueliketutorial][thebracket/rustrogueliketutorial: Roguelike Tutorial in Rust - using RLTK]]
+
 * Rust embedded
 :PROPERTIES:
 :ID:       1f7b01a1-1a38-404a-859a-5667b466272d

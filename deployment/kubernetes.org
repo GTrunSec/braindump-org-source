@@ -1,12 +1,11 @@
-#+TITLE: GuangTao's Node Java
+#+TITLE: Kubernetes
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-11-28 Sat
+#+DATE: 2021-02-06 Sat 18:26
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-* Node packages list
 
-* [[https://github.com/evanw/esbuild][evanw/esbuild: An extremely fast JavaScript bundler and minifier]]
+* [[https://kubernetes.io/][Kubernetes - Brave]]

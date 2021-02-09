@@ -61,3 +61,5 @@
 **  https://github.com/JPCERTCC/SysmonSearch
 * [[https://github.com/evilsocket/uroboros][evilsocket/uroboros: A GNU/Linux monitoring and profiling tool focused on single processes.]]
 * [[https://github.com/evilsocket/opensnitch][evilsocket/opensnitch: OpenSnitch is a GNU/Linux port of the Little Snitch application firewall]]
+
+* [[https://www.counteractive.net/][Incident Response, Hunting, Infosec Consulting - Counteractive Security]]

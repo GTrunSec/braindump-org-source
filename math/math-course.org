@@ -1,12 +1,12 @@
-#+TITLE: GuangTao's Node Java
+#+TITLE: Math Course
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-11-28 Sat
+#+DATE: 2021-02-03 Wed 12:37
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
-
-
-* Node packages list
-
-* [[https://github.com/evanw/esbuild][evanw/esbuild: An extremely fast JavaScript bundler and minifier]]
+* Math MeasureTheory
+:PROPERTIES:
+:ID:       c61159a6-9f26-491a-825f-ecd2c273a2a1
+:END:
+- [2021-02-03 Wed 12:38] <- [[id:9b981817-5251-41f7-97f0-ea28414ade73][cscherrer/MeasureTheory.jl]]

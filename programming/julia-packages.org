@@ -130,3 +130,13 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
  - [2021-02-02 Tue 13:40] -> [[id:ab228152-3223-4be0-ae6f-ab17bb79d094][Robotics Environment]]
 
 ** [[https://github.com/JuliaRobotics/RoME.jl][JuliaRobotics/RoME.jl: Robot Motion Estimate: A front-end for SLAM in Julia - Brave]]
+
+* [[https://github.com/queryverse][Queryverse - Brave]]
+
+- [[file:../data-science/data-visualization.org][Data Visualization]]
+
+* [[https://github.com/cscherrer/MeasureTheory.jl][cscherrer/MeasureTheory.jl]] :math:
+:PROPERTIES:
+:ID:       9b981817-5251-41f7-97f0-ea28414ade73
+:END:
+ - [2021-02-03 Wed 12:38] -> [[id:c61159a6-9f26-491a-825f-ecd2c273a2a1][Math MeasureTheory]]
