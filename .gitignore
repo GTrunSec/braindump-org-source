@@ -8,3 +8,4 @@ myself-private/*
 .DS_Store
 notdeftdb
 orders
+.thumbnails
