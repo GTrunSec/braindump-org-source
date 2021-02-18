@@ -1,5 +1,5 @@
 #+TITLE: GuangTao's mathematic-julia README
-* [[file:../mitmath-18S191.org][Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
+* [[file:../mitmath_18S191.org][Course 18.S191 at MIT, fall 2020 _ Introduction to computational thinking with Julia:]]
 :PROPERTIES:
 :header-args:sh: :dir ~/data/Jupyter-data-science-environment
 :ID:       3e3b70a4-a6de-4074-bb41-7c781b0fdfa3

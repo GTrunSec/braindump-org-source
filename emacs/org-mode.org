@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:emacs.org][Emacs]], [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
+- tags :: [[file:emacs.org][Emacs]], [[file:..//guangtao's_profile.org][GuangTao's Profile]]
 
 - [[https://code.orgmode.org/bzg/org-mode][bzg/org-mode: Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. - Gogs]]
 
@@ -15,14 +15,14 @@
 * org mode parser
 ** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
 
-- [[file:../programming/GuangTao-rust.org][GuangTao's Rust]]
+_ [[file:../programming/guangtao's_rust.org][GuangTao's Rust]]
 
 ** [[https://github.com/ixmatus/orgmode-parse][ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!]]
 :PROPERTIES:
 :ID:       3cea6644-3d65-45c4-8ccd-7d103b798d68
 :END:
 
-- [[file:../programming/GuangTao-haskell.org][GuangTao's Haskell]]
+_ [[file:../programming/guangtao's_haskell.org][GuangTao's Haskell]]
 
 ** org mode elisp parsing
 #+begin_src emacs-lisp :tangle yes
@@ -154,3 +154,10 @@ pandoc testing_org.org -o testing_org_back.ipynb
 * Other Org resources Support
 
 ** [[https://github.com/karlicoss/promnesia][karlicoss/promnesia: Another piece of your extended mind]]
+* Org Mode Notes
+** [[https://github.com/yuchen-lea/org-media-note/blob/master/org-media-note.el][org-media-note/org-media-note.el at master · yuchen-lea/org-media-note]]
+:PROPERTIES:
+:ID:       161171e3-5795-40bd-8c83-12a6cf5a429a
+:END:
+
+ - [2021-02-12 Fri 14:46] -> [[id:0967366b-0e08-4362-87ba-29493b2f3eab][Emacs Org Mode Packages]]

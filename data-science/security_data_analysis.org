@@ -1,0 +1,13 @@
+#+TITLE: Security Data Analysise
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-09 Tue 20:07
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/sooshie/Security-Data-Analysis][sooshie/Security-Data-Analysis: A series of labs that will help users apply various data science techniques to security related data.]]
+
+* [[https://www.youtube.com/watch?v=pG5lU9CLnIU][Data Analysis, Machine Learning, Bro, and You! by Brian Wylie - YouTube]] :zeek:

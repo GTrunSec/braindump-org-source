@@ -1,0 +1,12 @@
+#+TITLE: Marketing Analysis
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-17 Wed 22:40
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:data_science.org][Data Science]]
+
+* [[https://github.com/eliasdabbas/advertools][eliasdabbas/advertools: advertools - online marketing productivity and analysis tools]]

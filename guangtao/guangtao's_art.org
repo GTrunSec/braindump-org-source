@@ -1,0 +1,24 @@
+#+TITLE: GuangTao's Art
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-06 Sun 14:52
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:建筑素材分类.org][建筑素材分类]], [[file:建筑艺术素材.org][建筑艺术素材]], [[file:learn_music.org][learning music agenda]], [[file:../../../../Documents/org_notes/braindump/gaming/PlanetCoaster.org][PlanetCoaster]]
+
+
+* 建筑学
+** 布景设施
+:PROPERTIES:
+:ID:       ad00c0a0-717f-4939-8205-89d0c8d0178c
+:BRAIN_PARENTS: 59c0b564-7a2c-466e-b759-d6b7b68df8bd a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54 7752c9d5-30c3-47f6-a59b-e4a8ccbed348
+:BRAIN_CHILDREN: f2295123-a3fb-4739-925c-aebb51dcaa55
+:END:
+
+ - [2020-12-11 Fri 01:17] -> [[id:59c0b564-7a2c-466e-b759-d6b7b68df8bd][水台]]
+
+* 模型
+
+** [[https://www.youtube.com/watch?v=kzO8HWwWkDk][“【模型直直撞】微縮人生！深入直擊台灣微縮職人Hank神級展示空間&工作室!! ｜Mr.Joe Hobby.tv - YouTube”🔊]]

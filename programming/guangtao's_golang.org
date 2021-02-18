@@ -1,0 +1,65 @@
+#+TITLE: GuangTao's Golang
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
+
+* Golang Documents
+
+** Golang For beginning
+:PROPERTIES:
+:ID:       fa315357-219b-44d4-8d34-4f5b1719df3f
+:END:
+*** [[https://github.com/go101/go101][go101/go101: An online book focusing on Go syntax/semantics.]]
+:PROPERTIES:
+:header-args:sh: :dir ~/project/go
+:END:
+
+- clone
+#+begin_src sh :async t :exports both :results output
+git clone https://github.com/go101/go101.git
+#+end_src
+
+- run go101 serve
+#+begin_src sh :async t :exports both :results output
+go run . --port 3000
+#+end_src
+
+
+
+*** [[http://xahlee.info/golang/golang_package.html][Golang: Package, Import]]
+
+** Go Books
+*** [[https://github.com/chai2010/advanced-go-programming-book][chai2010/advanced-go-programming-book: 《 Go 语言高级编程》开源图书，涵盖 CGO、Go 汇编语言、RPC 实现、Protobuf 插件实现、Web 框架实现、分布式系统等高阶主题]]
+
+
+* Networking
+** Golang DNS
+:PROPERTIES:
+:ID:       7b8f6922-3514-4f90-ba7c-0d42aef1463c
+:END:
+ - [2020-11-22 Sun 02:56] -> [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+   
+*** [[https://github.com/redirect2me/which-dns][redirect2me/which-dns: Detects which DNS server is being used]]
+:PROPERTIES:
+:ID:       d5660c95-b0cc-4587-991d-1248bd7e97d7
+:END:
+*** [[https://github.com/erbbysam/DNSGrep][erbbysam/DNSGrep: Quickly Search Large DNS Datasets]]
+** Golang HTTP
+*** [[https://github.com/kitabisa/teler][kitabisa/teler: Real-time HTTP Intrusion Detection]]
+** Go traffic
+:PROPERTIES:
+:ID:       c1bd1f3d-5e1f-406a-b4c7-1d042c53cfed
+:END:
+
+* golang charts
+** [[https://github.com/go-echarts/go-echarts][go-echarts/go-echarts: 🎨 The adorable charts library for Golang]]
+
+* Go Porjects
+
+*** [[https://github.com/lestrrat-go][lestrrat-go]]
+*** [[https://github.com/mgechev/revive][mgechev/revive: 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint.]]

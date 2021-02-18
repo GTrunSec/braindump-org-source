@@ -28,4 +28,4 @@
 
 ** [[https://www.youtube.com/watch?v=0hw1xNrrBGI][雪藏在甘南的无敌自驾路线，我只想在这做个吃泡面的神仙 |甘肃自驾旅行纪录片4K（扎尕那，洛克之路） Roadtrip in Gansu in footsteps of Joseph Rock - YouTube]]
 
-- [[file:../GuangTao-owner/traveling.org][我的旅行计划]]
+_ [[file:..//traveling.org][我的旅行计划]]

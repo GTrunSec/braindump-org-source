@@ -23,7 +23,7 @@
 * Network protocol analyzer
 ** [[https://www.wireshark.org/][Wireshark · Go Deep.]]
 ** [[https://github.com/brimsec/brim][brimsec/brim: Desktop application to efficiently search large packet captures and Zeek logs.]]
-- [[file:awesome-zeek.org][Awesome Zeek]]
+_ [[file:awesome_zeek.org][Awesome Zeek]]
 * Red Team
 ** [[https://github.com/OpenCSPM/opencspm][OpenCSPM/opencspm: Open Cloud Security Posture Management Engine]]
 * time

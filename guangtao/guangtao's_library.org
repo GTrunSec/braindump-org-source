@@ -1,0 +1,111 @@
+#+TITLE: GuangTao's Library
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 30 November 2019
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+TAGS: analysis(a) BOOK(b) READ(r) LEARN(l) Documents(d)
+* Rlang Books
+:PROPERTIES:
+:CATEGORY: GuangTao-R
+:END:
+
+** INPROCESS R for Data Analysis in easy steps           :analysis:BOOK:
+:PROPERTIES:
+:AUTHOR:   Mike McGrath
+:ADDED:    [2019-11-30]
+:AMAZON:   https://www.amazon.com/R-Data-Analysis-easy-steps/dp/9387284220
+:END:
+
+** INPROCESS Beginners Guide for Data Analysis using R Programming [30%] :BOOK:DATA:
+:PROPERTIES:
+:AUTHOR:   Jeeva Jose
+:ADDED:    [2019-11-30]
+:AMAZON:   https://www.amazon.com/Beginners-Guide-Analysis-using-Programming/dp/938617345X
+:CATEGORY: GuangTao-R
+:END:
+
+* Haskell Books
+ :PROPERTIES:
+:CATEGORY: Haskell
+ :ID:       adc5c85f-a852-4d35-b37e-f213cc5ce190
+:END:
+- [2020-12-23 Wed 14:58] <- [[id:18a335db-e9c7-4c7c-bd3d-ad39b116abe1][Haskell books]]
+- [[https://b-ok.cc/book/4990265/ae1103][Practical Haskell: A Real World Guide to Programming | Alejandro Serrano Mena | download]]
+** INPROCESS Programming in Haskell :BOOK:
+:PROPERTIES:
+:AUTHOR:   Graham Hutton
+:ADDED:    [2020-08-15]
+:AMAZON:   https://www.amazon.com/Programming-Haskell-Graham-Hutton-ebook/dp/B01JGMEA3U
+:ID:       99679afb-8873-409e-9d4b-2b6a6d3b4fc2
+:END:
+- [2020-10-29 Thu 18:28] <- [[id:6438c7d9-22f2-4aff-9c68-3ac5f5b7caab][Jupter Notebook Programming in Haskell]]
+- [2020-09-24 Thu 22:22] <- [[file:guangtao's_haskell.[[id:18a335db-e9c7-4c7c-bd3d-ad39b116abe1][Haskell books]]
+
+* GO Books
+:PROPERTIES:
+:CATEGORY: GOLANG
+:END:
+
+* Python Books
+** Python 3 Object-Oriented Programming - Third Edition
+:PROPERTIES:
+:AUTHOR:   Dusty Phillips
+:ADDED:    [2019-12-02]
+:AMAZON:   https://www.amazon.com/Python-Object-Oriented-Programming-maintainable-object-oriented/dp/1789615852
+:END:
+
+* Julia Books
+:PROPERTIES:
+:id: 306c7b79-8a54-4e5b-8678-444eab1327fd
+:category: Julia
+:END:
+ - [2020-12-09 Wed 12:27] <- [[id:5366e5e7-8663-4dc7-b676-7b97f5257381][h-Klok/StatsWithJuliaBook]]
+* Literature
+:PROPERTIES:
+:ID:       57443f09-a987-421c-9695-9c8c7a353f36
+:END:
+** 高草丛生
+- [[https://www.youtube.com/watch?v=JZLmAebe2eo][最新燒腦驚悚片，斯蒂芬.金小說改
+  編！時空錯亂的高草叢中，一旦進去就出不來！走不出去的高草叢，其實就是我們的無法
+  得到救贖的人生。你看懂了嗎？ - YouTube]]
+
+** Handbook of Computer Networks and Cyber Security: Principles and Paradigms
+:PROPERTIES:
+:AUTHOR:   Brij B. Gupta, Gregorio Martinez Perez, Dharma P. Agrawal, Deepak Gupta
+:ADDED:    [2020-01-01]
+:AMAZON:   https://www.amazon.com/Handbook-Computer-Networks-Cyber-Security-dp-3030222764/dp/3030222764/ref=mt_hardcover?_encoding=UTF8&me=&qid=1577927674
+:END:
+* Math Books
+** Concrete Mathematics: A Foundation for Computer Science (2nd Edition)
+:PROPERTIES:
+:AUTHOR:   Ronald Graham, Oren Patashnik
+:ADDED:    [2020-12-29]
+:AMAZON:   https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025/ref=sr_1_1?dchild=1&keywords=Concrete+Mathematics&qid=1609292464&s=books&sr=1-1
+:END:
+
+
+
+
+* Cyber security
+** Handbook of Computer Networks and Cyber Security: Principles and Paradigms
+:PROPERTIES:
+:AUTHOR:   Brij B. Gupta, Gregorio Martinez Perez, Dharma P. Agrawal, Deepak Gupta
+:ADDED:    [2020-01-01]
+:AMAZON:   https://www.amazon.com/Handbook-Computer-Networks-Cyber-Security-dp-3030222764/dp/3030222764/
+:END:
+
+* Rust Books
+** [[https://b-ok.cc/book/5236575/3e3e64][The Rust Programming Language | Steve Klabnik, Carol Nichols | download]]
+* [[https://ctext.org/xunzi/da-lve/zhs][荀子 : 大略 - 中国哲学书电子化计划]]
+诸侯召其臣，臣不俟驾，颠倒衣裳而走，礼也。《诗》曰：“颠之倒之，自公召之。”天子召诸侯，诸侯辇舆就马，礼也。《诗》曰：“我出我舆，于彼牧矣。自天子所，谓我来矣。”
+
+- 颠倒衣裳而走，礼也。《诗》曰：“颠之倒之，自公召之
+
+
+大夫服笏
+
+  - 笏 [hù] 古代大臣上朝拿着的手板，用玉、象牙或竹片制成，上面可以记事
+* ROS Books
+** [[https://www.amazon.com/ROS-Robotics-Projects-interact-Operating-ebook/dp/B01MTJWNKI/ref=pd_sim_351_1?_encoding=UTF8&pd_rd_i=B01MTJWNKI&pd_rd_r=ddaf3dce-0f20-11e9-b0e5-b7a8889fd845&pd_rd_w=R8Yge&pd_rd_wg=9tEDC&pf_rd_p=18bb0b78-4200-49b9-ac91-f141d61a1780&pf_rd_r=C0ZKGVA1S5NEKJGM7A3T&psc=1&refRID=C0ZKGVA1S5NEKJGM7A3T][Amazon.com: ROS Robotics Projects: Make your robots see, sense, and interact with cool and engaging projects with Robotic Operating System eBook: Lentin Joseph: Kindle Store]]

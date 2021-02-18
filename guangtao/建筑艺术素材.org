@@ -1,0 +1,235 @@
+#+TITLE: 建筑艺术素材
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+#+TAGS: 高雅(y)
+
+- tags :: [[file:../gaming/PlanetCoaster.org][PlaCoaster]]
+
+* 房屋设计
+** 视频素材
+
+*** 一条 Yit 建筑房屋
+:PROPERTIES:
+:ID:       fcbb3f51-d94c-4ad6-87c7-4430b69a145b
+:END:
+ - [2020-12-29 Tue 16:02] -> [[id:70053391-2265-4914-a30c-376aa0abc897][他在福建深山造園隱居，一輩子只做一件事 He Lives in Seclusion in His Own Garden in Deep Mountains - YouTube]]
+
+
+**** [[https://www.youtube.com/watch?v=zHYpNMwnBzo][重慶單身小哥的300㎡婚房 Chongqing Single Man’s 300 ㎡ Sweet Home - YouTube]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/zHYpNMwnBzo"
+:height "367"
+:width "653"}]]
+
+
+**** [[https://www.youtube.com/watch?v=NBRE1_Acn5U][中國建築師 2 小時就能建成一棟房子！不可思議！ - YouTube]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/NBRE1_Acn5U"
+:height "367"
+:width "653"}]]
+
+
+**** [[https://www.youtube.com/watch?v=HwaWWcYsYyg][他花20年在西湖邊造庭院，8000萬也不賣 He Spent 20 Years Building an Elegant Courtyard, Wouldn’t Sell for 80 Million - YouTube]]
+:PROPERTIES:
+:id: 9050b828-5b2a-49db-82ed-c913ed18d3b6
+:END:
+
+- [2020-11-20 Fri 15:32] <- [[id:59c0b564-7a2c-466e-b759-d6b7b68df8bd][水台]]
+- [2020-09-27 Sun 03:38] <- [[id:a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54][小型庭院]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/HwaWWcYsYyg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=_MtlQnvF0LY][“他家居然有10個院子！ - YouTube”🔊]]
+:PROPERTIES:
+:ID:       c29e2368-9c21-491d-b31e-53c0079f2fba
+:END:
+
+- [2020-12-24 Thu 00:53] <- [[id:a97e5ed6-8b19-41bf-b4b6-9bf4a2f71b54][小型庭院]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/_MtlQnvF0LY"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=qu0oVn44kOM][“他把380㎡的家改成500㎡，室內裝電梯，有5個院子！ - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/qu0oVn44kOM"
+:height "367"
+:width "653"}]]
+**** ❤ LOVE [[https://www.youtube.com/watch?v=tJNKRh_zY1s][“他在中國最美梯田為母親造1000㎡大宅 - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/tJNKRh_zY1s"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=SSn_f2lDMFY][“一個和尚，在荒山蓋了爆美小樓，獨自修行 A Monk Builds a Beautiful House on a Waste Hill and Practices Alone - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/SSn_f2lDMFY"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=PVoqAH0iPLg][“他把牛棚改成300㎡超美別墅，就為了給大6歲的愛妻一個家 - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/PVoqAH0iPLg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=oRFiv1tpWfs][“中國最美尼姑庵，竟然是國家隊前教練改造的 - YouTube”🔊]] :高雅:
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/oRFiv1tpWfs"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=MhDHKUDJzfg][“她把福建一個200多年前的老房子拆了，搬到北京重新打造了一個爆美的家 - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/MhDHKUDJzfg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=SRGdPvAlxq4][“老祖宗太厲害了！這樣的房子最養人 - YouTube”🔊]]
+_ [[file:家具.org][家具]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/SRGdPvAlxq4"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=l-E95bDiGHg][中国独树一帜的秘境酒店！ - YouTube - Brave]]
+:PROPERTIES:
+:id: b8b0fdf0-0125-4de8-93dc-1ca310a1ffc4
+:END:
+- [2020-12-25 Fri 01:02] <- [[id:f2295123-a3fb-4739-925c-aebb51dcaa55][酒店旅馆]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/l-E95bDiGHg"
+:height "367"
+:width "653"}]]
+**** [[https://www.youtube.com/watch?v=m_iTEKQV1yQ][美國大叔賣掉房屋，移居中國14年：在百年老宅找到人生理想 14 Years Ago This American Man Sold His House and Moved to China - YouTube - Brave]]
+
+**** [[https://www.youtube.com/watch?v=16pcCiO8XLA][他在北京800㎡家造3個茶室，家具全用明清 He Builds 3 Tea Rooms in His 800-m2 Home in Beijing - YouTube]]
+:PROPERTIES:
+:ID:       52a954f9-1d12-49d9-ba81-ed893662d82b
+:END:
+
+- [2020-12-25 Fri 01:51] <- [[id:e33ce4eb-532b-4fbc-b2ff-6f7408fe3c0b][明清家具]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/16pcCiO8XLA"
+:height "367"
+:width "653"}]]
+
+**** [[https://www.youtube.com/watch?v=Oa78y5gD4R8][“香港建築師改造福建民居，獲國際大獎 Hong Kong Architect Wins Major International Award for Buildings - YouTube”🔊]]
+:PROPERTIES:
+:ID:       c476de67-9ca9-480d-a27c-312665765faf
+:END:
+
+- [2020-12-25 Fri 01:54] -> [[id:2ab1740b-8cb4-40b3-95df-07375d8c58d2][民居]]
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/Oa78y5gD4R8"
+:height "367"
+:width "653"}]]
+
+**** [[https://www.youtube.com/watch?v=2IuBaqBEfmE][“史上最慘民宿：造價2000萬，4年只營業了3天！Cost 20 Million to Restore, Only Opened 3 Days in 4 Years - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/2IuBaqBEfmE"
+:height "367"
+:width "653"}]]
+
+
+* Kinetic Sculptures
+:PROPERTIES:
+:ID:       c60d65be-6f85-498b-abf6-e5d49c705658
+:END:
+** [[https://www.youtube.com/watch?v=zqNnOYoU5ls][INCREDIBLE Kinetic Sculptures You Need To See - Oddly Satisfying Video - YouTube]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/zqNnOYoU5ls"
+:height "367"
+:width "653"}]]
+

@@ -1,0 +1,18 @@
+#+TITLE: Security Tools
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-23 Wed 00:23
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:security_project.org][Security Projects]]
+
+
+* Scaner
+
+** Nmap
+
+*** [[https://github.com/whickey-r7/grab_beacon_config][whickey-r7/grab_beacon_config]]
+
+* REVIEW [[https://github.com/SecurityRiskAdvisors/VECTR][SecurityRiskAdvisors/VECTR: VECTR is a tool that facilitates tracking of your red and blue team testing activities to measure detection and prevention capabilities across different attack scenarios]]

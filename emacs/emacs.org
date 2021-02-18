@@ -8,7 +8,7 @@
 
 #+TAGS: doom(d) roam(r) org_mode(o) literate(l)
 
-- tags :: [[file:org-mode.org][Org mode]], [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]], [[file:../programming/GuangTao-elisp.org][GuangTao's Elisp]]
+- tags :: [[file:org_mode.org][Org mode]], [[file:..//guangtao's_profile.org][GuangTao's Profile]], [[file:../programming/guangtao's_elisp.org][GuangTao's Elisp]]
 
 
 * Emacs Branch
@@ -102,3 +102,5 @@
 ** [[https://github.com/dalanicolai/pymupdf-mode.el][dalanicolai/pymupdf-mode.el: Extend pdf-tools annotation capabilities via pymupdf]]
 * Emacs Rocks
 ** [[https://www.youtube.com/c/200ok-ch/videos][Alain M. Lafon - YouTube]]
+* Emacs to Nix
+** [[https://github.com/deepfire/em][deepfire/em: As somewhat minimal, somewhat practical, somewhat sensible Nix-packaged Emacs bundle.]]

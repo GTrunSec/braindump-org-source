@@ -6,14 +6,15 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
+- tags :: [[file:emacs.org][Emacs]], [[file:org_mode.org][Org mode]]
 
 * Emacs Org Mode Packages
 :PROPERTIES:
 :ID:       0967366b-0e08-4362-87ba-29493b2f3eab
 :END:
 
- - [2021-01-20 Wed 00:30] -> [[id:cf8ef2c5-1316-4a5b-9740-e060288a6ece][isamert/orgmdb.el: An OMDb API client for Emacs with some org-mode related convenience functions.]]
+- [2021-02-12 Fri 14:46] <- [[id:161171e3-5795-40bd-8c83-12a6cf5a429a][org-media-note/org-media-note.el at master · yuchen-lea/org-media-note]]
+- [2021-01-20 Wed 00:30] -> [[id:cf8ef2c5-1316-4a5b-9740-e060288a6ece][isamert/orgmdb.el: An OMDb API client for Emacs with some org-mode related convenience functions.]]
 
 * Emacs LSP Clients
 
@@ -21,3 +22,7 @@
 * Emacs Misc Packages
 
 ** [[https://github.com/zzkt/i-ching][zzkt/i-ching: The I Ching, or Book of Changes]]
+
+** [[https://emacs-china.org/t/separedit-el-docstring/11196/67][separedit.el: 在单独的缓冲区编辑注释、docstring 或其中的代码块 - Emacs-general - Emacs China]]
+
+- [2021-02-10 Wed 19:15] -> [[https://github.com/twlz0ne/separedit.el/issues/20][More comment styles support for C++ · Issue #20 · twlz0ne/separedit.el]]

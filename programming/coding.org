@@ -7,17 +7,17 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../GuangTao-learning-programming-languages.org][GuangTao's learning Programming languages]]
+- tags :: [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
 
 * programming challenges
 
-** [[file:advent-of-code.org][Advent of code]]
+** [[file:advent_of_code.org][Advent of code]]
 
 ** [[https://www.hackerrank.com/][HackerRank]]
 
 *** [[https://github.com/marinskiy/HackerrankPractice][marinskiy/HackerrankPractice: 170+ solutions to Hackerrank.com practice problems using Python 3, С++ and Oracle SQL]]
 
-*** [[file:GuangTao-haskell.org][GuangTao's Haskell]] HackerRank soutlions
+*** [[file:guangtao's_haskell.org][GuangTao's Haskell]] HackerRank soutlions
 
 **** [[https://github.com/ryukinix/haskell-rank][ryukinix/haskell-rank: My solutions of HackerRank written in Haskell]]
 :PROPERTIES:
@@ -28,7 +28,7 @@
 :PROPERTIES:
 :ID:       525e87b2-60c7-4600-bd37-eb98d4da75c8
 :END:
-*** [[file:GuangTao-haskell.org][GuangTao's Haskell]] HackerRank 30 days of code
+*** [[file:guangtao's_haskell.org][GuangTao's Haskell]] HackerRank 30 days of code
 :PROPERTIES:
 :ID:       99cc889f-d9f1-42a4-ac3b-a55fab9e931b
 :END:
@@ -36,7 +36,7 @@
 - [2020-12-23 Wed 02:23] <- [[id:cad0defd-0bab-43ae-81ed-82115147f37b][haskell practice for beginning]]
 **** [[https://github.com/LudvikGalois/30daysofcodingANU][LudvikGalois/30daysofcodingANU: 30 days of coding problems]]
 
-*** [[file:GuangTao-rust.org][GuangTao's Rust]] 30 days of code
+*** [[file:guangtao's_rust.org][GuangTao's Rust]] 30 days of code
 
 **** [[https://github.com/geekskick/30DoC][geekskick/30DoC: Rust 30 Days of Code]]
 
@@ -56,4 +56,4 @@
 
 ** [[https://github.com/rstudio/rstudio-global-2021-program][rstudio/rstudio-global-2021-program]]
 
-- [[file:R-lang.org][R lang]]
+_ [[file:R_lang.org][R lang]]

@@ -7,7 +7,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:GuangTao-game.org][GuangTao's Gaming]], [[file:../../../../Documents/org-notes/braindump/GuangTao-owner/建筑素材分类.org][建筑素材分类]]
+- tags :: [[file:guangtao's_game.org][GuangTao's Gaming]], [[file:../../../../Documents/org_notes/braindump//建筑素材分类.org][建筑素材分类]]
 
 
 * 圣诞节

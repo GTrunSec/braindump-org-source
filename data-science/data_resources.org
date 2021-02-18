@@ -1,0 +1,16 @@
+#+TITLE: Data Resources
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-20 Wed 12:38
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:
+
+
+- tags :: [[file:data_science.org][Data Science]]
+
+
+* [[https://github.com/catalyst-cooperative/pudl][catalyst-cooperative/pudl: The Public Utility Data Liberation Project]]
+* GEOIP
+
+** [[https://github.com/Hackl0us/GeoIP2-CN][Hackl0us/GeoIP2-CN: 最小巧、最准确、最全面、最实用的中国大陆 GeoIP2 数据库及 IP 地址段]]

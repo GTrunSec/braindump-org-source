@@ -1,10 +1,13 @@
-#+TITLE: Kafka Spark
+#+TITLE: Kafka
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
 * kafka deployment
 *** [[https://github.com/confluentinc/ksql][confluentinc/ksql: KSQL - the Streaming SQL Engine for Apache Kafka]]
 *** ✰ Important [[https://gist.github.com/MythRen/6191465e26a75cf2b698d1d9874b518f][zookeeper / kafka cluster 搭建及 kafka 集群加密认证， 客户端加密认证设置方法]]

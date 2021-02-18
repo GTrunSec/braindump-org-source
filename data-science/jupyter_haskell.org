@@ -1,0 +1,79 @@
+#+TITLE: Jupyter Haskell
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:jupyter_data_science.org][Jupyter Data Science]], [[file:~/Dropbox/org_notes/braindump/programming/guangtao's_haskell.org][GuangTao's Haskell]]
+
+* Jupter Notebook Programming in Haskel
+:PROPERTIES:
+:ID:       6438c7d9-22f2-4aff-9c68-3ac5f5b7caab
+:END:
+- [2020-10-29 Thu 18:28] -> [[id:99679afb-8873-409e-9d4b-2b6a6d3b4fc2][Programming in Haskell]]
+** Chapter 1
+#+begin_src ein :session localhost :exports both
+
+#+end_src
+
+#+NAME: 04a67be7-62e0-4865-a46e-d2fd38743400
+#+begin_src ein-haskell :session localhost :exports both
+let pair = (2, "orange")
+#+end_src
+
+#+RESULTS: 04a67be7-62e0-4865-a46e-d2fd38743400
+
+
+#+NAME: 3945a629-cafb-4b58-be8a-6b07f91aa96d
+#+begin_src ein-haskell :session localhost :exports both
+pair
+#+end_src
+
+#+RESULTS: 3945a629-cafb-4b58-be8a-6b07f91aa96d
+: orange
+
+#+NAME: 93b73bda-ab8e-47dd-a31f-3d0c8364b6bf
+#+begin_src ein-haskell :session localhost :exports both
+1:[2,3,4]
+#+end_src
+
+#+RESULTS: 93b73bda-ab8e-47dd-a31f-3d0c8364b6bf
+: [1,2,3,4]
+
+
+
+
+** Chapter 2
+-- Hanoi
+#+begin_src haskell :session localhost :exports both
+hanoiN :: Integer -> [Peg] -> [Move]
+hanoiN 0 _ = []
+hanoiN 1 (p1 : p2 : rest) = [(p1, p2)]
+hanoiN n (p1 : p2 : p3 : rest) =
+    hanoiN k (p1 : p3 : p2 : rest) ++
+    hanoiN (n - k) (p1 : p2 : rest) ++
+    hanoiN k (p3 : p2 : p1 : rest)
+    where k = if null rest then n - 1 else n `quot` 2
+hanoiN _ _ = error "Invalid configuration"
+#+end_src
+
+
+
+
+* Org-mode Haskell
+
+** Main print
+#+begin_src haskell :exports both :results output
+main = System.Environment.getArgs >>= print
+  :main abc xyz
+#+end_src
+
+#+RESULTS:
+:
+: ["abc","xyz"]
+
+* diagrams_gallery _> [[file:jupyter_data_science.org][Jupyter Data Science]]
+
+_ [[https://github.com/Yvee1/jupyter/blob/master/Haskell/diagrams_gallery/Gray.ipynb][jupyter/Gray.ipynb at master · Yvee1/jupyter]] _> [[file:guangtao's_haskell.org][GuangTao's Haskell]]

@@ -1,0 +1,56 @@
+#+TITLE: GuangTao's Regular life
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+OPTIONS: prop:t p:t
+
+
+- tags :: [[file:life_hack.org][Life Hack]], [[file:guangtao's_life.org][GuangTao's Life]]
+
+
+* wasting my clothes [/3]
+** TODO Put clothes washer
+   SCHEDULED: <2020-09-27 Sun 20:00 +1w>
+   :PROPERTIES:
+   :TRIGGER: next-sibling scheduled!("++1h")
+   :WILD_NOTIFIER_NOTIFY_BEFORE: 2
+   :LAST_REPEAT: [2021-01-09 Sat 18:24]
+   :END:
+   :LOGBOOK:
+   - State "DONE"       from "TODO"       [2021-01-09 Sat 18:24]
+   :END:
+[[file:../.attach/d6/48f71a-406b-428f-8163-a1fae21127a8/20210103_144754screenshot.png]]
+** TODO Put clothes in dryer
+   :PROPERTIES:
+   :TRIGGER: next-sibling scheduled!("++1h")
+   :BLOCKER: previous-sibling
+   :WILD_NOTIFIER_NOTIFY_BEFORE: 2
+   :END:
+** TODO Put clothes away
+   :PROPERTIES:
+   :TRIGGER: next-sibling scheduled!("++1M")
+   :WILD_NOTIFIER_NOTIFY_BEFORE: 2
+   :END:
+  #+begin_src emacs-lisp :tangle yes
+(require 'alert)
+
+;; This is the most basic form usage
+(alert "This is an alert")
+
+  #+end_src
+
+* daily Health
+:PROPERTIES:
+:ID:       47139c73-1d6f-4b50-955f-d17ca9b6d3df
+:END:
+- [2021-01-03 Sun 14:51] <- [[id:d9722e5e-1b87-4529-892c-0a0b28408d3a][每天梳头 100 下]]
+
+* 听书
+:PROPERTIES:
+:ID:       d53694ef-52e9-445a-ae05-a0301a7b12f4
+:END:
+
+- [2021-01-22 Fri 01:25] <- [[id:874caa51-9055-4d1d-8486-9446c92fa1b4][鬼吹灯·免费合集（天下霸唱著周建龙演播, 含龙岭迷窟等）有声小说在线收听_悬疑_喜马拉雅 FM - Brave]]

@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:org-mode.org][Org mode]]
+- tags :: [[file:org_mode.org][Org mode]]
 
 
 * [[https://karl-voit.at/2019/09/25/categories-versus-tags/][UOMF: Using Org Mode Categories Versus Tags]]

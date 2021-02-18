@@ -7,6 +7,6 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../GuangTao-owner/GuangTao-profile.org][GuangTao's Profile]]
+- tags :: [[file:..//guangtao's_profile.org][GuangTao's Profile]]
 
 * [[https://docs.nextcloud.com/desktop/2.3/architecture.html#ignored-files-label][Appendix B: History and Architecture — Nextcloud Client Manual 2.4.0 documentation]]

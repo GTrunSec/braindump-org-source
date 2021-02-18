@@ -1,0 +1,26 @@
+#+TITLE: 食材
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-01-08 Fri 23:05
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:美食.org][美食]]
+
+
+* 食材鱼
+:PROPERTIES:
+:ID:       760de8a6-6003-4548-b966-7e96011ea946
+:END:
+- [2021-02-12 Fri 19:08] <- [[id:3e1b8717-ccd2-4d72-a943-ddb2e15ddc2f][18000买一条91斤的月亮鱼，比蓝鳍金枪鱼还珍贵，血赚还是亏了？【小文哥吃吃吃】 - YouTube]]
+- [2021-02-03 Wed 20:13] <- [[id:3311a5a3-034b-4807-8d3b-07bf11f620b2][(27) 试吃340一斤的红丁鱼，出锅又浓又白，鲜美滋补，太完美了【小文哥吃吃吃】 - YouTube]]
+- [2021-01-08 Fri 23:06] -> [[id:3701978f-b224-400c-8a35-6ec61dcd29b6][终于还是下手了，万里挑一的变异黄金狗鲨，出锅后性价比超级高【小文哥吃吃吃】 - YouTube]]
+
+* 食材虾
+
+** 皮皮虾 | 虾蛄
+:PROPERTIES:
+:ID:       bf71fc8c-e9d5-4b0b-b195-47948ae1a618
+:END:
+- [2021-02-08 Mon 21:39] <- [[id:4de09153-2f12-4e69-855f-fcfd27f32be1][1255买5只超大皮皮虾，做生腌皮皮虾，刺激的根本停不下来【小文哥吃吃吃】 - YouTube]]

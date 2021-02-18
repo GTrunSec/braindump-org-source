@@ -1,0 +1,78 @@
+#+TITLE: Data Science
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-11-28 Sat
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+* Awesome resource
+** [[https://github.com/xiaodaigh/awesome-eda][xiaodaigh/awesome-eda: Awesome Exploratory Data Analysis (EDA)]]
+** [[https://github.com/AMAI-GmbH/AI-Expert-Roadmap][AMAI-GmbH/AI-Expert-Roadmap: Roadmap to becoming an Artificial Intelligence Expert in 2021]]
+:PROPERTIES:
+:ID:       6386a70d-0470-42ae-812d-2a7721efff1b
+:END:
+
+- [2021-02-09 Tue 18:18] <- [[id:cf69283e-221b-4503-ae97-f2d5c1b16437][The Foundations of Data Science]]
+* Data Science Roadmap :ATTACH:
+:PROPERTIES:
+:ID:       26ee807f-9457-47a3-8fde-39ecc3bf3d63
+:END:
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 700
+[[attachment:20210209_191947screenshot.png]]
+
+
+* Dash Plotly
+:PROPERTIES:
+:ID:       11408c48-f19b-432a-84e9-6b3b4cec2914
+:END:
+:RELATED:
+[2020-10-30 Fri 15:05] -> [[id:c00f9570-a0a9-4ecb-bac5-06fa2a7d75e3][“Introduction to Dash Plotly - Data Visualization in Python - YouTube”🔊]]
+:END:
+
+* [[https://github.com/nteract/nteract][nteract/nteract: 📘 The interactive computing suite for you! ✨]]
+* Video Resources
+
+** [[https://www.youtube.com/watch?v=hSPmj7mK6ng][“Introduction to Dash Plotly - Data Visualization in Python - YouTube”🔊]]
+:PROPERTIES:
+:ID:       c00f9570-a0a9-4ecb-bac5-06fa2a7d75e3
+:END:
+:BACKLINKS:
+[2020-10-30 Fri 15:05] <- [[id:11408c48-f19b-432a-84e9-6b3b4cec2914][Dash Plotly]]
+:END:
+
+
+* Learning Data Science
+
+** [[https://www.youtube.com/watch?v=SLE0vz85Rqo&feature=youtu.be][Intro to Julia for data science - YouTube]]
+
+
+_ [[file:../programming/guangtao's_julia.org][GuangTao's Julia]]
+
+** [[https://www.kaggle.com/learn/overview][Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle]]
+
+_ [[file:../programming/guangtao's_python.org][GuangTao's Python]]
+
+* The Foundations of Data Science :ATTACH:
+:PROPERTIES:
+:ID:       cf69283e-221b-4503-ae97-f2d5c1b16437
+:END:
+ - [2021-02-09 Tue 18:18] -> [[id:6386a70d-0470-42ae-812d-2a7721efff1b][AMAI-GmbH/AI-Expert-Roadmap: Roadmap to becoming an Artificial Intelligence Expert in 2021]]
+
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 700
+[[attachment:20210209_180058screenshot.png]]
+
+
+** [[http://data8.org/][data-8.github.io]]
+
+* [[https://github.com/nix-community/nix-data][nix-community/nix-data: Standard set of packages and overlays for data-scientists [maintainer=@tbenst]​]]
+:PROPERTIES:
+:ID:       3c699375-3ec9-4b71-af3f-a49f88527e0b
+:END:
+ - [2021-01-22 Fri 15:22] <- [[id:7313dc74-f2de-49f9-8f73-87aac798cb00][Nix Project]]

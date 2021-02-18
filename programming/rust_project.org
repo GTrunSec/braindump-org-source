@@ -1,0 +1,28 @@
+#+TITLE: Rust Project
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2020-12-24 Thu 01:13
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:guangtao's_rust.org][GuangTao's Rust]]
+
+* Rust Jupyter kernel
+
+** [[https://github.com/google/evcxr][google/evcxr]]
+* [[https://github.com/riker-rs/riker][riker-rs/riker: Easily build efficient, highly concurrent and resilient applications. An Actor Framework for Rust.]] :actors:
+
+
+* Rust GCC
+
+** [[https://github.com/Rust-GCC/gccrs][Rust-GCC/gccrs: GCC Front-End for Rust]]
+
+* [[https://github.com/theseus-os/Theseus][theseus-os/Theseus: A modern experimental OS written from scratch in Rust to explore novel OS structure, state management techniques, and how to maximally leverage the power of language by shifting OS responsibilities into the compiler.]]
+
+* Rust async
+** [[https://github.com/rust-lang/futures-rs][rust-lang/futures-rs: Zero-cost asynchronous programming in Rust]]
+* [[https://github.com/svenstaro/miniserve][svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!]]
+
+* [[https://github.com/KillingSpark/rustysd][KillingSpark/rustysd: A service manager that is able to run "traditional" systemd services, written in rust]]
