@@ -1,0 +1,10 @@
+#+TITLE: 统计学
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-19 Fri 11:42
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://github.com/fengdu78/lihang-code][fengdu78/lihang-code: 《统计学习方法》的代码实现 - Brave]]

@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:emacs.org][Emacs]], [[file:org_mode.org][Org mode]]
+- tags :: [[file:emacs.org][Emacs]], [[file:org-mode.org][Org mode]]
 
 * Emacs Org Mode Packages
 :PROPERTIES:
@@ -26,3 +26,19 @@
 ** [[https://emacs-china.org/t/separedit-el-docstring/11196/67][separedit.el: 在单独的缓冲区编辑注释、docstring 或其中的代码块 - Emacs-general - Emacs China]]
 
 - [2021-02-10 Wed 19:15] -> [[https://github.com/twlz0ne/separedit.el/issues/20][More comment styles support for C++ · Issue #20 · twlz0ne/separedit.el]]
+
+* Emacs Formatter and Indent
+
+** [[https://codeberg.org/FelipeLema/tree-sitter-indent.el][FelipeLema/tree-sitter-indent.el: Use Tree-sitter as backend to source code indentation. Provide an `indent-line-function` using the emacs-tree-sitter package - tree-sitter-indent.el - Codeberg.org]]
+
+** [[https://codeberg.org/FelipeLema/julia-formatter.el][FelipeLema/julia-formatter.el: Use JuliaFormatter.jl as backend for indenting code - julia-formatter.el - Codeberg.org]] :julia:
+
+* Emacs Haskell Packages
+:PROPERTIES:
+:ID:       2f4e7682-0b8d-474e-a320-c7533ad9fd9c
+:END:
+
+
+
+
+ - [2021-02-25 Thu 18:50] <- [[id:c8c56621-86b9-4d36-b07b-6a2f621d2d6b][emacs-lsp/lsp-haskell: lsp-mode haskell]]

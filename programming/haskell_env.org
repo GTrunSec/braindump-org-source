@@ -1,0 +1,14 @@
+#+TITLE: Haskell Env
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-25 Thu 18:16
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://github.com/emacs-lsp/lsp-haskell][emacs-lsp/lsp-haskell: lsp-mode haskell]] :emacs:
+  :PROPERTIES:
+  :ID:       c8c56621-86b9-4d36-b07b-6a2f621d2d6b
+  :END:
+ - [2021-02-25 Thu 18:50] -> [[id:2f4e7682-0b8d-474e-a320-c7533ad9fd9c][Emacs Haskell Packages]]

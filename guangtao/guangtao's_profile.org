@@ -159,3 +159,9 @@ _ [[file:haskell_packages.org][Haskell Packages]]
 * Mail Client
 
 ** [[https://www.thunderbird.net/zh-CN/][Thunderbird — 收发邮件更简单。 — Thunderbird]]
+
+* Recording
+
+** [[https://www.tonylykke.com/posts/2018/06/20/embedding-asciinema-casts-in-hugo/][Embedding Asciinema Casts in Hugo · Adventures in Reliability · Tony Lykke]]
+
+** [[https://github.com/asciinema/asciinema][asciinema/asciinema: Terminal session recorder 📹]]

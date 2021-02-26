@@ -1,0 +1,10 @@
+#+TITLE: Proxy
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-24 Wed 17:12
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://github.com/fatedier/frp#access-your-computer-in-lan-by-ssh][fatedier/frp: A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.]]

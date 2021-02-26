@@ -2,6 +2,7 @@
                ;;(eval . (org-hugo-auto-export-mode))
                (eval . (org-superstar-mode +1))
                (eval . (setq-local org-roam-directory "~/Dropbox/org-notes/braindump/"))
+               (eval . (setq-local org-download-timestamp "%Y%m%d_%H%M%S"))
                ;;(eval . (org-id-update-id-locations))
                (eval . (iscroll-mode +1))
                (eval . (setq-local wikinfo-base-url  "https://zh.wikipedia.org"))

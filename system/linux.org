@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:../../../../Documents/org_notes/braindump/system/system.org][System]]
+- tags :: [[file:system.org][System]]
 
 
 * Linux
@@ -70,3 +70,5 @@ NixOS is a Linux distribution built on top of the Nix package manager. It uses d
 ** [[https://github.com/nushell/nushell][nushell/nushell: A new type of shell]]
 
 _ [[file:../programming/rust_project.org][Rust Project]]
+
+* [[https://man7.org/linux/man-pages/man7/cgroups.7.html][cgroups(7) - Linux manual page]]

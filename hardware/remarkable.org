@@ -10,3 +10,7 @@
 * [[https://github.com/Eeems/oxide/blob/master/oxide.nix][oxide/oxide.nix at master · Eeems/oxide]]
 
 * [[https://github.com/lschwetlick/maxio][lschwetlick/maxio: Companion daemon for the reMarkable™ paper tablet]]
+
+* [[https://github.com/rschroll/rmcl][rschroll/rmcl: reMarkable Cloud Library for Python]]
+
+* [[https://github.com/rschroll/rmfuse][rschroll/rmfuse: FUSE access to the reMarkable Cloud]]

@@ -24,3 +24,15 @@
 :ID:       bf71fc8c-e9d5-4b0b-b195-47948ae1a618
 :END:
 - [2021-02-08 Mon 21:39] <- [[id:4de09153-2f12-4e69-855f-fcfd27f32be1][1255买5只超大皮皮虾，做生腌皮皮虾，刺激的根本停不下来【小文哥吃吃吃】 - YouTube]]
+
+* 菌类
+
+** 巴楚菇 :ATTACH:
+:PROPERTIES:
+:ID:       a8e56226-bb90-4ecb-9925-e855d4c55b64
+:END:
+
+#+NAME:
+#+CAPTION:
+#+ATTR_HTML: :width 500
+[[attachment:_20210220_215444screenshot.png]]

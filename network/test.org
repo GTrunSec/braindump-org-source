@@ -1,0 +1,13 @@
+#+TITLE: Title
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-24 Wed 21:25
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+#+begin_export latex
+ \begin{shadequote}[<alignment>]{<author>}
+    text of quote
+ \end{shadequote}
+#+end_export
