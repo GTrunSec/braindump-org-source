@@ -6,9 +6,12 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
+- tags :: [[file:guangtao's_haskell.org][GuangTao's Haskell]]
 
+* [[https://haskell4nix.readthedocs.io/nixpkgs-users-guide.html?highlight=language%20server#how-to-install-haskell-language-server][Nixpkgs User’s Guide — haskell4nix 1 documentation]] :nix:
 * [[https://github.com/emacs-lsp/lsp-haskell][emacs-lsp/lsp-haskell: lsp-mode haskell]] :emacs:
   :PROPERTIES:
   :ID:       c8c56621-86b9-4d36-b07b-6a2f621d2d6b
   :END:
  - [2021-02-25 Thu 18:50] -> [[id:2f4e7682-0b8d-474e-a320-c7533ad9fd9c][Emacs Haskell Packages]]
+* [[https://input-output-hk.github.io/haskell.nix/tutorials/getting-started/][Getting Started - Alternative Haskell Infrastructure for Nixpkgs]]

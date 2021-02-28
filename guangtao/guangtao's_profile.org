@@ -21,9 +21,17 @@
 ** [[https://github.com/codimd/server][codimd/server: CodiMD - Realtime collaborative markdown notes on all platforms.]]
 *
 * Music Streaming
+:PROPERTIES:
+:ID:       927db695-e6d2-460f-bf62-1bc85fb2e65a
+:END:
+- [2021-02-28 Sun 13:11] <- [[id:b05f28b0-53f7-4c11-a033-a3981b2f740c][Music Plyaer]]
 ** [[https://github.com/nukeop/nuclear][nukeop/nuclear: Streaming music player that finds free music for you]]
 *** [[https://github.com/nukeop/nuclear][GTrunSec/nuclear-music-flake: NuclearStreaming music player to Nix]]
 ** [[https://github.com/sentriz/gonic][sentriz/gonic: music streaming server / subsonic server API implementation]]
+
+** [[https://github.com/PeterDing/chord][PeterDing/chord: Chord - A Modern Music Player]]
+
+
 * Database
 ** [[https://github.com/hasura/graphql-engine][hasura/graphql-engine: Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.]]
 * Feed Reader

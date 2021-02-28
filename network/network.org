@@ -21,7 +21,7 @@
 *** [[https://blog.didierstevens.com/2019/07/03/quickpost-nslookup-types/][Quickpost: nslookup Types | Didier Stevens]]
 *** [[https://www.kitploit.com/2019/03/dns-shell-interactive-shell-over-dns.html][DNS-Shell - An Interactive Shell Over DNS Channel]]
 
-** Network [[file:security.org][Security Project or Idea]] DNS
+** Network [[file:../security/security_project.org][Security Projects]] DNS
 :PROPERTIES:
 :ID:       7eae2ec5-aa6b-48b9-a78e-7231b7d3516f
 :END:

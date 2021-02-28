@@ -4,8 +4,9 @@
 result
 myself-private/*
 *-private.org
-*.html
 .DS_Store
 notdeftdb
 orders
 .thumbnails
+
+*.html

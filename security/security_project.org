@@ -7,8 +7,6 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: DAG(d)
 
-
-
 * [[https://github.com/sundowndev/hacker-roadmap][sundowndev/hacker-roadmap: Your beginner pen-testing start guide. A guide for amateur pen testers and a collection of hacking tools, resources and references to practice ethical hacking and web security.]]
 
 

@@ -1,12 +1,11 @@
-#+TITLE: Cyber Security Media
+#+TITLE: Numerical Methods
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2021-01-03 Sun 22:12
+#+DATE: 2021-02-25 Thu 19:31
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:nsm.org][Network monitoring]]
 
-* [[https://medium.com/topic/cybersecurity][Cybersecurity News and Articles — Medium]]
+* [[https://github.com/idontgetoutmuch/NumMethHaskell][idontgetoutmuch/NumMethHaskell: Numerical Methods in Haskell with Applications to Data Analysis, Finance and Physics]]

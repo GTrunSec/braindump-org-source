@@ -12,3 +12,9 @@
 * [[https://www.youtube.com/watch?v=ue-izxI-OAc][“《茶界》古琴与笛箫的完美结合,古典中国音乐 古筝 古琴名曲欣赏 古琴演奏 古琴轻音乐 古筝音乐，于余音袅袅间，忘却世间愁…… - YouTube”🔊]]
 
 * [[https://www.youtube.com/channel/UCPf3YJJcESwkXXzy7vg_oXQ/playlists][巫娜 - 主题 - YouTube]]
+
+* Music Plyaer
+:PROPERTIES:
+:ID:       b05f28b0-53f7-4c11-a033-a3981b2f740c
+:END:
+ - [2021-02-28 Sun 13:11] -> [[id:927db695-e6d2-460f-bf62-1bc85fb2e65a][Music Streaming]]
