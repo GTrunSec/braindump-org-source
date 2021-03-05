@@ -37,6 +37,5 @@ _ [[file:security.org][Security Projects or Ideas]]
 * Python Web framework
 ** [[https://github.com/pallets/flask][pallets/flask: The Python micro framework for building web applications.]]
 * Python Pyspark
-** INPROCESS [#A] Learning Pyspark                         <2018-05-03 Thu> :READ:LEARN:
- - State "DONE"       from "STARTED"    [2017-06-16 Fri 19:54]
-  -[calculus] https://ryancheunggit.gitbooks.io/calculus-with-python/content/01Functions.html
+** Learning Pyspark :READ:LEARN:
+- https://ryancheunggit.gitbooks.io/calculus-with-python/content/01Functions.html

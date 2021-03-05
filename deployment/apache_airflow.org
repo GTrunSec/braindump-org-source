@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:..//guangtao's_workflow.org][GuangTao's Workflow]], [[file:..//guangtao's_profile.org][GuangTao's Profile]]
+- tags :: [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao's_workflow.org][GuangTao's Workflow]], [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao's_profile.org][GuangTao's Profile]]
 
 
 * [[https://github.com/GTrunSec/apache-airflow-nix][GTrunSec/apache-airflow-nix]]

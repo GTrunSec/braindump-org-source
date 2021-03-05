@@ -41,7 +41,7 @@
 :ID:       99679afb-8873-409e-9d4b-2b6a6d3b4fc2
 :END:
 - [2020-10-29 Thu 18:28] <- [[id:6438c7d9-22f2-4aff-9c68-3ac5f5b7caab][Jupter Notebook Programming in Haskell]]
-- [2020-09-24 Thu 22:22] <- [[file:guangtao's_haskell.[[id:18a335db-e9c7-4c7c-bd3d-ad39b116abe1][Haskell books]]
+- [2020-09-24 Thu 22:22] <- [[id:18a335db-e9c7-4c7c-bd3d-ad39b116abe1][Haskell books]]
 
 * GO Books
 :PROPERTIES:

@@ -46,7 +46,7 @@ julia_wrapped -e 'using Pkg; Pkg.rm("RCall"); Pkg.add("RCall"); Pkg.build("RCall
 julia_wrapped -e 'using Pkg;  Pkg.pin(PackageSpec(name="RCall", version="0.13.9"))'
 #+end_src
 
-* JUlia pycall
+* Julia pycall
 
 ** [[https://github.com/JuliaPy/PyCall.jl][JuliaPy/PyCall.jl: Package to call Python functions from the Julia language]]#+begin_src sh :async t :exports both :results output
 Pkg.add("PyPlot")
@@ -72,6 +72,9 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/python3.8:/nix/store/sazxkf8kika32qrr8ziwyavf3awqx5sl-python3.8-matplotlib-3.3.1/lib/python3.8/site-packages/"
 #+end_src
 
+* Julia Compile
+
+** [[https://github.com/timholy/SnoopCompile.jl][timholy/SnoopCompile.jl: Making packages work faster with more extensive precompilation]]
 
 * [[https://github.com/JuliaCN/LeetCode.jl/tree/master/src][LeetCode.jl/src at master · JuliaCN/LeetCode.jl]]
 
@@ -99,6 +102,10 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 * Julia Plots
 
 ** [[https://docs.juliaplots.org/latest/backends/][Backends · Plots]]
+
+* Julia Notebook
+
+** https://github.com/fonsp/Pluto.jl
 
 * [[https://github.com/JuliaDSP][Julia DSP]]
 
@@ -140,3 +147,10 @@ _ [[file:../data_science/data_visualization.org][Data Visualization]]
 :ID:       9b981817-5251-41f7-97f0-ea28414ade73
 :END:
  - [2021-02-03 Wed 12:38] -> [[id:c61159a6-9f26-491a-825f-ecd2c273a2a1][Math MeasureTheory]]
+* Julia Web
+
+- [[https://github.com/JuliaWeb][JuliaWeb - Brave]]
+
+** [[https://genieframework.com/][Genie :: The highly productive Julia web framework - Brave]]
+** [[https://github.com/GenieFramework/Stipple.jl][GenieFramework/Stipple.jl: The reactive UI library for interactive data applications with pure Julia. - Brave]]
+** [[https://github.com/JuliaGizmos/WebIO.jl][JuliaGizmos/WebIO.jl: A bridge between Julia and the Web. - Brave]]

@@ -14,3 +14,19 @@
 * [[https://github.com/rschroll/rmcl][rschroll/rmcl: reMarkable Cloud Library for Python]]
 
 * [[https://github.com/rschroll/rmfuse][rschroll/rmfuse: FUSE access to the reMarkable Cloud]]
+
+* Install Opkg
+
+** [[https://opkg.rmkit.dev/][Toltec]]
+
+#+begin_src sh :async t :exports both :results output
+wget http://toltec-dev.org/bootstrap
+bash bootstrap
+#+end_src
+
+* Install
+#+begin_src sh :async t :exports both :results output
+cp -v /opt/koreader/koreader.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl start koreader
+#+end_src

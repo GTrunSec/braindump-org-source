@@ -65,10 +65,7 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 :PROPERTIES:
 :ID:       e727f4c4-b87d-458c-aa87-3ea3b80084bf
 :END:
-:BACKLINKS:
-[2020-10-30 Fri 16:32] <- [[id:c3da54e9-2886-41e6-87b2-d117f2b22c00][logging library]]
-:END:
-
+- [2020-10-30 Fri 16:32] <- [[id:c3da54e9-2886-41e6-87b2-d117f2b22c00][logging library]]
 * Haskell user
 
 ** [[https://github.com/idontgetoutmuch?tab=repositories][idontgetoutmuch / Repositories]] :nix:
@@ -137,6 +134,11 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 :ID:       f2731e82-6522-4694-9fb0-2caeebf6028f
 :END:
 - [2020-12-09 Wed 20:08] -> [[id:fdd307fb-61eb-4b95-a622-2738c75c4d46][Nix My Haskell]]
+
+* Haskell OpenGL
+
+** [[https://github.com/dmjio/LearnOpenGL.hs][dmjio/LearnOpenGL.hs: LearnOpenGL.com examples ported to Haskell - Brave]]
+
 * Ghcide
 :PROPERTIES:
 :ID:       29d504b7-baa0-47b1-8980-25368baf7414

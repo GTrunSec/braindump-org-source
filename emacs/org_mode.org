@@ -118,7 +118,7 @@ nil)
 * Org mode Agenda
 ** [[http://doc.norang.ca/org-mode.html#GettingOrgModeWithGit][Org Mode - Organize Your Life In Plain Text!]] bh config
 ** https://blog.aaronbieber.com/2016/09/24/an-agenda-for-life-with-org-mode.html <2018-06-07 Thu> :EMACS:
-** https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html <2018-06-07 Thu> :EMACS:
+** https://blog.aaronbieber.com/2017/03/19/organizing-notes-with-refile.html<2018-06-07 Thu> :EMACS:
 
 * Org mode Babel
 
@@ -163,3 +163,5 @@ pandoc testing_org.org -o testing_org_back.ipynb
 :END:
 
  - [2021-02-12 Fri 14:46] -> [[id:0967366b-0e08-4362-87ba-29493b2f3eab][Emacs Org Mode Packages]]
+* Org Capture
+** [[https://github.com/progfolio/doct][progfolio/doct: DOCT: Declarative Org Capture Templates for Emacs - Brave]]

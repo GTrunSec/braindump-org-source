@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:jupyter_data_science.org][Jupyter Data Science]], [[file:~/Dropbox/org_notes/braindump/programming/guangtao's_haskell.org][GuangTao's Haskell]]
+- tags :: [[file:jupyter_data_science.org][Jupyter Data Science]], [[file:~/Dropbox/org-notes/braindump/programming/guangtao's_haskell.org][GuangTao's Haskell]]
 
 * Jupter Notebook Programming in Haskel
 :PROPERTIES:

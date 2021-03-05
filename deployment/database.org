@@ -11,7 +11,7 @@
 
 * Database
 ** pg
-*** ⚑ WAITING http://www.postgresqltutorial.com/postgresql-list-users/
+*** http://www.postgresqltutorial.com/postgresql-list-users/
 *** https://jdbc.postgresql.org/download.html
 ** Doc & book
 *** [[https://github.com/kylelobo/The-Documentation-Compendium][kylelobo/The-Documentation-Compendium: 📢 Various README templates & tips on writing high-quality documentation that people want to read.]]
