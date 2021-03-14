@@ -27,6 +27,10 @@ sudo -u postgres psql postgres
 ** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
 
 _ [[file:../programming/haskell_packages.org][Haskell Packages]]
+
+** Psql Password
+
+*** [[https://www.postgresqltutorial.com/postgresql-change-password/][How To Change the Password of a PostgreSQL User]]
 * Nextcloud
 
 ** repair install with new datadir

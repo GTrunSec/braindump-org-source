@@ -62,6 +62,10 @@ _ [[file:../programming/guangtao's_haskell.org][GuangTao's Haskell]]
 | Nov   |  29 |   14:42 |    16:22 |     1:40 | closed |                            |
 | Nov   |   5 |   23:39 |     1:21 |     1:42 | closed | 解析网易云音乐，生产图表化 |
 
+* Org mode Lsp
+
+** [[https://github.com/tecosaur/org-lsp][tecosaur/org-lsp: Allow the unwashed masses to use Org, without using Emacs, using Emacs.]]
+
 * org mode viewer
 ** [[https://github.com/alphapapa/org-now][alphapapa/org-now: Conveniently show current Org tasks in a sidebar window]]
 

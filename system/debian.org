@@ -29,3 +29,5 @@ sudo mount /dev/cdrom /mnt/cdrom
 cd /mnt/cdrom
 sudo sh ./VBoxLinuxAdditions.run --nox11
 #+end_src
+
+* [[https://www.thomas-krenn.com/en/wiki/Perl_warning_Setting_locale_failed_in_Debian][Perl warning Setting locale failed in Debian - Thomas-Krenn-Wiki]]

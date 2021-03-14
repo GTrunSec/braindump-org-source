@@ -116,6 +116,10 @@ _ [[file:../emacs/emacs.org][Emacs]]
 
 *** [[https://github.com/wulkano/Kap][wulkano/Kap: An open-source screen recorder built with web technology]] :macos:
 
+*** [[https://github.com/pavlobu/deskreen][pavlobu/deskreen: Deskreen turns any device with a web browser into a secondary screen for your computer]]
+
+**** [[https://deskreen.com/lang-zh_CN][Deskreen]]
+
 ** desktop bar
 
 *** [[https://github.com/taffybar/taffybar][taffybar/taffybar: A gtk based status bar for tiling window managers such as XMonad]]

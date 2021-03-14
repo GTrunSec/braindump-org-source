@@ -140,8 +140,17 @@ ENV["PYTHON"] = "/nix/store/qmb02iydfd865g0k5p5xv3njgxfjnh7x-system-path/bin/pyt
 
 * [[https://github.com/queryverse][Queryverse - Brave]]
 
-_ [[file:../data_science/data_visualization.org][Data Visualization]]
+- [[file:~/Dropbox/org-notes/braindump/data-science/data_visualization.org][Data Visualization]]
+- [2021-03-08 Mon 23:37] -> [[https://discourse.juliacn.com/t/topic/4470][发现一个数据可视化的好东西 - 学科相关 / 数据科学 - Julia中文社区]]
 
+#+begin_src julia :async t :exports both :results output
+using Pkg
+using Queryverse, VegaDatasets, IndexedTables
+cars = dataset("cars")
+cars |> Voyager()
+#+end_src
+
+** [[http://www.david-anthoff.com/jl4ds/stable/fileio/][Tabular File IO · Julia for Data Science]]
 * [[https://github.com/cscherrer/MeasureTheory.jl][cscherrer/MeasureTheory.jl]] :math:
 :PROPERTIES:
 :ID:       9b981817-5251-41f7-97f0-ea28414ade73
@@ -154,3 +163,9 @@ _ [[file:../data_science/data_visualization.org][Data Visualization]]
 ** [[https://genieframework.com/][Genie :: The highly productive Julia web framework - Brave]]
 ** [[https://github.com/GenieFramework/Stipple.jl][GenieFramework/Stipple.jl: The reactive UI library for interactive data applications with pure Julia. - Brave]]
 ** [[https://github.com/JuliaGizmos/WebIO.jl][JuliaGizmos/WebIO.jl: A bridge between Julia and the Web. - Brave]]
+* [[https://github.com/JuliaDynamics/DrWatson.jl][JuliaDynamics/DrWatson.jl: The perfect sidekick to your scientific inquiries]]
+** [[https://juliadynamics.github.io/DrWatson.jl/dev/][Introduction · DrWatson]]
+* Jupyter Jupyter
+** [[https://github.com/vdayanand/Jupyter2Pluto.jl][vdayanand/Jupyter2Pluto.jl]]
+* Julia Diagrams
+** [[https://github.com/bauglir/Kroki.jl][bauglir/Kroki.jl: Integrations for Kroki supported diagrams and plots]]

@@ -114,3 +114,5 @@ git clone https://github.com/hyper0x/JuliaBasics.git
 * Julia discourse
 
 ** [[https://discourse.juliacn.com/t/topic/4806][Circuitscape，国家公园，自然保护 - 社区 - Julia中文社区]]
+
+* [[http://blog.leahhanson.us/post/julia/julia-commands.html][Running Shell Commands from Julia | Leah Hanson]]
