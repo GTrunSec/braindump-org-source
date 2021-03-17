@@ -54,8 +54,9 @@ _ [[file:../programming/guangtao's_julia.org][GuangTao's Julia]]
 
 ** [[https://www.kaggle.com/learn/overview][Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle]]
 
-_ [[file:../programming/guangtao's_python.org][GuangTao's Python]]
+- [[file:../programming/guangtao's_python.org][GuangTao's Python]]
 
+** [[https://github.com/joelgrus/data-science-from-scratch][joelgrus/data-science-from-scratch: code for Data Science From Scratch book]]
 * The Foundations of Data Science :ATTACH:
 :PROPERTIES:
 :ID:       cf69283e-221b-4503-ae97-f2d5c1b16437

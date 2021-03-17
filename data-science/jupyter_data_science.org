@@ -43,4 +43,4 @@
 
 * [[https://github.com/ageron/handson-ml][ageron/handson-ml: A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.]]
 
-_ [[file:../../../../Documents/org_notes/braindump/data_science/machine_learning.org][Machine Learning]]
+- [[file:~/Documents/org-notes/braindump/data-science/machine_learning.org][Machine Learning]]
