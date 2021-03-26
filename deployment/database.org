@@ -45,3 +45,4 @@ nextcloud-occ install --data-dir /DATABASE-4TB/nextcloud/data
 
 _ [[file:../programming/haskell_packages.org][Haskell Packages]]
 * [[https://github.com/tiangolo/full-stack-fastapi-postgresql][tiangolo/full-stack-fastapi-postgresql: Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more. - Brave]]
+* [[https://github.com/hstreamdb/hstream][hstreamdb/hstream: The streaming database built for IoT data storage and real-time processing in the 5G Era]] :haskell:

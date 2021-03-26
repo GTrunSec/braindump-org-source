@@ -25,4 +25,5 @@
 ** [[https://github.com/rust-lang/futures-rs][rust-lang/futures-rs: Zero-cost asynchronous programming in Rust]]
 * [[https://github.com/svenstaro/miniserve][svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!]]
 
-* [[https://github.com/KillingSpark/rustysd][KillingSpark/rustysd: A service manager that is able to run "traditional" systemd services, written in rust]]
+-* [[https://github.com/KillingSpark/rustysd][KillingSpark/rustysd: A service manager that is able to run "traditional" systemd services, written in rust]]
+* [[https://github.com/tauri-apps/tauri/issues][Issues · tauri-apps/tauri]]

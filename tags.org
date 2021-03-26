@@ -6,7 +6,7 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_owner/guangtao's_workflow.org][GuangTao's Workflow]]
+- tags :: [[file:guangtao/guangtao's_workflow.org][GuangTao's Workflow]]
 
 * Org Mode braindump tags
 :PROPERTIES:
@@ -15,6 +15,7 @@
 
 
 ** [[file:nix/guangtao's_nix.org][GuangTao's Nix]]
+
 #+begin_src plantuml :file ./tags/my-nix-tags.png
 @startuml
 title My nix

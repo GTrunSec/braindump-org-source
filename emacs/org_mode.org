@@ -135,16 +135,6 @@ nil)
 pandoc testing_org.org -o testing_org_back.ipynb
 #+end_src
 
-* Org Roam
-
-** [[https://github.com/madnificent/org-roam-browser-extension][madnificent/org-roam-browser-extension: Org-roam extension to the browser]]
-
-** [[https://github.com/Kinneyzhang/roam-block][Kinneyzhang/roam-block: An all-purpose block ref and block embed implement in emacs.]]
-
-** [[https://github.com/randomwangran/roam-with-helm/blob/main/roam-with-helm.el][roam-with-helm/roam-with-helm.el at main · randomwangran/roam-with-helm]]
-
-** [[https://github.com/NicolasPetton/nroam][NicolasPetton/nroam: Org-roam backlinks within org-mode buffers]]
-
 * Org mode timelinee
 
 * Org mode database
