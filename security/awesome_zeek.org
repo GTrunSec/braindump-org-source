@@ -6,12 +6,15 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: analyzer(a) agent(A) packet(P) package(p) windows(w) linux(L) learn(l)
+
+
 - tags :: [[file:nsm.org][Network monitoring]]
   
 - [[https://app.slack.com/client/TSXGCHZE1/CSZBXF6TH][Slack | general | Zeek | 1 new item]]
 
-
 - [[http://mailman.icsi.berkeley.edu/pipermail/zeek/][The Zeek Archives]] [Zeek mail_list]
+
+
 * Zeek installation
 ** [[https://www.ericooi.com/zeekurity-zen-part-i-how-to-install-zeek-on-centos-8/#comment-1670][Zeekurity Zen - Part I: How to Install Zeek on CentOS 8 - ericooi.com]]
 *** [[https://www.ericooi.com/zeekurity-zen-zeries/][Zeekurity Zen Zeries - ericooi.com]]
@@ -309,7 +312,11 @@ This package adds the _node_name field to Zeek logs to indicate which node gener
 * Zeek Agent
 ** [#A] [[https://github.com/zeek/zeek-agent][zeek/zeek-agent: An endpoint monitoring agent that provides host activity to Zeek]]
 ** [[https://github.com/zeek/bro-netmap][zeek/bro-netmap: Native Netmap Packet IOSource for Bro/Zeek]]
-** DONE [[https://github.com/apache/metron-bro-plugin-kafka][apache/metron-bro-plugin-kafka: Apache Metron]] :agent:
+** [[https://github.com/SeisoLLC/zeek-kafka][SeisoLLC/zeek-kafka: A Zeek log writer plugin that publishes to Kafka.]]
+*** ✘ CANCELED [[https://github.com/apache/metron-bro-plugin-kafka][apache/metron-bro-plugin-kafka: Apache Metron]] :agent:
+:LOGBOOK:
+- State "✘ CANCELED" from "DONE"       [2021-04-01 Thu 13:34]
+:END:
 ** DONE [[https://github.com/0xxon/zeek-postgresql/tree/master/scripts][zeek-postgresql/scripts at master · 0xxon/zeek-postgresql]] :agent:
 :PROPERTIES:
 :ID:       b4051a4c-9fcd-4c08-ae11-c4a2a1b0763a
@@ -329,7 +336,7 @@ This package adds the _node_name field to Zeek logs to indicate which node gener
 ** Zeek to sandbox
 *** [[https://github.com/joesecurity/Joe-Sandbox-Bro][joesecurity/Joe-Sandbox-Bro: JoeSandbox-Bro is a simple bro script which extracts files from your internet connection and analyzes them automatically on Joe Sandbox]]
 *** [[https://github.com/HASecuritySolutions/zeek_to_cuckoo][HASecuritySolutions/zeek_to_cuckoo: Contains a python script and service file for sending Zeek extracted files to Cuckoo Sandbox]]
-** [[https://github.com/tenzir/zeek-vast][tenzir/zeek-vast: Enables Zeek to communicate with VAST]]
+** DONE [[https://github.com/tenzir/zeek-vast][tenzir/zeek-vast: Enables Zeek to communicate with VAST]]
 ** [[https://github.com/UHH-ISS/honeygrove][UHH-ISS/honeygrove: A multi-purpose, modular medium-interaction honeypot based on Twisted.]]
 :PROPERTIES:
 :ID:       c86897c0-c9a8-4de3-85eb-b278de759076

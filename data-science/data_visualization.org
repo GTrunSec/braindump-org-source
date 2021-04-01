@@ -8,4 +8,7 @@
 
 - tag :: [[file:data_science.org][Data science]]
 
+
 * [[https://github.com/finos/perspective][finos/perspective: Streaming pivot visualization via WebAssembly]]
+
+* [[https://github.com/graphql-rust/juniper][graphql-rust/juniper: GraphQL server library for Rust]]
