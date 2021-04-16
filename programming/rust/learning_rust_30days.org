@@ -4,5 +4,4 @@
 #+DATE: 2021-04-15 Thu 22:08
 
 
-
-* Rust 30days
+* [[https://www.hackerrank.com/domains/tutorials/30-days-of-code][Solve Tutorials | HackerRank]]
