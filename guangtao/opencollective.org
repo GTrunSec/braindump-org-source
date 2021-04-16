@@ -8,8 +8,10 @@
 
 - tags :: [[file:guangtao's_profile.org][GuangTao's Profile]]
 
-* [[https://opencollective.com/logseq/contribute/][Contribute to Logseq - Open Collective]] $15
-SCHEDULED: <2020-12-11 Fri>
+* DONE [[https://opencollective.com/logseq/contribute/][Contribute to Logseq - Open Collective]] $15
+SCHEDULED: [2020-12-11 Fri]-[2021-04-11 Sun]
 
-* [[https://opencollective.com/nixos/contribute/supporter-10447/checkout][Contribute to The NixOS Foundation - Open Collective]] €10
+* [[https://opencollective.com/nixos/contribute/supporter-10447/checkout][Contribute to The NixOS Foundation - Open Collective]] €20
 SCHEDULED: <2019-09-02 Mon>
+
+* [[https://opencollective.com/rust-analyzer/contribute/backer-9730/checkout/payment][参与 rust-analyzer - Open Collective]] €5

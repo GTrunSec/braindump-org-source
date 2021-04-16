@@ -1,0 +1,17 @@
+#+TITLE: WireGuard VPN
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-06 Tue 11:42
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://www.wireguard.com/][WireGuard: fast, modern, secure VPN tunnel]]
+:PROPERTIES:
+:ID:       0249c811-f8cc-4655-9fae-1fbadcf7b8cb
+:END:
+
+ - [2021-04-06 Tue 12:29] -> [[id:fd4cfad0-3fc4-4d75-8f12-704a8d6e3c24][Wireguard]]
+* [[https://github.com/jwhited/wgsd][jwhited/wgsd: A CoreDNS plugin that provides WireGuard peer information via DNS-SD semantics]]

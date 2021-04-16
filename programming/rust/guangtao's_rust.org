@@ -2,11 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
+- tags :: [[file:~/Dropbox/org-notes/braindump/guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
 
 * Rust Environment
 ** rust nix
@@ -17,25 +14,6 @@
  - [2021-01-02 Sat 15:44] -> [[id:41252713-70ef-4d4f-b6b8-22ad53c69235][oxalica/rust-overlay]]
 *** [[https://nixos.wiki/wiki/Rust][Rust - NixOS Wiki]]
 
-* Rust Doc
-
-** [[https://github.com/ralfbiedert/cheats.rs][ralfbiedert/cheats.rs: Rust Language Cheat Sheet - https://cheats.rs]]
-
-* Learning Rust
-** [[https://doc.rust-lang.org/book/ch01-02-hello-world.html][Hello, World! - The Rust Programming Language]]
-** [[https://github.com/ctjhoa/rust-learning][ctjhoa/rust-learning: A bunch of links to blog posts, articles, videos, etc for learning Rust]]
-** [[https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials][rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust]]
-:PROPERTIES:
-:ID:       207c92d4-3a20-4798-9324-e798bec9e260
-:END:
-- [2020-12-08 Tue 15:06] <- [[id:1f7b01a1-1a38-404a-859a-5667b466272d][Rust embedded]]
-
-** [[https://github.com/pretzelhammer/rust-blog/blob/master/posts/learning-rust-in-2020.md][rust-blog/learning-rust-in-2020.md at master · pretzelhammer/rust-blog]]
-
-
-
-** [[https://bfnightly.bracketproductions.com/rustbook/chapter_3.html][Walking A Map - Roguelike Tutorial - In Rust]]
-- [[https://github.com/thebracket/rustrogueliketutorial][thebracket/rustrogueliketutorial: Roguelike Tutorial in Rust - using RLTK]]
 
 * Rust embedded
 :PROPERTIES:
@@ -73,3 +51,4 @@
 * Rust GUI
 
 ** [[https://github.com/jpochyla/psst][jpochyla/psst: Fast and multi-platform Spotify client with native GUI]]
+

@@ -1,0 +1,10 @@
+#+TITLE: Rust Performance
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-08 Thu 19:05
+
+
+- tags :: [[file:guangtao's_rust.org][GuangTao's Rust]]
+
+* [[https://nnethercote.github.io/perf-book/benchmarking.html][Benchmarking - The Rust Performance Book]]
+

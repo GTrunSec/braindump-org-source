@@ -10,9 +10,6 @@
 
 
 * Database
-** pg
-*** http://www.postgresqltutorial.com/postgresql-list-users/
-*** https://jdbc.postgresql.org/download.html
 ** Doc & book
 *** [[https://github.com/kylelobo/The-Documentation-Compendium][kylelobo/The-Documentation-Compendium: 📢 Various README templates & tips on writing high-quality documentation that people want to read.]]
 
@@ -23,7 +20,8 @@
 #+begin_src sh :async t :exports both :results output
 sudo -u postgres psql postgres
 #+end_src
-
+** [[https://jdbc.postgresql.org/download.html][PostgreSQL JDBC Download]]
+** [[https://www.postgresqltutorial.com/postgresql-list-users/][PostgreSQL List Users: Shows PostgreSQL Users]]
 ** [[https://github.com/haskellari/postgresql-simple][haskellari/postgresql-simple: Mid-level client library for accessing PostgreSQL from Haskell]]
 
 _ [[file:../programming/haskell_packages.org][Haskell Packages]]
@@ -41,6 +39,7 @@ _ [[file:../programming/haskell_packages.org][Haskell Packages]]
 * Database Migration
 ** [[https://github.com/jfischoff/trek][jfischoff/trek: A database migration system]]
 
-_ [[file:../programming/haskell_packages.org][Haskell Packages]]
+- [[file:../programming/haskell_packages.org][Haskell Packages]]
+
 * [[https://github.com/tiangolo/full-stack-fastapi-postgresql][tiangolo/full-stack-fastapi-postgresql: Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more. - Brave]]
 * [[https://github.com/hstreamdb/hstream][hstreamdb/hstream: The streaming database built for IoT data storage and real-time processing in the 5G Era]] :haskell:

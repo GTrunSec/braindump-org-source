@@ -142,6 +142,10 @@ _ [[file:../emacs/emacs.org][Emacs]]
 
 - [[https://wiki.videolan.org/QtHotkeys/][QtHotkeys - VideoLAN Wiki]]
 
+** RSS
+
+*** [[https://github.com/DIYgod/RSSHub][DIYgod/RSSHub: 🍰 Everything is RSSible]]
+
 * Dictionaries
 
 ** [[https://www.pdawiki.com/forum/forum.php?mod=viewthread&tid=36097&extra=page%3D1][⚜ 打造完美《牛津高阶双解 第四版》(2019.11.11更新) - MDict 词库资源区 - MDict Dictionaries - 掌上百科 - PDAWIKI - Powered by Discuz!]]

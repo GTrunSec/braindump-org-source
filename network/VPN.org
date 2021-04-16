@@ -14,6 +14,7 @@
 :ID:       fd4cfad0-3fc4-4d75-8f12-704a8d6e3c24
 :END:
 
- - [2021-01-09 Sat 01:20] <- [[id:b638affe-16db-4051-a7cb-d0df0ca1d172][VPN Server]]
+- [2021-04-06 Tue 12:29] <- [[file:~/Dropbox/org-notes/braindump/deployment/wireguard.org][file:~/Dropbox/org-notes/braindump/deployment/wireguard.org]]
+- [2021-01-09 Sat 01:20] <- [[id:b638affe-16db-4051-a7cb-d0df0ca1d172][VPN Server]]
 
 ** [[https://discourse.nixos.org/t/solved-minimal-firewall-setup-for-wireguard-client/7577/3][[SOLVED] Minimal firewall setup for Wireguard client? - #3 by errnoh - Learn - NixOS Discourse]]

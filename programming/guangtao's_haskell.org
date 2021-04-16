@@ -40,24 +40,26 @@ Haskell is a general-purpose, statically typed, purely functional programming la
 
 ** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
 
-** Haskell video
+** Haskell Video
 
 *** [[https://www.youtube.com/watch?v=Vgu82wiiZ90&list=PLe7Ei6viL6jGp1Rfu0dil1JH1SHk9bgDV][“Haskell for Imperative Programmers #1 - Basics - YouTube”🔊]]
 
 *** [[https://www.youtube.com/c/Tsoding/playlists][Tsoding - YouTube]]
 
 **** [[https://www.youtube.com/watch?v=h_D4P-KRNKs][HackerRank in Haskell -- HaskellRank #01 - YouTube]]
-** learning Haskell
+** Learning Haskell
 
 *** [[https://github.com/kowainik/learn4haskell][kowainik/learn4haskell: 👩‍🏫 👨‍🏫 Learn Haskell basics in 4 pull requests]]
 *** [[https://github.com/stolyaroleh/learning-haskell/blob/master/cis-194/src/Hw11/SExpr.hs][learning-haskell/SExpr.hs at master · stolyaroleh/learning-haskell]]
 *** [[https://github.com/tonymorris/fp-course][tonymorris/fp-course: Functional Programming Course]]
 *** [[https://github.com/Anton-Latukha/Haskell-Programming-From-First-Principles-exercises][Anton-Latukha/Haskell-Programming-From-First-Principles-exercises: Consists of QUALITY BELABORING of EVERY EXERCISE in the chapters {1-18,26} (~1400 pages) of the "Haskell book" ("Haskell Programming from First Principles"). With literate comments. Additionally notable for use of Nix for exercise projects.]]
-** haskell practice for beginning
+** Haskell Practice For Beginning
 :PROPERTIES:
 :ID:       cad0defd-0bab-43ae-81ed-82115147f37b
 :END:
  - [2020-12-23 Wed 02:23] -> [[id:99cc889f-d9f1-42a4-ac3b-a55fab9e931b][LudvikGalois/30daysofcodingANU: 30 days of coding problems]]
+
+
 * Haskell Repositories
 ** [[https://github.com/obsidiansystems/solana-bridges][obsidiansystems/solana-bridges]]
 

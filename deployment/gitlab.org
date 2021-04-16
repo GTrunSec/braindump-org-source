@@ -1,12 +1,13 @@
-#+TITLE: Data Visualization
+#+TITLE: GitLab
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-12-14 Mon 12:48
+#+DATE: 2021-04-06 Tue 23:53
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tag :: [[file:data_science.org][Data science]]
 
-* [[https://github.com/finos/perspective][finos/perspective: Streaming pivot visualization via WebAssembly]]
 
+* GitLab API
+
+** [[https://github.com/hsyl20/gitlab-haskell][hsyl20/gitlab-haskell]] :haskell:

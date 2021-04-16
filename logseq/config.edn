@@ -51,4 +51,5 @@
  :git-auto-push false, 
  :journal-basis "daily", 
  :preferred-format "Org"
- :feature/enable-journals? false}
+ :feature/enable-journals? false
+ :feature/enable-timetracking? false}

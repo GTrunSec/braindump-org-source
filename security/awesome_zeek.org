@@ -73,6 +73,7 @@ CLOSED: [2018-12-03 Mon 15:25]
 - [[https://cr.yp.to/djbdns/axfr-notes.html][https://cr.yp.to/djbdns/axfr-notes.html]]
 *** DONE [[https://github.com/corelight/top-dns][corelight/top-dns: Top DNS Measurement for Bro]]
 CLOSED: [2019-08-10 Sat 21:11]
+*** DONE [[https://github.com/dopheide-esnet/zeek-known-hosts-with-dns][dopheide-esnet/zeek-known-hosts-with-dns: This script expands the base known-hosts policy to include reverse DNS queries and syncs it across all workers.]]
 
 ** Zeek Script Conn
 *** DONE [[https://github.com/corelight/bro-long-connections][corelight/bro-long-connections: Zeek package for tracking long connections to report them before they have completed.]]
@@ -373,3 +374,4 @@ IVRE (Instrument de veille sur les réseaux extérieurs) or DRUNK (Dynamic Recon
 * Zeek Event
 
 ** [[https://www.sans.org/webcasts/tech-tuesday-workshop-advanced-zeek-brim-zeek-agent-spicy-zeek-packages-117550?msc=blog-tech-tuesday][Tech Tuesday Workshop: Advanced Zeek Brim, Zeek agent, Spicy, and new Zeek packages - SANS Institute]]
+

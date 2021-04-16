@@ -14,6 +14,7 @@
 :END:
 
 - [2021-02-09 Tue 18:18] <- [[id:cf69283e-221b-4503-ae97-f2d5c1b16437][The Foundations of Data Science]]
+** [[https://www.youtube.com/watch?v=MTXG9R61CuI][High-Performance Data Science with RAPIDS - YouTube]]
 * Data Science Roadmap :ATTACH:
 :PROPERTIES:
 :ID:       26ee807f-9457-47a3-8fde-39ecc3bf3d63

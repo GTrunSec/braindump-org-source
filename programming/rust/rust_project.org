@@ -2,9 +2,7 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-24 Thu 01:13
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 
 - tags :: [[file:guangtao's_rust.org][GuangTao's Rust]]
@@ -23,7 +21,17 @@
 
 * Rust async
 ** [[https://github.com/rust-lang/futures-rs][rust-lang/futures-rs: Zero-cost asynchronous programming in Rust]]
+
+* Rust Web Framework
+
+** [[https://github.com/thruster-rs/Thruster][thruster-rs/Thruster: A fast, middleware based, web framework written in Rust - Brave]]
 * [[https://github.com/svenstaro/miniserve][svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!]]
 
 -* [[https://github.com/KillingSpark/rustysd][KillingSpark/rustysd: A service manager that is able to run "traditional" systemd services, written in rust]]
 * [[https://github.com/tauri-apps/tauri/issues][Issues · tauri-apps/tauri]]
+* [[https://github.com/ralfbiedert/cheats.rs][ralfbiedert/cheats.rs: Rust Language Cheat Sheet - https://cheats.rs]]
+
+* Rust Algorithms
+
+** [[https://github.com/rust-bio/rust-bio][rust-bio/rust-bio: This library provides implementations of many algorithms and data structures that are useful for bioinformatics. All provided implementations are rigorously tested via continuous integration.]]
+

@@ -157,5 +157,8 @@ pandoc testing_org.org -o testing_org_back.ipynb
 :END:
 
  - [2021-02-12 Fri 14:46] -> [[id:0967366b-0e08-4362-87ba-29493b2f3eab][Emacs Org Mode Packages]]
+* Org Mode Publish
+** [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][Migrating from Jekyll to org-mode and Github Actions]]
+*** [[https://github.com/dmacvicar/site.org][dmacvicar/site.org: Website in org mode]]
 * Org Capture
 ** [[https://github.com/progfolio/doct][progfolio/doct: DOCT: Declarative Org Capture Templates for Emacs - Brave]]

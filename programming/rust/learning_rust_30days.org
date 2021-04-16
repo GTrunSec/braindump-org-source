@@ -1,0 +1,8 @@
+#+TITLE: Learning Rust For 30 Days
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-15 Thu 22:08
+
+
+
+* Rust 30days

@@ -5,6 +5,10 @@
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
 #+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+- tags :: [[file:org_mode.org][Org mode]]
+
+
 * [[https://github.com/madnificent/org-roam-browser-extension][madnificent/org-roam-browser-extension: Org-roam extension to the browser]]
 
 * [[https://github.com/Kinneyzhang/roam-block][Kinneyzhang/roam-block: An all-purpose block ref and block embed implement in emacs.]]
