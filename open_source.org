@@ -2,9 +2,6 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-05 Sat 14:22
-
-
-#+SETUPFILE: ~/Documents/org-notes/braindump/tags/open-source-tags.setup
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
@@ -18,3 +15,4 @@
 * Open Source Jobs
 
 * [[https://github.com/phodal/techlead][phodal/techlead: Tech Lead Toolbox]]
+

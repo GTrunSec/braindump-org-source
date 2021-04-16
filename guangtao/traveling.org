@@ -3,8 +3,6 @@
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2019-07-22 Mon
 
-
-#+SETUPFILE: ~/Documents/org-notes/braindump/tags/travel-tags.org
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:../life/guangtao's_life.org][GuangTao's Life]],  [[file:游山玩水.org][游山玩水]], [[file:古墓文物.org][古墓文物]]
@@ -399,3 +397,4 @@
 ** [[https://www.youtube.com/watch?v=sHGHFdCtRWI][“冒险雷探长 第103集 巴米扬大佛秘窟生死探秘——阿富汗 - YouTube”🔊]]
 * 素材
 ** [[https://www.youtube.com/watch?v=_OcKQa-Dapw][攝影師塔可花10年尋遍《詩經》裡的中國 Photographer Taca Spends A Decade Searching for the China in the Books of Odes - YouTube]]
+
