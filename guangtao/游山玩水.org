@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-30 Mon 15:02
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: 民宿(M) 旅馆(l) 山川(s) 河流(h) 人文(r) 古迹(g) 古墓 美食(m)
 

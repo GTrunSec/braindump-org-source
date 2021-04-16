@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-04 Mon 23:14
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:red_team.org][Red Team]]

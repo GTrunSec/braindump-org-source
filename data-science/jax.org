@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-18 Thu 00:03
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 

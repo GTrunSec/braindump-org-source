@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat 22:09
-#+SETUPFILE: ../hugo.setup
-#+SETUPFILE: ../theme-readtheorg.setup
+
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:guangtao's_life.org][GuangTao's Life]], [[file:guangtao's_regular_life.org][GuangTao's Regular life]], [[file:健康生活.org][健康生活]]

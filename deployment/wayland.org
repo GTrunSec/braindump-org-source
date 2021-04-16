@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-05 Sat 19:05
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 * Wayland Packacges Support
 ** [[https://github.com/cprussin/fzf-pass][cprussin/fzf-pass: Wayland client for pass using fzf as the user interface]]

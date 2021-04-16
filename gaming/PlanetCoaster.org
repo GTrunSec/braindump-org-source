@@ -2,9 +2,9 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-06 Sun 14:52
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+
 #+SETUPFILE: ../tags/planetcosater-tags.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:guangtao's_game.org][GuangTao's Gaming]], [[file:../../../../Documents/org_notes/braindump//建筑素材分类.org][建筑素材分类]]

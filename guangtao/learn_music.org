@@ -2,8 +2,8 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2019-11-09 Sun 14:52
-#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
-#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+
+
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 
 - [[https://github.com/NixOS/nixpkgs/tree/master/pkgs/applications/audio][nixpkgs/pkgs/applications/audio at master · NixOS/nixpkgs]]
