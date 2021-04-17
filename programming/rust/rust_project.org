@@ -2,7 +2,7 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-24 Thu 01:13
-
+#+SETUPFILE: ./hugo.setup
 
 
 - tags :: [[file:guangtao's_rust.org][GuangTao's Rust]]

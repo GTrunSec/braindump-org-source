@@ -2,6 +2,7 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
+#+SETUPFILE: ./hugo.setup
 
 - tags :: [[file:~/Dropbox/org-notes/braindump/guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
 
