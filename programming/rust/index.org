@@ -1,0 +1,8 @@
+#+TITLE: Rust Roadmap Roam Index Page
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-17 Sat 11:34
+#+SETUPFILE: ./hugo.setup
+
+- [[file:guangtao_rust.org][GuangTao's Rust]]
+

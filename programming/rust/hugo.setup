@@ -1,4 +1,4 @@
-#+HUGO_BASE_DIR: ./
+#+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: posts
 #+hugo_custom_front_matter: :author "GTrunSec"
 #+options: creator:t author:nil
