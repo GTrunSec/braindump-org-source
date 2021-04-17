@@ -51,11 +51,11 @@
 ** [[https://www.youtube.com/watch?v=SLE0vz85Rqo&feature=youtu.be][Intro to Julia for data science - YouTube]]
 
 
-_ [[file:../programming/guangtao's_julia.org][GuangTao's Julia]]
+_ [[file:../programming/guangtao_julia.org][GuangTao's Julia]]
 
 ** [[https://www.kaggle.com/learn/overview][Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle]]
 
-- [[file:../programming/guangtao's_python.org][GuangTao's Python]]
+- [[file:../programming/guangtao_python.org][GuangTao's Python]]
 
 ** [[https://github.com/joelgrus/data-science-from-scratch][joelgrus/data-science-from-scratch: code for Data Science From Scratch book]]
 * The Foundations of Data Science :ATTACH:

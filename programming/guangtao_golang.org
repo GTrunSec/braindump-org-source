@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
+- tags :: [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]]
 
 * Golang Documents
 

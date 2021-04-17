@@ -8,7 +8,7 @@
 
 #+TAGS: calculus(c)
 
-- tags :: [[file:guangtao's_latex.org][GuangTao's latex]]
+- tags :: [[file:guangtao_latex.org][GuangTao's latex]]
 
 
 * course

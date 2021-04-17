@@ -8,7 +8,7 @@
 #+OPTIONS: prop:t
 
 
-- tags :: [[file:guangtao's_life.org][GuangTao's Life]], [[file:guangtao's_media.org][GuangTao's Media]]
+- tags :: [[file:guangtao_life.org][GuangTao's Life]], [[file:guangtao_media.org][GuangTao's Media]]
 
 * Coding
 * Media

@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_R.org][GuangTao's R]]
+- tags :: [[file:guangtao_R.org][GuangTao's R]]
 
 * Time series
 

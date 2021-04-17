@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_haskell.org][GuangTao's Haskell]]
+- tags :: [[file:guangtao_haskell.org][GuangTao's Haskell]]
 
 * [[https://haskell4nix.readthedocs.io/nixpkgs-users-guide.html?highlight=language%20server#how-to-install-haskell-language-server][Nixpkgs User’s Guide — haskell4nix 1 documentation]] :nix:
 * [[https://github.com/emacs-lsp/lsp-haskell][emacs-lsp/lsp-haskell: lsp-mode haskell]] :emacs:

@@ -6,6 +6,6 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:../programming/guangtao's_julia.org][GuangTao's Julia]], [[file:~/Dropbox/org-notes/braindump/data-science/machine_learning.org][Machine Learning]], [[file:mitmath_18S191.org][Course 18.S191 at MIT, fall 2020 _ Introduction to computational thinking with Julia:]], [[file:guangtao's_math.org][GuangTao's math]]
+- tags :: [[file:../programming/guangtao_julia.org][GuangTao's Julia]], [[file:~/Dropbox/org-notes/braindump/data-science/machine_learning.org][Machine Learning]], [[file:mitmath_18S191.org][Course 18.S191 at MIT, fall 2020 _ Introduction to computational thinking with Julia:]], [[file:guangtao_math.org][GuangTao's math]]
 
 * [[https://github.com/mitmath/18337][mitmath/18337: 18.337 - Parallel Computing and Scientific Machine Learning]]

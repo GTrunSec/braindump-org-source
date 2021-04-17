@@ -8,7 +8,7 @@
 #+OPTIONS: prop:t p:t
 
 
-- tags :: [[file:life_hack.org][Life Hack]], [[file:guangtao's_life.org][GuangTao's Life]]
+- tags :: [[file:life_hack.org][Life Hack]], [[file:guangtao_life.org][GuangTao's Life]]
 
 
 * wasting my clothes [/3]

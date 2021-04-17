@@ -8,7 +8,7 @@
 
 #+TAGS: doom(d) roam(r) org_mode(o) literate(l)
 
-- tags :: [[file:org_mode.org][Org mode]], [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao's_profile.org][GuangTao's Profile]], [[file:../programming/guangtao's_elisp.org][GuangTao's Elisp]]
+- tags :: [[file:org_mode.org][Org mode]], [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao_profile.org][GuangTao's Profile]], [[file:../programming/guangtao_elisp.org][GuangTao's Elisp]]
 
 
 * Emacs Branch

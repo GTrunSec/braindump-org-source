@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_public_gtd.org][GuangTao's Public GTD list]]
+- tags :: [[file:guangtao_public_gtd.org][GuangTao's Public GTD list]]
 
 
 * 视频剧

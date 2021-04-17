@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:..//guangtao's_profile.org][GuangTao's Profile]]
+- tags :: [[file:..//guangtao_profile.org][GuangTao's Profile]]
 
 
 * [[https://github.com/drduh/macOS-Security-and-Privacy-Guide][drduh/macOS-Security-and-Privacy-Guide: Guide to securing and improving privacy on macOS]]

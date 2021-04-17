@@ -4,7 +4,7 @@
 #+DATE: 2021-04-08 Thu 19:05
 #+SETUPFILE: ./hugo.setup
 
-- tags :: [[file:guangtao's_rust.org][GuangTao's Rust]]
+- tags :: [[file:guangtao_rust.org][GuangTao's Rust]]
 
 * [[https://nnethercote.github.io/perf-book/benchmarking.html][Benchmarking - The Rust Performance Book]]
 

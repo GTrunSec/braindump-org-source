@@ -29,4 +29,4 @@ _ [[file:leetcode.org][leetcode]]
 
 *** [[https://discourse.juliacn.com/t/topic/4828/9][写了一个快速非支配排序算法，应该怎样提升效率 - 综合讨论区 / Julia入门 - Julia中文社区]]
 
-_ [[file:guangtao's_julia.org][GuangTao's Julia]]
+_ [[file:guangtao_julia.org][GuangTao's Julia]]

@@ -6,12 +6,12 @@
 ** [[file:../security/nsm.org][Network monitoring]]
 *** [[file:../security/awesome_zeek.org][Awesome Zeek]]
 **** [[file:../security/README_hardenedlinux_zeek_script.org][README hardenedlinux_zeek_script]]
-* [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]]
-** [[file:../programming/guangtao's_julia.org][GuangTao's Julia]]
+* [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]]
+** [[file:../programming/guangtao_julia.org][GuangTao's Julia]]
 *** [[file:../math/my_mathematic_julia/StatisticsWithJulia/Introducing Julia _ DRAFT.org][StatisticsWithJulia Introducing Julia _ DRAFT]]
-** [[file:../programming/guangtao's_clang.org][GuangTao's Clang]]
-** [[file:../programming/guangtao's_python.org][GuangTao's Python]]
-** [[file:../nix/guangtao's_nix.org][GuangTao's Nix]]
+** [[file:../programming/guangtao_clang.org][GuangTao's Clang]]
+** [[file:../programming/guangtao_python.org][GuangTao's Python]]
+** [[file:../nix/guangtao_nix.org][GuangTao's Nix]]
 :PROPERTIES:
 :ID:       98b25bca-f482-43dc-8311-629d657fef75
 :END:
@@ -24,15 +24,15 @@
 *** [[file:../nix/nix_friday.org][Nix Friday]]
 *** [[file:../nix/nix_hydra.org][NixOS hydra Channel]]
 *** [[file:../data_science/jupyter_nix.org][Jupyter Nix]]
-** [[file:../programming/guangtao's_golang.org][GuangTao's Golang]]
-** [[file:../programming/guangtao's_haskell.org][GuangTao's Haskell]]
+** [[file:../programming/guangtao_golang.org][GuangTao's Golang]]
+** [[file:../programming/guangtao_haskell.org][GuangTao's Haskell]]
 *** [[file:../programming/jupyter_haskell.org][Jupyter Haskell]]
-** [[file:../programming/guangtao's_R.org][GuangTao's R]]
-** [[file:../programming/guangtao's_rust.org][GuangTao's Rust]]
+** [[file:../programming/guangtao_R.org][GuangTao's R]]
+** [[file:../programming/guangtao_rust.org][GuangTao's Rust]]
 ** [[file:../programming/leetcode.org][leetcode]]
 ** [[file:../programming/algorithm.org][Algorithm]]
 
-* [[file:..//guangtao's_library.org][GuangTao's Library]]
+* [[file:..//guangtao_library.org][GuangTao's Library]]
 * Mathmatic
 ** [[file:../math/mitmath_18337.org][18.337 _ Parallel Computing and Scientific Machine Learning]]
 :PROPERTIES:
@@ -43,10 +43,10 @@
 :PROPERTIES:
 :ID:       4e06c48f-e11f-45a7-8747-ca96e07f4af3
 :END:
-** [[file:../math/guangtao's_math.org][GuangTao's math]]
+** [[file:../math/guangtao_math.org][GuangTao's math]]
 *** [[file:../math/my_mathematic_julia/Calculus_with_Python/calculus_with_python.org][Calculus with Python]]
 
-** [[file:../math/guangtao's_latex.org][GuangTao's latex]]
+** [[file:../math/guangtao_latex.org][GuangTao's latex]]
 
 
 * [[file:../data_science/machine_learning.org][Machine Learning]]
@@ -55,7 +55,7 @@
 
 
 
-** [[file:../../../../Documents/org_notes/braindump/programming/guangtao's_julia.org][GuangTao's Julia]]
+** [[file:../../../../Documents/org_notes/braindump/programming/guangtao_julia.org][GuangTao's Julia]]
 
 ** [[file:../../../../Documents/org_notes/braindump/math/mitmath_18S191.org][Course 18.S191 at MIT, fall 2020 _ Introduction to computational thinking with Julia:]]
 
@@ -78,8 +78,8 @@
 ** [[file:../data_science/jupyter_data_science.org][Jupyter Data Science]]
 ** [[file:../data_science/jupyter_nix.org][Jupyter Nix]]
 ** [[file:../data_science/jupyter_haskell.org][Jupyter Haskell]]
-* [[file:../financial/guangtao's_finance.org][GuangTao's Finance]]
-* [[file:..//guangtao's_art.org][GuangTao's Art]]
+* [[file:../financial/guangtao_finance.org][GuangTao's Finance]]
+* [[file:..//guangtao_art.org][GuangTao's Art]]
 
 ** [[file:..//建筑艺术素材.org][建筑艺术素材]]
 ** [[file:..//建筑素材分类.org][建筑素材分类]]
@@ -93,12 +93,12 @@
 ** [[file:..//美食.org][美食]]
 ** [[file:../life/life_hack.org][Life Hack]]
 ** GTD
-** [[file:..//guangtao's_public_gtd.org][GuangTao's Public GTD list]]
-** [[file:..//guangtao's_media.org][GuangTao's Media]]
+** [[file:..//guangtao_public_gtd.org][GuangTao's Public GTD list]]
+** [[file:..//guangtao_media.org][GuangTao's Media]]
 ** [[file:../life/guangtao_regular_life.org][GuangTao's  Regular life]]
 * Workflow
 ** [[file:../deployment/git_workflow.org][GuangTao's Git workflow]]
-* [[file:..//guangtao's_profile.org][GuangTao's Profile]]
+* [[file:..//guangtao_profile.org][GuangTao's Profile]]
 :PROPERTIES:
 :ID:       0f94517d-f872-450a-a53e-15ff354dfd1c
 :END:

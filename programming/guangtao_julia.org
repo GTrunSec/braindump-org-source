@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../guangtao's_learning_programming_languages.org][GuangTao's learning Programming languages]], [[file:julia_packages.org][Julia lang Packages list]]
+- tags :: [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]], [[file:julia_packages.org][Julia lang Packages list]]
 
 * Julia (programming language)
 :PROPERTIES:
@@ -70,7 +70,7 @@ git clone https://github.com/hyper0x/JuliaBasics.git
 
 ** [[https://github.com/crstnbr/JuliaOulu20][crstnbr/JuliaOulu20: Julia Workshop 2020 @ University of Oulu, Finnland]]
 
-** [[file:../financial/guangtao's_finance.org][GuangTao's Finance]]
+** [[file:../financial/guangtao_finance.org][GuangTao's Finance]]
 
 *** [[https://github.com/PaulSoderlind/EmpiricalFinancePhD][GitHub - PaulSoderlind/EmpiricalFinancePhD: Empirical Finance Course (PhD, Julia code)]]
 :PROPERTIES:

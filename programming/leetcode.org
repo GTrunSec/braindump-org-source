@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:guangtao's_rust.org][GuangTao's Rust]], [[file:guangtao's_golang.org][GuangTao's Golang]], [[file:algorithm.org][Algorithm]]
+- tags :: [[file:guangtao_rust.org][GuangTao's Rust]], [[file:guangtao_golang.org][GuangTao's Golang]], [[file:algorithm.org][Algorithm]]
 
 * leetcode Rust
 ** [[https://github.com/iosmanthus/leetcode-rust][iosmanthus/leetcode-rust: 震惊, 这个傻瓜用Rust刷Leetcode]]

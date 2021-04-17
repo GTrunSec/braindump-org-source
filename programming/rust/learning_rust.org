@@ -5,7 +5,7 @@
 #+SETUPFILE: ./hugo.setup
 
 
-- tags :: [[file:guangtao's_rust.org][GuangTao's Rust]]
+- tags :: [[file:guangtao_rust.org][GuangTao's Rust]]
 
 * Learning Rust
 

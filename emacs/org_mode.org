@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:emacs.org][Emacs]], [[file:../guangtao/guangtao's_profile.org][GuangTao's Profile]]
+- tags :: [[file:emacs.org][Emacs]], [[file:../guangtao/guangtao_profile.org][GuangTao's Profile]]
 
 - [[https://code.orgmode.org/bzg/org-mode][bzg/org-mode: Org mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. - Gogs]]
 
@@ -15,14 +15,14 @@
 * org mode parser
 ** [[https://github.com/org-rs/org-rs][org-rs/org-rs: org-mode parser rewrite in Rust]]
 
-_ [[file:../programming/guangtao's_rust.org][GuangTao's Rust]]
+_ [[file:../programming/guangtao_rust.org][GuangTao's Rust]]
 
 ** [[https://github.com/ixmatus/orgmode-parse][ixmatus/orgmode-parse: Attoparsec parser combinators for parsing org-mode structured text!]]
 :PROPERTIES:
 :ID:       3cea6644-3d65-45c4-8ccd-7d103b798d68
 :END:
 
-_ [[file:../programming/guangtao's_haskell.org][GuangTao's Haskell]]
+_ [[file:../programming/guangtao_haskell.org][GuangTao's Haskell]]
 
 ** org mode elisp parsing
 #+begin_src emacs-lisp :tangle yes

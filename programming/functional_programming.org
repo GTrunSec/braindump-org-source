@@ -8,7 +8,7 @@
 
 
 
-- tags :: [[file:guangtao's_haskell.org][GuangTao's Haskell]]
+- tags :: [[file:guangtao_haskell.org][GuangTao's Haskell]]
 
 
 

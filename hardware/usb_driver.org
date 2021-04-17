@@ -6,7 +6,7 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags ::  [[file:guangtao's_hardware.org][GuangTaos' Hardware]]
+- tags ::  [[file:guangtao_hardware.org][GuangTaos' Hardware]]
 
 
 * [[https://usbguard.github.io/blog/2017/Screen-Locking][Blocking USB devices while the screen is locked | USBGuard - Brave]]

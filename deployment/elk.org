@@ -23,7 +23,7 @@ https://dragos.com/blog/20180717EvtxToElk.html
 
 * ELK Alert
 ** [[https://github.com/morningconsult/go-elasticsearch-alerts][fmorningconsult/go-elasticsearch-alerts: Elasticsearch Alerting Daemon]]
-_ [[file:guangtao's_golang.org][GuangTao's Golang]]
+_ [[file:guangtao_golang.org][GuangTao's Golang]]
 
 
 * ELK GEOIP

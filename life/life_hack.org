@@ -6,6 +6,6 @@
 
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-- tags :: [[file:guangtao's_life.org][GuangTao's Life]], [[file:life_goods.org][我的购买清单]]
+- tags :: [[file:guangtao_life.org][GuangTao's Life]], [[file:life_goods.org][我的购买清单]]
 
 * life hack method
