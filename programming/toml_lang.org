@@ -1,0 +1,11 @@
+#+TITLE: Toml Lang
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-17 Sat 15:17
+#+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup
+#+SETUPFILE: ~/Documents/org-notes/braindump/theme-readtheorg.setup
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/toml-lang/toml/issues/188][Support single-quoted strings to avoid double \ · Issue #188 · toml-lang/toml - Brave]]

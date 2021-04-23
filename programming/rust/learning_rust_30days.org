@@ -4,5 +4,22 @@
 #+DATE: 2021-04-15 Thu 22:08
 #+SETUPFILE: ./hugo.setup
 
-* [[https://www.hackerrank.com/domains/tutorials/30-days-of-code][Solve Tutorials | HackerRank]]
+
+- tags :: [[file:learning_rust.org][Learning Rust]]
+
+* 30days of Code Rust [[https://www.hackerrank.com/domains/tutorials/30-days-of-code][Solve Tutorials | HackerRank]]
+:PROPERTIES:
+:ID:       6ac1dce1-96c9-4762-bbf9-1238e400b2ba
+:END:
+- [2021-04-17 Sat 18:38] <- [[id:75707ca0-c882-44b5-9b05-8f514d48c38c][GuangTao's Rust 30 days of code]]
+** [[https://github.com/geekskick/30DoC][geekskick/30DoC: Rust 30 Days of Code]]
+
+** [[https://github.com/kiskoza/30days-of-rust][kiskoza/30days-of-rust]]
+
+
+** [[https://github.com/Code42Cate/30-Days-of-Code][Code42Cate/30-Days-of-Code: My solutions to the 30 Days of Code Hackerrank challenge in Haskell and Rust!]]
+:PROPERTIES:
+:id: 8a6037c8-4366-43d4-b5fe-40f9d31868b1
+:END:
+ - [2020-12-23 Wed 22:11] -> [[id:99cc889f-d9f1-42a4-ac3b-a55fab9e931b][GuangTao's Haskell HackerRank 30 days of code]]
 

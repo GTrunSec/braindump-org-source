@@ -55,6 +55,7 @@ _ [[file:awesome_zeek.org][Awesome Zeek]]
 :ID:       e5126428-ebf0-432a-928e-9b60fb876f72
 :END:
  - [2020-11-22 Sun 16:13] -> [[id:71f7d9c3-0769-4f36-88c2-72a2e185a7cc][zeek Intel feed]]
+** [[https://github.com/tenzir/threatbus][tenzir/threatbus: 🚌 The missing link to connect open-source threat intelligence tools.]] :vast:stix:
 ** [[https://github.com/P3t3rp4rk3r/Threat_Intelligence][P3t3rp4rk3r/Threat_Intelligence: Threat-Intelligence Feeds & Tools & Frameworks]]
 * Windows Sysmon
 **  https://github.com/SwiftOnSecurity/sysmon-config
@@ -63,3 +64,4 @@ _ [[file:awesome_zeek.org][Awesome Zeek]]
 * [[https://github.com/evilsocket/opensnitch][evilsocket/opensnitch: OpenSnitch is a GNU/Linux port of the Little Snitch application firewall]]
 
 * [[https://www.counteractive.net/][Incident Response, Hunting, Infosec Consulting - Counteractive Security]]
+

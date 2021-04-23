@@ -16,3 +16,7 @@
 * GHC
 
 ** [[https://github.com/alpmestan/ghc.nix][alpmestan/ghc.nix: Nix (shell) expression for working on GHC]] :nix:
+
+* Parser
+
+** [[https://github.com/fosskers/org-mode][fosskers/org-mode: Parser for Emacs org-mode files]] :: [[file:../../emacs/org_mode.org][Org mode]]

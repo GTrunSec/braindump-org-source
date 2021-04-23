@@ -37,16 +37,11 @@
 **** [[https://github.com/LudvikGalois/30daysofcodingANU][LudvikGalois/30daysofcodingANU: 30 days of coding problems]]
 
 *** [[file:guangtao_rust.org][GuangTao's Rust]] 30 days of code
-
-**** [[https://github.com/geekskick/30DoC][geekskick/30DoC: Rust 30 Days of Code]]
-
-**** [[https://github.com/kiskoza/30days-of-rust][kiskoza/30days-of-rust]]
-
-**** [[https://github.com/Code42Cate/30-Days-of-Code][Code42Cate/30-Days-of-Code: My solutions to the 30 Days of Code Hackerrank challenge in Haskell and Rust!]]
 :PROPERTIES:
-:id: 8a6037c8-4366-43d4-b5fe-40f9d31868b1
+:ID:       75707ca0-c882-44b5-9b05-8f514d48c38c
 :END:
- - [2020-12-23 Wed 22:11] -> [[id:99cc889f-d9f1-42a4-ac3b-a55fab9e931b][GuangTao's Haskell HackerRank 30 days of code]]
+
+ - [2021-04-17 Sat 18:38] -> [[id:6ac1dce1-96c9-4762-bbf9-1238e400b2ba][30days of Code Rust Solve Tutorials | HackerRank]]
 ** [[https://leetcode.com/][LeetCode - The World's Leading Online Programming Learning Platform]]
 :PROPERTIES:
 :ID:       1efb98e4-5e29-4636-a110-db9458f20d8c
@@ -57,3 +52,4 @@
 ** [[https://github.com/rstudio/rstudio-global-2021-program][rstudio/rstudio-global-2021-program]]
 
 _ [[file:R_lang.org][R lang]]
+

@@ -22,7 +22,7 @@
 *
 * Music Streaming
 :PROPERTIES:
-:ID:       927db695-e6d2-460f-bf62-1bc85fb2e65a
+:id: 927db695-e6d2-460f-bf62-1bc85fb2e65a
 :END:
 - [2021-02-28 Sun 13:11] <- [[id:b05f28b0-53f7-4c11-a033-a3981b2f740c][Music Plyaer]]
 ** [[https://github.com/nukeop/nuclear][nukeop/nuclear: Streaming music player that finds free music for you]]

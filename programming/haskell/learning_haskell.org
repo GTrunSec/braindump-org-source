@@ -1,0 +1,10 @@
+#+TITLE: Learning Haskell
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-02-25 Thu 18:16
+
+
+* Haskell Knowledge Map
+** [[https://kowainik.github.io/images/Haskell_Knowledge_Map.png][Haskell_Knowledge_Map.png (14842×6940)]]
+** [[https://publish.obsidian.md/haskell/Syntax][Syntax - Haskell - Obsidian Publish]]
+

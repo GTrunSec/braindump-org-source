@@ -7,7 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: nix(n) logging(l) owner(o) database(d)
 
-- tags :: [[file:haskell_packages.org][Haskell Packages]], [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]]
+- tags :: [[file:haskell_packages.org][Haskell Packages]], [[file:~/Dropbox/org-notes/braindump/guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]]
 
 
 
