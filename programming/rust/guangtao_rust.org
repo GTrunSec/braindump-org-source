@@ -52,3 +52,66 @@
 
 ** [[https://github.com/jpochyla/psst][jpochyla/psst: Fast and multi-platform Spotify client with native GUI]]
 
+
+
+
+* Rust Mode
+
+** [[https://github.com/ayrat555/cargo-mode][ayrat555/cargo-mode: Emacs minor mode which allows to dynamically select cargo command]]
+
+* Backlinks :noexport:
+** 10 linked references
+*** [[file:rust_project.org][Rust Project]]
+[[file:guangtao_rust.org][GuangTao's Rust]]
+
+*** [[file:rust_performance.org][Rust Performance]]
+[[file:guangtao_rust.org][GuangTao's Rust]]
+
+*** [[file:learning_rust.org][Learning Rust]]
+**** Learning Rust › rust-embedded/rust-raspberrypi-OS-tutorials: Learn to write an embedded OS in Rust
+[2020-12-08 Tue 15:06] <- [[id:1f7b01a1-1a38-404a-859a-5667b466272d][Rust embedded]]
+
+[[file:guangtao_rust.org][GuangTao's Rust]]
+
+*** [[file:../advent_of_code.org][Advent of code]]
+**** Advent of Code 2020
+[[id:f0a6afaf-8b1e-4c22-a665-b073fdce7cd2][Rust advent Of Code 2020]]
+
+*** [[file:../../nix/guangtao_nix.org][GuangTao's Nix]]
+**** Programming languages Environment › Nix GuangTao's Rust › nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.
+[2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
+
+**** Programming languages Environment › Nix GuangTao's Rust › oxalica/rust-overlay
+[2021-01-02 Sat 15:44] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
+
+**** Programming languages Environment › Nix GuangTao's Rust
+[2020-12-07 Mon 21:01] -> [[id:36aa9c9d-bf10-40f0-9463-b5169ffa1f2a][nix-community/redoxpkgs: Cross-compile to Redox using Nix [maintainer=@aaronjanse]​]]
+
+**** Programming languages Environment
+***** Nix [[file:~/Dropbox/org-notes/braindump/programming/rust/guangtao_rust.org][GuangTao's Rust]]
+:PROPERTIES:
+:id: 8eba3b48-150b-4ca6-a794-79f341d860aa
+:END:
+- [2020-12-07 Mon 21:01] -> [[id:36aa9c9d-bf10-40f0-9463-b5169ffa1f2a][nix-community/redoxpkgs: Cross-compile to Redox using Nix [maintainer=@aaronjanse]​]]
+****** [[https://discourse.nixos.org/t/comparing-solutions-for-building-rust-on-nix/10707][Comparing solutions for building Rust on Nix - Development - NixOS Discourse]]
+****** [[https://github.com/oxalica/rust-overlay][oxalica/rust-overlay]]
+:PROPERTIES:
+:ID:       41252713-70ef-4d4f-b6b8-22ad53c69235
+:END:
+
+- [2021-01-02 Sat 15:44] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
+****** [[https://github.com/nmattia/naersk][nmattia/naersk: Build rust crates in Nix. No configuration, no code generation, no IFD. Sandbox friendly.]]
+:PROPERTIES:
+:id: 02aa0111-a92e-41d6-abca-ce4cc6c7a931
+:END:
+- [2020-11-11 Wed 16:19] <- [[id:a3de31d7-f2be-4939-a19f-0bfd4ddba542][rust nix]]
+****** [[https://github.com/Kloenk/rusty-nix][Kloenk/rusty-nix: Nix written in rust (this will take some time if it will ever finish)]]
+****** [[https://github.com/kolloch/crate2nix][kolloch/crate2nix: nix build file generator for rust crates]]
+
+*** [[file:../../network/network.org][Network]]
+**** Network DNS
+[2020-11-08 Sun 18:05] -> [[id:84203396-c388-47c9-b284-7c4a974d55ba][Rust DNS]]
+
+** Unlinked references
+[Show unlinked references]
+

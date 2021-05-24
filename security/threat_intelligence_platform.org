@@ -1,0 +1,16 @@
+#+TITLE:  Threat Intelligence Platform
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-29 Thu 19:09
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://github.com/OpenCTI-Platform/opencti][OpenCTI-Platform/opencti: Open Cyber Threat Intelligence Platform]]
+* [[https://www.misp-project.org/][MISP - Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing (formely known as Malware Information Sharing Platform)]]
+:PROPERTIES:
+:ID:       6213b79f-d559-472e-acc0-19b32cc550a8
+:END:
+- [2021-04-29 Thu 19:49] <- [[id:1145905f-46a6-416e-b1f6-7dba1136c2ff][Threatbus Misp]]
+** MISP Installation
+*** TODO MISP to Nix

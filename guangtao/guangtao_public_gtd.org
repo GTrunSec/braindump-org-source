@@ -1,0 +1,24 @@
+#+TITLE: GuangTao's Public GTD list
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 19 September 2020
+
+
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+OPTIONS: prop:t
+
+
+- tags :: [[file:guangtao_life.org][GuangTao's Life]], [[file:guangtao_media.org][GuangTao's Media]]
+
+* Coding
+* Media
+:PROPERTIES:
+:ID:       f4e87c62-476a-4a75-896a-8194e63dc9d6
+:END:
+- [2020-12-07 Mon 16:39] <- [[id:dcfdf95c-0de1-4c26-8b07-d6828fe9b739][大秦赋-腾讯视频 [2020-12-07 Mon 16:38]​]]
+
+** [[file:马未都聊国宝.org][马未都聊国宝]]
+:PROPERTIES:
+:ID:       6db3464c-6f8e-46c3-8117-0c074bef9e59
+:END:
+

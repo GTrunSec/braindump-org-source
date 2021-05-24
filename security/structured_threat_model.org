@@ -1,0 +1,16 @@
+#+TITLE: Structured Threat Model
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-29 Thu 20:03
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+
+* [[https://oasis-open.github.io/cti-documentation/stix/intro.html][Introduction to STIX]]
+:PROPERTIES:
+:ID:       ae627bfa-529b-4cbc-9b07-1cf809573d6c
+:END:
+
+- [2021-04-29 Thu 20:07] <- [[id:7a495051-c06e-4f64-905a-e1d2bfeed200][Threatbus Message Format Mapping]]
+- [2021-04-29 Thu 20:53] -> [[https://github.com/oasis-open/cti-python-stix2][oasis-open/cti-python-stix2: OASIS TC Open Repository: Python APIs for STIX 2]]

@@ -10,3 +10,5 @@
 
 
 * [[https://github.com/danistefanovic/build-your-own-x][danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)]]
+
+* [[https://github.com/KasparEtter/ef1p][KasparEtter/ef1p: Explained from First Principles is a technology, science, and philosophy blog for curious people who want to understand and change the world.]]

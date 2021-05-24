@@ -43,3 +43,12 @@ State3 --> [*] : Aborted
 #+RESULTS:
 [[file:./tags/my-nix-tags.png]]
 
+
+#+begin_src plantuml :file ./tags/test.png
+@startuml
+Alice -> Bob: test
+@enduml
+#+end_src
+
+#+RESULTS:
+[[file:./tags/test.png]]

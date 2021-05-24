@@ -1,0 +1,75 @@
+#+TITLE: Tenzir Threat Bus
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-28 Wed 16:53
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:blue_team.org][Blue Team]], [[file:tenzir_vast.org][Tenzir Vast]]
+
+* [[https://github.com/tenzir/threatbus][tenzir/threatbus: 🚌 A threat intelligence dissemination layer for open-source security tools.]]
+
+* [[https://docs.tenzir.com/threatbus/quick-start/introduction][Introduction | Tenzir Documentation]]
+:PROPERTIES:
+:ID:       8e535fed-6430-4358-8bed-8038bf77ba79
+:END:
+ - [2021-04-29 Thu 19:36] -> [[id:ab2e1224-5dcd-495d-aea3-ead6a851cda8][Zeek Threat Intelligence(Intel)]]
+
+** Installation
+
+*** [[https://docs.tenzir.com/threatbus/deployment/docker][Docker | Tenzir Documentation]]
+
+*** [[https://github.com/GTrunSec/threatbus-nix-flake][GTrunSec/threatbus-nix-flake: https://github.com/tenzir/threatbus.git]] :: [[file:../nix/nix_builder.org][Nix Builder]]
+
+* Threatbus Plugins
+
+- [2021-04-29 Thu 20:09] -> [[https://docs.tenzir.com/threatbus/plugins/overview][Overview | Tenzir Documentation]]
+** Threatbus Zmq App
+
+** Threatbus Cif3
+
+** Threatbus Vast :: [[file:tenzir_vast.org][Tenzir Vast]]
+
+** Threatbus Zeek
+:PROPERTIES:
+:id: 61c1ce55-62d9-46e5-88f5-42214ee6b8ab
+:END:
+
+ - [[https://docs.tenzir.com/threatbus/plugins/apps/zeek][Zeek Plugin | Tenzir Documentation]]
+ - [2021-04-29 Thu 19:53] -> [[id:829c04b1-b909-4417-afa1-379a1b550855][tenzir/zeek-vast: Enables Zeek to communicate with VAST]]
+** Threatbus Misp
+:PROPERTIES:
+:id: 1145905f-46a6-416e-b1f6-7dba1136c2ff
+:END:
+ - [2021-04-29 Thu 20:15] -> [[https://docs.tenzir.com/threatbus/plugins/apps/misp][MISP Plugin | Tenzir Documentation]]
+ - [2021-04-29 Thu 19:49] -> [[id:6213b79f-d559-472e-acc0-19b32cc550a8][MISP - Open Source Threat Intelligence Platform & Open Standards For Threat Information Sharing (formely known as Malware Information Sharing Platform)]]
+ - [2021-04-29 Thu 20:17] -> [[https://github.com/MISP/PyMISP][MISP/PyMISP: Python library using the MISP Rest API]]
+
+
+
+
+
+#+begin_src sh :async t :exports both :results output
+pip install threatbus-misp[zmq]
+pip install threatbus-misp[kafka]
+#+end_src
+** Threatbus Inmem :backbone:
+
+** Threatbus Rabbitmq :backbone:
+
+** Threatbus Message Format Mapping
+:PROPERTIES:
+:ID:       7a495051-c06e-4f64-905a-e1d2bfeed200
+:END:
+ - [2021-04-29 Thu 20:07] -> [[id:ae627bfa-529b-4cbc-9b07-1cf809573d6c][Introduction to STIX]]
+
+
+
+* Threatbus Plugin Development
+
+- [2021-04-29 Thu 20:10] -> [[https://docs.tenzir.com/threatbus/plugins/plugin-development][Plugin Development | Tenzir Documentation]]
+
+
+* Threatbus Features
+
+** [[https://docs.tenzir.com/threatbus/features/snapshotting][Snapshotting | Tenzir Documentation]]

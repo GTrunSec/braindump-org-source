@@ -7,4 +7,4 @@
 * Haskell Knowledge Map
 ** [[https://kowainik.github.io/images/Haskell_Knowledge_Map.png][Haskell_Knowledge_Map.png (14842×6940)]]
 ** [[https://publish.obsidian.md/haskell/Syntax][Syntax - Haskell - Obsidian Publish]]
-
+* [[https://github.com/effectfully-ou/haskell-challenges/blob/master/README.md][haskell-challenges/README.md at master · effectfully-ou/haskell-challenges]]

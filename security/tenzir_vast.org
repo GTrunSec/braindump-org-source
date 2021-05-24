@@ -1,0 +1,21 @@
+#+TITLE: Tenzir Vast
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-04-28 Wed 16:36
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+- tags :: [[file:awesome_zeek.org][Awesome Zeek]], [[file:blue_team.org][Blue Team]], [[file:tenzir_threat_bus.org][Tenzir Threat Bus]]
+
+
+* [[https://github.com/tenzir/vast][tenzir/vast: Visibility Across Space and Time]]
+:PROPERTIES:
+:ID:       ff7f0878-2ad5-42f6-bbfb-1e8bb03a6054
+:END:
+ - [2021-04-29 Thu 19:14] -> [[id:829c04b1-b909-4417-afa1-379a1b550855][tenzir/zeek-vast: Enables Zeek to communicate with VAST]]
+
+* Vast Installation
+
+** [[https://github.com/tenzir/vast/blob/master/INSTALLATION.md][vast/INSTALLATION.md at master · tenzir/vast]]
+** [[https://github.com/GTrunSec/vast/commits/nix-flake][Commits · GTrunSec/vast]] :: [[file:../nix/nix_builder.org][Nix Builder]]

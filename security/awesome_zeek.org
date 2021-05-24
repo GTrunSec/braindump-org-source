@@ -111,14 +111,14 @@ CLOSED: [2019-08-10 Sat 21:25]
   + [ ] database
   + [[https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e][Creating user, database and adding access on PostgreSQL]]
 
-    #+begin_src sh :async t :exports both :results output
+#+begin_src sh :async t :exports both :results output
 sudo -u postgres psql
 sudo -u postgres createuser <username>
 sudo -u postgres createdb <dbname>
 createdb -h localhost -p 5432 -U dbuser testdb
 psql -h localhost -p 5432 -U dbuser -d testdb
+#+end_src
 
-    #+end_src
 *** [[https://github.com/corelight/zeek-community-id][corelight/zeek-community-id: Zeek support for "community ID" flow hashing.]]
 
 ** Zeek logs to json
@@ -287,8 +287,12 @@ This package attempts to detect scanners searching for the VENOM vulnerability. 
 ** [[https://github.com/zeek/packet-bricks][zeek/packet-bricks: A netmap-based packet layer for distributing and filtering traffic.]]
 ** [[https://github.com/J-Gras/zeek-af_packet-plugin][J-Gras/zeek-af_packet-plugin: Plugin providing native AF_Packet support for Zeek (formerly known as Bro).]]
 
-* Zeek Threat Intelligence(Intel)
+* Zeek Threat Intelligence :: [[https://docs.zeek.org/en/current/frameworks/intel.html][Intelligence Framework — Book of Zeek (v4.0.1)]]
+:PROPERTIES:
+:ID:       ab2e1224-5dcd-495d-aea3-ead6a851cda8
+:END:
 
+- [2021-04-29 Thu 19:36] <- [[id:8e535fed-6430-4358-8bed-8038bf77ba79][Introduction | Tenzir Documentation]]
 - [2020-11-22 Sun 16:13] <- [[id:e5126428-ebf0-432a-928e-9b60fb876f72][Threat Intelligence]]
 ** Zeek Intel Script
 *** [[https://github.com/CriticalPathSecurity/zeek-threat-intel-parser][CriticalPathSecurity/zeek-threat-intel-parser: A Python3 utility for parsing input into a Zeek threat intelligence feed.]]
@@ -333,11 +337,16 @@ This package adds the _node_name field to Zeek logs to indicate which node gener
 ** Zeek Con18
 *** [[https://github.com/tenzir/events/tree/master/brocon18][events/brocon18 at master · tenzir/events]]
 
-* Zeek 3rdParty Support
+* Zeek 3rdparty Support
 ** Zeek to sandbox
 *** [[https://github.com/joesecurity/Joe-Sandbox-Bro][joesecurity/Joe-Sandbox-Bro: JoeSandbox-Bro is a simple bro script which extracts files from your internet connection and analyzes them automatically on Joe Sandbox]]
 *** [[https://github.com/HASecuritySolutions/zeek_to_cuckoo][HASecuritySolutions/zeek_to_cuckoo: Contains a python script and service file for sending Zeek extracted files to Cuckoo Sandbox]]
 ** DONE [[https://github.com/tenzir/zeek-vast][tenzir/zeek-vast: Enables Zeek to communicate with VAST]]
+:PROPERTIES:
+:ID:       829c04b1-b909-4417-afa1-379a1b550855
+:END:
+- [2021-04-29 Thu 19:53] <- [[id:61c1ce55-62d9-46e5-88f5-42214ee6b8ab][Threatbus Zeek]]
+- [2021-04-29 Thu 19:14] <- [[id:ff7f0878-2ad5-42f6-bbfb-1e8bb03a6054][tenzir/vast: Visibility Across Space and Time]]
 ** [[https://github.com/UHH-ISS/honeygrove][UHH-ISS/honeygrove: A multi-purpose, modular medium-interaction honeypot based on Twisted.]]
 :PROPERTIES:
 :ID:       c86897c0-c9a8-4de3-85eb-b278de759076

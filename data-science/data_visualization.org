@@ -10,3 +10,6 @@
 
 * [[https://github.com/finos/perspective][finos/perspective: Streaming pivot visualization via WebAssembly]]
 
+*
+
+* [[https://kepler.gl/][kepler.gl]]

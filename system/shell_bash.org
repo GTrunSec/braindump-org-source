@@ -9,5 +9,7 @@
 
 - tags :: [[file:../guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]]
 
+
+* [[https://github.com/miguelmota/bash-streams-handbook][miguelmota/bash-streams-handbook: 💻 Learn Bash streams, pipelines and redirection, from beginner to advanced.]]
 * string containroos a substring in Bash
 ** [[https://stackoverflow.com/questions/229551/how-to-check-if-a-string-contains-a-substring-in-bash][How to check if a string contains a substring in Bash - Stack Overflow]]
