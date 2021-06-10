@@ -1,0 +1,11 @@
+#+TITLE: Rust Asynchronous
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-05-23 Sun 22:03
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+* [[https://github.com/rust-lang/async-book][rust-lang/async-book: Asynchronous Programming in Rust]]
+
+* [[https://github.com/tokio-rs/tokio][tokio-rs/tokio: A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...]]
+

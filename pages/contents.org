@@ -25,14 +25,13 @@
 *** [[file:../nix/nix_hydra.org][NixOS hydra Channel]]
 *** [[file:../data_science/jupyter_nix.org][Jupyter Nix]]
 ** [[file:../programming/guangtao_golang.org][GuangTao's Golang]]
-** [[file:../programming/guangtao_haskell.org][GuangTao's Haskell]]
-*** [[file:../programming/jupyter_haskell.org][Jupyter Haskell]]
+** [[file:~/Dropbox/org-notes/braindump/programming/haskell/guangtao_haskell.org][GuangTao's Haskell]]
+*** [[file:~/Dropbox/org-notes/braindump/programming/haskell/jupyter_haskell.org][Jupyter Haskell]]
 ** [[file:../programming/guangtao_R.org][GuangTao's R]]
-** [[file:../programming/guangtao_rust.org][GuangTao's Rust]]
+** [[file:~/Dropbox/org-notes/braindump/programming/rust/guangtao_rust.org][GuangTao's Rust]]
 ** [[file:../programming/leetcode.org][leetcode]]
 ** [[file:../programming/algorithm.org][Algorithm]]
-
-* [[file:..//guangtao_library.org][GuangTao's Library]]
+* [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao_library.org][GuangTao's Library]]
 * Mathmatic
 ** [[file:../math/mitmath_18337.org][18.337 _ Parallel Computing and Scientific Machine Learning]]
 :PROPERTIES:
@@ -45,60 +44,41 @@
 :END:
 ** [[file:../math/guangtao_math.org][GuangTao's math]]
 *** [[file:../math/my_mathematic_julia/Calculus_with_Python/calculus_with_python.org][Calculus with Python]]
-
 ** [[file:../math/guangtao_latex.org][GuangTao's latex]]
-
-
-* [[file:../data_science/machine_learning.org][Machine Learning]]
+* [[file:../data-science/machine_learning.org][Machine Learning]]
  - [2020-12-28 Mon 13:56] -> [[id:82731a28-3c90-497f-974f-b2f02f9134c6][18.337 - Parallel Computing and Scientific Machine Learning]]
 * Julia
-
-
-
 ** [[file:../../../../Documents/org_notes/braindump/programming/guangtao_julia.org][GuangTao's Julia]]
-
 ** [[file:../../../../Documents/org_notes/braindump/math/mitmath_18S191.org][Course 18.S191 at MIT, fall 2020 _ Introduction to computational thinking with Julia:]]
-
 * [[file:../system/system.org][System]]
-
 ** [[file:../system/linux.org][Linux]]
-
 *** [[file:../system/debian.org][Debian Linux]]
-
 *** [[file:../system/linux_commands.org][Linux Commands]]
-
-
 ** [[file:../system/macos.org][MacOS system]]
-
 * [[file:../emacs/emacs.org][Emacs]]
-
 ** [[file:../emacs/org_mode.org][Org mode]]
-
 * Jupyter
 ** [[file:../data_science/jupyter_data_science.org][Jupyter Data Science]]
 ** [[file:../data_science/jupyter_nix.org][Jupyter Nix]]
 ** [[file:../data_science/jupyter_haskell.org][Jupyter Haskell]]
 * [[file:../financial/guangtao_finance.org][GuangTao's Finance]]
 * [[file:..//guangtao_art.org][GuangTao's Art]]
-
 ** [[file:..//建筑艺术素材.org][建筑艺术素材]]
 ** [[file:..//建筑素材分类.org][建筑素材分类]]
 ** [[file:..//古墓文物.org][古墓文物]]
-** [[file:..//learn_music.org][learning music agenda]]
-
-* [[file:../life/GuangTao_life.org][GuangTao's Life]]
-
-** [[file:..//游山玩水.org][游山玩水]]
-** [[file:..//traveling.org][我的旅行计划]]
-** [[file:..//美食.org][美食]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/learn_music.org][learning music agenda]]
+* [[file:~/Dropbox/org-notes/braindump/life/guangtao_life.org][GuangTao's Life]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/游山玩水.org][游山玩水]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/traveling.org][我的旅行计划]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/美食.org][美食]]
 ** [[file:../life/life_hack.org][Life Hack]]
 ** GTD
-** [[file:..//guangtao_public_gtd.org][GuangTao's Public GTD list]]
-** [[file:..//guangtao_media.org][GuangTao's Media]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao_public_gtd.org][GuangTao's Public GTD list]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao_media.org][GuangTao's Media]]
 ** [[file:../life/guangtao_regular_life.org][GuangTao's  Regular life]]
 * Workflow
 ** [[file:../deployment/git_workflow.org][GuangTao's Git workflow]]
-* [[file:..//guangtao_profile.org][GuangTao's Profile]]
+* [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao_profile.org][GuangTao's Profile]]
 :PROPERTIES:
 :ID:       0f94517d-f872-450a-a53e-15ff354dfd1c
 :END:
@@ -107,15 +87,11 @@
  - [2021-01-05 Tue 20:20] <- [[id:98b25bca-f482-43dc-8311-629d657fef75][GuangTao's Nix]]
 ** [[file:../deployment/git.org][Git]]
 * Media
-** [[file:..//cartoon.org][Cartoon]]
+** [[file:~/Dropbox/org-notes/braindump/guangtao/guangtao_cartoon.org][Cartoon]]
 * Misc
 :PROPERTIES:
 :ID:       d38db31f-5e2c-457a-ba7d-29f21c7047cb
 :END:
  - [2020-12-28 Mon 14:11] -> [[id:03bb734e-f6d3-4a48-a537-be989f5c1d08][Logseq]]
-* [[file:../../../../Documents/org_notes/braindump/data_science/logs.org][Logs]]
-** [[file:../../../../Documents/org_notes/braindump/data_science/logseq.org][Logseq]]
-:PROPERTIES:
-:ID:       03bb734e-f6d3-4a48-a537-be989f5c1d08
-:END:
-- [2020-12-28 Mon 14:11] <- [[id:d38db31f-5e2c-457a-ba7d-29f21c7047cb][Misc]]
+* [[file:../data-science/logs.org][Logs]]
+** [[file:../data-science/logseq.org][Logseq]]

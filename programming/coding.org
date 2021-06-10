@@ -2,8 +2,6 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-21 Mon 23:53
-
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
@@ -17,7 +15,7 @@
 
 *** [[https://github.com/marinskiy/HackerrankPractice][marinskiy/HackerrankPractice: 170+ solutions to Hackerrank.com practice problems using Python 3, С++ and Oracle SQL]]
 
-*** [[file:guangtao_haskell.org][GuangTao's Haskell]] HackerRank soutlions
+*** [[file:haskell/guangtao_haskell.org][GuangTao's Haskell]] HackerRank soutlions
 
 **** [[https://github.com/ryukinix/haskell-rank][ryukinix/haskell-rank: My solutions of HackerRank written in Haskell]]
 :PROPERTIES:
@@ -28,7 +26,7 @@
 :PROPERTIES:
 :ID:       525e87b2-60c7-4600-bd37-eb98d4da75c8
 :END:
-*** [[file:guangtao_haskell.org][GuangTao's Haskell]] HackerRank 30 days of code
+*** [[file:haskell/guangtao_haskell.org][GuangTao's Haskell]] HackerRank 30 days of code
 :PROPERTIES:
 :ID:       99cc889f-d9f1-42a4-ac3b-a55fab9e931b
 :END:
@@ -36,7 +34,7 @@
 - [2020-12-23 Wed 02:23] <- [[id:cad0defd-0bab-43ae-81ed-82115147f37b][haskell practice for beginning]]
 **** [[https://github.com/LudvikGalois/30daysofcodingANU][LudvikGalois/30daysofcodingANU: 30 days of coding problems]]
 
-*** [[file:guangtao_rust.org][GuangTao's Rust]] 30 days of code
+*** [[file:rust/guangtao_rust.org][GuangTao's Rust]] 30 days of code
 :PROPERTIES:
 :ID:       75707ca0-c882-44b5-9b05-8f514d48c38c
 :END:
@@ -50,6 +48,3 @@
 ** [[https://www.topcoder.com/community/practice][Topcoder]]
 
 ** [[https://github.com/rstudio/rstudio-global-2021-program][rstudio/rstudio-global-2021-program]]
-
-_ [[file:R_lang.org][R lang]]
-

@@ -42,3 +42,7 @@
 
 
  - [2021-02-25 Thu 18:50] <- [[id:c8c56621-86b9-4d36-b07b-6a2f621d2d6b][emacs-lsp/lsp-haskell: lsp-mode haskell]]
+
+* Emacsc Snippet
+
+** [[https://emacs-china.org/t/snippet/17469/2][snippet有什么好办法可以自动匹配括号? - Emacs-general - Emacs China - Brave]]

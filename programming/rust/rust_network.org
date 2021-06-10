@@ -1,0 +1,15 @@
+#+TITLE: Rust Network
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-05-23 Sun 22:08
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+#+SETUPFILE: ./hugo.setup
+
+
+* Rust DNS
+:PROPERTIES:
+:ID:       84203396-c388-47c9-b284-7c4a974d55ba
+:END:
+- [2020-11-08 Sun 18:05] <- [[id:1218671f-c69e-4e60-b2b9-14a75c48d255][Network DNS]]
+
+** [[https://github.com/bluejekyll/trust-dns][bluejekyll/trust-dns: A Rust based DNS client, server, and resolver]]

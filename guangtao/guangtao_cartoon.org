@@ -2,8 +2,10 @@
 #+AUTHOR: GTrunSec
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
 * Looney Tunes or Bugs Bunny
 ** [[https://www.youtube.com/watch?v=bNEydq6EoRs][“Looney Tunes | Was That Bugs Bunny? | Classic Cartoon Compilation | WB Kids - YouTube”🔊]]
 

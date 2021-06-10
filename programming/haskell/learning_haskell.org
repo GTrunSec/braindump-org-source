@@ -3,8 +3,13 @@
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-25 Thu 18:16
 
+- tags :: [[file:guangtao_haskell.org][GuangTao's Haskell]]
 
 * Haskell Knowledge Map
 ** [[https://kowainik.github.io/images/Haskell_Knowledge_Map.png][Haskell_Knowledge_Map.png (14842×6940)]]
 ** [[https://publish.obsidian.md/haskell/Syntax][Syntax - Haskell - Obsidian Publish]]
 * [[https://github.com/effectfully-ou/haskell-challenges/blob/master/README.md][haskell-challenges/README.md at master · effectfully-ou/haskell-challenges]]
+* [[https://github.com/graninas/software-design-in-haskell][graninas/software-design-in-haskell: Software Design in Haskell. A structured set of materials. How to build real-world applications in Haskell.]]
+* ❤ LOVE [[https://github.com/graninas/The-Voids-Of-Haskell][graninas/The-Voids-Of-Haskell]]
+* [#A] [[https://github.com/tssm/up-to-date-real-world-haskell/blob/master/0-why-haskell.org][up-to-date-real-world-haskell/0-why-haskell.org at master · tssm/up-to-date-real-world-haskell]]
+* [[https://github.com/YoshikuniJujo/test_haskell][YoshikuniJujo/test_haskell: haskell's tribial test code]]

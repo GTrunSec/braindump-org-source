@@ -7,8 +7,7 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 #+TAGS: nix(n) logging(l) owner(o) database(d)
 
-- tags :: [[file:haskell_packages.org][Haskell Packages]], [[file:~/Dropbox/org-notes/braindump/guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]]
-
+- tags :: [[file:haskell_packages.org][Haskell Packages]], [[file:~/Dropbox/org-notes/braindump/guangtao_learning_programming_languages.org][GuangTao's learning Programming languages]], [[file:learning_haskell.org][Learning Haskell]]
 
 
 
@@ -154,3 +153,4 @@ cachix use ghcide-nix
 #+end_src
 * Awesome haskell
 ** [[https://github.com/graninas/software-design-in-haskell][graninas/software-design-in-haskell: Software Design in Haskell. A structured set of materials. How to build real-world applications in Haskell.]]
+

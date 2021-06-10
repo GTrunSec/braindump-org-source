@@ -14,6 +14,8 @@
 
 ** [[https://github.com/mickael-kerjean/filestash][mickael-kerjean/filestash: 🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...]]
 ** https://github.com/cloudreve/Cloudreve
+* File Analyzer
+** [[https://github.com/KSXGitHub/parallel-disk-usage][KSXGitHub/parallel-disk-usage: Highly parallelized, blazing fast directory tree analyzer]]
 * Photo manager
 ** [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]]
 - [[https://docs.photoprism.org/user-guide/library/import-vs-index/][Introduction - PhotoPrism]]
@@ -38,7 +40,7 @@
 ** [[https://github.com/miniflux/v2][miniflux/v2: Minimalist and opinionated feed reader]]
 * Input Method
 ** Rime Scheme
-*** [[https://github.com/fkxxyz/rime-cloverpinyin][fkxxyz/rime-cloverpinyin: 🍀️四叶草拼音输入方案，做最好用的基于rime开源的简体拼音输入方案！]]
+*** ❤ LOVE [[https://github.com/fkxxyz/rime-cloverpinyin][fkxxyz/rime-cloverpinyin: 🍀️四叶草拼音输入方案，做最好用的基于rime开源的简体拼音输入方案！]]
 
 - Linux
 #+begin_src sh :async t :exports both :results output

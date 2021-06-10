@@ -3,7 +3,7 @@
 ## nixos
 result
 myself-private/*
-*-private.org
+*_private.org
 .DS_Store
 notdeftdb
 orders

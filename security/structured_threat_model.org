@@ -6,7 +6,6 @@
 
 
 
-
 * [[https://oasis-open.github.io/cti-documentation/stix/intro.html][Introduction to STIX]]
 :PROPERTIES:
 :ID:       ae627bfa-529b-4cbc-9b07-1cf809573d6c

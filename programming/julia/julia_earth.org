@@ -1,0 +1,10 @@
+#+TITLE: JuliaEarth
+#+AUTHOR: GTrunSec
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-06-02 Wed 22:23
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+- tags :: [[file:../julia_packages.org][Julia Packages list]]
+
+* [[https://github.com/JuliaEarth][JuliaEarth]]

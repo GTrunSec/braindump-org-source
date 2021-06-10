@@ -52,4 +52,6 @@
  :journal-basis "daily", 
  :preferred-format "Org"
  :feature/enable-journals? false
- :feature/enable-timetracking? false}
+ :feature/enable-timetracking? false
+ :preferred-workflow :todo
+ :markdown/version 2}
