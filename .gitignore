@@ -10,3 +10,6 @@ orders
 .thumbnails
 
 *.html
+
+
+*.org_archive
