@@ -4,3 +4,6 @@
 [submodule "nix"]
 	path = nix
 	url = https://github.com/GTrunSec/braindump-nix-resource.git
+[submodule "security"]
+	path = security
+	url = https://github.com/GTrunSec/braindump-inforsec-resource.git
