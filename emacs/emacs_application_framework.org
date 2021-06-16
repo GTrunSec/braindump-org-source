@@ -1,5 +1,5 @@
 #+TITLE: Emacs Application Framework
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-16 Sat 21:29
 

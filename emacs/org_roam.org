@@ -1,5 +1,5 @@
 #+TITLE: Org Roam
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-18 Thu 18:09
 

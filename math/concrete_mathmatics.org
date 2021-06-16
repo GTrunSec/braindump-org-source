@@ -1,5 +1,5 @@
 #+TITLE: Concrete Mathematics (具体数学)
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-29 Tue 17:39
 

@@ -1,5 +1,5 @@
 #+TITLE: Logseq
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-08 Tue 15:07
 
@@ -11,10 +11,16 @@
 
 
 - https://logseq.com/
+
+
 * [[https://cn.logseq.com/][Logseq 中文社区 - Logseq - 开源，隐私第一的知识管理平台]]
 * Issue
 ** DONE [[https://github.com/logseq/logseq/issues/791][双向链接对于一个带有URL的标题会失效 · Issue #791 · logseq/logseq]]
 
-* logseq theme
+* Logseq Theme
 
 ** [[https://github.com/SlyBouhafs/logseq-dracula][SlyBouhafs/logseq-dracula: 🧛🏻‍♂️ Dark theme for Logseq!]]
+
+* Logseq Publish
+
+** [[https://cn.logseq.com/t/topic/82/7][如何发布logseq成为博客 #发布#教程 - 分享 - Logseq 中文社区]]

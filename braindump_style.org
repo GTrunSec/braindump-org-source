@@ -1,5 +1,5 @@
 #+TITLE: Braindump style
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-23 Wed 21:24
 

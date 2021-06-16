@@ -1,5 +1,5 @@
 #+TITLE: Emacs Packages
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-18 Mon 13:36
 

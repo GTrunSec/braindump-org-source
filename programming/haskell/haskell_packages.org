@@ -1,5 +1,5 @@
 #+TITLE: Haskell Packages
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-10 Thu 21:35
 

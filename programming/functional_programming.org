@@ -1,5 +1,5 @@
 #+TITLE: Functional Programming
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-15 Mon 13:42
 

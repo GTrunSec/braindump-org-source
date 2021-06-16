@@ -1,5 +1,5 @@
 #+TITLE: Apache Arrow
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-16 Sat 00:42
 

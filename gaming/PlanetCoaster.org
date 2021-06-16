@@ -1,5 +1,5 @@
 #+TITLE: PlanetCoaster
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-06 Sun 14:52
 

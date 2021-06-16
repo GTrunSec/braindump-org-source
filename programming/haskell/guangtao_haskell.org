@@ -1,5 +1,5 @@
 #+TITLE: GuangTao's Haskell
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 19 September 2020
 

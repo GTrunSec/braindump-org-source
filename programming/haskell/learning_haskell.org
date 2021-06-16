@@ -1,5 +1,5 @@
 #+TITLE: Learning Haskell
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-25 Thu 18:16
 

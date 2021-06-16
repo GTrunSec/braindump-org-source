@@ -1,5 +1,5 @@
 #+TITLE: 建筑艺术素材
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 
@@ -213,6 +213,35 @@ _ [[file:家具.org][家具]]
 "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 :frameBorder "0"
 :src "https://www.youtube.com/embed/2IuBaqBEfmE"
+:height "367"
+:width "653"}]]
+
+****** [[https://www.youtube.com/watch?v=fmi3d0MDaBw&t=111s][“拒絕做房奴，她租下度假酒店改成家，宛如世外桃源！She Rents a Holiday Villa and Transforms it into a Wonderland-like Home - YouTube”🔊]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/fmi3d0MDaBw"
+:height "367"
+:width "653"}]]
+
+**** [[https://www.youtube.com/watch?v=8gna8LAVo0M][他改造一個安徽荒村，被當地人大罵，3年後…… - YouTube - Brave]]
+:PROPERTIES:
+:ID:       a29a0c49-e5ce-4a6a-9015-63e5c69b1411
+:END:
+
+ - [2021-06-15 Tue 00:15] -> [[id:2ab1740b-8cb4-40b3-95df-07375d8c58d2][民居]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/8gna8LAVo0M"
 :height "367"
 :width "653"}]]
 

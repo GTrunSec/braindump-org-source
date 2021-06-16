@@ -1,5 +1,5 @@
 #+TITLE: Tags Memo
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-08 Tue 22:32
 

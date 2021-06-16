@@ -1,5 +1,5 @@
 #+TITLE: GTD Plan
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-03 Thu 17:23
 

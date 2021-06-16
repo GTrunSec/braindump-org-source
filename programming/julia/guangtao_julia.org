@@ -1,5 +1,5 @@
 #+TITLE: GuangTao's Julia
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 18 September 2020
 

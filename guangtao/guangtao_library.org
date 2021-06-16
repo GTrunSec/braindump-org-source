@@ -1,5 +1,5 @@
 #+TITLE: GuangTao's Library
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 30 November 2019
 

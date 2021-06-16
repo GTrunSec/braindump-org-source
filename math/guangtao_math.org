@@ -1,15 +1,13 @@
 #+TITLE: GuangTao's math
-#+AUTHOR: GTrunSec
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 18 September 2020
-
-
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
 
 #+TAGS: calculus(c)
 
 - tags :: [[file:guangtao_latex.org][GuangTao's latex]]
-
 
 * course
 
@@ -25,7 +23,6 @@
 :ID:       bf5fe762-2541-4eaf-af74-e82dd05c176b
 :END:
 
-- [2020-12-26 Sat 16:25] -> [[id:9aca6508-6040-40d7-972f-97294b812b91][用Python学微积分]]
 * Writing Mathematic
 :PROPERTIES:
 :ID:       77273664-3b64-454a-9681-70469cdfc8ca

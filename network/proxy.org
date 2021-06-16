@@ -1,5 +1,5 @@
 #+TITLE: Proxy
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-24 Wed 17:12
 

@@ -1,5 +1,5 @@
 #+TITLE: learning music agenda
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2019-11-09 Sun 14:52
 

@@ -1,5 +1,5 @@
 #+TITLE: 建筑素材分类
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 
@@ -83,6 +83,7 @@ https://www.youtube.com/watch?v=RkfC03qljdk
 :PROPERTIES:
 :ID:       2ab1740b-8cb4-40b3-95df-07375d8c58d2
 :END:
+- [2021-06-15 Tue 00:15] <- [[id:a29a0c49-e5ce-4a6a-9015-63e5c69b1411][他改造一個安徽荒村，被當地人大罵，3年後…… - YouTube - Brave]]
 - [2020-12-25 Fri 01:54] <- [[id:c476de67-9ca9-480d-a27c-312665765faf][“香港建築師改造福建民居，獲國際大獎 Hong Kong Architect Wins Major International Award for Buildings - YouTube”🔊]]
 
 

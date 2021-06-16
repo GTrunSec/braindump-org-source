@@ -1,5 +1,5 @@
 #+TITLE: 我的旅行计划
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2019-07-22 Mon
 
@@ -201,6 +201,8 @@
 :ID:       aa63df48-04d9-4525-8aed-6ee11a89a983
 :END:
 - [2020-11-30 Mon 22:16] <- [[id:03bae2bb-3c7c-48df-bf4b-b7990dc7b19f][中国独树一帜的秘境酒店！ - YouTube]]
+
+
 香格里拉市（藏语：སེམས་ཀྱི་ཉི་ཟླ་གྲོང་ཁྱེར།，威利：Sems kyi nyi zla grong khyer）是中華人民共和國雲南省迪慶藏族自治州下辖的一个县级市，亦是该州的首府。原名中甸縣（藏语：རྒྱལ་ཐང་རྫོང་།，藏语拼音：Gyaitang Zong，威利：rgyal thang rdzong）。位于云南省西北部，是滇、川及西藏三省区交汇处，也是世界遗产“三江并流”腹地。
 
 

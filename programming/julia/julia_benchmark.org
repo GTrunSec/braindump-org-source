@@ -1,5 +1,5 @@
 #+TITLE: Julia Benchmark Test
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-16 Sat 17:48
 

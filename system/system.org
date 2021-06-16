@@ -1,5 +1,5 @@
 #+TITLE: System
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-25 Fri 16:51
 

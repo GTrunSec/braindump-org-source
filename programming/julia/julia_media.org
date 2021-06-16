@@ -1,0 +1,9 @@
+#+TITLE: Julia Media
+#+AUTHOR: Guangtao
+#+EMAIL: gtrunsec@hardenedlinux.org
+#+DATE: 2021-06-14 Mon 23:42
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
+
+
+
+* [[https://www.youtube.com/channel/UCd0dc7kQA1FUpJ76o1EjLqQ][“LeiosOS - YouTube”🔊]]

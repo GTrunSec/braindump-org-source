@@ -1,5 +1,5 @@
 #+TITLE: How to Take Smart Notes
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-20 Sun 15:33
 

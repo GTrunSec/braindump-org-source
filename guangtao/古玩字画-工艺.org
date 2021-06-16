@@ -1,5 +1,5 @@
 #+TITLE: 古玩字画-工艺
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 

@@ -1,5 +1,5 @@
 #+TITLE: MacOS system
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-23 Wed 14:50
 

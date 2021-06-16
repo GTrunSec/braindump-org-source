@@ -1,5 +1,5 @@
 #+TITLE: Git Style
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-03-13 Sat 21:33
 

@@ -1,5 +1,5 @@
 #+TITLE: Haskell Env
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-25 Thu 18:16
 
@@ -15,3 +15,4 @@
   :END:
  - [2021-02-25 Thu 18:50] -> [[id:2f4e7682-0b8d-474e-a320-c7533ad9fd9c][Emacs Haskell Packages]]
 * [[https://input-output-hk.github.io/haskell.nix/tutorials/getting-started/][Getting Started - Alternative Haskell Infrastructure for Nixpkgs]]
+* [[https://github.com/ocharles/ghc-nix][ocharles/ghc-nix: Exploring the options for incremental Haskell builds using Nix]] :nix:

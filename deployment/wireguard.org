@@ -1,5 +1,5 @@
 #+TITLE: WireGuard VPN
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-06 Tue 11:42
 

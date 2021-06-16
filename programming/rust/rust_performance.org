@@ -1,5 +1,5 @@
 #+TITLE: Rust Performance
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-08 Thu 19:05
 #+SETUPFILE: ./hugo.setup

@@ -1,5 +1,5 @@
 #+TITLE: Rust Project
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-24 Thu 01:13
 #+SETUPFILE: ./hugo.setup
@@ -35,3 +35,6 @@
 
 ** [[https://github.com/rust-bio/rust-bio][rust-bio/rust-bio: This library provides implementations of many algorithms and data structures that are useful for bioinformatics. All provided implementations are rigorously tested via continuous integration.]]
 
+* Rust Update
+
+** [[https://github.com/deps-rs/deps.rs][deps-rs/deps.rs: Keep your dependencies up-to-date]] :update:

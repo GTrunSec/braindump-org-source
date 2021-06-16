@@ -1,5 +1,5 @@
 #+TITLE: Email Infrastructure
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-06 Tue 01:42
 

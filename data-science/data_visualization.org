@@ -1,5 +1,5 @@
 #+TITLE: Data Visualization
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-14 Mon 12:48
 

@@ -1,5 +1,5 @@
 #+TITLE: 游山玩水
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-30 Mon 15:02
 
@@ -93,6 +93,17 @@
 :ID:       03bae2bb-3c7c-48df-bf4b-b7990dc7b19f
 :END:
  - [2020-11-30 Mon 22:16] -> [[id:aa63df48-04d9-4525-8aed-6ee11a89a983][香格里拉市]]
+
+[:div.videoWrapper.mb-4
+[:iframe
+{:allowFullScreen "allowfullscreen"
+:allow
+"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+:frameBorder "0"
+:src "https://www.youtube.com/embed/l-E95bDiGHg"
+:height "367"
+:width "653"}]]
+
 
 * 游山玩水->山西
 :PROPERTIES:

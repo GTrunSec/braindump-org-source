@@ -1,5 +1,5 @@
 #+TITLE: Aircraft Design
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-12 Sat 19:34
 

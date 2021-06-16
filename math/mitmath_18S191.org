@@ -1,5 +1,5 @@
 #+TITLE: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 
@@ -7,7 +7,11 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 
-- tags :: [[file:../programming/guangtao_julia.org][GuangTao's Julia]], [[file:guangtao_math.org][GuangTao's math]], [[file:mitmath_18337.org][18.337 _ Parallel Computing and Scientific Machine Learning]]
+- tags :: [[file:~/Dropbox/org-notes/braindump/programming/julia/guangtao_julia.org][GuangTao's Julia]], [[file:guangtao_math.org][GuangTao's math]], [[file:mitmath_18337.org][18.337 _ Parallel Computing and Scientific Machine Learning]]
+
+
+
+- [[https://computationalthinking.mit.edu/Fall20/][18.S191 Introduction to Computational Thinking]]
 
 
 * [[https://github.com/mitmath/18S191][mitmath/18S191: Course 18.S191 at MIT, fall 2020 - Introduction to computational thinking with Julia:]]
@@ -59,3 +63,5 @@ git clone https://github.com/mitmath/18S191
 #+end_src
 
 #+RESULTS:
+
+* [[https://www.youtube.com/watch?v=DGojI9xcCfg][“Working with images in Julia | Week 1 | 18.S191 MIT Fall 2020 | Grant Sanderson - YouTube”🔊]]

@@ -1,5 +1,5 @@
 #+TITLE: Org Mode Theme
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-24 Wed 22:44
 

@@ -1,5 +1,5 @@
 #+TITLE: Systemd
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-24 Sun 16:34
 

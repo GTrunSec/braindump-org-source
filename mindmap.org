@@ -1,5 +1,5 @@
 #+TITLE: Mindmap To Braindump
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-11 Mon 22:49
 

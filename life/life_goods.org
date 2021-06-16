@@ -1,5 +1,5 @@
 #+TITLE: 我的购买清单
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 23 July 2019
 

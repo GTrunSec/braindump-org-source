@@ -1,5 +1,5 @@
 #+TITLE: 古墓文物
-#+AUTHOR: GTrunSec
+#+AUTHOR: Guangtao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-30 Mon 15:57
 
