@@ -1,5 +1,5 @@
 #+TITLE: 家具
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-24 Thu 01:16
 

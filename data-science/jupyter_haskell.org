@@ -1,5 +1,5 @@
 #+TITLE: Jupyter Haskell
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 

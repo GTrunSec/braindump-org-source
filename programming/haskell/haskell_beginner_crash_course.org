@@ -1,10 +1,7 @@
-#+TITLE: System
+#+TITLE: Haskell Beginner Crash Course
 #+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
-#+DATE: 2020-12-25 Fri 16:51
-
-
+#+DATE: 2021-06-22 Tue 12:28
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
-
-* Current System
+* Main.hs

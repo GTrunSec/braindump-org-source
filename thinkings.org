@@ -1,5 +1,5 @@
 #+TITLE: Thinkings
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-03 Sun 22:11
 

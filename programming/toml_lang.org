@@ -1,5 +1,5 @@
 #+TITLE: Toml Lang
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-17 Sat 15:17
 #+SETUPFILE: ~/Documents/org-notes/braindump/hugo.setup

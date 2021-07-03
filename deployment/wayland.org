@@ -1,5 +1,5 @@
 #+TITLE: Wayland
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-05 Sat 19:05
 

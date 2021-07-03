@@ -1,5 +1,5 @@
 #+TITLE: Algorithm
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-15 Tue 17:37
 

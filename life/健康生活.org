@@ -1,5 +1,5 @@
 #+TITLE: 健康生活
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-30 Wed 15:17
 

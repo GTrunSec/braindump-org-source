@@ -1,5 +1,5 @@
 #+TITLE: Project Collect
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-21 Mon 00:06
 

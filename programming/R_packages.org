@@ -1,5 +1,5 @@
 #+TITLE: Rlang Packages
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-12 Sat 13:20
 

@@ -1,5 +1,5 @@
 #+TITLE: Julia Packages list
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-05 Sat 19:07
 
@@ -34,6 +34,7 @@ Pkg.add("PackageCompiler")
 Pkg.add("SymbolServer")
 Pkg.add("StaticLint")
 #+end_src
+** [[https://github.com/OML-NPA/EasyML.jl][OML-NPA/EasyML.jl: A foolproof way of doing ML with GUI elements.]]
 
 * Julia RCall
 

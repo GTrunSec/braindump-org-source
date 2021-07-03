@@ -1,5 +1,5 @@
 #+TITLE: 追求的生活
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-29 Tue 16:17
 

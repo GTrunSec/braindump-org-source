@@ -1,5 +1,5 @@
 #+TITLE: GuangTao's Art
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-06 Sun 14:52
 

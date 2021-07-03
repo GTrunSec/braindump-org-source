@@ -1,5 +1,5 @@
 #+TITLE: Org mode Tags
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-08 Fri 17:52
 

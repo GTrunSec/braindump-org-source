@@ -1,5 +1,5 @@
 #+TITLE: Learning Rust
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-04-08 Thu 19:07
 #+SETUPFILE: ./hugo.setup

@@ -1,5 +1,5 @@
 #+TITLE: Git
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-11-28 Sat
 
@@ -7,6 +7,12 @@
 #+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t
 
 - tags :: [[file:../guangtao/guangtao_profile.org][GuangTao's Profile]]
+
+
+
+
+- [[https://github.com/k88hudson/git-flight-rules#i-want-to-discard-all-of-my-untracked-files][k88hudson/git-flight-rules: Flight rules for git]]
+
 * Git deploy
 ** [[https://gogs.io/][Gogs: A painless self-hosted Git service]]
 * git CONTRIBUTING

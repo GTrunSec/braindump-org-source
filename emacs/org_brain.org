@@ -1,5 +1,5 @@
 #+TITLE: Org mode Brian
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-10 Sun 15:47
 

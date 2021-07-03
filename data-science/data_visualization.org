@@ -1,5 +1,5 @@
 #+TITLE: Data Visualization
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-14 Mon 12:48
 

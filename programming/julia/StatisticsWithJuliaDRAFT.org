@@ -1,5 +1,5 @@
 #+TITLE: StatisticsWithJuliaDRAFT
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2020-12-09 Wed 12:25
 

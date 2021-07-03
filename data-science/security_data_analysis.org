@@ -1,5 +1,5 @@
 #+TITLE: Security Data Analysise
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-02-09 Tue 20:07
 

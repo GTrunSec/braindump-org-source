@@ -1,5 +1,5 @@
 #+TITLE: 我的购买清单
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 23 July 2019
 
@@ -9,6 +9,7 @@
 
 使用[[https://github.com/gildas-lormeau/SingleFile][gildas-lormeau/SingleFile: Web Extension for Firefox/Chrome/Edge and CLItool to save a faithful copy of a complete web page as a single HTML file]] 存储离
 线的订单页面方便日后查找。
+
 
 * 参考
 - [[https://www.youtube.com/watch?v=c_MRLmcIvYU][“神等級的廚房用具 - YouTube”🔊]]

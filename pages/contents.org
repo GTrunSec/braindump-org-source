@@ -95,3 +95,43 @@
  - [2020-12-28 Mon 14:11] -> [[id:03bb734e-f6d3-4a48-a537-be989f5c1d08][Logseq]]
 * [[file:../data-science/logs.org][Logs]]
 ** [[file:../data-science/logseq.org][Logseq]]
+* Nix Packages
+** Nix Users
+
+*** [[file:../guangtao_nix.org][GuangTao's Nix]]
+
+** [[file:../nixos.org][NixOS]]
+
+
+
+** [[file:../nix_configuraiton-collect.org][Nix Configuration Collect]]
+
+** [[file:../nix_overlays.org][Nix Overlays]]
+
+** [[file:../nix_builder.org][Nix Builder]]
+
+** [[file:../nix_shell.org][Nix Shell]]
+
+
+** Nix Feeds
+*** [[file:../nixos_weekly.org][NixOS Weekly]]
+*** [[file:../nixos_discourse.org][NixOS Discourse]]
+
+** [[file:../nix_media.org][Nix Media]]
+*** [[file:../nix_con.org][Nix Con]]
+
+*** [[file:../nix_friday.org][Nix Friday]]
+
+** [[file:../nix_deploy.org][Nix Deploy]]
+*** [[file:../disnix.org][disnix]]
+
+
+** Nix Testing
+
+*** [[file:../nix_ci.org][Nix CI Test]]
+
+** [[file:../nix_macos.org][Nix on MacOS]]
+
+
+
+** [[file:../README.org][README Briandump_nix]]

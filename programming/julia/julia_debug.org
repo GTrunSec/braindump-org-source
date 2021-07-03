@@ -1,5 +1,5 @@
 #+TITLE: Julia Debugging
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-18 Mon 02:58
 

@@ -1,5 +1,5 @@
 #+TITLE: Remarkable
-#+AUTHOR: Guangtao
+#+AUTHOR: GuangTao
 #+EMAIL: gtrunsec@hardenedlinux.org
 #+DATE: 2021-01-11 Mon 13:21
 
